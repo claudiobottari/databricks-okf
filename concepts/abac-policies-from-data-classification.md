@@ -76,7 +76,7 @@ All columns in the catalog or schema that carry at least one of the specified go
 - You must have the necessary privileges to create ABAC policies on the target catalog or schema (typically `MANAGE` or ownership).
 - The masking function must be a user-defined function registered in Unity Catalog and accessible via `EXECUTE`.
 - Governed tags (such as `class.email_address`) must already be applied by Data Classification or manually.
-- See [ABAC Policy Requirements and Prerequisites](/concepts/abac-policy-requirements-and-prerequisites.md) for full details.
+- See [ABAC Policy Requirements and Prerequisites](/concepts/abac-policy-requirements.md) for full details.
 
 ## Related Concepts
 

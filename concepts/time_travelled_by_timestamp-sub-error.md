@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - time_travelled_by_timestamp-sub-error
+    - time_travelled_by_timestamp-error-condition
+    - TEC
   citations:
     - file: delta_clone_with_history_unsupported_source-error-condition-databricks-on-aws.md
 title: TIME_TRAVELLED_BY_TIMESTAMP sub-error

@@ -13,6 +13,8 @@ x-llmwiki:
     - open-sharing-databricks-to-open
     - OS(
     - Delta Sharing (Databricks-to-Open)
+    - open-sharing-databricks-to-open-sharing
+    - OS(S
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
 title: Open Sharing (Databricks-to-Open)

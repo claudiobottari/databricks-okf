@@ -13,6 +13,8 @@ x-llmwiki:
   aliases:
     - systemdata_quality_monitoringtable_results
     - System Tables for Data Quality Monitoring
+    - systemdata_quality_monitoringtable_results-system-table
+    - SST
   citations:
     - file: review-anomaly-detection-logged-results-databricks-on-aws.md
     - file: alerts-for-anomaly-detection-databricks-on-aws.md

@@ -25,7 +25,7 @@ timestamp: "2026-06-18T14:20:22.701Z"
 
 # [Metastore](/concepts/metastore.md) admins (Unity Catalog)
 
-**Metastore admins** are an optional but highly privileged role in [Unity Catalog](/concepts/unity-catalog.md) that governs data access, ownership, and top-level Unity Catalog securable objects within a single [Metastore](/concepts/metastore.md). Unlike [account admins](/concepts/account-admins-unity-catalog.md) and [workspace admins](/concepts/workspace-admins-unity-catalog.md), the [Metastore](/concepts/metastore.md) admin role is not required for all deployments. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
+**Metastore admins** are an optional but highly privileged role in [Unity Catalog](/concepts/unity-catalog.md) that governs data access, ownership, and top-level Unity Catalog securable objects within a single [Metastore](/concepts/metastore.md). Unlike [account admins](/concepts/account-admin-unity-catalog.md) and [workspace admins](/concepts/workspace-admins-unity-catalog.md), the [Metastore](/concepts/metastore.md) admin role is not required for all deployments. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
 
 ## Role Overview
 
@@ -85,7 +85,7 @@ Account admins and [Metastore](/concepts/metastore.md) admins are separate roles
 ## Related Concepts
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance solution that uses [Metastore](/concepts/metastore.md) admins
-- [Account admins](/concepts/account-admins-unity-catalog.md) — The account-level admin role that can assign [Metastore](/concepts/metastore.md) admins
+- [Account admins](/concepts/account-admin-unity-catalog.md) — The account-level admin role that can assign [Metastore](/concepts/metastore.md) admins
 - [Workspace admins](/concepts/workspace-admins-unity-catalog.md) — The workspace-level admin role with default [Metastore](/concepts/metastore.md) privileges
 - [Metastore](/concepts/metastore.md) — The Unity Catalog container that [Metastore](/concepts/metastore.md) admins govern
 - [Unity Catalog privileges](/concepts/unity-catalog-privilege-management.md) — The permission system managed by [Metastore](/concepts/metastore.md) admins

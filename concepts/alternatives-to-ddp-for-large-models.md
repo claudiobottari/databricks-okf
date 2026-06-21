@@ -47,7 +47,7 @@ Select DDP when your model fits entirely on a single GPU and you want the simple
 
 ## Related Concepts
 
-- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp-training.md) – The standard approach for models that fit on a single GPU.
+- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp.md) – The standard approach for models that fit on a single GPU.
 - [Fully Sharded Data Parallel (FSDP)](/concepts/fully-sharded-data-parallel-fsdp.md) – Memory-efficient sharding for large models.
 - [DeepSpeed](/concepts/deepspeed.md) – Optimization library for large-scale training.
 - GPU Training on Databricks – Overview of GPU-accelerated training options.

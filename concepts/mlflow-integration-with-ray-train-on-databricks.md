@@ -108,7 +108,7 @@ All logged metrics and parameters are available in the MLflow experiment UI in t
 
 - [Ray Train](/concepts/ray-train-resource-allocation.md) — Distributed training framework used for data-parallel fine-tuning
 - [MLflow Experiment Tracking](/concepts/mlflow-experiment-tracking.md) — System for logging and comparing training runs
-- [Distributed Data-Parallel Training](/concepts/distributed-data-parallel-ddp-training.md) — Training approach where model weights are replicated across GPUs
+- [Distributed Data-Parallel Training](/concepts/distributed-data-parallel-ddp.md) — Training approach where model weights are replicated across GPUs
 - [TorchTrainer](/concepts/ray-train-torchtrainer.md) — Ray Train's PyTorch training interface
 - [AI Runtime CLI](/concepts/ai-runtime-cli.md) — Command-line tool for submitting training workloads
 

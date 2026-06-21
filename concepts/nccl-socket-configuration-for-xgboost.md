@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - nccl-socket-configuration-for-xgboost
     - NSCFX
+    - nccl-socket-configuration-for-spark-xgboost
+    - NSCFSX
   citations:
     - file: distributed-training-of-xgboost-models-using-xgboostspark-databricks-on-aws.md
 title: NCCL Socket Configuration for XGBoost

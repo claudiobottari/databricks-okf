@@ -74,7 +74,7 @@ The result includes the number of data points, average, min, max, and quartile v
 
 ## Access and Permissions
 
-Only [account admins](/concepts/account-admins-unity-catalog.md) can grant access to `system.mlflow.*` tables. Users who have been granted `USE` and `SELECT` permissions on the `system.mlflow` schema can view metadata across all MLflow experiments for all workspaces in the account. For finer‑grained control, administrators can create [dynamic views](/concepts/opensharing-views.md) that filter records based on experiment IDs or other criteria. ^[mlflow-system-tables-reference-databricks-on-aws.md]
+Only [account admins](/concepts/account-admin-unity-catalog.md) can grant access to `system.mlflow.*` tables. Users who have been granted `USE` and `SELECT` permissions on the `system.mlflow` schema can view metadata across all MLflow experiments for all workspaces in the account. For finer‑grained control, administrators can create [dynamic views](/concepts/opensharing-views.md) that filter records based on experiment IDs or other criteria. ^[mlflow-system-tables-reference-databricks-on-aws.md]
 
 ## Related Concepts
 

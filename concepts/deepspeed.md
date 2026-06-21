@@ -35,7 +35,7 @@ DeepSpeed offers fine-grained control over optimizer state sharding through thre
 
 Use DeepSpeed when you need advanced memory optimization beyond standard [FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) (Fully Sharded Data Parallel), want fine-grained control over optimizer state sharding (ZeRO Stage 1, 2, or 3), require additional features like gradient accumulation fusion or CPU offloading, or are working with [Large Language Models](/concepts/large-language-models-llms-on-databricks.md) ranging from 1 billion to 100+ billion parameters. ^[distributed-training-using-deepspeed-databricks-on-aws.md]
 
-For simpler use cases, consider [DDP](/concepts/distributed-data-parallel-ddp-training.md) (Distributed Data Parallel). For PyTorch-native large model training, see [FSDP](/concepts/fsdp-fully-sharded-data-parallel.md). ^[distributed-training-using-deepspeed-databricks-on-aws.md]
+For simpler use cases, consider [DDP](/concepts/distributed-data-parallel-ddp.md) (Distributed Data Parallel). For PyTorch-native large model training, see [FSDP](/concepts/fsdp-fully-sharded-data-parallel.md). ^[distributed-training-using-deepspeed-databricks-on-aws.md]
 
 ## Examples
 
@@ -45,7 +45,7 @@ Notebook examples for distributed training using DeepSpeed on AI Runtime are ava
 
 - ZeRO Optimizer — The Zero Redundancy Optimizer that forms the core of DeepSpeed’s memory optimization.
 - [FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) — PyTorch-native fully sharded data parallel training as an alternative to DeepSpeed.
-- [DDP](/concepts/distributed-data-parallel-ddp-training.md) — Distributed Data Parallel for simpler distributed training use cases.
+- [DDP](/concepts/distributed-data-parallel-ddp.md) — Distributed Data Parallel for simpler distributed training use cases.
 - [AI Runtime](/concepts/ai-runtime.md) — The Databricks environment that supports DeepSpeed training.
 - [Large Language Models](/concepts/large-language-models-llms-on-databricks.md) — Common workload type that benefits from DeepSpeed’s optimizations.
 

@@ -53,7 +53,7 @@ For larger models that do not fit in a single GPU, consider [Fully Sharded Data 
 
 ## Related concepts
 
-- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp-training.md) – The underlying parallelism technique that Lightning abstracts.
+- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp.md) – The underlying parallelism technique that Lightning abstracts.
 - [PyTorch Lightning](/concepts/pytorch-lightning-for-ddp.md) – The framework providing the high-level trainer API.
 - [AI Runtime](/concepts/ai-runtime.md) – The Databricks runtime that includes pre-installed deep learning libraries.
 - [Fully Sharded Data Parallel (FSDP) training](/concepts/fully-sharded-data-parallel-fsdp.md) – Memory-efficient alternative for larger models.

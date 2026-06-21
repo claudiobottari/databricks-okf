@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - sts-temporary-credentials-for-model-data-access
     - STCFMDA
+    - sts-temporary-credentials-for-model-serving-data-access
+    - STCFMSDA
   citations:
     - file: add-an-instance-profile-to-a-model-serving-endpoint-databricks-on-aws.md
 title: STS Temporary Credentials for Model Data Access

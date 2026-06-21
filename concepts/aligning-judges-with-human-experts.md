@@ -19,6 +19,8 @@ x-llmwiki:
     - align judges with human feedback
     - align judges with humans
     - align judges with humans|align the judge instructions
+    - aligning-llm-judges-with-human-experts
+    - ALJWHE
   citations:
     - file: custom-judges-databricks-on-aws.md
 title: Aligning Judges with Human Experts

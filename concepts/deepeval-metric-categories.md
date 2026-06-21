@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - deepeval-metric-categories
     - DMC
+    - available-deepeval-metric-categories
+    - ADMC
   citations:
     - file: deepeval-scorers-databricks-on-aws.md
 title: DeepEval Metric Categories

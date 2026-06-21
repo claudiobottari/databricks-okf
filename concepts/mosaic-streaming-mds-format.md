@@ -64,7 +64,7 @@ MDS format enables efficient streaming of data during training, which is critica
 
 ## Related Concepts
 
-- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp-training.md) – Common parallelism technique that uses MDS for data loading.
+- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp.md) – Common parallelism technique that uses MDS for data loading.
 - [Deep learning recommendation examples](/concepts/deep-learning-based-recommender-systems.md) – Databricks notebooks that demonstrate MDS format usage.
 - [PyTorch Lightning](/concepts/pytorch-lightning-for-ddp.md) – High-level framework used with MDS streaming.
 - A10 GPU Support on Databricks – GPU type used with MDS-prepared data.

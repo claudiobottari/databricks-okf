@@ -28,6 +28,10 @@ x-llmwiki:
     - PyTorch Distributed Data Parallel
     - PyTorch DistributedDataParallel
     - Synchronous Data Parallelism
+    - distributed-data-parallel-ddp-training
+    - DDP(T
+    - DDP
+    - Distributed Data-Parallel Training
   citations:
     - file: distributed-data-parallel-ddp-training-databricks-on-aws.md
     - file: fully-sharded-data-parallel-fsdp-training-databricks-on-aws.md

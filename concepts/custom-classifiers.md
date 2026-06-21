@@ -13,6 +13,9 @@ x-llmwiki:
     - custom-classifiers
     - Custom Classifier
     - custom classifier
+    - custom-classifiers-for-data-classification
+    - CCFDC
+    - Custom Classifier|Custom Classifier
   citations:
     - file: custom-classifiers-databricks-on-aws.md
 title: Custom Classifiers

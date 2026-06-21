@@ -13,6 +13,10 @@ x-llmwiki:
   aliases:
     - trace-tags
     - trace tag
+    - trace-tags-mlflow
+    - TT(
+    - Trace (MLflow)
+    - Traces (MLflow)
   citations:
     - file: attach-custom-tags-and-metadata-databricks-on-aws.md
     - file: trace-concepts-databricks-on-aws.md

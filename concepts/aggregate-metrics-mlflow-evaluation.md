@@ -92,7 +92,7 @@ Developers commonly use aggregate metrics to:
 
 - [Evaluation Runs](/concepts/evaluation-runs.md) – The container that organizes traces, feedback, metrics, and parameters for a single evaluation.
 - [Scorers / Judges](/concepts/scorers-and-llm-judges.md) – Individual evaluators that produce scores per example, which are then aggregated.
-- [Traces (MLflow)](/concepts/trace-tags-mlflow.md) – Detailed records of each example’s inputs, outputs, and intermediate steps.
+- [Traces (MLflow)](/concepts/trace-tags.md) – Detailed records of each example’s inputs, outputs, and intermediate steps.
 - [MLflow GenAI Evaluate](/concepts/mlflow-genai-evaluation.md) – The API that creates evaluation runs and computes aggregate metrics.
 - [Feedback](/concepts/feedback-object.md) – Per‑example quality scores from scorers, the raw data for aggregation.
 

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - decorator-ordering-for-mlflowtrace
     - DOF@
+    - decorator-ordering-with-mlflowtrace
+    - DOW@
   citations:
     - file: function-decorators-databricks-on-aws.md
 title: Decorator Ordering for @mlflow.trace

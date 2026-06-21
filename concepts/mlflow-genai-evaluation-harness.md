@@ -237,7 +237,7 @@ The same scorers used in the evaluation harness can be scheduled in production u
 
 ## Related concepts
 
-- [Traces (MLflow)](/concepts/trace-tags-mlflow.md) — Execution logs that capture app inputs, outputs, and intermediate steps
+- [Traces (MLflow)](/concepts/trace-tags.md) — Execution logs that capture app inputs, outputs, and intermediate steps
 - [[Scorers]] — Functions that analyze trace quality and create feedback assessments
 - [Evaluation Datasets](/concepts/evaluation-datasets.md) — Curated test case collections for systematic testing
 - [Evaluation Runs](/concepts/evaluation-runs.md) — Results of testing an app version against a dataset

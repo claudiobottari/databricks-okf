@@ -60,7 +60,7 @@ To assign the [Metastore](/concepts/metastore.md) admin role: ^[admin-privileges
 
 ## Related Concepts
 
-- [Account Admins](/concepts/account-admins-unity-catalog.md) – The role that can assign [Metastore](/concepts/metastore.md) admins.
+- [Account Admins](/concepts/account-admin-unity-catalog.md) – The role that can assign [Metastore](/concepts/metastore.md) admins.
 - Workspace Admins – A separate admin role that operates within a single workspace.
 - [Unity Catalog](/concepts/unity-catalog.md) – The data governance platform where [Metastore](/concepts/metastore.md) admins operate.
 - Managing Privileges in Unity Catalog – Broader topic on privilege management.

@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - abac-policy-requirements
     - APR
+    - abac-policy-requirements-and-prerequisites
+    - Prerequisites and ABAC Policy Requirements
+    - APRAP
   citations:
     - file: create-and-manage-row-filter-and-column-mask-policies-databricks-on-aws.md
 title: ABAC Policy Requirements

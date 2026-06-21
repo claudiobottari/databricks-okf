@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta_alter_table_set_managed_table_not_migratable
     - DELTA_ALTER_TABLE_SET_MANAGED_TABLE_NOT_MIGRATABLE
+    - delta_alter_table_set_managed_table_not_migratable-error
+    - DELTA_ALTER_TABLE_SET_MANAGED_TABLE_NOT_MIGRATABLE error condition
   citations:
     - file: delta_alter_table_set_managed_table_not_migratable-error-condition-databricks-on-aws.md
 title: DELTA_ALTER_TABLE_SET_MANAGED_TABLE_NOT_MIGRATABLE

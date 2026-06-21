@@ -44,7 +44,7 @@ The training runs on Databricks AI Runtime with serverless GPU resources. The no
 
 ### Related Concepts
 
-- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp-training.md)
+- [Distributed Data Parallel (DDP) Training](/concepts/distributed-data-parallel-ddp.md)
 - [PyTorch Lightning](/concepts/pytorch-lightning-for-ddp.md)
 - [Mosaic Streaming (MDS)](/concepts/mosaic-streaming-mds-format.md)
 - [Two-tower model](/concepts/two-tower-recommendation-model.md)

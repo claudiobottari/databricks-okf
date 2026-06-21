@@ -26,7 +26,7 @@ timestamp: "2026-06-19T18:02:59.649Z"
 
 # Custom Classifier Suspension
 
-**Custom Classifier Suspension** occurs when Databricks Data Classification detects that rule generation or validation has failed for a [Custom Classifier|Custom Classifier](/concepts/custom-classifiers-for-data-classification.md). When a classifier is suspended, it stops producing new detections and displays a warning on the Data Classification results page. ^[custom-classifiers-databricks-on-aws.md]
+**Custom Classifier Suspension** occurs when Databricks Data Classification detects that rule generation or validation has failed for a [Custom Classifier|Custom Classifier](/concepts/custom-classifiers.md). When a classifier is suspended, it stops producing new detections and displays a warning on the Data Classification results page. ^[custom-classifiers-databricks-on-aws.md]
 
 ## Causes
 

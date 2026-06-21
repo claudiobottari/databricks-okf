@@ -78,7 +78,7 @@ Databricks represents the default privilege grants on the attached [Metastore](/
 - [Account Admin](/concepts/account-admin-unity-catalog.md)
 - [Workspace Admin](/concepts/workspace-admin-unity-catalog.md)
 - [Workspace Catalog](/concepts/workspace-catalog-binding.md)
-- [Admin roles in Unity Catalog](/concepts/account-admin-role-in-unity-catalog.md)
+- [Admin roles in Unity Catalog](/concepts/account-admin-unity-catalog.md)
 
 ### Sources
 

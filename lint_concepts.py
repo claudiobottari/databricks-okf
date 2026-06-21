@@ -1,0 +1,518 @@
+#!/usr/bin/env python3
+"""
+lint_concepts.py
+================
+Find and merge near-duplicate OKF concept files.
+
+Strategy
+--------
+1. Load precomputed vector embeddings from dbokf-index/ (no API calls needed)
+2. Compute pairwise cosine similarity between all 6 000+ concepts (numpy, O(n²))
+3. Union-Find clusters: concepts with cosine_sim >= threshold AND related names
+4. For each cluster: pick canonical (shortest ID), absorb aliases from duplicates
+5. Update every cross-reference in all .md files across the repo
+6. Delete duplicate files; update meta.json + vectors.bin
+7. Stage + commit
+
+Usage
+-----
+    python lint_concepts.py --dry-run          # preview, no changes
+    python lint_concepts.py                    # apply + commit
+    python lint_concepts.py --no-commit        # apply, stage, but do NOT commit
+    python lint_concepts.py --threshold 0.96   # lower similarity bar (more merges)
+"""
+
+import argparse
+import json
+import os
+import struct
+import subprocess
+import sys
+from collections import defaultdict
+from pathlib import Path
+
+try:
+    import numpy as np
+    HAS_NUMPY = True
+except ImportError:
+    HAS_NUMPY = False
+    sys.exit("numpy is required. Install it: pip install numpy")
+
+OKF_DIR = Path(__file__).parent.resolve()
+CONCEPTS_DIR = OKF_DIR / "concepts"
+INDEX_DIR = OKF_DIR / "dbokf-index"
+META_PATH = INDEX_DIR / "meta.json"
+VECTORS_PATH = INDEX_DIR / "vectors.bin"
+CONFIG_PATH = INDEX_DIR / "config.json"
+EXCLUDE_DIRS = {".venv", "node_modules", ".git", "dbokf-index"}
+
+
+# ---------------------------------------------------------------------------
+# Index I/O
+# ---------------------------------------------------------------------------
+
+def load_meta():
+    with open(META_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_config():
+    with open(CONFIG_PATH, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_vectors(n, d):
+    with open(VECTORS_PATH, "rb") as f:
+        n_stored, d_stored = struct.unpack_from("<II", f.read(8))
+        if n_stored != n or d_stored != d:
+            raise ValueError(
+                f"vectors.bin header mismatch: expected ({n},{d}), got ({n_stored},{d_stored})"
+            )
+        return np.frombuffer(f.read(), dtype=np.float32).reshape(n, d)
+
+
+def save_vectors(arr, path):
+    n, d = arr.shape
+    buf = bytearray(8)
+    struct.pack_into("<II", buf, 0, n, d)
+    with open(path, "wb") as f:
+        f.write(buf)
+        f.write(arr.astype(np.float32).tobytes())
+
+
+# ---------------------------------------------------------------------------
+# Similarity + clustering
+# ---------------------------------------------------------------------------
+
+def cosine_sim_matrix(vectors):
+    norms = np.linalg.norm(vectors, axis=1, keepdims=True)
+    norms[norms == 0] = 1.0
+    v = vectors / norms
+    return (v @ v.T).astype(np.float32)
+
+
+def edit_distance(a, b):
+    m, n = len(a), len(b)
+    if m < n:
+        a, b, m, n = b, a, n, m
+    prev = list(range(n + 1))
+    for i in range(1, m + 1):
+        curr = [i] + [0] * n
+        for j in range(1, n + 1):
+            if a[i - 1] == b[j - 1]:
+                curr[j] = prev[j - 1]
+            else:
+                curr[j] = 1 + min(prev[j - 1], prev[j], curr[j - 1])
+        prev = curr
+    return prev[n]
+
+
+def names_are_related(a, b):
+    """
+    True if two concept IDs plausibly refer to the same topic.
+    Used as a sanity-check guard alongside cosine similarity.
+    """
+    # One name is a prefix of the other (generalization/specialization pair)
+    if a.startswith(b) or b.startswith(a):
+        return True
+
+    lo, hi = (len(a), len(b)) if len(a) <= len(b) else (len(b), len(a))
+    if hi == 0:
+        return True
+
+    # Reject if one name is less than 40 % of the other's length
+    if lo / hi < 0.40:
+        return False
+
+    # Accept if edit distance is within 35 % of the longer name
+    dist = edit_distance(a, b)
+    return dist / hi <= 0.35
+
+
+class UnionFind:
+    def __init__(self, n):
+        self.parent = list(range(n))
+        self.rank = [0] * n
+
+    def find(self, x):
+        while self.parent[x] != x:
+            self.parent[x] = self.parent[self.parent[x]]
+            x = self.parent[x]
+        return x
+
+    def union(self, x, y):
+        rx, ry = self.find(x), self.find(y)
+        if rx == ry:
+            return
+        if self.rank[rx] < self.rank[ry]:
+            rx, ry = ry, rx
+        self.parent[ry] = rx
+        if self.rank[rx] == self.rank[ry]:
+            self.rank[rx] += 1
+
+
+def find_clusters(metas, vectors, threshold):
+    n = len(metas)
+    print(f"  Computing {n}×{n} cosine similarity matrix...")
+    sim = cosine_sim_matrix(vectors)
+
+    print("  Building clusters via Union-Find...")
+    uf = UnionFind(n)
+    n_pairs = 0
+
+    # Vectorised: find all pairs above threshold first, then filter by name
+    rows, cols = np.where(sim >= threshold)
+    for i, j in zip(rows.tolist(), cols.tolist()):
+        if i >= j:
+            continue
+        if names_are_related(metas[i]["id"], metas[j]["id"]):
+            uf.union(i, j)
+            n_pairs += 1
+
+    print(f"  Found {n_pairs} near-duplicate pairs above threshold={threshold}")
+
+    groups = defaultdict(list)
+    for i in range(n):
+        groups[uf.find(i)].append(i)
+
+    return {root: members for root, members in groups.items() if len(members) > 1}
+
+
+# ---------------------------------------------------------------------------
+# Canonical selection
+# ---------------------------------------------------------------------------
+
+def choose_canonical(metas, cluster):
+    """
+    Pick the canonical: shortest ID wins (most generic name).
+    Tie-break: most file content (richer source stays).
+    """
+    def score(i):
+        path = CONCEPTS_DIR / f"{metas[i]['id']}.md"
+        size = path.stat().st_size if path.exists() else 0
+        return (len(metas[i]["id"]), -size, metas[i]["id"])
+
+    return min(cluster, key=score)
+
+
+# ---------------------------------------------------------------------------
+# Frontmatter manipulation (line-by-line, no YAML round-trip)
+# ---------------------------------------------------------------------------
+
+def parse_fm_lines(content):
+    """
+    Split content into (fm_end_lineno, lines).
+    lines[0] == '---', lines[fm_end_lineno] == '---'.
+    Returns (None, lines) when no frontmatter is found.
+    """
+    lines = content.split("\n")
+    if not lines or lines[0].rstrip() != "---":
+        return None, lines
+    for i in range(1, len(lines)):
+        if lines[i].rstrip() == "---":
+            return i, lines
+    return None, lines
+
+
+def get_xllmwiki_aliases(lines, fm_end):
+    """Return the list of existing aliases under x-llmwiki.aliases."""
+    in_xllm = False
+    in_aliases = False
+    aliases = []
+    for line in lines[1:fm_end]:
+        stripped = line.strip()
+        if stripped == "x-llmwiki:":
+            in_xllm = True
+        elif in_xllm and not line.startswith(" "):
+            in_xllm = False
+            in_aliases = False
+        if in_xllm and stripped == "aliases:":
+            in_aliases = True
+        elif in_aliases and line.startswith("    - "):
+            aliases.append(line[6:].rstrip())
+        elif in_aliases and not line.startswith("    - "):
+            in_aliases = False
+    return aliases
+
+
+def add_aliases_to_content(content, new_aliases):
+    """
+    Insert new_aliases into x-llmwiki.aliases in the first frontmatter block.
+    Preserves all original formatting; only inserts new lines.
+    """
+    if not new_aliases:
+        return content
+
+    fm_end, lines = parse_fm_lines(content)
+    if fm_end is None:
+        return content
+
+    existing = set(get_xllmwiki_aliases(lines, fm_end))
+    to_add = [a for a in new_aliases if a not in existing]
+    if not to_add:
+        return content
+
+    # Locate the insertion point: after the last alias item (or after "aliases:" header)
+    in_xllm = False
+    in_aliases = False
+    last_alias_line = None
+    aliases_header_line = None
+
+    for i, line in enumerate(lines[1:fm_end], 1):
+        stripped = line.strip()
+        if stripped == "x-llmwiki:":
+            in_xllm = True
+        elif in_xllm and not line.startswith(" "):
+            in_xllm = False
+            in_aliases = False
+        if in_xllm and stripped == "aliases:":
+            in_aliases = True
+            aliases_header_line = i
+        elif in_aliases and line.startswith("    - "):
+            last_alias_line = i
+        elif in_aliases and not line.startswith("    - "):
+            in_aliases = False
+
+    new_alias_lines = [f"    - {a}" for a in to_add]
+
+    if last_alias_line is not None:
+        insert_after = last_alias_line
+    elif aliases_header_line is not None:
+        insert_after = aliases_header_line
+    else:
+        # No aliases section — add one right after x-llmwiki:
+        for i, line in enumerate(lines[1:fm_end], 1):
+            if line.strip() == "x-llmwiki:":
+                header = ["  aliases:"] + new_alias_lines
+                new_lines = lines[: i + 1] + header + lines[i + 1 :]
+                return "\n".join(new_lines)
+        return content  # x-llmwiki not found; leave untouched
+
+    new_lines = lines[: insert_after + 1] + new_alias_lines + lines[insert_after + 1 :]
+    return "\n".join(new_lines)
+
+
+# ---------------------------------------------------------------------------
+# Reference updating
+# ---------------------------------------------------------------------------
+
+def find_all_md_files():
+    result = []
+    for dirpath, dirnames, filenames in os.walk(OKF_DIR):
+        dirnames[:] = [d for d in dirnames if d not in EXCLUDE_DIRS]
+        for fname in filenames:
+            if fname.endswith(".md"):
+                result.append(Path(dirpath) / fname)
+    return result
+
+
+def update_refs_in_file(path, old_id, new_id):
+    """Replace every link variant of old_id → new_id. Returns True if file changed."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            content = f.read()
+    except (OSError, UnicodeDecodeError):
+        return False
+
+    new_content = content
+    for old_pat, new_pat in [
+        (f"/concepts/{old_id}.md", f"/concepts/{new_id}.md"),
+        (f"/concepts/{old_id})", f"/concepts/{new_id})"),
+        (f"/concepts/{old_id}#", f"/concepts/{new_id}#"),
+        (f"concepts/{old_id}.md", f"concepts/{new_id}.md"),
+    ]:
+        new_content = new_content.replace(old_pat, new_pat)
+
+    if new_content != content:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        return True
+    return False
+
+
+# ---------------------------------------------------------------------------
+# Index update (removes stale entries for deleted concepts)
+# ---------------------------------------------------------------------------
+
+def update_index(metas, vectors, deleted_ids):
+    deleted_set = set(deleted_ids)
+    keep = [i for i, m in enumerate(metas) if m["id"] not in deleted_set]
+
+    new_metas = [metas[i] for i in keep]
+    new_vectors = vectors[np.array(keep)]
+
+    print(f"  Index: {len(metas)} -> {len(new_metas)} entries")
+
+    with open(META_PATH, "w", encoding="utf-8") as f:
+        json.dump(new_metas, f, separators=(",", ":"))
+
+    save_vectors(new_vectors, VECTORS_PATH)
+
+    config = load_config()
+    config["count"] = len(new_metas)
+    with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+        json.dump(config, f, indent=2)
+
+
+# ---------------------------------------------------------------------------
+# Git helpers
+# ---------------------------------------------------------------------------
+
+def git_add(paths):
+    if paths:
+        subprocess.run(
+            ["git", "add", "--"] + [str(p) for p in paths],
+            cwd=OKF_DIR, check=True, capture_output=True,
+        )
+
+
+def git_rm(paths):
+    for p in paths:
+        if p.exists():
+            subprocess.run(
+                ["git", "rm", "-f", str(p)],
+                cwd=OKF_DIR, check=True, capture_output=True,
+            )
+
+
+def git_commit(message):
+    subprocess.run(["git", "commit", "-m", message], cwd=OKF_DIR, check=True)
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser(description="Merge near-duplicate OKF concepts")
+    parser.add_argument("--dry-run", action="store_true", help="Preview merges, no file changes")
+    parser.add_argument("--threshold", type=float, default=0.97,
+                        help="Cosine similarity threshold (default: 0.97)")
+    parser.add_argument("--no-commit", action="store_true",
+                        help="Apply changes and stage but do NOT commit")
+    args = parser.parse_args()
+
+    # --- Load index ---
+    print("Loading meta.json …")
+    metas = load_meta()
+    n = len(metas)
+    config = load_config()
+    d = config["dim"]
+    print(f"  {n} concepts, embedding dim={d}")
+
+    print("Loading vectors.bin …")
+    vectors = load_vectors(n, d)
+
+    # --- Cluster ---
+    print(f"Clustering (threshold={args.threshold}) …")
+    clusters = find_clusters(metas, vectors, args.threshold)
+
+    # --- Report ---
+    label = "DRY RUN — " if args.dry_run else ""
+    print(f"\n{label}Found {len(clusters)} merge group(s):\n")
+    all_merges = []  # [(canonical_idx, [dup_idx, ...])]
+
+    for root, members in sorted(clusters.items()):
+        canonical_idx = choose_canonical(metas, members)
+        dup_indices = [i for i in members if i != canonical_idx]
+        canonical_id = metas[canonical_idx]["id"]
+        dup_ids = [metas[i]["id"] for i in dup_indices]
+        print(f"  KEEP  {canonical_id}")
+        for did in dup_ids:
+            print(f"  DROP  {did}")
+        print()
+        all_merges.append((canonical_idx, dup_indices))
+
+    n_drops = sum(len(d) for _, d in all_merges)
+    print(f"Total: {n_drops} files to delete across {len(all_merges)} group(s).")
+
+    if args.dry_run:
+        print("\nDry run complete — no changes made. Remove --dry-run to apply.")
+        return
+
+    if not all_merges:
+        print("Nothing to merge.")
+        return
+
+    # --- Apply ---
+    print("\nScanning all .md files …")
+    all_md = find_all_md_files()
+    print(f"  {len(all_md)} .md files found")
+
+    modified: set = set()
+    deleted_ids: list = []
+
+    for canonical_idx, dup_indices in all_merges:
+        canonical_id = metas[canonical_idx]["id"]
+        canonical_path = CONCEPTS_DIR / f"{canonical_id}.md"
+
+        if not canonical_path.exists():
+            print(f"  WARN: canonical missing on disk: {canonical_path.name}")
+            continue
+
+        # Collect aliases to absorb from all duplicates
+        new_aliases = []
+        for dup_idx in dup_indices:
+            dup_id = metas[dup_idx]["id"]
+            new_aliases.append(dup_id)  # the file ID itself becomes an alias
+
+            dup_path = CONCEPTS_DIR / f"{dup_id}.md"
+            if dup_path.exists():
+                with open(dup_path, encoding="utf-8") as f:
+                    dup_content = f.read()
+                fm_end, lines = parse_fm_lines(dup_content)
+                if fm_end is not None:
+                    new_aliases.extend(get_xllmwiki_aliases(lines, fm_end))
+
+        # Remove duplicates, preserve order, skip canonical's own ID
+        seen_aliases = set()
+        unique_new = []
+        for a in new_aliases:
+            if a != canonical_id and a not in seen_aliases:
+                seen_aliases.add(a)
+                unique_new.append(a)
+
+        # Patch canonical file with absorbed aliases
+        with open(canonical_path, encoding="utf-8") as f:
+            old = f.read()
+        patched = add_aliases_to_content(old, unique_new)
+        if patched != old:
+            with open(canonical_path, "w", encoding="utf-8") as f:
+                f.write(patched)
+            modified.add(canonical_path)
+
+        # Update all cross-references
+        for dup_idx in dup_indices:
+            dup_id = metas[dup_idx]["id"]
+            for md_file in all_md:
+                if update_refs_in_file(md_file, dup_id, canonical_id):
+                    modified.add(md_file)
+            deleted_ids.append(dup_id)
+
+    # --- Update index (gitignored, not staged) ---
+    print("Updating dbokf-index …")
+    update_index(metas, vectors, deleted_ids)
+
+    # --- Git ---
+    to_delete = [CONCEPTS_DIR / f"{did}.md" for did in deleted_ids]
+    print(f"\nStaging {len(modified)} modified + {len(to_delete)} deleted files …")
+    git_add(list(modified))
+    git_rm(to_delete)
+
+    if args.no_commit:
+        print("Staged. Run `git commit` manually.")
+        return
+
+    msg = (
+        f"lint: merge {len(deleted_ids)} duplicate concepts into {len(all_merges)} canonical file(s)\n\n"
+        f"Near-duplicate concept files merged (cosine similarity ≥ {args.threshold},\n"
+        f"names structurally related). Absorbed aliases preserved in canonical\n"
+        f"frontmatter. All cross-references updated. dbokf-index pruned.\n\n"
+        f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+    )
+    git_commit(msg)
+    print("Done!")
+
+
+if __name__ == "__main__":
+    main()

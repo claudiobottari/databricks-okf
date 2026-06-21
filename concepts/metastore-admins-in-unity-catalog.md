@@ -78,7 +78,7 @@ It can take up to 30 seconds for the assignment change to be reflected in your a
 
 ## Related concepts
 
-- [Account admins](/concepts/account-admins-unity-catalog.md)
+- [Account admins](/concepts/account-admin-unity-catalog.md)
 - [Workspace admins](/concepts/workspace-admins-unity-catalog.md)
 - [Unity Catalog Metastore](/concepts/unity-catalog-metastore.md)
 - [Unity Catalog](/concepts/unity-catalog.md)

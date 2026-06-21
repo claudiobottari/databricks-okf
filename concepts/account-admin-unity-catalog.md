@@ -17,6 +17,17 @@ x-llmwiki:
     - Account admin
     - Account admin|account admins
     - account admin
+    - account-admin-role-in-unity-catalog
+    - AARIUC
+    - Admin Roles in Unity Catalog
+    - Admin roles in Unity Catalog
+    - account-admin-role-unity-catalog
+    - AAR(C
+    - Account Admin Role
+    - account-admins-unity-catalog
+    - Account Admins
+    - Account admins
+    - account admins
   citations:
     - file: admin-privileges-in-unity-catalog-databricks-on-aws.md
 title: Account Admin (Unity Catalog)

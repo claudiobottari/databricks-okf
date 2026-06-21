@@ -144,7 +144,7 @@ Concepts link to each other with `[[wikilinks]]` — navigate bidirectionally in
 
 ## Acknowledgments
 
-This knowledge base was compiled using [llm-wiki-compiler](https://github.com/atomicstrata/llm-wiki-compiler).
+This knowledge base was compiled using [llm-wiki-compiler](https://github.com/atomicstrata/llm-wiki-compiler) and several iterations and adjustments to the result.
 
 ## License
 

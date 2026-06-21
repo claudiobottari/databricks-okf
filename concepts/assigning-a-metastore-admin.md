@@ -53,7 +53,7 @@ Who holds the initial [Metastore](/concepts/metastore.md) admin privileges depen
 
 ## How to Assign a [Metastore](/concepts/metastore.md) Admin
 
-Only [account admins](/concepts/account-admins-unity-catalog.md) can assign the [Metastore](/concepts/metastore.md) admin role. Databricks recommends nominating a **group** as the [Metastore](/concepts/metastore.md) admin. By doing this, any member of the group is automatically a [Metastore](/concepts/metastore.md) admin. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
+Only [account admins](/concepts/account-admin-unity-catalog.md) can assign the [Metastore](/concepts/metastore.md) admin role. Databricks recommends nominating a **group** as the [Metastore](/concepts/metastore.md) admin. By doing this, any member of the group is automatically a [Metastore](/concepts/metastore.md) admin. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
 
 To assign the [Metastore](/concepts/metastore.md) admin role to a group:
 
@@ -75,7 +75,7 @@ It can take up to 30 seconds for a metastore admin assignment change to be refle
 ## Related Concepts
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance solution for managing metastores and permissions.
-- [Account admins](/concepts/account-admins-unity-catalog.md) — The only role that can assign [Metastore](/concepts/metastore.md) admins.
+- [Account admins](/concepts/account-admin-unity-catalog.md) — The only role that can assign [Metastore](/concepts/metastore.md) admins.
 - [Workspace admins](/concepts/workspace-admins-unity-catalog.md) — Receive default privileges that may make the [Metastore](/concepts/metastore.md) admin role optional.
 - [Unity Catalog permissions](/concepts/unity-catalog-permissions-model.md) — Detailed management of privileges across securable objects.
 - [Metastore](/concepts/metastore.md) — The top-level container for all Unity Catalog metadata.

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - pyarrow-compatibility-constraint-for-horovodspark
     - PCCFH
+    - pyarrow-compatibility-constraint-with-horovodspark
+    - PCCWH
   citations:
     - file: horovodspark-distributed-deep-learning-with-horovod-databricks-on-aws.md
 title: PyArrow Compatibility Constraint for horovod.spark

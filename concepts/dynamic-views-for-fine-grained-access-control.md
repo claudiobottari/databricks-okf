@@ -133,7 +133,7 @@ However, dynamic views have two limitations for data governance:^[when-to-use-ab
 
 - [Row Filter Policies](/concepts/row-filter-policies.md) — Table-level row security
 - [Column Mask Policies](/concepts/column-mask-policies.md) — Table-level column security
-- [ABAC Policy Requirements and Prerequisites](/concepts/abac-policy-requirements-and-prerequisites.md) — Centralized attribute-based access control
+- [ABAC Policy Requirements and Prerequisites](/concepts/abac-policy-requirements.md) — Centralized attribute-based access control
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer supporting dynamic views
 - [Hive Metastore](/concepts/built-in-hive-metastore.md) — Legacy [Metastore](/concepts/metastore.md) with dynamic view support
 - [Data Masking](/concepts/conditional-column-masking.md) — Techniques for obscuring sensitive data

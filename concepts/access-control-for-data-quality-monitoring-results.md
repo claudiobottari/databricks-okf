@@ -49,7 +49,7 @@ The anomaly detection results use Default Storage (Databricks)|default storage i
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Anomaly Detection](/concepts/anomaly-detection.md)
 - System Tables
-- [Account Admin Role](/concepts/account-admin-role-unity-catalog.md)
+- [Account Admin Role](/concepts/account-admin-unity-catalog.md)
 
 ### Sources
 

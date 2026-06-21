@@ -33,7 +33,7 @@ timestamp: "2026-06-19T22:00:10.802Z"
 
 ## Overview
 
-Workspace admins operate within the scope of one workspace. They are distinct from [account admins](/concepts/account-admins-unity-catalog.md), who manage the entire Databricks account, and from [metastore admins](/concepts/metastore-admin-role.md), who govern a Unity Catalog [Metastore](/concepts/metastore.md) at the account level. Workspace admins are required in every deployment, while the [Metastore](/concepts/metastore.md) admin role is optional.^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
+Workspace admins operate within the scope of one workspace. They are distinct from [account admins](/concepts/account-admin-unity-catalog.md), who manage the entire Databricks account, and from [metastore admins](/concepts/metastore-admin-role.md), who govern a Unity Catalog [Metastore](/concepts/metastore.md) at the account level. Workspace admins are required in every deployment, while the [Metastore](/concepts/metastore.md) admin role is optional.^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
 
 ## Workspace admin privileges in Unity Catalog
 

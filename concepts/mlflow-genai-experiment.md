@@ -33,7 +33,7 @@ timestamp: "2026-06-19T17:49:05.782Z"
 
 An experiment organizes application data into several categories:^[concepts-data-model-databricks-on-aws.md]
 
-- **Observability data**: [Traces (MLflow)](/concepts/trace-tags-mlflow.md) capture the complete execution of a GenAI application, including inputs, outputs, and every intermediate step (LLM calls, retrievals, tool use). [Assessments (MLflow)](/concepts/assessments-mlflow-genai.md) are quality measurements and ground truth labels attached to a trace.^[concepts-data-model-databricks-on-aws.md]
+- **Observability data**: [Traces (MLflow)](/concepts/trace-tags.md) capture the complete execution of a GenAI application, including inputs, outputs, and every intermediate step (LLM calls, retrievals, tool use). [Assessments (MLflow)](/concepts/assessments-mlflow-genai.md) are quality measurements and ground truth labels attached to a trace.^[concepts-data-model-databricks-on-aws.md]
 - **Evaluation data**: [Evaluation Datasets](/concepts/evaluation-datasets.md) are curated collections of test cases for systematically testing an application. [Evaluation Runs](/concepts/evaluation-runs.md) are the results of testing an application version against an evaluation dataset using a set of scorers.^[concepts-data-model-databricks-on-aws.md]
 - **Human labeling data**: [Labeling Sessions](/concepts/labeling-sessions.md) organize traces for human review by domain experts. [Labeling Schemas](/concepts/labeling-schemas.md) define the assessments collected in a labeling session.^[concepts-data-model-databricks-on-aws.md]
 - **Application versioning data**: [Logged Models](/concepts/logged-models.md) represent snapshots of an application at specific points in time. [Prompts](/concepts/prompt-versioning.md) are version-controlled templates for LLM prompts.^[concepts-data-model-databricks-on-aws.md]
@@ -48,7 +48,7 @@ In a Databricks workspace:^[get-started-mlflow-tracing-for-genai-in-a-local-ide-
 
 ## Connecting to an Experiment
 
-MLflow requires only that you use [Traces (MLflow)](/concepts/trace-tags-mlflow.md) — all other aspects of the data model are optional but highly recommended.^[concepts-data-model-databricks-on-aws.md] To connect a local development environment to an experiment, set the `MLFLOW_EXPERIMENT_ID` environment variable and configure authentication with Databricks:^[get-started-mlflow-tracing-for-genai-in-a-local-ide-databricks-on-aws.md]
+MLflow requires only that you use [Traces (MLflow)](/concepts/trace-tags.md) — all other aspects of the data model are optional but highly recommended.^[concepts-data-model-databricks-on-aws.md] To connect a local development environment to an experiment, set the `MLFLOW_EXPERIMENT_ID` environment variable and configure authentication with Databricks:^[get-started-mlflow-tracing-for-genai-in-a-local-ide-databricks-on-aws.md]
 
 ```bash
 export DATABRICKS_TOKEN=<databricks-personal-access-token>
@@ -89,7 +89,7 @@ Experiments support two key evaluation workflows:^[concepts-data-model-databrick
 ## Related Concepts
 
 - [MLflow](/concepts/mlflow.md) — The open-source platform for machine learning lifecycle management
-- [Traces (MLflow)](/concepts/trace-tags-mlflow.md) — Execution logs captured within an experiment
+- [Traces (MLflow)](/concepts/trace-tags.md) — Execution logs captured within an experiment
 - [Evaluation Datasets](/concepts/evaluation-datasets.md) — Test cases used within an experiment
 - [Evaluation Runs](/concepts/evaluation-runs.md) — Results of quality evaluation within an experiment
 - [Logged Models](/concepts/logged-models.md) — Application version snapshots

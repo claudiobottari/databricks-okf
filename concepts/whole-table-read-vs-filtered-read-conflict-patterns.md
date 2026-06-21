@@ -80,7 +80,7 @@ The distinction between whole-table and filtered reads has significant operation
 - Delta Lake transaction conflicts
 - Serializable isolation in Delta Lake
 - [MERGE and row-level conflict detection](/concepts/delta-lake-row-level-conflict-detection.md)
-- [Change Data Feed metadata columns](/concepts/change-data-feed-metadata-column-conflicts.md)
+- [Change Data Feed metadata columns](/concepts/change-data-feed-cdf-metadata-conflicts.md)
 - Partition pruning and conflict resolution
 - DDL operations and table protocol changes
 

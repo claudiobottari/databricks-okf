@@ -41,7 +41,7 @@ DeepSpeed’s CPU Offload feature is distinct from NVMe Offloading which offload
 
 Use CPU Offloading when:
 
-- You need advanced memory optimization beyond standard [FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) (Fully Sharded Data Parallel) or [DDP](/concepts/distributed-data-parallel-ddp-training.md) (Distributed Data Parallel).
+- You need advanced memory optimization beyond standard [FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) (Fully Sharded Data Parallel) or [DDP](/concepts/distributed-data-parallel-ddp.md) (Distributed Data Parallel).
 - You require fine-grained control over optimizer state sharding (ZeRO-Offload can be used with ZeRO Stage 2 or 3).
 - You need additional features like gradient accumulation fusion or CPU offloading.
 - You are working with large language models (1B to 100B+ parameters) where GPU memory is a bottleneck.
@@ -96,7 +96,7 @@ A typical DeepSpeed configuration file enabling CPU offloading for the optimizer
 ### Alternatives
 
 - [FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) – PyTorch-native, simpler, but lacks CPU offloading.
-- [DDP](/concepts/distributed-data-parallel-ddp-training.md) – Standard distributed data parallel, no CPU offload.
+- [DDP](/concepts/distributed-data-parallel-ddp.md) – Standard distributed data parallel, no CPU offload.
 
 ### Related Concepts
 

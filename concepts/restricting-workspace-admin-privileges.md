@@ -26,7 +26,7 @@ timestamp: "2026-06-19T13:54:45.049Z"
 
 # Restricting Workspace Admin Privileges
 
-**Restricting Workspace Admin Privileges** refers to the ability for [account admins](/concepts/account-admins-unity-catalog.md) to limit the set of capabilities available to [workspace admins](/concepts/workspace-admins-unity-catalog.md) within a Databricks account. This control is implemented through the `RestrictWorkspaceAdmins` setting, which account admins can configure to reduce the scope of workspace admin permissions. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
+**Restricting Workspace Admin Privileges** refers to the ability for [account admins](/concepts/account-admin-unity-catalog.md) to limit the set of capabilities available to [workspace admins](/concepts/workspace-admins-unity-catalog.md) within a Databricks account. This control is implemented through the `RestrictWorkspaceAdmins` setting, which account admins can configure to reduce the scope of workspace admin permissions. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
 
 ## Mechanism
 
