@@ -2,3 +2,4 @@
 .venv/
 dbokf-index/
 build_log.txt
+lint_concepts.py
