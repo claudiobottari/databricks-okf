@@ -1,0 +1,129 @@
+---
+title: Foundation Model APIs compliance and security | Databricks on AWS
+source: https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/compliance
+ingestedAt: "2026-06-18T08:11:02.688Z"
+---
+
+This article describes the compliance standards and security profile support for Databricks Foundation Model APIs.
+
+Databricks Foundation Model APIs support various compliance standards to meet enterprise security and regulatory requirements. The availability of these standards varies by deployment mode: pay-per-token or provisioned throughput.
+
+## Compliance standards support: Pay-per-token[​](#compliance-standards-support-pay-per-token "Direct link to Compliance standards support: Pay-per-token")
+
+**Pay-per-token** workloads are HIPAA compliant.
+
+*   For customers with the Compliance Security Profile enabled, pay-per-token workloads are available provided that compliance standard **HIPAA** or **None** is selected.
+*   Other compliance standards (PCI-DSS, FedRAMP, IRAP, CCCS, UK Cyber Essentials Plus) are not currently supported for pay-per-token workloads.
+
+See [Compliance security profile standards: Foundation Model APIs workloads](https://docs.databricks.com/aws/en/machine-learning/model-serving/model-serving-limits#csp-throughput-aws).
+
+## Compliance standards support: Provisioned throughput[​](#compliance-standards-support-provisioned-throughput "Direct link to Compliance standards support: Provisioned throughput")
+
+**Provisioned throughput** workloads support the full range of compliance standards available for Model Serving:
+
+*   HIPAA compliance across all regions.
+*   Additional compliance standards (PCI-DSS, FedRAMP, IRAP, CCCS, UK Cyber Essentials Plus) in supported regions.
+*   Recommended for all workloads that require compliance certifications beyond HIPAA.
+
+See [Compliance security profile standards: Foundation Model APIs workloads](https://docs.databricks.com/aws/en/machine-learning/model-serving/model-serving-limits#csp-throughput-aws).
+
+note
+
+These compliance standards require served containers to be built in the most recent 30 days. Databricks automatically rebuilds outdated containers on your behalf. However, if this automated job fails, an event log message like the following appears:
+
+`"Databricks couldn't complete a scheduled compliance check for model $servedModelName. This can happen if the system can't apply a required update. To resolve, try relogging your model. If the issue persists, contact support@databricks.com."`
+
+## Data processing and residency[​](#-data-processing-and-residency "Direct link to -data-processing-and-residency")
+
+The region and corresponding geography where your Foundation Model API requests are processed depends on your workspace region and the specific model being used:
+
+*   As part of providing the Foundation Model APIs, Databricks might process your data outside of the region and cloud provider where your data originated.
+*   If your workspace is in a Model Serving region but not a US or EU region, your workspace must be enabled for [cross-Geo data processing](https://docs.databricks.com/aws/en/resources/databricks-geos#cross-geo-processing).
+*   See [Designated Services](https://docs.databricks.com/aws/en/resources/designated-services) for geographic areas that process pay-per-token and provisioned throughput workloads.
+
+## Regional model availability[​](#regional-model-availability "Direct link to Regional model availability")
+
+Certain models have regional restrictions based on compliance and infrastructure requirements.
+
+*   Pay-per-token
+*   Provisioned throughput
+
+Region
+
+Models
+
+Details
+
+US-only models
+
+The following models are supported only in Foundation Model APIs pay-per-token supported US regions:
+
+*   Anthropic Claude Opus 4.1
+*   Meta Llama 3.1 405B Instruct
+*   BGE Large (En)
+
+Starting February 15 2026, Meta-Llama-3.1-405B-Instruct will be retired. See [Retired models](https://docs.databricks.com/aws/en/machine-learning/retired-models-policy#retired) for the recommended replacement model and guidance for how to migrate during deprecation.
+
+EU and US models
+
+The following models are available in [pay-per-token EU and US supported regions](https://docs.databricks.com/aws/en/resources/feature-region-support#model-serving-aws).
+
+*   OpenAI GPT-5.5 Pro
+*   OpenAI GPT-5.5
+*   OpenAI GPT-5.4
+*   OpenAI GPT-5.4 mini
+*   OpenAI GPT-5.4 nano
+*   OpenAI GPT-5.3 Codex
+*   OpenAI GPT-5.2 Codex
+*   OpenAI GPT-5.2
+*   OpenAI GPT-5.1
+*   OpenAI GPT-5.1 Codex Max
+*   OpenAI GPT-5.1 Codex Mini
+*   OpenAI GPT-5
+*   OpenAI GPT-5 mini
+*   OpenAI GPT-5 nano
+*   Anthropic Claude Fable 5
+*   Anthropic Claude Opus 4.8
+*   Anthropic Claude Opus 4.7
+*   Anthropic Claude Opus 4.6
+*   Anthropic Claude Opus 4.5
+*   Anthropic Claude Sonnet 4.6
+*   Anthropic Claude Sonnet 4.5
+*   Anthropic Claude Haiku 4.5
+*   Anthropic Claude Sonnet 4
+
+If your workspace is not in an EU or US region but is in a supported Model Serving region, you can enable cross-Geo data processing to access these models.
+
+## Security best practices[​](#security-best-practices "Direct link to Security best practices")
+
+To restrict which Databricks-hosted foundation models your organization can invoke, see [Foundation model Unity Catalog permissions](https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/model-uc-permissions).
+
+Topic
+
+Details
+
+Access control
+
+*   Foundation Model API endpoints are protected by workspace-level access controls.
+*   Only workspace admins can modify governance settings for Foundation Model APIs endpoints.
+*   Endpoints respect networking-related ingress rules configured on the workspace.
+
+Network security
+
+*   Endpoints respect IP allowlists and [PrivateLink](https://docs.databricks.com/aws/en/security/network/classic/privatelink) configurations.
+*   You can restrict outbound network access from Model Serving endpoints by configuring network policies.
+*   See [Manage network policies](https://docs.databricks.com/aws/en/security/network/serverless-network-security/manage-network-policies) for more information.
+
+Container security
+
+*   Model Serving does not provide security patches to existing model images to avoid destabilization of production deployments.
+*   New model images created from new model versions will contain the latest patches.
+*   Containers are automatically rebuilt every 30 days for compliance requirements.
+
+## Additional resources[​](#additional-resources "Direct link to Additional resources")
+
+*   [Foundation Model APIs overview](https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/)
+*   [Foundation Model APIs rate limits and quotas](https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/limits)
+*   [Model Serving limits and regions](https://docs.databricks.com/aws/en/machine-learning/model-serving/model-serving-limits)
+*   [Databricks Geos](https://docs.databricks.com/aws/en/resources/databricks-geos)
+*   [Designated Services](https://docs.databricks.com/aws/en/resources/designated-services)

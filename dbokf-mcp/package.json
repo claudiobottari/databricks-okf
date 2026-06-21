@@ -1,0 +1,28 @@
+{
+  "name": "dbokf-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Databricks OKF knowledge base with semantic search",
+  "type": "module",
+  "bin": {
+    "dbokf-mcp": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "commander": "^12.1.0",
+    "gray-matter": "^4.0.3",
+    "openai": "^4.97.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mcp", "databricks", "okf", "knowledge-base", "semantic-search"],
+  "license": "Apache-2.0"
+}

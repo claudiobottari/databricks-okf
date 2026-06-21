@@ -1,0 +1,84 @@
+{
+  "manifest_version": "0.3",
+  "name": "databricks-okf",
+  "display_name": "Databricks Knowledge Base",
+  "version": "1.0.0",
+  "description": "Semantic search over 6,000+ Databricks OKF concepts: ABAC, Delta Lake, MLflow, Unity Catalog, distributed training, serverless compute, and more.",
+  "long_description": "An MCP server backed by a pre-built Float32 embedding index over the Databricks OKF knowledge base. Run `dbokf-mcp index --okf-dir <path>` once to build the index, then install this bundle. Queries are ranked by cosine similarity in pure JS — no external database required.\n\nTested with perplexity/pplx-embed-v1-0.6b via OpenRouter.",
+  "author": {
+    "name": "Claudio Bottari",
+    "email": "bottari@gmail.com"
+  },
+  "keywords": ["databricks", "okf", "knowledge-base", "semantic-search", "mcp"],
+  "license": "Apache-2.0",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/cli.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/dist/cli.js",
+        "server",
+        "--okf-dir",
+        "${user_config.okf_dir}"
+      ],
+      "env": {
+        "LLM_KEY": "${user_config.llm_key}",
+        "LLM_BASE_URL": "${user_config.llm_base_url}",
+        "LLM_EMBEDDING_MODEL": "${user_config.llm_embedding_model}"
+      }
+    }
+  },
+  "tools": [
+    {
+      "name": "search_concepts",
+      "description": "Semantic search over 6,000+ Databricks concepts using vector similarity"
+    },
+    {
+      "name": "fetch_concept",
+      "description": "Get full markdown content of a concept by its ID"
+    },
+    {
+      "name": "search_by_tags",
+      "description": "Filter concepts where all specified tags match"
+    },
+    {
+      "name": "list_tags",
+      "description": "List all available tags in the knowledge base"
+    }
+  ],
+  "user_config": {
+    "llm_key": {
+      "type": "string",
+      "title": "API Key",
+      "description": "OpenAI or OpenRouter API key (used for embedding search queries at runtime)",
+      "sensitive": true,
+      "required": true
+    },
+    "okf_dir": {
+      "type": "directory",
+      "title": "OKF Directory",
+      "description": "Path to the Databricks OKF folder — must contain concepts/ and dbokf-index/ (run: dbokf-mcp index --okf-dir <path> first)",
+      "required": true
+    },
+    "llm_base_url": {
+      "type": "string",
+      "title": "API Base URL",
+      "description": "Custom endpoint URL (e.g. https://openrouter.ai/api/v1). Leave empty to use OpenAI.",
+      "required": false,
+      "default": "https://openrouter.ai/api/v1"
+    },
+    "llm_embedding_model": {
+      "type": "string",
+      "title": "Embedding Model",
+      "description": "Model used for query embeddings — must match the model used at index time (stored in dbokf-index/config.json). Tested: perplexity/pplx-embed-v1-0.6b",
+      "required": false,
+      "default": "perplexity/pplx-embed-v1-0.6b"
+    }
+  },
+  "compatibility": {
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}
