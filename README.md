@@ -1,20 +1,22 @@
 # Databricks Knowledge Base — OKF Format
 
-A structured knowledge base in **OKF (Open Knowledge Format)** covering Databricks features, best practices, and architecture patterns. 6,000+ concepts, all linked, all machine-readable.
+A structured knowledge base in **OKF (Open Knowledge Format)** covering Databricks features, best practices, and architecture patterns. 5,000+ concepts, all linked, all machine-readable.
 
 ## What This Is
 
-- **OKF at scale** — 6,000+ concepts organized, linked, and ready to use
+- **OKF at scale** — 5,000+ concepts organized, linked, and ready to use
 - **LLM-ready** — structured wikilinks enable semantic navigation; ship the `dbokf-mcp` server and any MCP client can query it immediately
 - **Obsidian-native** — drop the `/concepts/` folder into Obsidian for graph view, backlinks, and full-text search out of the box
 - **Real-world content** — Databricks AWS documentation: ABAC, Delta Lake, MLflow, Unity Catalog, distributed training, serverless compute, and more
+
+![Knowledge graph](images/graph.png)
 
 ## Quick Start
 
 ### Browse in Obsidian
 
 1. Download [Obsidian](https://obsidian.md)
-2. File → Open folder as vault → select `/concepts/`
+2. File → Open folder as vault → select this git repo root
 3. Graph view, backlinks, and local graphs work immediately — no plugins needed
 
 Open `/index.md` for the full concept catalog.
@@ -63,8 +65,13 @@ Add to `claude_desktop_config.json` or `.claude/settings.json`:
 {
   "mcpServers": {
     "databricks-okf": {
-      "command": "dbokf-mcp",
-      "args": ["server", "--okf-dir", "/path/to/this/repo"],
+      "command": "node",
+      "args": [
+        "..\\databricks-okf\\dbokf-mcp\\dist\\cli.js",
+        "server",
+        "--okf-dir",
+        "..\\databricks-okf\\"
+      ],
       "env": {
         "LLM_KEY": "sk-or-...",
         "LLM_BASE_URL": "https://openrouter.ai/api/v1",
@@ -137,10 +144,26 @@ Concepts link to each other with `[[wikilinks]]` — navigate bidirectionally in
 
 ## Why OKF
 
-- **Structured not rigid** — markdown foundation, metadata-light
-- **Interoperable** — same format across Obsidian, MCP servers, and embedding pipelines
-- **Graph-native** — wikilinks are first-class
-- **Human and machine readable** — works equally well in editors and AI pipelines
+OKF (Open Knowledge Format) is a [vendor-neutral open specification](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) announced by Google Cloud (June 2026) that formalizes a pattern Andrej Karpathy articulated in his [LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): instead of retrieving from raw documents at query time, an LLM *compiles* a persistent, interlinked wiki — updating it as new sources arrive, maintaining cross-references, resolving contradictions. The knowledge is compiled once and kept current, not re-derived on every query.
+
+> "LLMs don't get bored, don't forget to update a cross-reference, and can touch 15 files in one pass."
+> — Andrej Karpathy
+
+The [OKF v0.1 spec](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) pins down exactly the minimum conventions needed for interoperability:
+
+- **One file = one concept** — the file path is the concept's identity
+- **YAML frontmatter** — `type`, `title`, `description`, `tags` — nothing else required
+- **Plain markdown body** — structure over prose; fenced code blocks and tables over freeform text
+- **Wikilinks as edges** — cross-references create a navigable knowledge graph
+
+The format's design principles:
+
+- **Readable without tooling** — `cat` a file, `git clone` a repo, you're done
+- **Diffable in version control** — knowledge evolves transparently
+- **Producer/consumer independence** — a human-authored bundle, an LLM-generated catalog, and a BigQuery export pipeline all speak the same format; any agent can consume any of them without translation
+- **Format, not platform** — no required cloud, no SDK, no proprietary account; value comes from how many parties speak it
+
+This repo is a concrete example of the pattern: 5,000+ Databricks concepts compiled from AWS documentation by [llm-wiki-compiler](https://github.com/atomicstrata/llm-wiki-compiler), stored as OKF, queryable via a local MCP server, and browsable in Obsidian — all from the same flat directory of markdown files.
 
 ## Acknowledgments
 
