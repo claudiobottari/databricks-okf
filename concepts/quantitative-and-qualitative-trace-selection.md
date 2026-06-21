@@ -13,6 +13,8 @@ x-llmwiki:
     - quantitative-and-qualitative-trace-selection
     - Qualitative Trace Selection and Quantitative
     - QAQTS
+    - qualitative-and-quantitative-trace-selection
+    - Quantitative Trace Selection and Qualitative
   citations:
     - file: building-mlflow-evaluation-datasets-databricks-on-aws.md
 title: Quantitative and Qualitative Trace Selection
@@ -101,7 +103,7 @@ You can enrich your traces with expected outputs or quality indicators to enable
 
 ## Related Concepts
 
-- [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) — The datasets that traces are selected for
+- [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) — The datasets that traces are selected for
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — The tracing system that captures application interactions
 - mlflow.search_traces() API|Search Traces Programmatically — SDK methods for querying traces
 - [GenAI Application Evaluation](/concepts/genai-application-evaluation-lifecycle.md) — The broader evaluation workflow

@@ -135,7 +135,7 @@ After the upgrade, producers and consumers of the [Feature Table](/concepts/feat
 - UpgradeClient – The class that provides `upgrade_workspace_table`.
 - [databricks-feature-engineering](/concepts/databricks-feature-engineering-client.md) – The Python library containing `UpgradeClient`.
 - [Feature Store](/concepts/feature-store.md) – The legacy workspace-level [Feature Store](/concepts/feature-store.md).
-- [Unity Catalog](/concepts/unity-catalog.md) – The target catalog system for upgraded [Feature Tables](/concepts/feature-tables.md).
+- [Unity Catalog](/concepts/unity-catalog.md) – The target catalog system for upgraded [Feature Tables](/concepts/feature-table.md).
 - [Delta table](/concepts/delta-lake-table.md) – The underlying storage format that must be upgraded first.
 - Upgrade tables and views to Unity Catalog – The prerequisite Delta upgrade process.
 

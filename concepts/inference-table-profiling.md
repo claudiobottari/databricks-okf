@@ -13,6 +13,8 @@ x-llmwiki:
     - inference-table-profiling
     - ITP
     - ITPM
+    - inference-table-profiling-for-ml-models
+    - ITPFMM
   citations:
     - file: data-profiling-databricks-on-aws.md
 title: Inference Table Profiling

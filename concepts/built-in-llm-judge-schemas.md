@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - built-in-llm-judge-schemas
     - BLJS
+    - built-in-llm-judge-labeling-schemas
+    - BLJLS
+    - built-in-llm-judges-predefined-schemas
+    - BLJPS
   citations:
     - file: create-and-manage-labeling-schemas-databricks-on-aws.md
 title: Built-in LLM Judge schemas

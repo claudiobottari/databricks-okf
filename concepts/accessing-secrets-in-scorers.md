@@ -13,6 +13,9 @@ x-llmwiki:
     - accessing-secrets-in-scorers
     - ASIS
     - AWS Secrets Manager
+    - accessing-databricks-secrets-in-scorers
+    - ADSIS
+    - Use Databricks secrets|Use Databricks secrets
   citations:
     - file: code-based-scorer-reference-databricks-on-aws.md
 title: Accessing secrets in scorers

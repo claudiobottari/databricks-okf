@@ -19,6 +19,8 @@ x-llmwiki:
     - Trace Instrumentation
     - Trace ingestion
     - auto-tracing integrations
+    - mlflow-tracing-integrations-library
+    - MTIL
   citations:
     - file: mlflow-tracing-integrations-databricks-on-aws.md
 title: MLflow Tracing Integrations

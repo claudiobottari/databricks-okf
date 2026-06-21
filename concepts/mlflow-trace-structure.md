@@ -62,7 +62,7 @@ Even this minimal trace surfaces useful information about the application's beha
 Traces are captured by:
 
 - Using the `@mlflow.trace` decorator on Python functions to capture the application's entry point.
-- Using `mlflow.openai.autolog()` to automatically instrument calls to the [OpenAI SDK](/concepts/openai-api-compatibility-in-databricks.md).
+- Using `mlflow.openai.autolog()` to automatically instrument calls to the [OpenAI SDK](/concepts/openai-compatible-api-interface.md).
 - Running the application, which produces a trace visible in the MLflow experiment UI under the **Traces** tab.
 
 For details on adding tracing to apps, see [Add traces to applications: automatic and manual tracing](/concepts/combined-automatic-and-manual-tracing.md) and [MLflow Tracing Integrations](/concepts/mlflow-tracing-integrations.md) (more than 20 library integrations). ^[get-started-mlflow-tracing-for-genai-in-a-local-ide-databricks-on-aws.md]

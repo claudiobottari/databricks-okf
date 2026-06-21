@@ -11,6 +11,11 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - top-tier-libraries
+    - top-tier-libraries-in-databricks-runtime-ml
+    - TLIDRM
+    - Pre-installed libraries in Databricks Runtime ML
+    - top-tier-library-support-in-databricks-runtime-ml
+    - TLSIDRM
   citations:
     - file: databricks-runtime-ml-maintenance-policy-databricks-on-aws.md
 title: Top-Tier Libraries

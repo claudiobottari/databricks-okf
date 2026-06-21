@@ -14,6 +14,9 @@ x-llmwiki:
     - DMC
     - available-deepeval-metric-categories
     - ADMC
+    - deepeval-scorer-categories
+    - DSC
+    - DeepEval scorers#Available DeepEval scorers
   citations:
     - file: deepeval-scorers-databricks-on-aws.md
 title: DeepEval Metric Categories

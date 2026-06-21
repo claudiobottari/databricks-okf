@@ -14,6 +14,11 @@ x-llmwiki:
     - DCST
     - Data Classification System Table Reference
     - System tables reference
+    - data-classification-results-system-table
+    - DCRST
+    - systemdata_classificationresults-system-table
+    - SST
+    - system.data_classification.results|results system table
   citations:
     - file: data-classification-databricks-on-aws.md
 title: Data Classification System Table

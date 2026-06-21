@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - delta_cannot_write_empty_schema
     - DELTA_CANNOT_WRITE_EMPTY_SCHEMA
+    - delta_cannot_write_empty_schema-error-class
+    - DEC
+    - delta_cannot_write_empty_schema-error
+    - DELTA_CANNOT_WRITE_EMPTY_SCHEMA error condition
+    - Delta write empty schema troubleshooting
   citations:
     - file: delta_cannot_write_empty_schema-error-condition-databricks-on-aws.md
 title: DELTA_CANNOT_WRITE_EMPTY_SCHEMA

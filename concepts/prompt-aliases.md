@@ -25,7 +25,7 @@ timestamp: "2026-06-19T19:58:29.525Z"
 
 # Prompt Aliases
 
-**Prompt Aliases** are mutable, human-readable references that point to specific versions of a prompt in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md). They enable teams to deploy prompts safely by decoupling application code from fixed version numbers, supporting A/B testing, gradual rollouts, and production deployment patterns. ^[prompt-registry-databricks-on-aws.md]
+**Prompt Aliases** are mutable, human-readable references that point to specific versions of a prompt in the [MLflow Prompt Registry](/concepts/prompt-registry.md). They enable teams to deploy prompts safely by decoupling application code from fixed version numbers, supporting A/B testing, gradual rollouts, and production deployment patterns. ^[prompt-registry-databricks-on-aws.md]
 
 ## Overview
 
@@ -98,7 +98,7 @@ A common workflow uses aliases for staging and production deployment:
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — Centralized repository for managing prompt templates
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — Centralized repository for managing prompt templates
 - [Prompt Versioning](/concepts/prompt-versioning.md) — Immutable snapshots with auto-incrementing version numbers
 - [Prompt Evaluation](/concepts/prompt-version-evaluation.md) — Systematic comparison of prompt versions
 - Deploy Prompts to Production — End-to-end deployment workflows using aliases

@@ -48,7 +48,7 @@ To use features available in later Databricks Runtime versions, you must upgrade
 
 ## End-of-Support Versions
 
-Databricks Connect follows the [Databricks Runtime Support Lifecycles](/concepts/databricks-runtime-support-lifecycles.md). Versions that have reached end-of-support should be upgraded to a supported version. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
+Databricks Connect follows the [Databricks Runtime Support Lifecycles](/concepts/databricks-connect-support-lifecycle.md). Versions that have reached end-of-support should be upgraded to a supported version. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
 
 ## Related Concepts
 

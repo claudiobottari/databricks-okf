@@ -13,6 +13,9 @@ x-llmwiki:
     - dashboard-customization-and-parameters
     - Parameters and Dashboard Customization
     - DCAP
+    - dashboard-customization-with-parameters-databricks
+    - DCWP(
+    - Dashboard Parameters and Filters
   citations:
     - file: data-profiling-dashboard-databricks-on-aws.md
 title: Dashboard Customization and Parameters

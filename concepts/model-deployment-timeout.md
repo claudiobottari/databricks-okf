@@ -75,7 +75,7 @@ The Model Serving Limits page documents resource and payload limits that may als
 
 Model deployment timeouts are distinct from other timeouts that can occur after the endpoint is healthy:
 
-- **[Server-Side Timeouts](/concepts/server-side-timeouts.md)** – The endpoint is healthy, but individual request processing exceeds the default server-side timeout (e.g., 597 seconds for CPU/GPU endpoints). ^[debug-model-serving-timeouts-databricks-on-aws.md]
+- **[Server-Side Timeouts](/concepts/server-side-timeout.md)** – The endpoint is healthy, but individual request processing exceeds the default server-side timeout (e.g., 597 seconds for CPU/GPU endpoints). ^[debug-model-serving-timeouts-databricks-on-aws.md]
 - **Client-side timeouts** – Caused by MLflow environment variables (e.g., `MLFLOW_HTTP_REQUEST_TIMEOUT` defaults to 120 seconds) or third‑party client APIs such as the OpenAI client. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 - **[Idle endpoint warm-up](/concepts/idle-endpoint-warm-up-delay.md)** – Endpoints scaled to zero may time out while warming up on the first request. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 

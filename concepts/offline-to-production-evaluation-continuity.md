@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - offline-to-production-evaluation-continuity
     - OEC
+    - offline-to-production-monitoring-consistency
+    - OMC
   citations:
     - file: evaluate-genai-apps-during-development-databricks-on-aws.md
 title: Offline-to-Production Evaluation Continuity

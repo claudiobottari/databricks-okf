@@ -48,7 +48,7 @@ inferredParagraphs: 0
 
 # Databricks SDK for Python Integration
 
-The **Databricks SDK for Python Integration** refers to using the official Python SDK (`databricks-sdk`) to interact with Databricks workspaces and [Databricks APIs](/concepts/databrickssession-api.md), particularly within the context of [Databricks Connect for Python](/concepts/databricks-connect-for-python.md). The SDK provides the `WorkspaceClient` class, which allows access to Databricks Utilities (such as `dbutils.fs` and `dbutils.secrets`) and any available [Databricks REST API](/concepts/databricks-mlflow-rest-api-20.md).^[databricks-utilities-with-databricks-connect-for-python-databricks-on-aws.md]
+The **Databricks SDK for Python Integration** refers to using the official Python SDK (`databricks-sdk`) to interact with Databricks workspaces and [Databricks APIs](/concepts/databrickssession.md), particularly within the context of [Databricks Connect for Python](/concepts/databricks-connect-for-python.md). The SDK provides the `WorkspaceClient` class, which allows access to Databricks Utilities (such as `dbutils.fs` and `dbutils.secrets`) and any available [Databricks REST API](/concepts/databricks-mlflow-rest-api-20.md).^[databricks-utilities-with-databricks-connect-for-python-databricks-on-aws.md]
 
 ## Overview
 
@@ -112,7 +112,7 @@ Databricks Connect for Python uses the Databricks SDK internally for certain ope
 - Databricks Utilities — The `dbutils` interface exposed through the SDK.
 - Databricks REST APIs — All workspace- and account-level APIs accessible via the SDK.
 - Unity Catalog Volumes — Object storage paths that can be manipulated with the SDK.
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) — The primary class for workspace interactions.
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) — The primary class for workspace interactions.
 - AccountClient — The class for account-level API calls.
 - Databricks authentication configuration profiles — Alternative authentication using `.databrickscfg`.
 

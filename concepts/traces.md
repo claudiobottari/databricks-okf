@@ -19,6 +19,10 @@ x-llmwiki:
     - Trace list
     - Traces tab
     - Trace|traces
+    - traces-mlflow-genai
+    - T(G
+    - Trace (MLflow GenAI)
+    - Tracing (MLflow GenAI)
   citations:
     - file: concepts-data-model-databricks-on-aws.md
 title: Traces

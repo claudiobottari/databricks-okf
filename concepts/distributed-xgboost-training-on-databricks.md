@@ -14,6 +14,10 @@ x-llmwiki:
     - distributed-xgboost-training-on-databricks
     - DXTOD
     - Distributed XGBoost Training
+    - distributed-xgboost-training-on-databricks-with-scala
+    - DXTODWS
+    - distributed-xgboost-training-with-scala-on-databricks
+    - DXTWSOD
   citations:
     - file: use-xgboost-on-databricks-databricks-on-aws.md
     - file: distributed-training-of-xgboost-models-using-sparkdlxgboost-databricks-on-aws.md

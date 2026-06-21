@@ -62,7 +62,7 @@ Data profiling also allows users to control the time granularity of observations
 ### Related Concepts
 
 - [Anomaly Detection](/concepts/anomaly-detection.md)
-- [Lakehouse Monitoring (former name)](/concepts/lakehouse-monitoring-legacy-name.md)
+- [Lakehouse Monitoring (former name)](/concepts/lakehouse-monitoring.md)
 - [GenAI App Performance Monitoring](/concepts/performance-monitoring-with-mlflow-traces.md)
 - MLflow Model Performance Monitoring
 

@@ -95,7 +95,7 @@ The [AI Gateway](/concepts/ai-gateway.md) for serving endpoints provides additio
 - [MLflow Tracking](/concepts/mlflow-tracking.md) — Experiment tracking integrated with Unity Catalog
 - [Model Serving](/concepts/model-serving.md) — Deploying governed models to production
 - [AI Gateway](/concepts/ai-gateway.md) — Governance for model endpoints
-- [Unity Catalog Overview](/concepts/unity-catalog-overview.md) — General introduction to Unity Catalog
+- [Unity Catalog Overview](/concepts/unity-catalog.md) — General introduction to Unity Catalog
 - ABAC Policies — Attribute-based access control for ML assets
 - MLOps Workflows — Automated ML pipelines with Unity Catalog governance
 

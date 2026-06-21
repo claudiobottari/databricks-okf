@@ -18,6 +18,12 @@ x-llmwiki:
     - serverless usage policy
     - Budget Policies
     - Databricks serverless budget policy
+    - serverless-budget-policy-databricks
+    - SBP(
+    - serverless-budget-policy-for-mlflow-experiments
+    - SBPFME
+    - Configure a Serverless Budget Policy for an MLflow Experiment
+    - Configure a serverless budget policy for an MLflow experiment
   citations:
     - file: configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md
 title: Serverless Budget Policy

@@ -71,7 +71,7 @@ Serverless compute is supported starting with Databricks Connect version 15.1. V
 
 ## End-of-Support Versions
 
-Databricks Connect follows the Databricks Runtime [support lifecycles](/concepts/databricks-runtime-support-lifecycles.md). The following versions have reached end-of-support and are no longer recommended for new development. If you are using an end-of-support version, upgrade to a supported version. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
+Databricks Connect follows the Databricks Runtime [support lifecycles](/concepts/databricks-connect-support-lifecycle.md). The following versions have reached end-of-support and are no longer recommended for new development. If you are using an end-of-support version, upgrade to a supported version. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
 
 - **Python and Scala:** Databricks Connect 13.x and 14.x (final versions) have reached end-of-support. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
 - Databricks Runtime 12.2 LTS and below are considered legacy and are no longer supported for new development. ^[databricks-connect-for-databricks-runtime-122-lts-and-below-databricks-on-aws.md]
@@ -99,7 +99,7 @@ Databricks Connect follows the Databricks Runtime [support lifecycles](/concepts
 - [Serverless compute](/concepts/serverless-gpu-compute.md) — Supported from Databricks Connect 15.1+.
 - [OAuth authentication](/concepts/user-to-machine-u2m-authentication.md) — Supported from Databricks SDK for Python 0.19.0+.
 - [Unity Catalog](/concepts/unity-catalog.md) — Required for connection.
-- [Support lifecycles](/concepts/databricks-runtime-support-lifecycles.md) — Databricks Runtime version support policies.
+- [Support lifecycles](/concepts/databricks-connect-support-lifecycle.md) — Databricks Runtime version support policies.
 
 ## Sources
 

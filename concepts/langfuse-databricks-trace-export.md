@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - langfuse-databricks-trace-export
     - LTE
+    - langfuse-to-databricks-trace-export
   citations:
     - file: export-langfuse-traces-to-databricks-mlflow-databricks-on-aws.md
 title: Langfuse-Databricks Trace Export

@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - abac-governance-from-classification
     - AGFC
+    - abac-governance-based-on-data-classification
+    - AGBODC
+    - abac-governance-controls-from-classification
+    - AGCFC
   citations:
     - file: data-classification-databricks-on-aws.md
 title: ABAC Governance from Classification

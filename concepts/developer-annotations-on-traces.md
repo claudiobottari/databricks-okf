@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - developer-annotations-on-traces
     - DAOT
+    - developer-annotations-in-mlflow-ui
+    - DAIMU
+    - developer-annotations-via-mlflow-ui
+    - DAVMU
+    - Developer Annotations via UI
+    - Developer Annotations
   citations:
     - file: 10-minute-demo-collect-human-feedback-databricks-on-aws.md
 title: Developer Annotations on Traces

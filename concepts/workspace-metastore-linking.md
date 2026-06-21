@@ -11,6 +11,7 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - workspace-metastore-linking
+    - workspace-metastore-attachment
   citations:
     - file: create-a-unity-catalog-metastore-databricks-on-aws.md
 title: Workspace-Metastore Linking

@@ -29,7 +29,7 @@ timestamp: "2026-06-19T17:58:16.250Z"
 
 # Prompt Template Variables
 
-**Prompt Template Variables** are placeholders defined inside a prompt string that are replaced with concrete values at runtime. They enable dynamic, reusable prompts that can be adapted to different inputs without editing the prompt template itself. Prompt template variables are a core feature of the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md), allowing developers to separate prompt structure from the data it operates on. ^[create-and-edit-prompts-databricks-on-aws.md]
+**Prompt Template Variables** are placeholders defined inside a prompt string that are replaced with concrete values at runtime. They enable dynamic, reusable prompts that can be adapted to different inputs without editing the prompt template itself. Prompt template variables are a core feature of the [MLflow Prompt Registry](/concepts/prompt-registry.md), allowing developers to separate prompt structure from the data it operates on. ^[create-and-edit-prompts-databricks-on-aws.md]
 
 ## Syntax
 
@@ -102,7 +102,7 @@ Templates containing variables can be referenced in deployed applications using 
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – Central repository for versioned prompts.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – Central repository for versioned prompts.
 - [Chat Prompts](/concepts/text-vs-chat-prompt-types.md) – Role‑based prompt structures that also support template variables.
 - [Prompt Versioning](/concepts/prompt-versioning.md) – Immutable versioning of prompts including their variable definitions.
 - [Prompt Aliases](/concepts/prompt-aliases.md) – Static tags for referencing prompt versions in production.

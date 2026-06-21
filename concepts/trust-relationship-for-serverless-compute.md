@@ -13,6 +13,9 @@ x-llmwiki:
     - trust-relationship-for-serverless-compute
     - TRFSC
     - requirements for serverless compute
+    - iam-trust-relationship-for-serverless-compute
+    - ITRFSC
+    - IAM Role Trust Policy for Serverless
   citations:
     - file: add-an-instance-profile-to-a-model-serving-endpoint-databricks-on-aws.md
 title: Trust Relationship for Serverless Compute

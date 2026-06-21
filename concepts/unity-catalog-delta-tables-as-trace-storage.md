@@ -38,7 +38,7 @@ This feature is available through the MLflow Python API or the Databricks UI. It
 - **Long-term storage**: Traces are retained indefinitely in Unity Catalog, independent of MLflow’s default trace retention policies.
 - **Advanced analytics**: Use SQL, Databricks SQL, or notebooks to query archived traces for performance trends, failure analysis, or compliance reporting.
 - **Custom dashboards**: Build dashboards in Lakeview Dashboards or other BI tools directly on the Delta table.
-- **Evaluation dataset generation**: Archived traces can be reused to build [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) for further model testing and quality improvement. ^[archive-traces-to-a-delta-table-databricks-on-aws.md]
+- **Evaluation dataset generation**: Archived traces can be reused to build [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) for further model testing and quality improvement. ^[archive-traces-to-a-delta-table-databricks-on-aws.md]
 
 ## Requirements
 
@@ -88,7 +88,7 @@ disable_databricks_trace_archival(experiment_id="YOUR_EXPERIMENT_ID")
 - [[MLflow Trace|MLflow Traces]] – The fundamental unit of trace data recorded during GenAI application execution.
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) – Ongoing quality monitoring that feeds into trace archives.
 - [Unity Catalog](/concepts/unity-catalog.md) – The governance layer that stores the archived Delta table.
-- [Building MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md) – How to use archived traces to create evaluation datasets.
+- [Building MLflow evaluation datasets](/concepts/evaluation-datasets.md) – How to use archived traces to create evaluation datasets.
 - Lakeview Dashboards – A visualization tool that can query archived trace data.
 
 ## Sources

@@ -80,7 +80,7 @@ The OAuth profile file enables a [Machine-to-Machine (M2M) OAuth Client Credenti
 - Open ID Connect (OIDC) Federation — The authentication framework used by this profile
 - [OAuth Client Credentials Grant](/concepts/oauth-client-credentials-grant-m2m-flow.md) — The authorization flow type specified in the profile
 - Service Principal (SP) — The identity type registered in the recipient's IdP
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) — An alternative authentication method for Delta Sharing recipients
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) — An alternative authentication method for Delta Sharing recipients
 - [Databricks-to-Open Sharing](/concepts/databricks-to-open-sharing.md) — The sharing model that uses this authentication approach
 
 ## Sources

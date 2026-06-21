@@ -14,6 +14,17 @@ x-llmwiki:
   aliases:
     - mlflow-openai-autolog
     - MOA
+    - mlflow-openai-autolog-for-tracing
+    - MOAFT
+    - mlflow-openai-autologging-and-tracing
+    - Tracing and MLflow OpenAI Autologging
+    - MOAAT
+    - mlflow-openai-autologging-for-tracing
+    - mlflow-openai-autologging
+    - OpenAI Autologging
+    - OpenAI autologging
+    - OpenAI Autolog
+    - OpenAI autolog
   citations:
     - file: tracing-openai-databricks-on-aws.md
     - file: tracing-openai-agents-databricks-on-aws.md

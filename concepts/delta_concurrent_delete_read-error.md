@@ -16,6 +16,11 @@ x-llmwiki:
     - DELTA_CONCURRENT_DELETE_READ error
     - DELTA_CONCURRENT_DELETE_READ error condition
     - Delta Concurrent Delete Read Error
+    - delta_concurrent_delete_read-error-class
+    - DEC
+    - Concurrent delete read error class
+    - DELTA_CONCURRENT_DELETE_READ error class
+    - DELTA_CONCURRENT_DELETE_READ - WHOLE_TABLE_REPLACE
   citations:
     - file: delta_concurrent_delete_read-error-condition-databricks-on-aws.md
 title: DELTA_CONCURRENT_DELETE_READ Error

@@ -26,7 +26,7 @@ timestamp: "2026-06-19T10:44:50.578Z"
 
 # GPU Runtime Utilities (serverless_gpu.runtime)
 
-**GPU Runtime Utilities** refers to the `runtime` module within the `serverless_gpu` Python library, which provides functions for accessing GPU rank information during distributed execution on [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu-compute.md). The module is imported as `from serverless_gpu import runtime as rt` and is used inside functions decorated with `@distributed` to identify which GPU process is executing. ^[get-started-serverless-gpu-compute-with-h100-gpus-databricks-on-aws.md]
+**GPU Runtime Utilities** refers to the `runtime` module within the `serverless_gpu` Python library, which provides functions for accessing GPU rank information during distributed execution on [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu.md). The module is imported as `from serverless_gpu import runtime as rt` and is used inside functions decorated with `@distributed` to identify which GPU process is executing. ^[get-started-serverless-gpu-compute-with-h100-gpus-databricks-on-aws.md]
 
 ## Overview
 

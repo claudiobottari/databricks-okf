@@ -97,7 +97,7 @@ The entity‑relationship diagram below shows the relationships between the thre
 
 ## Sharing Access with Users
 
-By default, only account admins have access to system schemas. To grant additional users access to the `system.mlflow` tables, an account admin must grant them `USE` and `SELECT` permissions on the schema. See [Unity Catalog privileges reference](/concepts/unity-catalog-privileges-and-ownership.md). ^[mlflow-system-tables-reference-databricks-on-aws.md]
+By default, only account admins have access to system schemas. To grant additional users access to the `system.mlflow` tables, an account admin must grant them `USE` and `SELECT` permissions on the schema. See [Unity Catalog privileges reference](/concepts/privileges-and-ownership.md). ^[mlflow-system-tables-reference-databricks-on-aws.md]
 
 **Any user with access to these tables can view metadata across all MLflow experiments for all workspaces in the account.** To configure table access for a group rather than individual users, see Unity Catalog best practices. ^[mlflow-system-tables-reference-databricks-on-aws.md]
 

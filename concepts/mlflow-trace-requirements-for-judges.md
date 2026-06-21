@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-trace-requirements-for-judges
     - MTRFJ
+    - mlflow-trace-requirements-for-evaluation
+    - MTRFE
   citations:
     - file: answer-and-context-relevance-judges-databricks-on-aws.md
     - file: create-a-custom-judge-using-make_judge-databricks-on-aws.md
@@ -95,8 +97,8 @@ To ensure judges have the trace data they need:
 - [Built-in LLM Judges](/concepts/built-in-llm-judges.md) — Pre-configured judges for common evaluation criteria
 - [Custom Judges](/concepts/custom-judges.md) — User-defined judges created with `make_judge()`
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — The tracing infrastructure that captures execution data
-- [Retrieval Relevance Judge](/concepts/retrievalrelevance-judge.md) — Judge that evaluates document relevance
-- [Relevance to Query Judge](/concepts/relevancetoquery-judge.md) — Judge that evaluates response relevance
+- [Retrieval Relevance Judge](/concepts/retrievalrelevance.md) — Judge that evaluates document relevance
+- [Relevance to Query Judge](/concepts/relevancetoquery.md) — Judge that evaluates response relevance
 - [A/B Comparison of Agent Configurations](/concepts/ab-comparison-of-agent-configurations.md) — Using judges to compare agent variants
 
 ## Sources

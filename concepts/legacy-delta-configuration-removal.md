@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - legacy-delta-configuration-removal
     - LDCR
+    - delta-lake-legacy-configuration-removal
+    - DLLCR
+    - legacy-delta-configuration-migration
+    - LDCM
   citations:
     - file: best-practices-delta-lake-databricks-on-aws.md
 title: Legacy Delta Configuration Removal

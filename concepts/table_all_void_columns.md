@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - table_all_void_columns
     - TABLE_ALL_VOID_COLUMNS
+    - table_all_void_columns-error-condition
+    - TEC
+    - TABLE_ALL_VOID_COLUMNS error condition
   citations:
     - file: delta_cannot_write_empty_schema-error-condition-databricks-on-aws.md
 title: TABLE_ALL_VOID_COLUMNS

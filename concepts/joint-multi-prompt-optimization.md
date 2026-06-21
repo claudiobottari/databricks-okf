@@ -75,7 +75,7 @@ def predict_fn(question: str):
 
 ## Version Control
 
-Optimized prompts are automatically registered in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md), creating new versions for each prompt that was optimized. This provides full version control and traceability for all prompt changes made during joint optimization. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
+Optimized prompts are automatically registered in the [MLflow Prompt Registry](/concepts/prompt-registry.md), creating new versions for each prompt that was optimized. This provides full version control and traceability for all prompt changes made during joint optimization. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
 
 ## Requirements
 
@@ -86,7 +86,7 @@ The `optimize_prompts` API requires **MLflow >= 3.5.0**. The feature is currentl
 - [MLflow Prompt Optimization](/concepts/mlflow-prompt-optimization-api.md) — The general prompt optimization framework
 - [GEPA Optimization Algorithm](/concepts/gepa-optimization-algorithm.md) — The underlying algorithm used for optimization
 - [GepaPromptOptimizer](/concepts/gepapromptoptimizer.md) — The MLflow optimizer class implementing GEPA
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — Version control system for optimized prompts
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — Version control system for optimized prompts
 - [Agent Evaluation](/concepts/mlflow-agent-evaluation.md) — Evaluation framework for agent systems
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — Tracing capability for GenAI applications
 

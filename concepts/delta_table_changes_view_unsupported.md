@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - delta_table_changes_view_unsupported
     - DELTA_TABLE_CHANGES_VIEW_UNSUPPORTED
+    - delta_table_changes_view_unsupported-error-class
+    - DEC
+    - DELTA_TABLE_CHANGES_VIEW_UNSUPPORTED error class
+    - DELTA_TABLE_CHANGES_VIEW_UNSUPPORTED|DELTA_TABLE_CHANGES_VIEW_UNSUPPORTED error class
+    - delta_table_changes_view_unsupported-error
+    - DELTA_TABLE_CHANGES_VIEW_UNSUPPORTED error condition
   citations:
     - file: delta-table-changes-view-unsupported-error-condition-databricks-on-aws.md
 title: DELTA_TABLE_CHANGES_VIEW_UNSUPPORTED

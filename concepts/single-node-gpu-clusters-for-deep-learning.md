@@ -13,6 +13,8 @@ x-llmwiki:
     - single-node-gpu-clusters-for-deep-learning
     - SNGCFDL
     - Single Node GPU cluster
+    - single-node-gpu-cluster-for-deep-learning-development
+    - SNGCFDLD
   citations:
     - file: best-practices-for-deep-learning-on-databricks-databricks-on-aws.md
 title: Single Node GPU Clusters for Deep Learning

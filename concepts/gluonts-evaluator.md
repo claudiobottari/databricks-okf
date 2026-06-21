@@ -11,6 +11,11 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - gluonts-evaluator
+    - gluonts-evaluation-metrics
+    - GEM
+    - Evaluation Metrics
+    - Evaluation metrics
+    - Time Series Evaluation Metrics
   citations:
     - file: forecasting-time-series-with-gluonts-databricks-on-aws.md
 title: GluonTS Evaluator
@@ -69,9 +74,9 @@ These metrics are computed both at the aggregate level (averaged across all time
 ## Related Concepts
 
 - [GluonTS](/concepts/gluonts.md) — The parent library for probabilistic time series modeling and forecasting
-- [DeepAR Estimator](/concepts/deepar-estimator.md) — A common model used with the evaluator for forecasting
+- [DeepAR Estimator](/concepts/deepar.md) — A common model used with the evaluator for forecasting
 - [Probabilistic Time-Series Forecasting](/concepts/probabilistic-time-series-forecasting.md) — The broader field of uncertainty-aware predictions
-- [Time Series Evaluation Metrics](/concepts/gluonts-evaluation-metrics.md) — General concepts for assessing forecast quality
+- [Time Series Evaluation Metrics](/concepts/gluonts-evaluator.md) — General concepts for assessing forecast quality
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) — The compute infrastructure where GluonTS runs on Databricks
 
 ## Sources

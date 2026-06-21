@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - sampling-based-restoration-detection
     - SRD
+    - sampling-based-restored-data-detection
+    - SRDD
+    - RDD
   citations:
     - file: archival-support-in-databricks-databricks-on-aws.md
 title: Sampling-based restoration detection

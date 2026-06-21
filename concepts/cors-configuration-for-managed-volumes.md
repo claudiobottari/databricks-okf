@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - cors-configuration-for-managed-volumes
     - CCFMV
+    - cors-configuration-for-unity-catalog-managed-volumes
+    - CCFUCMV
   citations:
     - file: create-a-unity-catalog-metastore-databricks-on-aws.md
 title: CORS Configuration for Managed Volumes

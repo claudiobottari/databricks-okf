@@ -15,6 +15,8 @@ x-llmwiki:
     - DCFR
     - Databricks Connect for R tutorial
     - Databricks Connect for R – Tutorial
+    - databricks-connect-for-r-sparklyr
+    - DCFR(
   citations:
     - file: databricks-connect-for-r-databricks-on-aws.md
 title: Databricks Connect for R

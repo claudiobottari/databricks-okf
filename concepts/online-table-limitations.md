@@ -13,6 +13,10 @@ x-llmwiki:
     - online-table-limitations
     - OTL
     - OTLP
+    - online-table-limitations-and-constraints
+    - Constraints and Online Table Limitations
+    - OTLAC
+    - online-tables-limitations
   citations:
     - file: databricks-online-tables-legacy-databricks-on-aws.md
 title: Online Table Limitations

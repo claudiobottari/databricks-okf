@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - portable-sparksession-pattern
     - PSP
+    - portable-sparksession-pattern-for-databricks-connect
+    - PSPFDC
   citations:
     - file: code-examples-for-databricks-connect-for-python-databricks-on-aws.md
 title: Portable SparkSession Pattern

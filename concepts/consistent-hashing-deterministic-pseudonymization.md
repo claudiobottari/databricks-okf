@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - consistent-hashing-deterministic-pseudonymization
     - CH(P
+    - consistent-hashing-for-deterministic-pseudonymization
+    - CHFDP
+    - Consistent Hashing for Pseudonymization
   citations:
     - file: common-patterns-for-row-filtering-and-column-masking-databricks-on-aws.md
 title: Consistent hashing (deterministic pseudonymization)
@@ -51,7 +54,7 @@ A [column mask policy](/concepts/column-mask-policies.md) can invoke this functi
 
 ## Usage in ABAC policies
 
-This pattern is commonly used in [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) to pseudonymize columns such as email addresses, user IDs, or account numbers. Because the hash is consistent across tables, analysts can still join on the pseudonymized column without seeing the original value. The `version` parameter provides a managed rotation mechanism that avoids rewriting all historical data on every key change.^[common-patterns-for-row-filtering-and-column-masking-databricks-on-aws.md]
+This pattern is commonly used in [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) to pseudonymize columns such as email addresses, user IDs, or account numbers. Because the hash is consistent across tables, analysts can still join on the pseudonymized column without seeing the original value. The `version` parameter provides a managed rotation mechanism that avoids rewriting all historical data on every key change.^[common-patterns-for-row-filtering-and-column-masking-databricks-on-aws.md]
 
 ## Related concepts
 

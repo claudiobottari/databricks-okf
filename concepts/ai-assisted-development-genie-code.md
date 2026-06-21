@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - ai-assisted-development-genie-code
     - AD(C
+    - ai-assisted-development-with-genie-code
+    - ADWGC
   citations:
     - file: concepts-data-science-and-machine-learning-on-databricks-databricks-on-aws.md
 title: AI-Assisted Development (Genie Code)

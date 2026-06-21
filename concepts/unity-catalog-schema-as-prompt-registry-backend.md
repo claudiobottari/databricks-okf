@@ -26,7 +26,7 @@ timestamp: "2026-06-19T17:58:19.563Z"
 
 # Unity Catalog Schema as Prompt Registry Backend
 
-**Unity Catalog Schema as Prompt Registry Backend** refers to the use of a [Unity Catalog](/concepts/unity-catalog.md) schema as the storage and management layer for the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md). When a Unity Catalog schema is configured as the prompt registry backend, all prompts, their versions, and associated metadata are stored within that schema, enabling governance, discovery, and lineage tracking across the Databricks platform.
+**Unity Catalog Schema as Prompt Registry Backend** refers to the use of a [Unity Catalog](/concepts/unity-catalog.md) schema as the storage and management layer for the [MLflow Prompt Registry](/concepts/prompt-registry.md). When a Unity Catalog schema is configured as the prompt registry backend, all prompts, their versions, and associated metadata are stored within that schema, enabling governance, discovery, and lineage tracking across the Databricks platform.
 
 ## Overview
 
@@ -103,7 +103,7 @@ Using a Unity Catalog schema as the prompt registry backend provides:
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The overall system for managing prompt templates
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The overall system for managing prompt templates
 - [Unity Catalog](/concepts/unity-catalog.md) — The underlying governance and metadata platform
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — The organizational unit for MLflow runs and evaluations
 - [Prompt Versioning](/concepts/prompt-versioning.md) — The Git-like version management for prompts

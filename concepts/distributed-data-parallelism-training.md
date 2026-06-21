@@ -74,7 +74,7 @@ A utility function `log_gpu_memory` can be used during distributed training to l
 - [AI Runtime](/concepts/ai-runtime.md) – Databricks environment with pre‑installed libraries for deep learning.
 - [Unity Catalog](/concepts/unity-catalog.md) – Governance layer for model registration and checkpoint storage.
 - [Gradient checkpointing](/concepts/activation-checkpointing.md) – Memory‑saving technique used during distributed training.
-- [SFTTrainer](/concepts/sfttrainer.md) – The Trainer class from [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) used for supervised fine‑tuning in the example.
+- [SFTTrainer](/concepts/sfttrainer.md) – The Trainer class from [TRL](/concepts/trl-transformer-reinforcement-learning.md) used for supervised fine‑tuning in the example.
 
 ## Sources
 

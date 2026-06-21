@@ -70,7 +70,7 @@ When an OpenSharing action fails on the recipient side, the error is logged in t
 - [Delta Sharing](/concepts/delta-sharing.md) – The open protocol for sharing data across Databricks workspaces
 - [OpenSharing](/concepts/opensharing.md) – Databricks’ implementation of Delta Sharing
 - [Audit log system table](/concepts/audit-log-system-table-requirements.md) – The `system.access.audit` table that stores audit logs
-- [Data provider audit events](/concepts/provider-audit-log-events.md) – Audit events logged by the data provider side
+- [Data provider audit events](/concepts/provider-audit-logs.md) – Audit events logged by the data provider side
 - Troubleshooting Delta Sharing errors – Guidance for resolving common sharing issues
 
 ## Sources

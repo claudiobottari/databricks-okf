@@ -13,6 +13,9 @@ x-llmwiki:
     - delta_alter_table_unset_managed_failed
     - DELTA\_ALTER\_TABLE\_UNSET\_MANAGED\_FAILED
     - DELTA_ALTER_TABLE_UNSET_MANAGED_FAILED
+    - delta_alter_table_unset_managed_failed-error-class
+    - DEC
+    - DELTA_ALTER_TABLE_UNSET_MANAGED_FAILED error class
   citations:
     - file: delta_alter_table_unset_managed_failed-error-condition-databricks-on-aws.md
 title: DELTA_ALTER_TABLE_UNSET_MANAGED_FAILED

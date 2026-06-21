@@ -132,8 +132,8 @@ After the provider creates the OIDC policy, they share an OIDC profile portal UR
 - [Delta Sharing](/concepts/delta-sharing.md) — The open protocol for sharing data across platforms
 - Open ID Connect (OIDC) Federation — Authentication framework using JWT tokens
 - [Delta Sharing Recipients](/concepts/delta-sharing-recipient-object.md) — Entities that receive shared data
-- [Machine-to-Machine (M2M) Flow](/concepts/machine-to-machine-m2m-authentication-flow.md) — Authentication for service-to-service communication
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) — Alternative authentication method using long-lived tokens
+- [Machine-to-Machine (M2M) Flow](/concepts/machine-to-machine-m2m-authentication.md) — Authentication for service-to-service communication
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) — Alternative authentication method using long-lived tokens
 
 ## Sources
 

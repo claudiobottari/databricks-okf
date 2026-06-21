@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - foreign-table-sharing-via-lakehouse-federation
     - FTSVLF
+    - foreign-schema-and-table-sharing-lakehouse-federation
+    - Table Sharing (Lakehouse Federation) and Foreign Schema
+    - FSATS(F
   citations:
     - file: create-shares-for-opensharing-databricks-on-aws.md
 title: Foreign Table Sharing via Lakehouse Federation
@@ -91,7 +94,7 @@ When adding a foreign schema, all supported data assets in that schema become av
 - [Default Storage](/concepts/workspace-default-storage-path.md) — Storage used for temporary materialization of shared foreign data
 - Serverless Compute — Compute environment required for foreign table sharing
 - [Materialized Views](/concepts/materialized-views-in-databricks.md) — Recommended alternative for cost-efficient sharing of foreign data
-- [Shares, Providers, and Recipients](/concepts/recipient-and-share-concepts.md) — The sharing model in Delta Sharing
+- [Shares, Providers, and Recipients](/concepts/recipient-and-share-model.md) — The sharing model in Delta Sharing
 - Cloud Token Sharing — Directory-based access mode for performance improvements
 
 ## Sources

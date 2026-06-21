@@ -30,7 +30,7 @@ Here is the wiki page for "NVIDIA H100 80GB HBM3 on Databricks", written based s
 
 ## NVIDIA H100 80GB HBM3 on Databricks
 
-**NVIDIA H100 80GB HBM3 on Databricks** refers to the availability and usage of NVIDIA H100 GPUs with 80GB of HBM3 memory for high-performance deep learning workloads on the Databricks platform, primarily through [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu-compute.md).
+**NVIDIA H100 80GB HBM3 on Databricks** refers to the availability and usage of NVIDIA H100 GPUs with 80GB of HBM3 memory for high-performance deep learning workloads on the Databricks platform, primarily through [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu.md).
 
 ### Overview
 

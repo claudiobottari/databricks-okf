@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - labeling-schema-management-api
     - LSMA
+    - labeling-schema-crud-management
+    - LSCM
+    - labeling-schema-lifecycle-management
+    - LSLM
+    - LLM
   citations:
     - file: create-and-manage-labeling-schemas-databricks-on-aws.md
 title: Labeling schema management API

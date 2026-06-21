@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - managed-tables-requirement-for-icebergcompat
     - MTRFI
+    - managed-table-requirement-for-uniform-iceberg
+    - MTRFUI
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: Managed Tables requirement for IcebergCompat

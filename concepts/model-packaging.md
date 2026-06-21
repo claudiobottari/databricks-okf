@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - model-packaging
+    - model-packaging-with-feature-metadata
+    - MPWFM
   citations:
     - file: databricks-feature-store-overview-and-glossary-databricks-on-aws.md
 title: Model Packaging

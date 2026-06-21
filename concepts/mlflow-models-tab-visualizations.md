@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-models-tab-visualizations
     - MMTV
+    - mlflow-3-models-tab-visualization
+    - M3MTV
   citations:
     - file: compare-mlflow-runs-and-models-using-graphs-and-charts-databricks-on-aws.md
 title: MLflow Models Tab Visualizations

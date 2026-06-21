@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - mlflow-ui-trace-tag-editing
     - MUTTE
+    - mlflow-trace-tag-management-via-ui
+    - MTTMVU
+    - mlflow-ui-trace-tag-management
+    - MUTTM
   citations:
     - file: attach-custom-tags-and-metadata-databricks-on-aws.md
 title: MLflow UI Trace Tag Editing

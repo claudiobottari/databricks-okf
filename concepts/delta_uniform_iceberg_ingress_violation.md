@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta_uniform_iceberg_ingress_violation
     - DELTA_UNIFORM_ICEBERG_INGRESS_VIOLATION
+    - delta_uniform_iceberg_ingress_violation-error-class
+    - DEC
   citations:
     - file: delta_uniform_iceberg_ingress_violation-error-condition-databricks-on-aws.md
 title: DELTA_UNIFORM_ICEBERG_INGRESS_VIOLATION

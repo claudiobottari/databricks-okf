@@ -98,7 +98,7 @@ Only additions to the inherited permissions are possible at this level. ^[access
 
 - [Workspace Feature Store](/concepts/workspace-feature-store-ui.md) — The Feature Store environment where permissions are managed
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — Alternative permission model for workspaces enabled for Unity Catalog
-- [Feature Table Management](/concepts/feature-tables.md) — Creating, editing, and deleting feature tables
+- [Feature Table Management](/concepts/feature-table.md) — Creating, editing, and deleting feature tables
 - [Access Control Models](/concepts/unity-catalog-access-control-models.md) — Comparison of legacy and Unity Catalog access control approaches
 
 ## Sources

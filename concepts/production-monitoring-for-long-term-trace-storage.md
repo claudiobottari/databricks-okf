@@ -45,7 +45,7 @@ After [MLflow Tracing](/concepts/mlflow-tracing.md) logs [Traces](/concepts/trac
 
 Before using [Production Monitoring](/concepts/production-monitoring.md) for trace storage, ensure the following are in place: ^[trace-agents-deployed-on-databricks-databricks-on-aws.md]
 
-1. [Production Monitoring](/concepts/production-monitoring.md) must be enabled for your [Databricks Workspace](/concepts/databricks-workspace-feature-store-ui.md).
+1. [Production Monitoring](/concepts/production-monitoring.md) must be enabled for your [Databricks Workspace](/concepts/workspace-feature-store-ui.md).
 2. An [MLflow Experiment](/concepts/mlflow-experiment.md) must be created for storing your application's production [Traces](/concepts/traces.md).
 
 ## Setup Workflow

@@ -52,7 +52,7 @@ When calling `fmin()`, wrap it inside `with mlflow.start_run():` to ensure each 
 
 - [Hyperopt fmin()](/concepts/hyperopt-fmin.md) – The core function for hyperparameter optimization.
 - SparkTrials and MLflow – Nested run logging detail.
-- [Distributed Hyperparameter Tuning](/concepts/raytune-for-distributed-hyperparameter-tuning-on-databricks.md) – General strategies for scaling tuning.
+- [Distributed Hyperparameter Tuning](/concepts/raytune.md) – General strategies for scaling tuning.
 - [Optuna](/concepts/optuna.md) – Alternative for single‑node optimization (Hyperopt deprecated after 16.4 LTS ML).
 - [RayTune](/concepts/raytune.md) – Alternative for distributed tuning.
 

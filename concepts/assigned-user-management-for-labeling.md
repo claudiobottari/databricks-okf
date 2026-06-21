@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - assigned-user-management-for-labeling
     - AUMFL
+    - assigned-user-management-for-labeling-sessions
+    - AUMFLS
   citations:
     - file: create-and-manage-labeling-sessions-databricks-on-aws.md
 title: Assigned User Management for Labeling

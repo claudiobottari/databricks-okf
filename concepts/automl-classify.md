@@ -56,7 +56,7 @@ databricks.automl.classify(
 
 ### Parameters
 
-- **dataset** – The training data. Acceptable types: [PySpark DataFrame](/concepts/pysparklyr-package.md), pandas DataFrame, pandas-on-Spark DataFrame, or a string path to a registered Delta table. ^[automl-python-api-reference-databricks-on-aws.md]
+- **dataset** – The training data. Acceptable types: [PySpark DataFrame](/concepts/pysparklyr.md), pandas DataFrame, pandas-on-Spark DataFrame, or a string path to a registered Delta table. ^[automl-python-api-reference-databricks-on-aws.md]
 - **target_col** – The name of the column containing the label (target) to predict. ^[automl-python-api-reference-databricks-on-aws.md]
 - **primary_metric** – The primary evaluation metric to optimize during model selection. Default is `"f1"`. ^[automl-python-api-reference-databricks-on-aws.md]
 - **data_dir**, **experiment_dir**, **experiment_name** – Directories or experiment names for storing output data and [MLflow experiments](/concepts/mlflow-experiment.md). Availability depends on the [Databricks Runtime ML](/concepts/databricks-runtime-ml.md) version. ^[automl-python-api-reference-databricks-on-aws.md]

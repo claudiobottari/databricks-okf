@@ -57,7 +57,7 @@ Both methods can be used with `remote()` to connect to Databricks compute that i
 
 - Use `getOrCreate()` when you want to reuse an existing session, particularly for portability from local development to notebooks. ^[databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md]
 - Use `create()` when you explicitly need a new, separate session, understanding that it requires connection parameters in workspace environments. ^[databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md]
-- The [DatabricksSession API](/concepts/databrickssession-api.md) is available in both local development and workspace environments, enabling seamless code portability. ^[databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md]
+- The [DatabricksSession API](/concepts/databrickssession.md) is available in both local development and workspace environments, enabling seamless code portability. ^[databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md]
 
 ## Related Concepts
 

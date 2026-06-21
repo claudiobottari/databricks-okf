@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - correctness-scorer
     - Answer Correctness Scorer
+    - correctness-scorer-in-mlflow-genai
+    - CSIMG
   citations:
     - file: optimize-multiple-prompts-together-databricks-on-aws.md
 title: Correctness Scorer

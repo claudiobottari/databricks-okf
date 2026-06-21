@@ -77,9 +77,9 @@ On the Data Classification results page, the **User Access** tab for each classi
 ## Related Concepts
 
 - [Data Classification](/concepts/data-classification.md) — Automated discovery and tagging of sensitive data
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — Dynamic column masking based on tag conditions
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — Dynamic column masking based on tag conditions
 - [Governed Tags](/concepts/governed-tags.md) — The attribute system used by both classification and ABAC
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Dynamic privilege grants (currently for models)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Dynamic privilege grants (currently for models)
 - Supported Classification Tags — The full list of tags Data Classification can apply
 - [Data Classification System Table](/concepts/data-classification-system-table.md) — The `system.data_classification.results` table storing classification metadata
 

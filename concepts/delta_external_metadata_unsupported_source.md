@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - delta_external_metadata_unsupported_source
     - DELTA_EXTERNAL_METADATA_UNSUPPORTED_SOURCE
+    - delta_external_metadata_unsupported_source-error
+    - DELTA_EXTERNAL_METADATA_UNSUPPORTED_SOURCE error class
+    - Delta External Metadata Unsupported Source Error
   citations:
     - file: delta_external_metadata_unsupported_source-error-condition-databricks-on-aws.md
 title: DELTA_EXTERNAL_METADATA_UNSUPPORTED_SOURCE

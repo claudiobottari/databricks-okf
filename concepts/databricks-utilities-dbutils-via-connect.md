@@ -14,6 +14,8 @@ x-llmwiki:
     - DU(VC
     - Databricks Utilities (DBUtils)
     - Secrets Utility (dbutils.secrets)
+    - databricks-utilities-dbutils-via-databricks-connect
+    - DU(VDC
   citations:
     - file: databricks-connect-for-databricks-runtime-122-lts-and-below-databricks-on-aws.md
 title: Databricks Utilities (dbutils) via Connect

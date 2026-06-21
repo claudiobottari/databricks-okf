@@ -120,9 +120,9 @@ When running serverless workloads for evaluation (such as scheduled scorers, syn
 
 Databricks Model Training integrates with [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) through Unity Catalog to provide granular security for trained models. Key policies include:
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md): Dynamically grant privileges to models based on governed tags and conditions on the principal and object. These policies control who can execute models in the [Serving UI](/concepts/serving-ui.md) without requiring manual privilege management. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md): Dynamically grant privileges to models based on governed tags and conditions on the principal and object. These policies control who can execute models in the [Serving UI](/concepts/serving-ui.md) without requiring manual privilege management. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md): Apply dynamic data masking to columns in training data based on tag conditions, ensuring sensitive data (like PII) is properly protected during model training and inference. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md): Apply dynamic data masking to columns in training data based on tag conditions, ensuring sensitive data (like PII) is properly protected during model training and inference. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
 
 These policies evaluate at query time against tags on the target objects and can be defined once at a catalog or schema scope to cover many assets automatically, reducing maintenance overhead.
 

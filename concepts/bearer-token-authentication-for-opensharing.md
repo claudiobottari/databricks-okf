@@ -71,7 +71,7 @@ The bearer token authentication workflow follows these steps:
 - [Delta Sharing](/concepts/delta-sharing.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - OpenSharing Recipient Management
-- [Recipient Token Lifetime Configuration](/concepts/recipient-token-lifetime-configuration.md)
+- [Recipient Token Lifetime Configuration](/concepts/recipient-token-lifetime.md)
 - [IP Access Lists for OpenSharing](/concepts/ip-access-lists-for-opensharing-recipients.md)
 - [Cloud Tokens and Directory-Based Access](/concepts/cloud-token-access-directory-based-access.md)
 

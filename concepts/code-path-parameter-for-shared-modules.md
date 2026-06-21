@@ -81,7 +81,7 @@ mlflow.pyfunc.log_model(
 
 ## Related Concepts
 
-- [Custom MLflow PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md) – The framework for packaging arbitrary Python code as a model.
+- [Custom MLflow PyFunc Models](/concepts/custom-mlflow-pythonmodel.md) – The framework for packaging arbitrary Python code as a model.
 - [Model Serving](/concepts/model-serving.md) – Serving custom models as endpoints for inference.
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md) – The runtime environment where models are logged.
 - [Unity Catalog](/concepts/unity-catalog.md) – Registry for managing models with full lineage and governance.

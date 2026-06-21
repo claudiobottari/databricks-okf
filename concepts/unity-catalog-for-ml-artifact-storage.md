@@ -93,8 +93,8 @@ After training completes, models can be registered in the Unity Catalog model re
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md) – The training paradigm that produces these artifacts.
 - [Fully Sharded Data Parallel (FSDP)](/concepts/fully-sharded-data-parallel-fsdp.md) – A common distributed training strategy that benefits from UC artifact storage.
 - Checkpointing – The practice of saving model state during training for fault tolerance and reproducibility.
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) – For dynamically controlling access to registered models.
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – For governing sensitive data used in ML pipelines.
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) – For dynamically controlling access to registered models.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – For governing sensitive data used in ML pipelines.
 
 ## Sources
 

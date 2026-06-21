@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - multi-turn-judge
+    - multi-turn-judges
+    - Multi‑Turn Judges
   citations:
     - file: built-in-llm-judges-databricks-on-aws.md
 title: Multi-turn Judge

@@ -16,6 +16,16 @@ x-llmwiki:
     - CREAT TABLE ... UNIFORM
     - Iceberg Reads (UniForm)
     - Uniform
+    - delta-uniform-delta-lake-uniform
+    - DU(LU
+    - Uniform (Delta Lake)
+    - delta-uniform-uniform
+    - DU(
+    - Delta Sharing Uniform Format
+    - Delta UniForm documentation
+    - Uniform (UniForm)
+    - Uniform Format
+    - uniform-delta-uniform
   citations:
     - file: delta_uniform_iceberg_ingress_violation-error-condition-databricks-on-aws.md
     - file: delta_uniform_refresh_invalid_argument-error-condition-databricks-on-aws.md

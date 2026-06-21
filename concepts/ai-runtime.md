@@ -17,6 +17,8 @@ x-llmwiki:
   aliases:
     - ai-runtime
     - AI Runtime (Preview)
+    - ai-runtime-databricks
+    - AR(
   citations:
     - file: connect-to-ai-runtime-databricks-on-aws.md
     - file: experiment-tracking-and-observability-databricks-on-aws.md

@@ -13,6 +13,13 @@ x-llmwiki:
     - deletion-vectors-and-icebergcompat
     - IcebergCompat and Deletion Vectors
     - DVAI
+    - deletion-vector-constraints-for-iceberg-compat
+    - DVCFIC
+    - deletion-vectors-and-icebergcompat-conflict
+    - IcebergCompat conflict and Deletion Vectors
+    - DVAIC
+    - deletion-vectors-in-delta-iceberg-compatibility
+    - DVIDC
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: Deletion Vectors and IcebergCompat

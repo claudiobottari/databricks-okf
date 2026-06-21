@@ -14,6 +14,12 @@ x-llmwiki:
     - Share Model and Recipient
     - RASM
     - Share, Provider, Recipient Model
+    - recipient-and-share-concepts
+    - share concepts and Recipient
+    - RASC
+    - Recipient|recipients
+    - Shares, Providers, and Recipients
+    - Shares, providers, and recipients
   citations:
     - file: access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md
 title: Recipient and Share Model
@@ -37,7 +43,7 @@ In the OpenSharing standard, a Databricks user (the *data provider*) shares data
 
 A **recipient** is a representation of the external user or organization that will access the shared data. The data provider creates the recipient in their Databricks account. The recipient object stores identity information and access credentials used to establish the secure sharing connection. ^[access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md]
 
-In the [Databricks-to-Databricks Sharing Model](/concepts/databricks-to-databricks-sharing-model.md), the recipient is created after the recipient provides the provider with a sharing identifier, which is a string in the format `<cloud>:<region>:<uuid>` that uniquely identifies the recipient's Unity Catalog [Metastore](/concepts/metastore.md). ^[access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md]
+In the [Databricks-to-Databricks Sharing Model](/concepts/databricks-to-databricks-sharing.md), the recipient is created after the recipient provides the provider with a sharing identifier, which is a string in the format `<cloud>:<region>:<uuid>` that uniquely identifies the recipient's Unity Catalog [Metastore](/concepts/metastore.md). ^[access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md]
 
 ## Share
 
@@ -47,7 +53,7 @@ The share does not contain the actual data; rather, it is a representation that 
 
 ## Relationship to Sharing Models
 
-The Recipient and Share Model applies to both the Databricks-to-Databricks sharing model and the [Databricks-to-Open Sharing Model](/concepts/databricks-to-open-sharing-model.md):
+The Recipient and Share Model applies to both the Databricks-to-Databricks sharing model and the [Databricks-to-Open Sharing Model](/concepts/databricks-to-open-sharing.md):
 
 - **Databricks-to-Databricks model:** The provider creates the recipient using the recipient's sharing identifier. No credential file is needed; the secure connection is managed by Databricks, and the shared data becomes automatically discoverable in the recipient's workspace. Granular access control can be configured by the recipient's team. ^[access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md]
 - **Databricks-to-Open sharing model:** The provider creates the recipient and share, then sends the recipient an activation URL or portal link. The recipient follows the link to download a credential file (for bearer tokens) or a URL (for [OIDC federation](/concepts/oidc-federation-policy.md)). The credential file or URL is used to authenticate and access the shared data using any compatible tool, including Databricks, Apache Spark, pandas, Power BI, and Tableau. Bearer tokens are valid for a maximum of one year after creation; providers manage token expiration and rotation. ^[access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md]

@@ -11,6 +11,9 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - data-profiling
+    - data-profiling-lakehouse-monitoring
+    - DP(M
+    - Data Profiling with Databricks Lakehouse Monitoring
   citations:
     - file: data-quality-monitoring-databricks-on-aws.md
 title: Data Profiling

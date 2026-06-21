@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - missing_uniform_tbl_properties
     - MISSING_UNIFORM_TBL_PROPERTIES
+    - missing_uniform_tbl_properties-error
   citations:
     - file: delta_uniform_iceberg_ingress_violation-error-condition-databricks-on-aws.md
 title: MISSING_UNIFORM_TBL_PROPERTIES

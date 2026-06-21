@@ -29,7 +29,7 @@ timestamp: "2026-06-18T12:07:23.051Z"
 
 ## Overview
 
-When training large models with distributed strategies such as [PyTorch FSDP](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md), checkpoints must be stored in a location accessible by all worker processes. Unity Catalog volumes provide a governed, schema-organized file store that integrates with Databricks’ data governance and MLflow tracking. By saving checkpoints to a Unity Catalog volume, teams ensure that checkpoint data is discoverable, auditable, and reusable across experiments. ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
+When training large models with distributed strategies such as [PyTorch FSDP](/concepts/fsdp-fully-sharded-data-parallel.md), checkpoints must be stored in a location accessible by all worker processes. Unity Catalog volumes provide a governed, schema-organized file store that integrates with Databricks’ data governance and MLflow tracking. By saving checkpoints to a Unity Catalog volume, teams ensure that checkpoint data is discoverable, auditable, and reusable across experiments. ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
 
 ## Configuration
 
@@ -116,7 +116,7 @@ model.load_state_dict(state_dict['app'].state_dict()['model'])
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer that provides volumes.
 - [MLflow Tracking](/concepts/mlflow-tracking.md) — For logging checkpoint artifacts and experiment metadata.
-- [PyTorch FSDP](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md) — Distributed training strategy that uses checkpoint storage.
+- [PyTorch FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) — Distributed training strategy that uses checkpoint storage.
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) — The compute environment where checkpoint storage is configured.
 - [Distributed Checkpointing](/concepts/pytorch-distributed-checkpoint-dcp.md) — Broader concept of saving state across multiple workers.
 - Volume (Unity Catalog) — The securable object type used for file storage.

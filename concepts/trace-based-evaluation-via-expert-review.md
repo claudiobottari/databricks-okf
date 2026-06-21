@@ -110,7 +110,7 @@ Otherwise, the `input` and `output` from the root span of each trace are used as
 - Human Feedback in MLflow — The broader system for collecting and managing human annotations
 - [Labeling Sessions](/concepts/labeling-sessions.md) — Organizing traces for expert review
 - [Labeling Schemas](/concepts/labeling-schemas.md) — Defining questions and input types for feedback
-- [Assessment (MLflow)](/concepts/assessments-mlflow-genai.md) — The entity that stores collected labels
+- [Assessment (MLflow)](/concepts/assessments.md) — The entity that stores collected labels
 - [Evaluation Datasets](/concepts/evaluation-datasets.md) — Converting expert labels into test datasets for automated evaluation
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The `mlflow.genai.evaluate()` API for automated assessment
 - Trace (MLflow) — The unit of execution captured for observability

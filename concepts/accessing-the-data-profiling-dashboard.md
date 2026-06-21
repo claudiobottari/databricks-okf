@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - accessing-the-data-profiling-dashboard
     - ATDPD
+    - navigating-to-the-data-profiling-dashboard
+    - NTTDPD
   citations:
     - file: data-profiling-dashboard-databricks-on-aws.md
 title: Accessing the Data Profiling Dashboard

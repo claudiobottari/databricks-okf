@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - databricks-connect-authentication-via-pat
     - DCAVP
+    - databricks-connect-authentication-via-personal-access-tokens
+    - DCAVPAT
+    - databricks-connect-authentication-with-personal-access-tokens
+    - DCAWPAT
   citations:
     - file: databricks-connect-for-r-databricks-on-aws.md
 title: Databricks Connect Authentication via PAT

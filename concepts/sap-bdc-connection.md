@@ -14,6 +14,10 @@ x-llmwiki:
     - SBC
     - SAP BDC connections
     - Connections pane
+    - sap-bdc-connection-databricks
+    - SBC(
+    - sap-bdc-connection-on-databricks
+    - SBCOD
   citations:
     - file: create-and-manage-the-sap-business-data-cloud-bdc-connector-databricks-on-aws.md
 title: SAP BDC Connection

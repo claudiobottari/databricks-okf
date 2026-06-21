@@ -65,7 +65,7 @@ When built-in scorers do not meet your evaluation needs, you can define custom s
 - **The `@scorer` decorator**: A function-based approach that is simpler to define. This is the recommended method for most use cases.
 - **The `Scorer` class**: An object-oriented approach that provides more control. This method is not recommended for [Production Monitoring](/concepts/production-monitoring.md).
 
-For detailed implementation guidance, see the [code-based scorer reference](/concepts/code-based-scorers-mlflow-genai.md).^[code-based-scorer-reference-databricks-on-aws.md]
+For detailed implementation guidance, see the [code-based scorer reference](/concepts/code-based-scorers-in-mlflow.md).^[code-based-scorer-reference-databricks-on-aws.md]
 
 ## Feedback Output
 
@@ -126,7 +126,7 @@ This allows scorers to call external LLM endpoints (e.g., Azure OpenAI, AWS Bedr
 - [Evaluation Datasets](/concepts/evaluation-datasets.md) — Curated test cases used with scorers
 - [Production Monitoring](/concepts/production-monitoring.md) — Scheduling scorers on production traces
 - [Code-based Scorers](/concepts/code-based-scorers.md) — Reference for implementing custom scorers
-- [Accessing Databricks secrets in scorers](/concepts/accessing-databricks-secrets-in-scorers.md) — How to securely retrieve credentials
+- [Accessing Databricks secrets in scorers](/concepts/accessing-secrets-in-scorers.md) — How to securely retrieve credentials
 - [MLflow evaluation](/concepts/mlflow-evaluation-ui.md) — The `mlflow.genai.evaluate()` API
 - [Scorer sampling config](/concepts/scorersamplingconfig.md) — Configuration for controlling which traces are evaluated
 

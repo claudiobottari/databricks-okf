@@ -83,7 +83,7 @@ eval_results = mlflow.genai.evaluate(
 
 ## Next steps
 
-- Explore other built-in judges – [Relevance Judge](/concepts/relevancetoquery-judge.md), Groundedness Judge, [Correctness Judge](/concepts/correctness-judge.md).
+- Explore other built-in judges – [Relevance Judge](/concepts/relevancetoquery.md), Groundedness Judge, [Correctness Judge](/concepts/correctness-judge.md).
 - [Production Monitoring (MLflow)|Monitor safety in production](/concepts/production-monitoring-for-genai-applications.md) – Set up continuous safety monitoring for deployed applications.
 - Guidelines Judge|Create custom safety guidelines – Define specific safety criteria for your use case.
 

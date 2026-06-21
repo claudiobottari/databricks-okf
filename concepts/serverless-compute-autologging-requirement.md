@@ -16,6 +16,8 @@ x-llmwiki:
     - Serverless Compute and Autologging
     - serverless-compute-cluster-autolog-requirements
     - SCCAR
+    - mlflow-3-serverless-compute-autologging-requirement
+    - M3SCAR
   citations:
     - file: automatic-tracing-databricks-on-aws.md
     - file: mlflow-tracing-integrations-databricks-on-aws.md

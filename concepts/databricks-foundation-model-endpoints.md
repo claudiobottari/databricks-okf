@@ -55,7 +55,7 @@ Foundation Model Endpoints are commonly used as the inference target for [Custom
 ## Related Concepts
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer where Foundation Model Endpoints are registered
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Attribute-based policies that dynamically control `EXECUTE` on endpoints
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Attribute-based policies that dynamically control `EXECUTE` on endpoints
 - [Governed Tags](/concepts/governed-tags.md) — Tags used in GRANT policy conditions to scope endpoint access
 - [System Tags](/concepts/system-tags.md) — Predefined tags such as `ai.model_creator`
 - [Custom Judges](/concepts/custom-judges.md) — LLM-based evaluators that consume foundation model endpoints

@@ -12,6 +12,23 @@ x-llmwiki:
   aliases:
     - change-data-feed-column-conflict
     - CDFCC
+    - change-data-feed-cdc-column-conflicts
+    - CDF(CC
+    - change-data-feed-cdf-metadata-column-conflict
+    - CDF(MCC
+    - change-data-feed-cdf-metadata-column-conflicts
+    - change-data-feed-cdf-metadata-conflicts
+    - CDF(MC
+    - change-data-feed-metadata-column-conflicts
+    - CDFMCC
+    - Change Data Feed metadata columns
+    - change-data-feed-column-conflicts
+    - change-data-feed-metadata-column-conflict
+    - change-data-feed-metadata-conflict
+    - CDFMC
+    - Change Data Feed (Databricks)
+    - change-data-feed-metadata-conflicts
+    - Change Data Feed on Databricks
   citations:
     - file: delta_concurrent_delete_delete-error-condition-databricks-on-aws.md
 title: Change Data Feed Column Conflict

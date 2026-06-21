@@ -13,6 +13,9 @@ x-llmwiki:
     - automatic-unity-catalog-enablement
     - AUCE
     - AUC
+    - automatic-unity-catalog-enablement-and-workspace-admin-default-privileges
+    - Workspace Admin Default Privileges and Automatic Unity Catalog Enablement
+    - AUCEAWADP
   citations:
     - file: admin-privileges-in-unity-catalog-databricks-on-aws.md
     - file: enable-a-workspace-for-unity-catalog-databricks-on-aws.md

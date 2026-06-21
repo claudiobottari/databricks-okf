@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - output-reducers
     - Output Reducer
+    - output-reducers-for-streaming-traces
+    - ORFST
   citations:
     - file: function-decorators-databricks-on-aws.md
 title: Output Reducers
@@ -164,7 +166,7 @@ def predict(messages: list[dict]):
         yield chunk
 ```
 
-The output reducer turns the stream of `ChatCompletionChunk` objects into a single `ChatCompletion` object. For production use, the document recommends using [MLflow OpenAI Autologging](/concepts/mlflow-openai-autologging.md) which handles this automatically. ^[function-decorators-databricks-on-aws.md]
+The output reducer turns the stream of `ChatCompletionChunk` objects into a single `ChatCompletion` object. For production use, the document recommends using [MLflow OpenAI Autologging](/concepts/mlflow-openai-autolog.md) which handles this automatically. ^[function-decorators-databricks-on-aws.md]
 
 ### Structured Output Generation with JSON Parsing
 
@@ -248,7 +250,7 @@ class TestOutputReducer(unittest.TestCase):
 
 - Function decorators – The `@mlflow.trace` decorator that supports `output_reducer`.
 - Span tracing – Lower-level span creation for manual control.
-- [OpenAI autologging](/concepts/mlflow-openai-autologging.md) – Automatic tracing for OpenAI calls (recommended over manual output reducers for OpenAI).
+- [OpenAI autologging](/concepts/mlflow-openai-autolog.md) – Automatic tracing for OpenAI calls (recommended over manual output reducers for OpenAI).
 - [Trace events](/concepts/traces.md) – Raw chunks remain visible in span Events for debugging.
 - [Streaming outputs](/concepts/streaming-output-tracing.md) – General concept of generator‑based tracing.
 

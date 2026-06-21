@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - unsupported_data_type-in-icebergcompatv1
     - UII
+    - unsupported_data_type-delta-iceberg-error
+    - U(IE
   citations:
     - file: delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md
 title: UNSUPPORTED_DATA_TYPE in IcebergCompatV1
@@ -26,7 +28,7 @@ timestamp: "2026-06-19T18:25:31.639Z"
 
 # UNSUPPORTED_DATA_TYPE in IcebergCompatV1
 
-**UNSUPPORTED_DATA_TYPE** is an error that occurs when attempting to use [IcebergCompatV1](/concepts/icebergcompatv1.md) on a Delta table whose schema contains `MapType`, `ArrayType`, or `NullType` columns. IcebergCompatV1 does not support these data types, and the operation fails with a descriptive error message. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
+**UNSUPPORTED_DATA_TYPE** is an error that occurs when attempting to use [IcebergCompatV1](/concepts/icebergcompatv.md) on a Delta table whose schema contains `MapType`, `ArrayType`, or `NullType` columns. IcebergCompatV1 does not support these data types, and the operation fails with a descriptive error message. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
 
 ## Error Message
 
@@ -80,7 +82,7 @@ UNSUPPORTED_DATA_TYPE is one of several errors in the DELTA_ICEBERG_COMPAT_V1_VI
 
 ## Related Concepts
 
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) — The Delta table compatibility mode for Apache Iceberg
+- [IcebergCompatV1](/concepts/icebergcompatv.md) — The Delta table compatibility mode for Apache Iceberg
 - [Delta Lake](/concepts/delta-lake.md) — The underlying storage format
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) — The open table format that IcebergCompatV1 targets
 - Delta table features — Features that IcebergCompatV1 requires or is incompatible with

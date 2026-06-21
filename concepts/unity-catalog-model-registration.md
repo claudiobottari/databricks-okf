@@ -16,6 +16,8 @@ x-llmwiki:
     - unity-catalog-model-registration
     - UCMR
     - Model Registration
+    - unity-catalog-model-registration-for-ml-models
+    - UCMRFMM
   citations:
     - file: distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md
     - file: distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md
@@ -109,7 +111,7 @@ When fine-tuning large models, the training function saves LoRA adapters to a Un
 5. Create a pipeline or a dictionary with the merged model and tokenizer.
 6. Log the model with `mlflow.transformers.log_model()` using the Unity Catalog model name. If the training run was tracked by MLflow, pass the `run_id` to the `start_run` context to associate the registered model with the training run.
 
-The same pattern applies regardless of the training library used ([TRL](/concepts/trl-transformer-reinforcement-learning-library.md) or [Liger Kernels](/concepts/liger-kernels.md)). ^[distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md, distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md, lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
+The same pattern applies regardless of the training library used ([TRL](/concepts/trl-transformer-reinforcement-learning.md) or [Liger Kernels](/concepts/liger-kernels.md)). ^[distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md, distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md, lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
 
 ## Related Concepts
 

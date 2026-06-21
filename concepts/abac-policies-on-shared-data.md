@@ -48,7 +48,7 @@ This restriction applies regardless of the type of share. ^[read-data-shared-usi
 
 ## Configuration
 
-To configure ABAC policies, recipients use the same tools as for row filters and column masks. For detailed instructions, see [Create and manage row filter and column mask policies](/concepts/row-filter-and-column-mask-policies.md). ^[read-data-shared-using-databricks-to-databricks-opensharing-for-recipients-databricks-on-aws.md]
+To configure ABAC policies, recipients use the same tools as for row filters and column masks. For detailed instructions, see [Create and manage row filter and column mask policies](/concepts/row-filter-policies.md). ^[read-data-shared-using-databricks-to-databricks-opensharing-for-recipients-databricks-on-aws.md]
 
 ## Related Concepts
 

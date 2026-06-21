@@ -70,7 +70,7 @@ No automated fix or command is documented in the available sources for this spec
 ## Related Concepts
 
 - [IcebergCompatV](/concepts/icebergcompatv.md) — The Delta Lake feature that enforces Apache Iceberg compatibility.
-- [Delta-Iceberg Compatibility](/concepts/delta-iceberg-table-feature-compatibility.md) — The broader set of features and constraints for running Delta tables as Apache Iceberg tables.
+- [Delta-Iceberg Compatibility](/concepts/delta-lake-table-features-compatibility.md) — The broader set of features and constraints for running Delta tables as Apache Iceberg tables.
 - Schema Evolution — The ability to change a table’s schema over time.
 - UNSUPPORTED_DATA_TYPE — Another sub‑condition of `DELTA_ICEBERG_COMPAT_VIOLATION` for unsupported data types.
 - DELTA_ICEBERG_COMPAT_V1_VIOLATION|DELTA_ICEBERG_COMPAT_VIOLATION — The parent error class for Iceberg compatibility violations.

@@ -13,6 +13,8 @@ x-llmwiki:
     - mlflow-experiment-resource
     - MER
     - Remove an MLflow Experiment resource
+    - mlflow-experiment-resource-databricks-apps
+    - MER(A
   citations:
     - file: add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md
 title: MLflow Experiment Resource

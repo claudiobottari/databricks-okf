@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - struct_no_fields
     - STRUCT_NO_FIELDS
+    - struct_no_fields-error-condition
+    - SEC
+    - STRUCT_NO_FIELDS error condition
   citations:
     - file: delta_cannot_write_empty_schema-error-condition-databricks-on-aws.md
 title: STRUCT_NO_FIELDS

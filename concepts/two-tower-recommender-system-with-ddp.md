@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - two-tower-recommender-system-with-ddp
     - TRSWD
+    - two-tower-recommender-system-training
+    - TRST
+    - Recommender system training
+    - two-tower-recommender-training-with-ddp
+    - TRTWD
   citations:
     - file: distributed-data-parallel-ddp-training-databricks-on-aws.md
 title: Two-tower recommender system with DDP

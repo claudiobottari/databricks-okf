@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - not_delta_table-sub-error
     - NOT_DELTA_TABLE sub-error
+    - not_delta_table-error-reason
+    - NER
+    - Delta Lake Error Messages
   citations:
     - file: delta_table_changes_view_unsupported-error-condition-databricks-on-aws.md
 title: NOT_DELTA_TABLE sub-error

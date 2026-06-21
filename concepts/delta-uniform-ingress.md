@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta-uniform-ingress
     - DUI
+    - delta-uniform-ingress-table
+    - DUIT
   citations:
     - file: delta_uniform_ingress_violation-error-condition-databricks-on-aws.md
 title: Delta Uniform Ingress

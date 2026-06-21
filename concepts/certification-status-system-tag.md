@@ -13,6 +13,8 @@ x-llmwiki:
     - certification-status-system-tag
     - CSST
     - certification status
+    - unity-catalog-certification-status-system-tag
+    - UCCSST
   citations:
     - file: flag-data-as-certified-or-deprecated-databricks-on-aws.md
 title: Certification Status System Tag

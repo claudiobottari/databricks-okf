@@ -41,7 +41,7 @@ For [Row Filter Policies](/concepts/row-filter-policies.md) and [Column Mask Pol
 
 ## Usage in GRANT Policies
 
-For [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta), `TO` and `EXCEPT` are the only mechanisms available for targeting principals. Unlike row filters and column masks, GRANT policies do not use UDFs, so the `TO` and `EXCEPT` clauses are the sole way to specify which principals receive the granted privileges. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+For [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (Beta), `TO` and `EXCEPT` are the only mechanisms available for targeting principals. Unlike row filters and column masks, GRANT policies do not use UDFs, so the `TO` and `EXCEPT` clauses are the sole way to specify which principals receive the granted privileges. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## Best Practices
 
@@ -54,7 +54,7 @@ For [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta), `TO` and `EX
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
 - [Row Filter Policies](/concepts/row-filter-policies.md)
 - [Column Mask Policies](/concepts/column-mask-policies.md)
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - ABAC Policy Design Best Practices
 - [Unity Catalog](/concepts/unity-catalog.md)
 

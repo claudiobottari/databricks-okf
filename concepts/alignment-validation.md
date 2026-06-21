@@ -11,6 +11,9 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - alignment-validation
+    - judge-alignment-validation
+    - JAV
+    - Java
   citations:
     - file: align-judges-with-humans-databricks-on-aws.md
 title: Alignment Validation

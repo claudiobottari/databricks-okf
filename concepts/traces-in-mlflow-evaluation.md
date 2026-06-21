@@ -44,7 +44,7 @@ When you call `mlflow.genai.evaluate()`, MLflow automatically creates one trace 
 
 - [Evaluation runs in MLflow](/concepts/evaluation-run-mlflow.md) – The parent structure that organizes traces, metrics, and metadata.
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) – The overall framework for assessing GenAI applications.
-- [Feedbacks in MLflow Evaluation](/concepts/feedback-in-mlflow-evaluation.md) – The per-trace quality assessments from scorers.
+- [Feedbacks in MLflow Evaluation](/concepts/feedback-mlflow-evaluation.md) – The per-trace quality assessments from scorers.
 
 ## Sources
 

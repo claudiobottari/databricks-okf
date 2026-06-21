@@ -14,6 +14,8 @@ x-llmwiki:
     - DELTA_ICEBERG_WRITER_COMPAT_VIOLATION
     - Delta-Iceberg Writer Compat Violation
     - error class DELTA_ICEBERG_WRITER_COMPAT_VIOLATION
+    - delta_iceberg_writer_compat_violation-error-class
+    - DEC
   citations:
     - file: delta_iceberg_writer_compat_violation-error-condition-databricks-on-aws.md
 title: DELTA_ICEBERG_WRITER_COMPAT_VIOLATION

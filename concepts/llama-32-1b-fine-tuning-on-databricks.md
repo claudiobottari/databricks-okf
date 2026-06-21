@@ -26,7 +26,7 @@ timestamp: "2026-06-19T18:50:56.536Z"
 
 ## Llama 3.2 1B Fine-tuning on Databricks
 
-**Llama 3.2 1B Fine-tuning on Databricks** refers to the process of fully fine-tuning a Meta Llama 3.2 1B Instruct model using supervised fine-tuning (SFT) on the Databricks platform. The recommended approach uses the [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformers-reinforcement-learning.md) library with [DeepSpeed](/concepts/deepspeed.md) ZeRO Stage 3 optimization, running on a single node with 8 H100 GPUs provisioned via [AI Runtime](/concepts/ai-runtime.md) (serverless GPU compute). ^[fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md]
+**Llama 3.2 1B Fine-tuning on Databricks** refers to the process of fully fine-tuning a Meta Llama 3.2 1B Instruct model using supervised fine-tuning (SFT) on the Databricks platform. The recommended approach uses the [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformer-reinforcement-learning.md) library with [DeepSpeed](/concepts/deepspeed.md) ZeRO Stage 3 optimization, running on a single node with 8 H100 GPUs provisioned via [AI Runtime](/concepts/ai-runtime.md) (serverless GPU compute). ^[fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md]
 
 ### Requirements
 

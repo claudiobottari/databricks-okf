@@ -76,7 +76,7 @@ df_aggregation = df_loaded \
 
 - AutoML – The automated machine learning framework that prepares data for forecasting.
 - Time Series Analysis – The underlying methodology for forecasting tasks.
-- [Cross-Validation for Time Series](/concepts/rolling-window-backtesting-for-time-series.md) – The validation technique used to evaluate forecasting models.
+- [Cross-Validation for Time Series](/concepts/rolling-window-backtesting.md) – The validation technique used to evaluate forecasting models.
 - [Semantic Type Detection](/concepts/semantic-type-detection.md) – AutoML's ability to infer column types, which is disabled when using non-default imputation.
 - AutoML API Reference – The Python API for configuring data preparation settings.
 - Forecasting Train API – The API endpoint for configuring forecasting training parameters.

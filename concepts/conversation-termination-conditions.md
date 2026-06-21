@@ -37,7 +37,7 @@ timestamp: "2026-06-19T09:23:54.770Z"
 
 ## Overview
 
-During [Conversation Simulation](/concepts/conversation-simulation.md), the simulator generates multi-turn interactions between a synthetic user (driven by an LLM) and the agent under test. Without termination conditions, conversations could run indefinitely. MLflow applies two built‑in stopping rules, evaluated after each turn, to end the conversation at a natural point. ^[conversation-simulation-databricks-on-aws.md#L198-L204]
+During [Conversation Simulation](/concepts/conversationsimulator.md), the simulator generates multi-turn interactions between a synthetic user (driven by an LLM) and the agent under test. Without termination conditions, conversations could run indefinitely. MLflow applies two built‑in stopping rules, evaluated after each turn, to end the conversation at a natural point. ^[conversation-simulation-databricks-on-aws.md#L198-L204]
 
 ## Termination Conditions
 
@@ -58,7 +58,7 @@ The simulator uses an LLM to check after each turn whether the user’s stated *
 ## Related Concepts
 
 - [ConversationSimulator](/concepts/conversationsimulator.md) – The API that accepts `max_turns` and test case definitions.
-- [Conversation Simulation](/concepts/conversation-simulation.md) – The broader workflow for generating synthetic conversations.
+- [Conversation Simulation](/concepts/conversationsimulator.md) – The broader workflow for generating synthetic conversations.
 - [MLflow GenAI Evaluation](/concepts/mlflow-genai-evaluation.md) – The evaluation framework that consumes simulated conversations.
 - [Test Cases for Simulation](/concepts/test-cases-for-conversation-simulation.md) – The goal, persona, and context fields that drive termination.
 

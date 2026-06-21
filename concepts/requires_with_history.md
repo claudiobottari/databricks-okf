@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - requires_with_history
     - REQUIRES_WITH_HISTORY
+    - requires_with_history-sub-error
+    - REQUIRES_WITH_HISTORY sub-error
   citations:
     - file: delta_deep_clone_streaming_table_error-error-condition-databricks-on-aws.md
 title: REQUIRES_WITH_HISTORY

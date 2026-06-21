@@ -47,8 +47,8 @@ A fourth judge, [ExpectationsGuidelines](/concepts/expectationsguidelines-judge-
 
 Several judges evaluate outputs based solely on the input and output, without needing ground truth: ^[built-in-llm-judges-databricks-on-aws.md]
 
-- **[RelevanceToQuery Judge](/concepts/relevancetoquery-judge.md)** — Evaluates if the response is directly relevant to the user's request.
-- **[RetrievalRelevance Judge](/concepts/retrievalrelevance-judge.md)** — Evaluates if the retrieved context is directly relevant to the user's request.
+- **[RelevanceToQuery Judge](/concepts/relevancetoquery.md)** — Evaluates if the response is directly relevant to the user's request.
+- **[RetrievalRelevance Judge](/concepts/retrievalrelevance.md)** — Evaluates if the retrieved context is directly relevant to the user's request.
 - **[Safety judge](/concepts/safety-judge-mlflow.md)** — Evaluates if the content is free from harmful, offensive, or toxic material.
 - **[RetrievalGroundedness judge](/concepts/retrievalgroundedness-judge.md)** — Evaluates if the response is grounded in the provided context.
 - **[Guidelines judge](/concepts/guidelines-llm-judge.md)** — Evaluates if the response meets specified natural language criteria.
@@ -77,7 +77,7 @@ Example structure for an evaluation record with ground truth:
 
 ## Multi-turn evaluation with ground truth
 
-For conversational AI systems, [Multi-turn Judges](/concepts/multi-turn-judges.md) evaluate entire conversations rather than individual turns. These judges can also incorporate ground truth to assess quality patterns that emerge over multiple interactions, such as whether the assistant correctly maintained factual consistency across the dialogue. ^[built-in-llm-judges-databricks-on-aws.md]
+For conversational AI systems, [Multi-turn Judges](/concepts/multi-turn-judge.md) evaluate entire conversations rather than individual turns. These judges can also incorporate ground truth to assess quality patterns that emerge over multiple interactions, such as whether the assistant correctly maintained factual consistency across the dialogue. ^[built-in-llm-judges-databricks-on-aws.md]
 
 ## Related concepts
 

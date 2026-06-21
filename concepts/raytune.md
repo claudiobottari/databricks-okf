@@ -11,6 +11,12 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - raytune
+    - raytune-as-distributed-hyperopt-replacement-on-databricks
+    - RADHROD
+    - raytune-for-distributed-hyperparameter-tuning-on-databricks
+    - RFDHTOD
+    - Distributed Hyperparameter Tuning
+    - Distributed hyperparameter tuning
   citations:
     - file: compare-model-types-with-hyperopt-and-mlflow-databricks-on-aws.md
 title: RayTune

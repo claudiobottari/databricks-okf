@@ -14,6 +14,15 @@ x-llmwiki:
     - OAI
     - OpenAI-Compatible API
     - OpenAI-compatible API
+    - openai-api-compatibility-in-databricks
+    - OACID
+    - ACID
+    - OpenAI API Compatibility (Databricks)
+    - OpenAI API Compatibility (Databricks)|OpenAI's REST API format
+    - OpenAI API Compatible Endpoints
+    - OpenAI SDK
+    - openai-compatible-api-databricks
+    - OA(
   citations:
     - file: databricks-foundation-model-apis-databricks-on-aws.md
 title: OpenAI-compatible API interface

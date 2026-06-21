@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - grant-policies-in-unity-catalog
     - GPIUC
+    - grant-policies-in-unity-catalog-beta
+    - GPIUC(
   citations:
     - file: attribute-based-access-control-in-unity-catalog-databricks-on-aws.md
 title: GRANT policies in Unity Catalog

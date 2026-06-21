@@ -103,7 +103,7 @@ The `SFTConfig` class accepts a wide range of training hyperparameters. Key para
 
 ## Integration with Distributed Training
 
-The `SFTTrainer` is commonly used within distributed training frameworks. On [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu-compute.md), it can be wrapped in a `@distributed` decorator function that provisions multiple GPUs (e.g., 8 H100 GPUs) and handles automatic data distribution and synchronization. After training completes, the trainer's `save_model()` method stores LoRA adapters and the tokenizer to the specified output directory.^[distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md]
+The `SFTTrainer` is commonly used within distributed training frameworks. On [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu.md), it can be wrapped in a `@distributed` decorator function that provisions multiple GPUs (e.g., 8 H100 GPUs) and handles automatic data distribution and synchronization. After training completes, the trainer's `save_model()` method stores LoRA adapters and the tokenizer to the specified output directory.^[distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md]
 
 ## Related Concepts
 
@@ -113,7 +113,7 @@ The `SFTTrainer` is commonly used within distributed training frameworks. On [Da
 - SFTConfig — Configuration class for SFTTrainer hyperparameters
 - TRL Library — The parent library for Transformer Reinforcement Learning
 - [Supervised Fine-Tuning](/concepts/supervised-fine-tuning-sft.md) — The training paradigm that SFTTrainer implements
-- [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu-compute.md) — Managed compute platform for distributed training
+- [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu.md) — Managed compute platform for distributed training
 
 ## Sources
 

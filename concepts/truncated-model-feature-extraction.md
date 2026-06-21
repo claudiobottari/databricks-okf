@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - truncated-model-feature-extraction
     - TMFE
+    - model-truncation-for-feature-extraction
+    - MTFFE
+    - pre-trained-model-truncation-for-feature-extraction
+    - PMTFFE
   citations:
     - file: featurization-for-transfer-learning-databricks-on-aws.md
 title: Truncated Model Feature Extraction

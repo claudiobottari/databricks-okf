@@ -14,6 +14,12 @@ x-llmwiki:
     - HAS_INDEXES
     - HAS_INDEXES error
     - Indexes
+    - has_indexes-delta-clone-sub-error
+    - H(CS
+    - HAS_INDEXES (Delta Clone sub-error)
+    - has_indexes-error-condition
+    - HEC
+    - has_indexes-sub-error
   citations:
     - file: delta_clone_incompatible_source-error-condition-databricks-on-aws.md
 title: HAS_INDEXES

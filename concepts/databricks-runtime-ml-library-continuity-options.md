@@ -81,7 +81,7 @@ These options give teams flexibility to maintain existing codebases while planni
 ### Related Concepts
 
 - [Databricks Runtime ML](/concepts/databricks-runtime-ml.md) – The pre-configured environment for ML workloads.
-- [Top-tier Libraries in Databricks Runtime ML](/concepts/top-tier-libraries-in-databricks-runtime-ml.md) – The subset that receives accelerated updates.
+- [Top-tier Libraries in Databricks Runtime ML](/concepts/top-tier-libraries.md) – The subset that receives accelerated updates.
 - [MLflow](/concepts/mlflow.md) – A top-tier library for experiment tracking and model management.
 - PyTorch – A top-tier deep learning framework.
 - Transformers – A top-tier library from Hugging Face.

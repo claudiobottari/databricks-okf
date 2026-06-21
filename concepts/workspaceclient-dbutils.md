@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - workspaceclient-dbutils
     - Workspace Client
+    - workspaceclient-and-dbutils
+    - dbutils and WorkspaceClient
+    - WAD
+    - Initializing WorkspaceClient
+    - WorkspaceClient
 title: WorkspaceClient dbutils
 description: The WorkspaceClient class from the Databricks SDK for Python exposes a dbutils variable that provides access to limited Databricks Utilities through Databricks Connect
 tags:

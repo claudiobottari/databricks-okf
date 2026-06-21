@@ -13,6 +13,8 @@ x-llmwiki:
     - effective-privileges-union-model
     - EPUM
     - Effective privileges
+    - grant-policy-effective-privilege-union-model
+    - GPEPUM
   citations:
     - file: abac-grant-policies-for-models-beta-databricks-on-aws.md
 title: Effective Privileges Union Model
@@ -26,7 +28,7 @@ timestamp: "2026-06-19T21:54:17.255Z"
 
 # Effective Privileges Union Model
 
-The **Effective Privileges Union Model** is the principle by which [Unity Catalog](/concepts/unity-catalog.md) determines a principal's access to a securable object: the effective privileges are the union of direct grants and any applicable [ABAC GRANT Policies](/concepts/abac-grant-policies.md). This means a principal holds a privilege on an object if either source — or both — grants it. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
+The **Effective Privileges Union Model** is the principle by which [Unity Catalog](/concepts/unity-catalog.md) determines a principal's access to a securable object: the effective privileges are the union of direct grants and any applicable [ABAC GRANT Policies](/concepts/abac-grant-policy.md). This means a principal holds a privilege on an object if either source — or both — grants it. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
 
 ## How It Works
 
@@ -74,7 +76,7 @@ If you intend GRANT policies to be the primary control for a privilege, first ch
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — The policy object that implements tag-based privilege assignment.
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — The policy object that implements tag-based privilege assignment.
 - [Direct Grant](/concepts/grant-policy-vs-direct-grant.md) — Explicit privilege assignment using `GRANT` statements.
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — The full set of privileges and securable types in Unity Catalog.
 - [Governed Tags](/concepts/governed-tags.md) — The tags used in GRANT policy conditions to match securable objects.

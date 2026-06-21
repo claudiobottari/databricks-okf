@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - automl-feature-store-lookups
     - AFSL
+    - automl-feature-store-lookups-parameter
+    - AFSLP
+    - automl-feature_store_lookups-parameter
+    - AFP
+    - databricks-automl-feature-store-lookups
+    - DAFSL
   citations:
     - file: automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md
 title: AutoML Feature Store Lookups

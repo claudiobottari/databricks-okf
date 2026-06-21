@@ -259,7 +259,7 @@ If `@mlflow.trace` is placed below another decorator, the trace may miss input/o
 - Spans and [Traces](/concepts/traces.md)
 - Span Types
 - LiveSpan – the object returned by `mlflow.get_current_active_span()`
-- [OpenAI autolog](/concepts/mlflow-openai-autologging.md) – automatic tracing for OpenAI calls
+- [OpenAI autolog](/concepts/mlflow-openai-autolog.md) – automatic tracing for OpenAI calls
 - Context Managers – for nesting spans inside a decorated function
 
 ## Sources

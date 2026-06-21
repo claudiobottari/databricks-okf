@@ -63,7 +63,7 @@ IcebergCompatV1 enforces several other validation rules that may be relevant:
 
 ## Related Concepts
 
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) — The table compatibility feature that enforces these constraints
+- [IcebergCompatV1](/concepts/icebergcompatv.md) — The table compatibility feature that enforces these constraints
 - [Delta Lake Partitioning](/concepts/delta-lake-partitioning-constraints.md) — How Delta Lake organizes data into partitions
 - Apache Iceberg Compatibility — Broader compatibility features between Delta Lake and Iceberg
 - Delta Table Features — The feature system that governs table capabilities

@@ -15,6 +15,8 @@ x-llmwiki:
     - Cross‑Geo Data Processing
     - cross-geo-data-processing-for-foundation-model-apis
     - CDPFFMA
+    - cross-geo-data-processing-databricks
+    - CDP(
   citations:
     - file: foundation-model-apis-compliance-and-security-databricks-on-aws.md
 title: Cross-Geo Data Processing

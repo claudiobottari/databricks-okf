@@ -14,6 +14,7 @@ x-llmwiki:
     - MAA
     - Anthropic API
     - MLflow Anthropic Integrations
+    - mlflow-anthropic-autologging
   citations:
     - file: tracing-anthropic-databricks-on-aws.md
 title: MLflow Anthropic Autolog
@@ -171,7 +172,7 @@ or
 - [AI Gateway](/concepts/ai-gateway.md) – For secure API key management.
 - Databricks Secrets – For storing API keys securely.
 - SpanType – Enumerations for span categories (TOOL, AGENT).
-- [OpenAI Autolog](/concepts/mlflow-openai-autologging.md) – Similar autologging for OpenAI models.
+- [OpenAI Autolog](/concepts/mlflow-openai-autolog.md) – Similar autologging for OpenAI models.
 
 ## Sources
 

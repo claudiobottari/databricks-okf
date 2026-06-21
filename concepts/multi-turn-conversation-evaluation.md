@@ -162,7 +162,7 @@ results = mlflow.genai.evaluate(
 
 ^[evaluate-conversations-databricks-on-aws.md]
 
-For complete documentation on conversation simulation, including test case definition, predict function interfaces, and configuration options, see [Conversation Simulation](/concepts/conversation-simulation.md). ^[evaluate-conversations-databricks-on-aws.md]
+For complete documentation on conversation simulation, including test case definition, predict function interfaces, and configuration options, see [Conversation Simulation](/concepts/conversationsimulator.md). ^[evaluate-conversations-databricks-on-aws.md]
 
 ## Multi-Turn Judges
 
@@ -271,7 +271,7 @@ results = mlflow.genai.evaluate(
 
 ## Related Concepts
 
-- [Conversation Simulation](/concepts/conversation-simulation.md) — Generate synthetic conversations for testing
+- [Conversation Simulation](/concepts/conversationsimulator.md) — Generate synthetic conversations for testing
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Continuous quality assessment in production
 - [Custom Judges](/concepts/custom-judges.md) — Build custom LLM judges using `make_judge`
 - [Scorers and LLM Judges](/concepts/scorers-and-llm-judges.md) — Understand the metrics that power evaluation

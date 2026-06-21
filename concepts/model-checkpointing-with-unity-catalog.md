@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - model-checkpointing-with-unity-catalog
     - MCWUC
+    - ai-runtime-model-checkpointing-with-unity-catalog
+    - ARMCWUC
+    - model-checkpointing-with-unity-catalog-for-ai-runtime
+    - MCWUCFAR
   citations:
     - file: connect-to-ai-runtime-databricks-on-aws.md
 title: Model Checkpointing with Unity Catalog

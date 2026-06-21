@@ -18,6 +18,11 @@ x-llmwiki:
     - Managing OpenSharing Shares
     - OpenSharing shared tables
     - creating shares
+    - opensharing-share-object
+    - OSO
+    - Share Object
+    - opensharing-share-unity-catalog
+    - OS(C
   citations:
     - file: create-shares-for-opensharing-databricks-on-aws.md
     - file: manage-shares-for-opensharing-databricks-on-aws.md

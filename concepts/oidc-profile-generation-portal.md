@@ -54,7 +54,7 @@ The portal itself does not expose sensitive information; the shared URL is nonâ€
 - [Identity Provider (IdP)](/concepts/internal-vs-external-identity-providers.md)
 - Microsoft Power BI
 - Tableau
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md)
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md)
 - [Delta Sharing Recipient](/concepts/delta-sharing-recipient-object.md)
 
 ## Sources

@@ -13,6 +13,8 @@ x-llmwiki:
     - ray-log-collection-on-databricks
     - RLCOD
     - Ray Log Collection
+    - ray-cluster-log-collection-on-databricks
+    - RCLCOD
   citations:
     - file: create-and-connect-to-ray-clusters-on-databricks-databricks-on-aws.md
 title: Ray Log Collection on Databricks

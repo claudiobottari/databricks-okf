@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - non_delta-error-sub-condition
     - NES
+    - non_delta-source-error-condition
+    - NSEC
   citations:
     - file: delta_clone_with_history_unsupported_source-error-condition-databricks-on-aws.md
 title: NON_DELTA error sub-condition

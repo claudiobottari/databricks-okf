@@ -97,7 +97,7 @@ fs.rm(file_path)
 - [Databricks Connect](/concepts/databricks-connect.md) — The framework that integrates IDEs and custom applications with Databricks clusters
 - Databricks Utilities — The `dbutils` family of utilities for file system and secrets management
 - [Configuration Profile](/concepts/databricks-configuration-profiles.md) — Authentication method using a profile file
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) (this page) — Core SDK class for workspace-level operations
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) (this page) — Core SDK class for workspace-level operations
 
 ## Sources
 

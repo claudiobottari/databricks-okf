@@ -115,7 +115,7 @@ To use Spark Connect inside Ray tasks, the Ray cluster must be configured to res
 
 ## Related Concepts
 
-- [Combine Ray and Spark on Databricks](/concepts/ray-and-spark-integration-on-databricks.md) — Overview of all integration patterns
+- [Combine Ray and Spark on Databricks](/concepts/ray-spark-integration-on-databricks.md) — Overview of all integration patterns
 - Ray Core — Low-level Ray API for distributed task and actor programming
 - [Spark Connect](/concepts/spark-connect.md) — Decoupled client-server Spark architecture
 - [Databricks Connect](/concepts/databricks-connect.md) — Library for connecting to Databricks clusters from external applications

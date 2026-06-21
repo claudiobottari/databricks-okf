@@ -13,6 +13,9 @@ x-llmwiki:
     - prompt-registry
     - Prompt Registration
     - Workspace Prompt Registry
+    - mlflow-prompt-registry
+    - MPR
+    - aliases in the Prompt Registry
   citations:
     - file: filename.md
     - file: source-a.md

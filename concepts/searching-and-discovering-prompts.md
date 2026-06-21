@@ -26,7 +26,7 @@ timestamp: "2026-06-19T09:32:34.200Z"
 
 # Searching and Discovering Prompts
 
-**Searching and Discovering Prompts** refers to the process of programmatically finding and listing prompts stored in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) within a Unity Catalog schema. This capability enables teams to explore available prompt templates, discover prompts created by other team members, and integrate prompt discovery into automated workflows.
+**Searching and Discovering Prompts** refers to the process of programmatically finding and listing prompts stored in the [MLflow Prompt Registry](/concepts/prompt-registry.md) within a Unity Catalog schema. This capability enables teams to explore available prompt templates, discover prompts created by other team members, and integrate prompt discovery into automated workflows.
 
 ## Overview
 
@@ -89,7 +89,7 @@ Before searching for prompts, ensure your environment meets the following requir
 - [Unity Catalog Schemas](/concepts/unity-catalog-schema-for-prompts.md) — The organizational structure where prompts are stored and searched.
 - [Prompt Registry Versioning](/concepts/prompt-registry-version-control.md) — How prompts are versioned and tracked over time.
 - Evaluate Prompt Versions — Comparing different prompt versions to identify the best performer, often after discovering them through search.
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The central registry for storing and managing prompt templates.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The central registry for storing and managing prompt templates.
 - [Track Prompts with App Versions](/concepts/prompt-versioning.md) — Linking prompt versions to application versions for end-to-end lineage.
 
 ## Sources

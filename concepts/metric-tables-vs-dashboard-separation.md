@@ -68,7 +68,7 @@ Clicking the **Refresh** button on the dashboard does **not** trigger profile ca
 ## Related Concepts
 
 - [Data profiling dashboard](/concepts/data-profiling-dashboard.md) — The dashboard artifact itself, including its viewing and filtering options.
-- [Data Profiling in Unity Catalog](/concepts/data-profiling-in-unity-catalog.md) — The broader framework for monitoring data quality.
+- [Data Profiling in Unity Catalog](/concepts/data-profiling-in-databricks.md) — The broader framework for monitoring data quality.
 - Monitor scheduling — How to set up automated profile runs.
 
 ## Sources

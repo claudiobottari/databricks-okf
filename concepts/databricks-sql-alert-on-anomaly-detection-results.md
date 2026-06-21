@@ -119,7 +119,7 @@ An example custom email template:
 </table>
 ```
 
-For more information about custom templates, see [advanced settings for alerts](/concepts/anomaly-detection-alerts.md). ^[alerts-for-anomaly-detection-databricks-on-aws.md]
+For more information about custom templates, see [advanced settings for alerts](/concepts/anomaly-detection-alert.md). ^[alerts-for-anomaly-detection-databricks-on-aws.md]
 
 ## Query Details
 

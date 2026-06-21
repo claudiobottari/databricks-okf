@@ -25,7 +25,7 @@ timestamp: "2026-06-18T12:16:00.498Z"
 
 # Genie Code for Feature Table Discovery
 
-**Genie Code for Feature Table Discovery** is a natural-language query interface that helps you find [Feature Tables](/concepts/feature-tables.md) or individual features within [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) by using the `/findTables` command. You mention “features” or “feature tables” in your query, and Genie Code returns matching results. ^[explore-features-in-unity-catalog-databricks-on-aws.md]
+**Genie Code for Feature Table Discovery** is a natural-language query interface that helps you find [Feature Tables](/concepts/feature-table.md) or individual features within [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) by using the `/findTables` command. You mention “features” or “feature tables” in your query, and Genie Code returns matching results. ^[explore-features-in-unity-catalog-databricks-on-aws.md]
 
 ## Overview
 
@@ -47,7 +47,7 @@ The search is case‑insensitive and can match on feature table name, feature na
 ## Related Concepts
 
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) — The platform that provides feature discovery, governance, and lineage.
-- [Feature Tables](/concepts/feature-tables.md) — Any Delta table in Unity Catalog that has a primary key constraint and is automatically available as a feature table.
+- [Feature Tables](/concepts/feature-table.md) — Any Delta table in Unity Catalog that has a primary key constraint and is automatically available as a feature table.
 - [Unity Catalog](/concepts/unity-catalog.md) — The underlying data governance layer that stores feature table metadata.
 - /findTables command — The Genie Code command used for searching tables and assets.
 

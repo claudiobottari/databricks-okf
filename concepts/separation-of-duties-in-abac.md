@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - separation-of-duties-in-abac
     - SODIA
+    - separation-of-duties-for-abac
+    - SODFA
   citations:
     - file: core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md
 title: Separation of Duties in ABAC

@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - time_travelled_by_timestamp-error
     - TIME_TRAVELLED_BY_TIMESTAMP
+    - time_travelled_by_timestamp-error-sub-condition
+    - TES
+    - time_travelled_by_timestamp-sub-error
+    - time_travelled_by_timestamp-error-condition
+    - TEC
   citations:
     - file: delta_clone_with_history_unsupported_source-error-condition-databricks-on-aws.md
 title: TIME_TRAVELLED_BY_TIMESTAMP error

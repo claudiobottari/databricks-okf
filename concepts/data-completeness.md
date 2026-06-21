@@ -13,6 +13,12 @@ x-llmwiki:
     - data-completeness
     - Completeness
     - completeness
+    - data-completeness-anomaly-detection
+    - DC(D
+    - data-completeness-table-monitoring
+    - DC(M
+    - Completeness (Table Monitoring)
+    - completeness monitoring
   citations:
     - file: data-quality-monitoring-databricks-on-aws.md
 title: Data Completeness

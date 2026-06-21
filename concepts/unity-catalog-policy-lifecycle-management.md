@@ -26,7 +26,7 @@ timestamp: "2026-06-18T11:20:17.320Z"
 
 # Unity Catalog Policy Lifecycle Management
 
-**Unity Catalog Policy Lifecycle Management** refers to the complete set of processes for creating, deploying, monitoring, updating, and retiring [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) policies within [Unity Catalog](/concepts/unity-catalog.md). This encompasses [Row Filter Policies](/concepts/row-filter-policies.md), [Column Mask Policies](/concepts/column-mask-policies.md), and [ABAC GRANT Policies](/concepts/abac-grant-policies.md) for models.
+**Unity Catalog Policy Lifecycle Management** refers to the complete set of processes for creating, deploying, monitoring, updating, and retiring [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) policies within [Unity Catalog](/concepts/unity-catalog.md). This encompasses [Row Filter Policies](/concepts/row-filter-policies.md), [Column Mask Policies](/concepts/column-mask-policies.md), and [ABAC GRANT Policies](/concepts/abac-grant-policy.md) for models.
 
 ## Policy Lifecycle Stages
 

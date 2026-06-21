@@ -17,6 +17,9 @@ x-llmwiki:
     - Foreign Iceberg tables
     - Foreign Iceberg Table|foreign Iceberg tables
     - Foreign catalog|Foreign
+    - managed-and-foreign-iceberg-table-sharing
+    - Foreign Iceberg Table Sharing and Managed
+    - MAFITS
   citations:
     - file: create-shares-for-opensharing-databricks-on-aws.md
 title: Foreign Iceberg Table Sharing

@@ -13,6 +13,8 @@ x-llmwiki:
     - sts-temporary-credentials-for-data-access
     - STCFDA
     - STS temporary security credentials
+    - sts-temporary-credentials-for-model-serving
+    - STCFMS
   citations:
     - file: add-an-instance-profile-to-a-model-serving-endpoint-databricks-on-aws.md
 title: STS Temporary Credentials for Data Access

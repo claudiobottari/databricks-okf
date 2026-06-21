@@ -13,6 +13,8 @@ x-llmwiki:
     - multi-experiment-run-comparison
     - MRC
     - Experiment Comparison
+    - multi-experiment-run-comparison-in-mlflow
+    - MRCIM
   citations:
     - file: compare-mlflow-runs-and-models-using-graphs-and-charts-databricks-on-aws.md
 title: Multi-Experiment Run Comparison

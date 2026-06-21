@@ -45,7 +45,7 @@ While only Bloom filter indexes are discussed in the provided source, the same p
 
 ## Related Concepts
 
-- [Bloom filter indexes](/concepts/bloom-filter-indexes.md) — The deprecated feature
+- [Bloom filter indexes](/concepts/bloom-filter-index.md) — The deprecated feature
 - [Predictive I/O](/concepts/predictive-io.md) — Recommended replacement for Bloom filter indexes
 - [Liquid Clustering](/concepts/liquid-clustering.md) — Recommended replacement for Bloom filter indexes
 - Delta Lake optimization — Broader context for performance tuning

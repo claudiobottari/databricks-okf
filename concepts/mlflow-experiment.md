@@ -34,6 +34,8 @@ x-llmwiki:
     - MLflow experiments|experiment
     - experiment
     - experiment details page
+    - mlflow-genai-experiment
+    - MGE
   citations:
     - file: concepts-data-model-databricks-on-aws.md
     - file: track-model-development-using-mlflow-databricks-on-aws.md

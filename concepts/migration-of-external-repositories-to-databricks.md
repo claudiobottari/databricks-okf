@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - migration-of-external-repositories-to-databricks
     - MOERTD
+    - migration-from-external-repositories-to-databricks
+    - MFERTD
   citations:
     - file: distributed-training-with-torchdistributor-databricks-on-aws.md
 title: Migration of External Repositories to Databricks

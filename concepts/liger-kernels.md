@@ -69,7 +69,7 @@ After installation, the Python interpreter must be restarted to ensure the packa
 
 ### Enabling in Training Config
 
-In the [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) library's `SFTConfig`, set `use_liger_kernel = True` to enable all applicable fused kernels: ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
+In the [TRL](/concepts/trl-transformer-reinforcement-learning.md) library's `SFTConfig`, set `use_liger_kernel = True` to enable all applicable fused kernels: ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
 
 ```python
 training_args_dict = {
@@ -87,12 +87,12 @@ In practical fine-tuning scenarios using LoRA on a Qwen2-0.5B model, Liger Kerne
 
 ## Compatibility
 
-Liger Kernels work with PyTorch-based transformer training pipelines that use standard operations like `nn.RMSNorm`, rotary embeddings, SwiGLU activations, and `CrossEntropyLoss`. They are compatible with the [Hugging Face](/concepts/hugging-face-trainer.md) `transformers` and `peft` libraries, as well as the [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) training framework. ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md, distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md]
+Liger Kernels work with PyTorch-based transformer training pipelines that use standard operations like `nn.RMSNorm`, rotary embeddings, SwiGLU activations, and `CrossEntropyLoss`. They are compatible with the [Hugging Face](/concepts/hugging-face-trainer.md) `transformers` and `peft` libraries, as well as the [TRL](/concepts/trl-transformer-reinforcement-learning.md) training framework. ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md, distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md]
 
 ## Related Concepts
 
 - LoRA — Parameter-efficient fine-tuning technique often combined with Liger Kernels
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) — Transformer Reinforcement Learning library that supports `use_liger_kernel`
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md) — Transformer Reinforcement Learning library that supports `use_liger_kernel`
 - [Transformer](/concepts/mlflow-transformers-flavor.md) — The neural architecture whose operations Liger Kernels optimize
 - Triton — The GPU programming language used to implement Liger Kernels
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) — Databricks-managed GPU compute where Liger Kernels are commonly used

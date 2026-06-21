@@ -13,6 +13,9 @@ x-llmwiki:
     - clone-limitations-for-streaming-tables-and-materialized-views
     - Materialized Views and CLONE Limitations for Streaming Tables
     - CLFSTAMV
+    - clone-restrictions-with-streaming-tables-and-materialized-views
+    - Materialized Views and CLONE Restrictions with Streaming Tables
+    - CRWSTAMV
   citations:
     - file: create-table-clone-databricks-on-aws.md
 title: CLONE Limitations for Streaming Tables and Materialized Views

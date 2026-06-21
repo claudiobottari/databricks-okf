@@ -78,7 +78,7 @@ Feature discovery is one of several benefits provided by Feature Engineering in 
 ## Related Concepts
 
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) — The broader framework for managing features within Unity Catalog
-- [Feature Tables](/concepts/feature-tables.md) — The underlying data structure for storing features
+- [Feature Tables](/concepts/feature-table.md) — The underlying data structure for storing features
 - [Primary Key Constraints](/concepts/primary-key-constraints-for-feature-tables.md) — Required for a Delta table to be recognized as a feature table
 - [Catalog Explorer](/concepts/catalog-explorer.md) — UI tool for browsing and managing Unity Catalog objects
 - [Unity Catalog](/concepts/unity-catalog.md) — The underlying governance and metadata platform

@@ -30,7 +30,7 @@ Here is the wiki page for "ABAC GRANT Policy and Direct Grant Auditing", written
 
 ## ABAC GRANT Policy and Direct Grant Auditing
 
-**ABAC GRANT Policy and Direct Grant Auditing** refers to the practice of reviewing both direct privilege grants and [ABAC GRANT Policies](/concepts/abac-grant-policies.md) together to ensure a complete understanding of a user's effective permissions on a data object. Because a user's effective privileges are the union of both mechanisms, auditing only one surface can leave unintended permissions undetected. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+**ABAC GRANT Policy and Direct Grant Auditing** refers to the practice of reviewing both direct privilege grants and [ABAC GRANT Policies](/concepts/abac-grant-policy.md) together to ensure a complete understanding of a user's effective permissions on a data object. Because a user's effective privileges are the union of both mechanisms, auditing only one surface can leave unintended permissions undetected. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ### Overview
 
@@ -49,7 +49,7 @@ A user's effective privileges on a data object are the union of both direct gran
 
 ### Related Concepts
 
-- [ABAC GRANT policies for models (Beta)](/concepts/abac-grant-policies.md) — The specific ABAC policy type that dynamically grants privileges.
+- [ABAC GRANT policies for models (Beta)](/concepts/abac-grant-policy.md) — The specific ABAC policy type that dynamically grants privileges.
 - Direct grants — Explicit privilege assignments on securable objects.
 - [Effective privileges](/concepts/effective-privileges-union-model.md) — The combined set of permissions from all grant mechanisms.
 - [Audit log system table](/concepts/audit-log-system-table-requirements.md) — System table for tracking governance changes.

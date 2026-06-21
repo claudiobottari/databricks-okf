@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - guideline-writing-best-practices
     - GWBP
+    - guidelines-writing-best-practices
   citations:
     - file: create-a-guidelines-llm-judge-databricks-on-aws.md
 title: Guideline Writing Best Practices

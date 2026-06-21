@@ -15,6 +15,7 @@ x-llmwiki:
     - Column Mask Policy
     - Column mask policy
     - column mask policy
+    - abac-column-mask-policies
   citations:
     - file: core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md
     - file: create-and-manage-row-filter-and-column-mask-policies-databricks-on-aws.md
@@ -122,7 +123,7 @@ ON COLUMN ssn_col
 USING COLUMNS (4);
 ```
 
-For UI steps, see [Create and manage row filter and column mask policies](/concepts/row-filter-and-column-mask-policies.md).
+For UI steps, see [Create and manage row filter and column mask policies](/concepts/row-filter-policies.md).
 
 ### Viewing Effective Policies
 
@@ -134,12 +135,12 @@ Governed tag and ABAC policy operations (create, delete, etc.) are logged in the
 
 ## Related Concepts
 
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) – Restrict rows rather than columns.
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) – Dynamically grant privileges (currently for models).
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) – Restrict rows rather than columns.
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) – Dynamically grant privileges (currently for models).
 - [Governed Tags](/concepts/governed-tags.md) – The attributes used in policy conditions.
 - [Row Filters and Column Masks (table-level)](/concepts/row-filters-and-column-masks.md) – Alternative per-object approach.
 - Policy Evaluation Order – How multiple ABAC policies are evaluated together.
-- [Create and manage row filter and column mask policies](/concepts/row-filter-and-column-mask-policies.md) – Detailed how-to guide.
+- [Create and manage row filter and column mask policies](/concepts/row-filter-policies.md) – Detailed how-to guide.
 
 ## Sources
 

@@ -16,6 +16,8 @@ x-llmwiki:
     - VOID type
     - Void type
     - VoidType|VOID type
+    - void-type-in-delta-lake-schemas
+    - VTIDLS
   citations:
     - file: delta_cannot_write_empty_schema-error-condition-databricks-on-aws.md
 title: VOID type in Delta Lake

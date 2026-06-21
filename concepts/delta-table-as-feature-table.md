@@ -75,7 +75,7 @@ Any Delta table managed by Unity Catalog that has a primary key is automatically
 ## Related Concepts
 
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md)
-- [Feature Tables](/concepts/feature-tables.md)
+- [Feature Tables](/concepts/feature-table.md)
 - [Primary Key Constraints](/concepts/primary-key-constraints-for-feature-tables.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Catalog Explorer](/concepts/catalog-explorer.md)

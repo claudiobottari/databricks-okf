@@ -26,7 +26,7 @@ timestamp: "2026-06-19T20:09:28.999Z"
 
 #Admin Consent for OIDC Delta Sharing Apps
 
-**Admin Consent for OIDC Delta Sharing Apps** is a prerequisite for using the Databricks published multi-tenant application (DeltaSharing) in a [U2M Flow|user-to-machine (U2M) OIDC flow](/concepts/u2m-user-to-machine-authentication-flow.md). The consent must be granted by an Entra ID tenant administrator before users in that tenant can authenticate to Delta Sharing shares via applications such as Power BI or Tableau. ^[read-data-shared-using-open-id-connect-oidc-federation-in-a-u2m-flow-databricks-on-aws.md]
+**Admin Consent for OIDC Delta Sharing Apps** is a prerequisite for using the Databricks published multi-tenant application (DeltaSharing) in a [U2M Flow|user-to-machine (U2M) OIDC flow](/concepts/user-to-machine-u2m-authentication.md). The consent must be granted by an Entra ID tenant administrator before users in that tenant can authenticate to Delta Sharing shares via applications such as Power BI or Tableau. ^[read-data-shared-using-open-id-connect-oidc-federation-in-a-u2m-flow-databricks-on-aws.md]
 
 ## How to grant admin consent
 

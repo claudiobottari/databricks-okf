@@ -11,6 +11,14 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - shallow-clone
+    - shallow-clone-databricks
+    - SC(
+    - shallow-clone-delta-lake
+    - SC(L
+    - Shallow clone vs. deep clone
+    - shallow-clone-delta-table
+    - SC(T
+    - Shallow clone for Unity Catalog tables
   citations:
     - file: create-table-clone-databricks-on-aws.md
 title: Shallow Clone

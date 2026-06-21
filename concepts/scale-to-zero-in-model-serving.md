@@ -18,6 +18,8 @@ x-llmwiki:
     - scale-to-zero
     - scale-to-zero behavior
     - scaled to zero
+    - scale-to-zero-for-model-serving-endpoints
+    - SFMSE
   citations:
     - file: create-custom-model-serving-endpoints-databricks-on-aws.md
 title: Scale to Zero in Model Serving

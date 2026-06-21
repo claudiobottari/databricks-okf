@@ -53,7 +53,7 @@ After fine-tuning, Unsloth provides a `merge_and_unload()` function that combine
 
 Unsloth integrates tightly with the Hugging Face ecosystem, including:
 
-- **[trl](/concepts/trl-transformer-reinforcement-learning-library.md)** – The Transformer Reinforcement Learning library, particularly the `SFTTrainer` for supervised fine-tuning
+- **[trl](/concepts/trl-transformer-reinforcement-learning.md)** – The Transformer Reinforcement Learning library, particularly the `SFTTrainer` for supervised fine-tuning
 - **PEFT** – The Parameter-Efficient Fine-Tuning library for LoRA adapter management
 - **Transformers** – For model loading and tokenization
 

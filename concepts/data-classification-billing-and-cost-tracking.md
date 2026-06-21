@@ -13,6 +13,10 @@ x-llmwiki:
     - data-classification-billing-and-cost-tracking
     - Cost Tracking and Data Classification Billing
     - DCBACT
+    - data-classification-billing-and-cost-monitoring
+    - Cost Monitoring and Data Classification Billing
+    - DCBACM
+    - Cost Monitoring for Data Classification
   citations:
     - file: data-classification-databricks-on-aws.md
 title: Data Classification Billing and Cost Tracking

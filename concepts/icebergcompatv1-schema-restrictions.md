@@ -82,9 +82,9 @@ To resolve this error, update the table property to match the required value.
 
 ## Related Concepts
 
-- [Delta-Iceberg Compatibility](/concepts/delta-iceberg-table-feature-compatibility.md) — General compatibility between Delta Lake and Apache Iceberg
+- [Delta-Iceberg Compatibility](/concepts/delta-lake-table-features-compatibility.md) — General compatibility between Delta Lake and Apache Iceberg
 - Delta Table Features — The feature system that governs table capabilities
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) — The compatibility mode that enforces these restrictions
+- [IcebergCompatV1](/concepts/icebergcompatv.md) — The compatibility mode that enforces these restrictions
 - Delta Table Properties — Configuration properties for Delta tables
 
 ## Sources

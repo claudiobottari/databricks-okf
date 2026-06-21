@@ -25,7 +25,7 @@ timestamp: "2026-06-19T15:11:29.737Z"
 
 ## Use Cases for Custom PyFunc Models
 
-Custom [PyFunc models](/concepts/custom-mlflow-pyfunc-model.md) in MLflow provide a flexible way to deploy any piece of Python code or Python-based model through [Model Serving](/concepts/model-serving.md). The `pyfunc` format gives you full control over the prediction pipeline, allowing you to embed custom logic that runs before or after the core model inference. ^[deploy-python-code-with-model-serving-databricks-on-aws.md]
+Custom [PyFunc models](/concepts/custom-mlflow-pythonmodel.md) in MLflow provide a flexible way to deploy any piece of Python code or Python-based model through [Model Serving](/concepts/model-serving.md). The `pyfunc` format gives you full control over the prediction pipeline, allowing you to embed custom logic that runs before or after the core model inference. ^[deploy-python-code-with-model-serving-databricks-on-aws.md]
 
 ### When to Use a Custom PyFunc
 

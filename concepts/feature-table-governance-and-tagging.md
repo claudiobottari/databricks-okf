@@ -58,7 +58,7 @@ Tags are simple key-value pairs used to categorize and manage feature tables and
 For feature tables, tags can be created, edited, and deleted using:
 - [Catalog Explorer](/concepts/catalog-explorer.md)
 - SQL statements in a notebook or SQL query editor
-- The [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md)
+- The [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md)
 
 For individual features within a table, tags can be created, edited, and deleted using Catalog Explorer or SQL statements. ^[feature-tables-in-unity-catalog-databricks-on-aws.md]
 
@@ -128,7 +128,7 @@ Deleting a feature table can be done through Catalog Explorer or the Feature Eng
 - [Catalog Explorer](/concepts/catalog-explorer.md) — The UI for browsing and managing Unity Catalog assets.
 - [Delta Sharing](/concepts/delta-sharing.md) — Mechanism for sharing feature tables across metastores.
 - [Time Series Feature Tables](/concepts/time-series-feature-tables.md) — Feature tables with time-based primary keys for point-in-time lookups.
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) — Programmatic interface for feature table operations.
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) — Programmatic interface for feature table operations.
 - [Primary Key Constraints](/concepts/primary-key-constraints-for-feature-tables.md) — Required constraint for feature tables in Unity Catalog.
 
 ## Sources

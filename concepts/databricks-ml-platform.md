@@ -15,6 +15,10 @@ x-llmwiki:
     - Databricks AI Platform
     - Databricks platform
     - Databricks Machine Learning Platform
+    - databricks-ml-lifecycle-platform
+    - DMLP
+    - databricks-unified-ml-platform
+    - DUMP
   citations:
     - file: databricks-data-science-and-ml-capabilities-databricks-on-aws.md
 title: Databricks ML Platform

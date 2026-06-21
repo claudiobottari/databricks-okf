@@ -13,6 +13,8 @@ x-llmwiki:
     - dependency-management-in-databricks-connect
     - DMIDC
     - Dependency Management in Databricks
+    - udf-dependency-management-on-databricks-connect
+    - UDMODC
   citations:
     - file: databricks-connect-databricks-on-aws.md
     - file: databricks-connect-databricks-on-aws.md

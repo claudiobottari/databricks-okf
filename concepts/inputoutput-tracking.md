@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - inputoutput-tracking
     - Raw Inputs/Outputs Tab (MLflow UI)
+    - trace-inputoutput-tracking
+    - TIT
   citations:
     - file: debug-and-analyze-your-app-with-tracing-databricks-on-aws.md
 title: Input/Output Tracking

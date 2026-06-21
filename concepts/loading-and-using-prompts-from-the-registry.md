@@ -26,7 +26,7 @@ timestamp: "2026-06-19T09:33:00.320Z"
 
 # Loading and Using Prompts from the Registry
 
-**Loading and Using Prompts from the Registry** refers to the process of retrieving [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) entries programmatically and integrating them into GenAI applications. This workflow enables teams to decouple prompt content from application code, manage prompt versions centrally, and maintain full lineage between prompts and the MLflow Models that use them. ^[create-and-edit-prompts-databricks-on-aws.md]
+**Loading and Using Prompts from the Registry** refers to the process of retrieving [MLflow Prompt Registry](/concepts/prompt-registry.md) entries programmatically and integrating them into GenAI applications. This workflow enables teams to decouple prompt content from application code, manage prompt versions centrally, and maintain full lineage between prompts and the MLflow Models that use them. ^[create-and-edit-prompts-databricks-on-aws.md]
 
 ## Overview
 
@@ -137,7 +137,7 @@ When [MLflow Autologging](/concepts/mlflow-autologging.md) is enabled, the appli
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The centralized store for prompt templates
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The centralized store for prompt templates
 - Create and Edit Prompts — Registering new prompts
 - [Prompt Versioning](/concepts/prompt-versioning.md) — Managing prompt history with immutable versions
 - [Track Prompts with App Versions](/concepts/prompt-versioning.md) — Linking prompts to application releases

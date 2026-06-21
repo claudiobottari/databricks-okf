@@ -48,7 +48,7 @@ MLflow provides research-validated built-in judges covering common quality dimen
 
 ### Multi-turn judges
 
-For conversational AI systems, MLflow also provides built-in judges that evaluate entire conversations rather than individual turns. These are documented under [Multi-turn Judges](/concepts/multi-turn-judges.md). ^[scorers-and-llm-judges-databricks-on-aws.md]
+For conversational AI systems, MLflow also provides built-in judges that evaluate entire conversations rather than individual turns. These are documented under [Multi-turn Judges](/concepts/multi-turn-judge.md). ^[scorers-and-llm-judges-databricks-on-aws.md]
 
 ### Custom LLM judges
 
@@ -86,7 +86,7 @@ Judges can be used directly with `mlflow.genai.evaluate()` or wrapped in [Custom
 
 - [[Scorers]] – The parent abstraction that includes both LLM judges and code-based scorers
 - [Built-in LLM Judges](/concepts/built-in-llm-judges.md) – Pre‑defined judges for common quality dimensions
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) – Judges for conversational AI evaluation
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) – Judges for conversational AI evaluation
 - [Custom LLM Judges](/concepts/custom-llm-judges.md) – User‑defined judges with custom prompts
 - [Custom code-based scorers](/concepts/code-based-scorers.md) – Deterministic or heuristic scorers
 - [Trace](/concepts/traces.md) – The execution data that scorers receive

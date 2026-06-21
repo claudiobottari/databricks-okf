@@ -13,6 +13,9 @@ x-llmwiki:
     - starting-version-and-timestamp-for-streaming-reads
     - Timestamp for Streaming Reads and Starting Version
     - SVATFSR
+    - starting-version-and-timestamp-for-delta-streaming-sources
+    - timestamp for Delta streaming sources and Starting version
+    - SVATFDSS
   citations:
     - file: delta-lake-table-streaming-reads-and-writes-databricks-on-aws.md
 title: Starting Version and Timestamp for Streaming Reads

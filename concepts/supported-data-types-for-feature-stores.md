@@ -17,6 +17,8 @@ x-llmwiki:
     - Supported Data Types for Feature Engineering
     - Supported data types for Feature Engineering
     - data types supported by Feature Store
+    - supported-pyspark-data-types-in-feature-store
+    - SPDTIFS
   citations:
     - file: databricks-feature-store-databricks-on-aws.md
 title: Supported Data Types for Feature Stores

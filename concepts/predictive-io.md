@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - predictive-io
+    - predictive-io-databricks
+    - PI(
   citations:
     - file: create-bloom-filter-index-deprecated-databricks-on-aws.md
 title: Predictive I/O
@@ -24,7 +26,7 @@ timestamp: "2026-06-19T18:00:48.132Z"
 
 # Predictive I/O
 
-**Predictive I/O** is the recommended replacement for the deprecated [Bloom filter indexes](/concepts/bloom-filter-indexes.md) feature in Databricks. ^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
+**Predictive I/O** is the recommended replacement for the deprecated [Bloom filter indexes](/concepts/bloom-filter-index.md) feature in Databricks. ^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
 
 ## Overview
 
@@ -32,11 +34,11 @@ Bloom filter indexes are deprecated. New Bloom filter indexes should not be crea
 
 ## Migration Guidance
 
-For existing tables that use Bloom filter indexes, see the dedicated documentation on [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) for details and migration guidance on replacing them with Predictive I/O or liquid clustering. ^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
+For existing tables that use Bloom filter indexes, see the dedicated documentation on [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) for details and migration guidance on replacing them with Predictive I/O or liquid clustering. ^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
 
 ## Related Concepts
 
-- [Bloom filter indexes](/concepts/bloom-filter-indexes.md) — The deprecated feature that Predictive I/O replaces.
+- [Bloom filter indexes](/concepts/bloom-filter-index.md) — The deprecated feature that Predictive I/O replaces.
 - [Liquid Clustering](/concepts/liquid-clustering.md) — Another alternative for data clustering and skipping.
 - Data skipping — The broader technique of avoiding irrelevant data during scans.
 - [Delta Lake](/concepts/delta-lake.md) — The storage layer on which Predictive I/O operates.

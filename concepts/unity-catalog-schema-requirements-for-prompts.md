@@ -26,7 +26,7 @@ timestamp: "2026-06-19T14:32:41.666Z"
 
 # Unity Catalog Schema Requirements for Prompts
 
-**Unity Catalog Schema Requirements for Prompts** defines the necessary permissions and schema configuration needed to store, view, and manage prompts in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) using [Unity Catalog](/concepts/unity-catalog.md).
+**Unity Catalog Schema Requirements for Prompts** defines the necessary permissions and schema configuration needed to store, view, and manage prompts in the [MLflow Prompt Registry](/concepts/prompt-registry.md) using [Unity Catalog](/concepts/unity-catalog.md).
 
 ## Overview
 
@@ -83,7 +83,7 @@ results = mlflow.genai.search_prompts("catalog = 'main' AND schema = 'default'")
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The system for storing and versioning prompts
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The system for storing and versioning prompts
 - Create and Edit Prompts — How to create and manage prompt versions
 - [Unity Catalog](/concepts/unity-catalog.md) — The underlying catalog system for data and AI assets
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — The organizational unit for MLflow runs

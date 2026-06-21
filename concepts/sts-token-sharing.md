@@ -15,6 +15,8 @@ x-llmwiki:
     - STS token-based sharing
     - STS (Security Token Service)
     - STS-token
+    - sts-token-sharing-in-opensharing
+    - STSIO
   citations:
     - file: audit-and-monitor-data-sharing-databricks-on-aws.md
 title: STS Token Sharing

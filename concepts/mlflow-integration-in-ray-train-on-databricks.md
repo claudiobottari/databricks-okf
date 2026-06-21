@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-integration-in-ray-train-on-databricks
     - MIIRTOD
+    - mlflow-integration-with-ray-train-on-databricks
+    - MIWRTOD
   citations:
     - file: distributed-training-with-ray-train-databricks-on-aws.md
 title: MLflow Integration in Ray Train on Databricks

@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - delta_versions_not_contiguous-error
     - DELTA_VERSIONS_NOT_CONTIGUOUS
+    - delta_versions_not_contiguous-error-condition
+    - DEC
+    - DELTA_VERSIONS_NOT_CONTIGUOUS error condition
   citations:
     - file: delta_versions_not_contiguous-error-condition-databricks-on-aws.md
 title: DELTA_VERSIONS_NOT_CONTIGUOUS error

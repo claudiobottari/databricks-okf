@@ -114,7 +114,7 @@ Use `DROP TABLE` (SQL) or `FeatureEngineeringClient.drop_table` (Python) to dele
 
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md)
 - [Feature Store](/concepts/feature-store.md)
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md)
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md)
 - Supported data types
 - [Delta tables](/concepts/delta-lake-table.md)
 - [Primary key constraints](/concepts/primary-key-constraints-for-feature-tables.md)

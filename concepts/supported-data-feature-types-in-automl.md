@@ -49,13 +49,13 @@ AutoML does **not** support image columns or any other unstructured data type no
 
 In Databricks Runtime 9.1 LTS ML and above, AutoML attempts to detect a semantic type that may differ from the raw Spark or pandas type. For example, a string column containing numeric characters is treated as numeric, and a numeric column holding categorical IDs is treated as categorical. This detection enriches the feature representation but does not change the base supported type list. ^[data-preparation-for-classification-databricks-on-aws.md, data-preparation-for-regression-databricks-on-aws.md]
 
-For more information on semantic type annotations and how to override detection, see [Semantic Type Detection in AutoML](/concepts/semantic-type-detection-in-automl.md).
+For more information on semantic type annotations and how to override detection, see [Semantic Type Detection in AutoML](/concepts/semantic-type-detection.md).
 
 ## Relationship to Other Data Preparation Steps
 
 - [Data Imputation in AutoML](/concepts/missing-value-imputation-in-automl.md) – Null values can be imputed per column; custom imputation disables semantic type detection.
 - [Column Selection in AutoML](/concepts/column-selection-in-automl.md) – Users can exclude columns from training via the UI or API.
-- [Data Splitting in AutoML](/concepts/data-splitting-strategies-in-automl.md) – Supported feature types apply equally across random, chronological, and manual splits.
+- [Data Splitting in AutoML](/concepts/data-splitting-strategies.md) – Supported feature types apply equally across random, chronological, and manual splits.
 
 ## Sources
 

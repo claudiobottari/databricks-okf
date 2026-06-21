@@ -29,7 +29,7 @@ A **Predict Function Wrapper for Logged Models** is a translation layer required
 
 ## Why a Wrapper Is Needed
 
-`mlflow.genai.evaluate()` accepts a `predict_fn` parameter that expects a function accepting keys from the `inputs` dict in the evaluation dataset as keyword arguments. However, most logged models accept a single input parameter — for example, `model_inputs` for [PyFunc models](/concepts/custom-mlflow-pyfunc-model.md) or similar interfaces for LangChain models. The predict function wrapper serves as a translation layer between the evaluation framework's named parameters and the model's expected input format. ^[migrate-to-mlflow-3-from-agent-evaluation-databricks-on-aws.md]
+`mlflow.genai.evaluate()` accepts a `predict_fn` parameter that expects a function accepting keys from the `inputs` dict in the evaluation dataset as keyword arguments. However, most logged models accept a single input parameter — for example, `model_inputs` for [PyFunc models](/concepts/custom-mlflow-pythonmodel.md) or similar interfaces for LangChain models. The predict function wrapper serves as a translation layer between the evaluation framework's named parameters and the model's expected input format. ^[migrate-to-mlflow-3-from-agent-evaluation-databricks-on-aws.md]
 
 ## Example Usage
 

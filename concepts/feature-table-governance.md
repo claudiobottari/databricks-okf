@@ -69,7 +69,7 @@ You can use Genie Code to locate features or feature tables by mentioning "featu
 
 - [What is Unity Catalog?](/concepts/unity-catalog.md) — Foundational governance platform for data and AI assets.
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) — Overview of the feature engineering workflow.
-- [Feature Tables](/concepts/feature-tables.md) — How to create and manage feature tables.
+- [Feature Tables](/concepts/feature-table.md) — How to create and manage feature tables.
 - [Catalog Explorer](/concepts/catalog-explorer.md) — UI for managing Unity Catalog objects including feature tables.
 - [Lineage in Unity Catalog](/concepts/data-lineage-in-unity-catalog.md) — Tracking data and model lineage across the estate.
 

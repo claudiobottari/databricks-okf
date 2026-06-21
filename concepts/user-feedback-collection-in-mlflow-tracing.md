@@ -53,7 +53,7 @@ User feedback provides ground truth about application performance:
 
 ## Feedback Data Model
 
-In MLflow, user feedback is captured using the **Feedback** entity, a type of [Assessments (MLflow GenAI)](/concepts/assessments-mlflow-genai.md) that attaches to traces or specific spans. Each Feedback entity stores:
+In MLflow, user feedback is captured using the **Feedback** entity, a type of [Assessments (MLflow GenAI)](/concepts/assessments.md) that attaches to traces or specific spans. Each Feedback entity stores:
 
 - **Value**: The actual feedback — boolean, numeric, text, or structured data.
 - **Source**: Information about who or what provided the feedback (human user, LLM judge, or code), represented by an `AssessmentSource` object.
@@ -330,7 +330,7 @@ Feedback is stored as assessments on the trace, meaning:
 
 ## Related Concepts
 
-- [Assessments (MLflow GenAI)](/concepts/assessments-mlflow-genai.md) — The parent entity type for feedback and evaluations
+- [Assessments (MLflow GenAI)](/concepts/assessments.md) — The parent entity type for feedback and evaluations
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — The foundation for trace-based monitoring in MLflow
 - [Code-based Scorers](/concepts/code-based-scorers.md) — Programmatic evaluation functions that complement user feedback
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The offline assessment API for development testing

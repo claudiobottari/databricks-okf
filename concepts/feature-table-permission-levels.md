@@ -14,6 +14,8 @@ x-llmwiki:
     - FTPL
     - Feature Table Permissions
     - Feature table permissions
+    - feature-store-permission-levels-legacy
+    - FSPL(
   citations:
     - file: access-control-legacy-databricks-on-aws.md
 title: Feature Table Permission Levels

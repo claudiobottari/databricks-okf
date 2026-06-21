@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - ai-playground-databricks
     - AP(
+    - ai-playground-on-databricks
+    - APOD
   citations:
     - file: deploy-models-using-model-serving-databricks-on-aws.md
 title: AI Playground (Databricks)

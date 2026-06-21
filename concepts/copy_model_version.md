@@ -16,6 +16,8 @@ x-llmwiki:
     - Model version
     - copy_model_version()
     - model version
+    - copy_model_version-api
+    - ML model versions
   citations:
     - file: migrate-workflows-and-models-to-unity-catalog-databricks-on-aws.md
 title: copy_model_version()

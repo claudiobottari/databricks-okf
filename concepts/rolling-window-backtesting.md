@@ -15,6 +15,9 @@ x-llmwiki:
     - Backtesting
     - Rolling Window
     - RollingWindow (declarative features)
+    - rolling-window-backtesting-for-time-series
+    - RWBFTS
+    - Cross-Validation for Time Series
   citations:
     - file: forecasting-time-series-with-gluonts-databricks-on-aws.md
 title: Rolling Window Backtesting
@@ -103,7 +106,7 @@ After generating forecasts for each test window, evaluation metrics are calculat
 - [GluonTS](/concepts/gluonts.md)
 - [DeepAR](/concepts/deepar.md) – A probabilistic forecasting model commonly evaluated with rolling window backtesting.
 - Train/Test Split
-- [Cross-Validation for Time Series](/concepts/rolling-window-backtesting-for-time-series.md)
+- [Cross-Validation for Time Series](/concepts/rolling-window-backtesting.md)
 - Prediction Length
 - [Probabilistic Forecasting](/concepts/probabilistic-time-series-forecasting.md)
 

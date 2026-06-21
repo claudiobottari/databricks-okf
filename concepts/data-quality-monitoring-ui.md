@@ -16,6 +16,8 @@ x-llmwiki:
     - Data quality monitoring results UI
     - data quality monitoring results UI
     - Create a monitor UI
+    - data-quality-monitoring-ui-alert-management
+    - DQMUAM
   citations:
     - file: alerts-for-anomaly-detection-databricks-on-aws.md
 title: Data Quality Monitoring UI

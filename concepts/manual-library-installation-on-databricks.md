@@ -73,7 +73,7 @@ Databricks will remove a pre-installed library when it reaches any of the follow
 - Databricks Runtime ML maintenance policy – Describes how libraries are supported, updated, and deprecated.
 - [Top-Tier Libraries](/concepts/top-tier-libraries.md) – The subset of libraries that receive faster updates and advanced support.
 - [Library Deprecation Policy](/concepts/library-deprecation-policy.md) – The conditions under which a library is removed from the runtime.
-- [Pre-installed libraries in Databricks Runtime ML](/concepts/top-tier-libraries-in-databricks-runtime-ml.md) – List of libraries shipped by default.
+- [Pre-installed libraries in Databricks Runtime ML](/concepts/top-tier-libraries.md) – List of libraries shipped by default.
 - Cluster library management – How to install libraries manually on Databricks clusters.
 
 ## Sources

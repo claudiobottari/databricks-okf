@@ -14,6 +14,11 @@ x-llmwiki:
     - Overwrite schema option
     - Delta Lake Overwrite Schema
     - Overwrite Schema
+    - overwriteschema-option-for-delta-tables
+    - OOFDT
+    - overwriteschema-option-pattern
+    - OOP
+    - Overwrite Schema Option Pattern
   citations:
     - file: delta_metadata_mismatch-error-condition-databricks-on-aws.md
 title: overwriteSchema Option

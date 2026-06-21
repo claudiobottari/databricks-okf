@@ -54,7 +54,7 @@ Only tables explicitly set up for uniform ingress (i.e., tables that expose thei
 
 ### OPERATION_NOT_SUPPORTED
 
-The attempted operation is not allowed on a [Uniform Iceberg Ingress Table](/concepts/uniform-iceberg-ingress-table.md).
+The attempted operation is not allowed on a [Uniform Iceberg Ingress Table](/concepts/uniform-ingress-table.md).
 
 - Error message: `Operation is not supported. Only CREATE and REFRESH are supported on Uniform Apache Iceberg Ingress Table.`
 

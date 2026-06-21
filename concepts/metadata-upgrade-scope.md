@@ -69,7 +69,7 @@ After upgrading, producers and consumers of the [Feature Table](/concepts/featur
 
 ## Related Concepts
 
-- [Feature Store](/concepts/feature-store.md) — The workspace-level [Feature Store](/concepts/feature-store.md) that stores [Feature Tables](/concepts/feature-tables.md)
+- [Feature Store](/concepts/feature-store.md) — The workspace-level [Feature Store](/concepts/feature-store.md) that stores [Feature Tables](/concepts/feature-table.md)
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance catalog that serves as the target for upgrades
 - UpgradeClient — The API client used to perform metadata upgrades
 - Delta Table Upgrade to Unity Catalog — The prerequisite step for upgrading the underlying data

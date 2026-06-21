@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - variant-based-masking-functions
     - VMF
+    - variant-based-masking-for-multiple-column-types
+    - VMFMCT
+    - variant-based-masking-functions-for-multiple-column-types
+    - VMFFMCT
   citations:
     - file: common-patterns-for-row-filtering-and-column-masking-databricks-on-aws.md
 title: VARIANT-based masking functions

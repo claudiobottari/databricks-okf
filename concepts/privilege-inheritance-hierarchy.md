@@ -53,7 +53,7 @@ In addition to the inherited privileges, a separate `USAGE` privilege is require
 
 ## Context
 
-This privilege model belongs to the **legacy Databricks Hive metastore**, which is built in to each Databricks workspace. It is distinct from the model used by [Unity Catalog](/concepts/unity-catalog.md), which employs a different set of securable objects and privilege types. ^[hive-metastore-privileges-and-securable-objects-legacy-databricks-on-aws.md] For Unity Catalog, see the [Unity Catalog privileges reference](/concepts/unity-catalog-privileges-and-ownership.md).
+This privilege model belongs to the **legacy Databricks Hive metastore**, which is built in to each Databricks workspace. It is distinct from the model used by [Unity Catalog](/concepts/unity-catalog.md), which employs a different set of securable objects and privilege types. ^[hive-metastore-privileges-and-securable-objects-legacy-databricks-on-aws.md] For Unity Catalog, see the [Unity Catalog privileges reference](/concepts/privileges-and-ownership.md).
 
 ## Related Concepts
 

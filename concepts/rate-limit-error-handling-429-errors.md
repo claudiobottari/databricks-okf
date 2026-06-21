@@ -13,6 +13,9 @@ x-llmwiki:
     - rate-limit-error-handling-429-errors
     - RLEH(E
     - Rate limit errors
+    - rate-limit-error-handling-and-429-responses
+    - 429 responses and Rate limit error handling
+    - RLEHA4R
   citations:
     - file: foundation-model-apis-limits-and-quotas-databricks-on-aws.md
 title: Rate Limit Error Handling (429 Errors)

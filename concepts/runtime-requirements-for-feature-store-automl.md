@@ -38,7 +38,7 @@ These requirements apply regardless of whether the feature tables are stored in 
 
 ## Background
 
-AutoML can augment the original input dataset with features from [Feature Tables](/concepts/feature-tables.md) in Unity Catalog or in the legacy Workspace Feature Store. ^[automl-feature-store-integration-databricks-on-aws.md] The runtime version constraints ensure that the necessary ML feature store integration libraries and capabilities are available.
+AutoML can augment the original input dataset with features from [Feature Tables](/concepts/feature-table.md) in Unity Catalog or in the legacy Workspace Feature Store. ^[automl-feature-store-integration-databricks-on-aws.md] The runtime version constraints ensure that the necessary ML feature store integration libraries and capabilities are available.
 
 ## Related Concepts
 

@@ -75,7 +75,7 @@ Optimized writes work alongside other file size management strategies:
 
 ## Related Concepts
 
-- [Delta Lake merge optimization](/concepts/delta-lake-merge-performance-optimization.md) — Techniques for accelerating merge operations
+- [Delta Lake merge optimization](/concepts/delta-lake-merge-performance-tuning.md) — Techniques for accelerating merge operations
 - Partitioning strategies for Delta Lake — How partition design affects write performance
 - [Liquid Clustering](/concepts/liquid-clustering.md) — Modern clustering approach that can reduce partitioning overhead
 - [Predictive optimization](/concepts/predictive-optimization-for-delta-lake.md) — Automated maintenance that complements write-time optimizations

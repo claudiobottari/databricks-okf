@@ -78,7 +78,7 @@ The M2M flow uses the OAuth Client Credentials grant for automated applications 
 ### Related concepts
 
 - [OpenSharing Protocol](/concepts/opensharing-protocol.md)
-- [Bearer Token Authentication for Delta Sharing](/concepts/bearer-token-authentication-for-delta-sharing.md)
+- [Bearer Token Authentication for Delta Sharing](/concepts/bearer-token-authentication-for-open-sharing.md)
 - [Delta Sharing](/concepts/delta-sharing.md)
 - [Identity Provider (IdP)](/concepts/internal-vs-external-identity-providers.md)
 - OpenID Connect (OIDC)

@@ -13,6 +13,9 @@ x-llmwiki:
     - lakehouse-monitoring
     - LakehouseMonitoring tag
     - Databricks Lakehouse Monitoring
+    - lakehouse-monitoring-legacy-name
+    - LM(N
+    - Lakehouse Monitoring (former name)
   citations:
     - file: data-quality-monitoring-databricks-on-aws.md
 title: Lakehouse Monitoring

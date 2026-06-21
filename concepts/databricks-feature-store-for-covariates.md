@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-feature-store-for-covariates
     - DFSFC
+    - databricks-feature-store-for-covariate-management
+    - DFSFCM
   citations:
     - file: automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md
 title: Databricks Feature Store for Covariates

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - limited-dbutils-availability-in-databricks-connect
     - LDAIDC
+    - databricks-utilities-availability-via-databricks-connect
+    - DUAVDC
   citations:
     - file: databricks-utilities-with-databricks-connect-for-python-databricks-on-aws.md
 title: Limited dbutils availability in Databricks Connect
@@ -74,7 +76,7 @@ To initialize `WorkspaceClient` for accessing `dbutils`, users must provide auth
 - [Databricks Connect](/concepts/databricks-connect.md) — The framework for connecting to Databricks clusters from external environments.
 - Databricks SDK for Python — The underlying SDK providing `WorkspaceClient` and API access.
 - Databricks Utilities — The full set of utilities available in standard Databricks notebooks.
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) — The class providing `dbutils` access in Databricks Connect.
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) — The class providing `dbutils` access in Databricks Connect.
 
 ## Sources
 

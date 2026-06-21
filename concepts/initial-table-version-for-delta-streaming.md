@@ -86,7 +86,7 @@ spark.readStream
 
 - Delta Lake Table History — Viewing available table versions using `DESCRIBE HISTORY`
 - Structured Streaming Checkpoints — How checkpoint data affects initial version options
-- [Skip Change Commits for Delta Streaming](/concepts/skipchangecommits-for-streaming-sources.md) — Handling modifications in source tables
+- [Skip Change Commits for Delta Streaming](/concepts/skipchangecommits.md) — Handling modifications in source tables
 - Delta Lake Retention Windows — How VACUUM and log retention affect available versions
 - INITIAL_SNAPSHOT Subcondition|Process Initial Snapshot Without Dropping Data — Using `withEventTimeOrder` for stateful queries
 

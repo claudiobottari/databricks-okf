@@ -35,7 +35,7 @@ Before running evaluations, the environment must be configured. MLflow must be s
 
 ## Step 1: Define the Agent to Evaluate
 
-The agent is typically defined as a Python function or callable that accepts a list of messages (conversation history) and returns an assistant response. [OpenAI autologging](/concepts/mlflow-openai-autologging.md) (`mlflow.openai.autolog()`) can be used to automatically trace LLM calls. Tools (e.g., mock APIs for pricing or return policies) can be annotated with `@mlflow.trace` to capture their execution in the evaluation trace. ^[create-a-custom-judge-using-make_judge-databricks-on-aws.md]
+The agent is typically defined as a Python function or callable that accepts a list of messages (conversation history) and returns an assistant response. [OpenAI autologging](/concepts/mlflow-openai-autolog.md) (`mlflow.openai.autolog()`) can be used to automatically trace LLM calls. Tools (e.g., mock APIs for pricing or return policies) can be annotated with `@mlflow.trace` to capture their execution in the evaluation trace. ^[create-a-custom-judge-using-make_judge-databricks-on-aws.md]
 
 A common pattern is to include a global toggle that changes the agent’s behavior (e.g., whether it attempts to resolve issues), allowing comparison across evaluations. ^[create-a-custom-judge-using-make_judge-databricks-on-aws.md]
 

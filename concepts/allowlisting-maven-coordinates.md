@@ -62,7 +62,7 @@ Also note that JDBC drivers and custom Spark data sources on Unity Catalog‑ena
 - [MANAGE ALLOWLIST Privilege](/concepts/manage-allowlist-privilege.md) — Required to modify the allowlist.
 - [Standard Access Mode](/concepts/standard-access-mode.md) — Compute mode that enforces the allowlist.
 - [Catalog Explorer](/concepts/catalog-explorer.md) — UI for managing Unity Catalog objects and the allowlist.
-- [Maven coordinates](/concepts/maven-coordinates-in-allowlist.md) — Standard identifier format for Java/Scala libraries.
+- [Maven coordinates](/concepts/maven-coordinate-allowlisting.md) — Standard identifier format for Java/Scala libraries.
 
 ## Sources
 

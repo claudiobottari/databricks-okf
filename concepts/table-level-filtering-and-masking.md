@@ -78,7 +78,7 @@ These models work together to enforce secure, fine-grained access across your da
 
 ## Key Differences from GRANT Policies
 
-An important distinction exists between table-level filtering/masking and [GRANT policies|ABAC GRANT policies](/concepts/grant-policies-abac-beta.md): ^[access-control-in-unity-catalog-databricks-on-aws.md]
+An important distinction exists between table-level filtering/masking and [GRANT policies|ABAC GRANT policies](/concepts/grant-policies-beta.md): ^[access-control-in-unity-catalog-databricks-on-aws.md]
 
 - **Row filter and column mask policies restrict the content of data a user can already access.** They operate within a table that the user has permission to query.
 - **GRANT policies determine whether the user can access the object at all.** They grant or deny the privilege to query the object itself.

@@ -11,6 +11,9 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - delta_sharing_current_recipient_property_undefined
+    - delta_sharing_current_recipient_property_undefined-error-condition
+    - DEC
+    - delta_sharing_current_recipient_property_undefined-error
   citations:
     - file: delta_sharing_current_recipient_property_undefined-error-condition-databricks-on-aws.md
 title: DELTA_SHARING_CURRENT_RECIPIENT_PROPERTY_UNDEFINED

@@ -15,6 +15,8 @@ x-llmwiki:
     - TSFT
     - Time Series Features
     - time series data
+    - time-series-feature-tables-in-automl
+    - TSFTIA
   citations:
     - file: feature-tables-in-unity-catalog-databricks-on-aws.md
     - file: automl-feature-store-integration-databricks-on-aws.md

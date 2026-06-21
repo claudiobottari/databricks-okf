@@ -60,7 +60,7 @@ For MLflow 2.x, use `code_path` instead of `code_paths`. The parameter accepts a
 
 ## Related Concepts
 
-- [MLflow PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md)
+- [MLflow PyFunc Models](/concepts/custom-mlflow-pythonmodel.md)
 - Model Dependencies
 - Model Serving Deployment
 - Custom Python Models

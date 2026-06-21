@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - entity-vs-filter-condition-design-pattern
     - EVFCDP
+    - entity-vs-filter-condition-decision-guide
+    - EVFCDG
   citations:
     - file: declarative-features-databricks-on-aws.md
 title: Entity vs Filter Condition Design Pattern

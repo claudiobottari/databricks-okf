@@ -47,7 +47,7 @@ After the cleanup, replace Bloom filter indexes with the recommended alternative
 ## Related concepts
 
 - VACUUM - The command that removes unreferenced files from Delta tables.
-- [Bloom filter indexes](/concepts/bloom-filter-indexes.md) - The deprecated indexing feature whose files are cleaned by VACUUM.
+- [Bloom filter indexes](/concepts/bloom-filter-index.md) - The deprecated indexing feature whose files are cleaned by VACUUM.
 - [DROP BLOOM FILTER INDEX](/concepts/drop-bloom-filter-index-syntax.md) - The command that removes Bloom filter metadata.
 - Delta table maintenance - Best practices for keeping Delta tables healthy.
 

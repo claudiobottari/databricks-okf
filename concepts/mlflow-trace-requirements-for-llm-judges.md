@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-trace-requirements-for-llm-judges
     - MTRFLJ
+    - trace-span-requirements-for-mlflow-judges
+    - TSRFMJ
   citations:
     - file: answer-and-context-relevance-judges-databricks-on-aws.md
     - file: create-a-custom-judge-using-make_judge-databricks-on-aws.md

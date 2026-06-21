@@ -14,6 +14,10 @@ x-llmwiki:
     - C(RFF
     - Covariates and External Regressors
     - External Regressors / Covariates
+    - covariates-external-regressors-in-time-series-forecasting
+    - C(RITSF
+    - Covariates
+    - covariates
   citations:
     - file: automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md
 title: Covariates (External Regressors) for Forecasting

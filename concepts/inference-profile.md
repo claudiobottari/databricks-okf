@@ -13,6 +13,8 @@ x-llmwiki:
     - inference-profile
     - Inference profiles
     - inference profiles
+    - inference-profiling
+    - InferenceLog Profiling
   citations:
     - file: create-a-profile-using-the-databricks-ui-databricks-on-aws.md
     - file: data-profiling-databricks-on-aws.md

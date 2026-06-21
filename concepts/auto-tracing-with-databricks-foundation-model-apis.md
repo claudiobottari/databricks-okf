@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - auto-tracing-with-databricks-foundation-model-apis
     - AWDFMA
+    - automatic-tracing-for-databricks-foundation-model-apis
+    - ATFDFMA
   citations:
     - file: automatic-tracing-databricks-on-aws.md
 title: Auto-Tracing with Databricks Foundation Model APIs

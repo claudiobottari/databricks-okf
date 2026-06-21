@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - foundation-model-api-offerings
     - FMAO
+    - foundation-model-api-service-offerings
+    - FMASO
   citations:
     - file: generative-ai-models-maintenance-policy-databricks-on-aws.md
 title: Foundation Model API Offerings

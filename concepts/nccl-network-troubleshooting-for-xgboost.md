@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - nccl-network-troubleshooting-for-xgboost
     - NNTFX
+    - nccl-network-error-troubleshooting-for-xgboost
+    - NNETFX
   citations:
     - file: distributed-training-of-xgboost-models-using-xgboostspark-databricks-on-aws.md
 title: NCCL Network Troubleshooting for XGBoost

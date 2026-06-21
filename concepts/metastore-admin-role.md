@@ -21,6 +21,13 @@ x-llmwiki:
     - metastore admins
     - Metastore Administration
     - Metastore admin|metastore admins
+    - metastore-admin-role-unity-catalog
+    - MAR(C
+    - metastore-admin-unity-catalog
+    - MA(C
+    - metastore-admins-in-unity-catalog
+    - MAIUC
+    - metastore-admins-unity-catalog
   citations:
     - file: create-a-unity-catalog-metastore-databricks-on-aws.md
     - file: admin-privileges-in-unity-catalog-databricks-on-aws.md

@@ -81,7 +81,7 @@ MLflow provides predefined schema names (e.g., `EXPECTED_FACTS`, `GUIDELINES`, `
 - [Labeling Schemas](/concepts/labeling-schemas.md) — Definition and lifecycle
 - [Review App](/concepts/mlflow-review-app.md) — Where schemas are used for trace labeling
 - [Labeling Sessions](/concepts/labeling-sessions.md) — How schemas are associated with review workflows
-- [Input types for labeling schemas](/concepts/input-types-for-labeling-schemas.md) — Available input widgets and their parameters
+- [Input types for labeling schemas](/concepts/input-types-for-custom-schemas.md) — Available input widgets and their parameters
 - [Built-in LLM Judges](/concepts/built-in-llm-judges.md) — Predefined evaluation functions that use expectation schemas
 - [Build Evaluation Datasets](/concepts/evaluation-datasets.md) — Transform labeled data into test datasets
 

@@ -27,7 +27,7 @@ timestamp: "2026-06-19T17:58:26.376Z"
 
 # Prompt Discovery and Search
 
-**Prompt Discovery and Search** refers to the process of finding and retrieving prompts stored in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) using programmatic search capabilities. The MLflow Python SDK provides a `search_prompts` function that enables users to discover prompts across [Unity Catalog](/concepts/unity-catalog.md) schemas.
+**Prompt Discovery and Search** refers to the process of finding and retrieving prompts stored in the [MLflow Prompt Registry](/concepts/prompt-registry.md) using programmatic search capabilities. The MLflow Python SDK provides a `search_prompts` function that enables users to discover prompts across [Unity Catalog](/concepts/unity-catalog.md) schemas.
 
 ## Overview
 
@@ -86,7 +86,7 @@ To search for prompts, users must have the following permissions on the Unity Ca
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The central repository for storing and managing prompt versions.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The central repository for storing and managing prompt versions.
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance layer that organizes prompts within catalogs and schemas.
 - [Prompt Versioning](/concepts/prompt-versioning.md) — The Git-like versioning system that maintains prompt history.
 - Prompt Loading — The process of retrieving a specific prompt version for use in applications.

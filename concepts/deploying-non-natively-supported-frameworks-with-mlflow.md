@@ -109,7 +109,7 @@ After logging a custom `pyfunc` model, you can register it to [Unity Catalog](/c
 
 ## Related Concepts
 
-- [MLflow Pyfunc](/concepts/custom-mlflow-pyfunc-model.md) — The Python function model format for custom models
+- [MLflow Pyfunc](/concepts/custom-mlflow-pythonmodel.md) — The Python function model format for custom models
 - [Model Serving](/concepts/model-serving.md) — Deploying models to production endpoints
 - [Unity Catalog](/concepts/unity-catalog.md) — Managing models with Unity Catalog
 - [MLflow Model Flavors](/concepts/mlflow-model-flavors.md) — Natively supported model formats

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - cannot_finalize_redirect
     - CANNOT_FINALIZE_REDIRECT
+    - cannot_finalize_redirect-error
+    - cannot_finalize_redirect-sub-error
   citations:
     - file: delta_alter_table_set_managed_failed-error-condition-databricks-on-aws.md
 title: CANNOT_FINALIZE_REDIRECT

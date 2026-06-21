@@ -87,7 +87,7 @@ This architecture ensures that:
 - [Structured Streaming](/concepts/structured-streaming-on-shared-tables.md) — The Spark API for processing continuous data streams
 - [ACID Transactions](/concepts/delta-acid-transactions.md) — The property that ensures consistency across streaming and batch writes
 - [Transaction Log](/concepts/delta-transaction-log.md) — The metadata store that enables ACID and scalable handling of streaming data
-- [Delta Lake API Reference](/concepts/delta-lake-api-reference.md) — API documentation for Scala, Java, and Python
+- [Delta Lake API Reference](/concepts/delta-lake-api.md) — API documentation for Scala, Java, and Python
 - Delta Live Tables — A declarative framework for building streaming-batch pipelines
 - [Data Lakehouse](/concepts/avoiding-data-silos-in-lakehouse.md) — The architectural pattern that Delta Lake enables through streaming and batch unification
 

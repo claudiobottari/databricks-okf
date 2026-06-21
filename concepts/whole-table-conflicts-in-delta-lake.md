@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - whole-table-conflicts-in-delta-lake
     - WCIDL
+    - whole-table-modification-conflicts-in-delta-lake
+    - WMCIDL
+    - whole-table-operation-conflicts-in-delta-lake
+    - WTOCIDL
   citations:
     - file: delta_concurrent_append-error-condition-databricks-on-aws.md
 title: Whole-Table Conflicts in Delta Lake

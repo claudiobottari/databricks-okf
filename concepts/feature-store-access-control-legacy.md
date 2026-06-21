@@ -13,6 +13,8 @@ x-llmwiki:
     - feature-store-access-control-legacy
     - FSAC(
     - Feature Store Access Control
+    - databricks-feature-store-access-control-legacy
+    - DFSAC(
   citations:
     - file: access-control-legacy-databricks-on-aws.md
 title: Feature Store Access Control (Legacy)
@@ -26,7 +28,7 @@ timestamp: "2026-06-19T21:55:21.708Z"
 
 # Feature Store Access Control (Legacy)
 
-**Feature Store Access Control (Legacy)** governs permissions on [Feature Tables](/concepts/feature-tables.md) in Databricks workspaces that are **not** enabled for [Unity Catalog](/concepts/unity-catalog.md). Workspaces that are enabled for Unity Catalog should use [Unity Catalog privileges](https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/) instead. ^[access-control-legacy-databricks-on-aws.md]
+**Feature Store Access Control (Legacy)** governs permissions on [Feature Tables](/concepts/feature-table.md) in Databricks workspaces that are **not** enabled for [Unity Catalog](/concepts/unity-catalog.md). Workspaces that are enabled for Unity Catalog should use [Unity Catalog privileges](https://docs.databricks.com/aws/en/data-governance/unity-catalog/manage-privileges/) instead. ^[access-control-legacy-databricks-on-aws.md]
 
 This legacy system allows fine-grained control over metadata access: who can view a feature table in the UI, edit its description, manage permissions for others, or delete the table. ^[access-control-legacy-databricks-on-aws.md]
 

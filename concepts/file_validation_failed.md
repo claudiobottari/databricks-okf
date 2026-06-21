@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - file_validation_failed
     - FILE_VALIDATION_FAILED
+    - file_validation_failed-error-delta-managed-migration
+    - FE(MM
+    - file_validation_failed-error
+    - file_validation_failed-sub-error
   citations:
     - file: delta_alter_table_set_managed_failed-error-condition-databricks-on-aws.md
 title: FILE_VALIDATION_FAILED

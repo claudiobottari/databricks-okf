@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - ray-core-to-spark-integration-patterns
     - RCTSIP
+    - ray-core-to-spark-data-exchange-patterns
+    - RCTSDEP
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
 title: Ray Core to Spark Integration Patterns

@@ -27,7 +27,7 @@ timestamp: "2026-06-19T09:34:47.189Z"
 
 # Policy Scope and Inheritance
 
-**Policy Scope and Inheritance** describes how [ABAC row filter and column mask policies](/concepts/row-filter-and-column-mask-policies.md) are attached to Unity Catalog objects and how those policies propagate to child objects. Understanding scope and inheritance is essential for designing a maintainable access-control strategy that minimises redundant policy definitions without unintended overrides.
+**Policy Scope and Inheritance** describes how [ABAC row filter and column mask policies](/concepts/row-filter-policies.md) are attached to Unity Catalog objects and how those policies propagate to child objects. Understanding scope and inheritance is essential for designing a maintainable access-control strategy that minimises redundant policy definitions without unintended overrides.
 
 ## Scope
 
@@ -92,11 +92,11 @@ Columns **do not** inherit tags from their parent table, schema, or catalog. ^[c
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md)
 - [Governed Tags](/concepts/governed-tags.md)
 - Policy Evaluation Order
-- [Create and Manage Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md)
+- [Create and Manage Row Filter and Column Mask Policies](/concepts/row-filter-policies.md)
 
 ## Sources
 

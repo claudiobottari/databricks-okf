@@ -13,6 +13,9 @@ x-llmwiki:
     - interactive-development-with-databricks-connect
     - IDWDC
     - Remote Development with Databricks
+    - interactive-ide-development-with-databricks-connect
+    - IIDWDC
+    - IDE Development with Databricks
   citations:
     - file: databricks-connect-databricks-on-aws.md
 title: Interactive Development with Databricks Connect

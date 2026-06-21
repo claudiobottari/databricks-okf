@@ -13,6 +13,8 @@ x-llmwiki:
     - unit-testing-with-feature-engineering-clients
     - UTWFEC
     - Unit Testing with Feature Engineering
+    - unit-testing-with-databricks-feature-engineering-clients
+    - UTWDFEC
   citations:
     - file: feature-engineering-python-api-databricks-on-aws.md
 title: Unit Testing with Feature Engineering Clients
@@ -97,7 +99,7 @@ For integration tests that actually interact with Databricks, you must run the t
 
 ## Related Concepts
 
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) – Overview and installation guide.
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) – Overview and installation guide.
 - [FeatureEngineeringClient](/concepts/featureengineeringclient-api.md) – The main client for feature tables in Unity Catalog.
 - [FeatureStoreClient](/concepts/feature-store.md) – The legacy client for Workspace Feature Store.
 - Integration Testing on Databricks – Running tests that interact with Databricks resources.

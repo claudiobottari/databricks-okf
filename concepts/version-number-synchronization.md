@@ -102,7 +102,7 @@ This pattern ensures that version 3 in the workspace registry corresponds to ver
 - [Unity Catalog](/concepts/unity-catalog.md) — The cross-workspace governance and catalog solution for models.
 - Model Version Migration — The broader process of moving model versions between registries.
 - [MLflow Model Registry](/concepts/mlflow-model-registry.md) — The underlying model versioning system.
-- [PyFunc Model](/concepts/custom-mlflow-pyfunc-model.md) — The Python function model flavor used for placeholders.
+- [PyFunc Model](/concepts/custom-mlflow-pythonmodel.md) — The Python function model flavor used for placeholders.
 - [Model Signature](/concepts/model-signatures-in-unity-catalog.md) — The input/output schema definition required for creating model versions.
 
 ## Sources

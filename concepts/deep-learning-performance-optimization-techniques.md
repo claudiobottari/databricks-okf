@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - deep-learning-performance-optimization-techniques
     - DLPOT
+    - deep-learning-performance-optimization-on-databricks
+    - DLPOOD
+    - deep-learning-performance-optimization-techniques-on-databricks
+    - DLPOTOD
   citations:
     - file: best-practices-for-deep-learning-on-databricks-databricks-on-aws.md
 title: Deep Learning Performance Optimization Techniques

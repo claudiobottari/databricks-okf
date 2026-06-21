@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - trace-assessments
+    - mlflow-trace-assessments
+    - MTA
   citations:
     - file: access-trace-data-databricks-on-aws.md
 title: Trace Assessments

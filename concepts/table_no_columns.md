@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - table_no_columns
     - TABLE_NO_COLUMNS
+    - table_no_columns-error-condition
+    - TEC
+    - TABLE_NO_COLUMNS error condition
   citations:
     - file: delta_cannot_write_empty_schema-error-condition-databricks-on-aws.md
 title: TABLE_NO_COLUMNS

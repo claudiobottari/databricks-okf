@@ -15,6 +15,12 @@ x-llmwiki:
     - Databricks Connect Setup
     - Set up the Databricks Connect client
     - set up the Databricks Connect client
+    - databricks-connect-client-setup-and-configuration
+    - Configuration and Databricks Connect Client Setup
+    - DCCSAC
+    - databricks-connect-configuration-and-setup
+    - Setup and Databricks Connect Configuration
+    - DCCAS
   citations:
     - file: databricks-connect-for-databricks-runtime-122-lts-and-below-databricks-on-aws.md
 title: Databricks Connect Client Setup

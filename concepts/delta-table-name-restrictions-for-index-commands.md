@@ -50,7 +50,7 @@ The `table_name` parameter must identify an existing Delta table. The name must 
 ## Related Topics
 
 - [CREATE BLOOM FILTER INDEX](/concepts/create-bloom-filter-index.md)
-- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md)
+- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md)
 - Delta table naming conventions
 - Table name syntax in Databricks SQL
 

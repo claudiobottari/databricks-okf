@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - legacy-access-control-vs-unity-catalog
     - LACVUC
+    - feature-store-access-control-vs-unity-catalog
+    - FSACVUC
+    - legacy-feature-store-access-control-vs-unity-catalog
+    - LFSACVUC
   citations:
     - file: access-control-legacy-databricks-on-aws.md
 title: Legacy Access Control vs Unity Catalog

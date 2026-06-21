@@ -80,7 +80,7 @@ For [Distributed Data Parallel (DDP)](/concepts/distributed-data-parallel-ddp.md
 
 ### Training with SFTTrainer
 
-Unsloth works with the [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) library's `SFTTrainer` for supervised fine-tuning. The trainer supports:
+Unsloth works with the [TRL](/concepts/trl-transformer-reinforcement-learning.md) library's `SFTTrainer` for supervised fine-tuning. The trainer supports:
 
 - **per_device_train_batch_size**: Batch size per GPU (e.g., 2)
 - **gradient_accumulation_steps**: Accumulation steps (e.g., 4)

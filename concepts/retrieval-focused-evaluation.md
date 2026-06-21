@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - retrieval-focused-evaluation
+    - retrieval-based-evaluation-judges
+    - REJ
   citations:
     - file: built-in-llm-judges-databricks-on-aws.md
 title: Retrieval-Focused Evaluation

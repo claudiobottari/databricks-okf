@@ -114,7 +114,7 @@ All create, alter, and drop operations on GRANT policies are logged under the sa
 - [Governed Tags](/concepts/governed-tags.md)
 - [System Tags](/concepts/system-tags.md)
 - MLflow Models
-- [Direct Grants](/concepts/grant-policy-vs-direct-grants.md)
+- [Direct Grants](/concepts/grant-policy-vs-direct-grant.md)
 - Securable Objects
 - [Row Filter Policies](/concepts/row-filter-policies.md)
 - [Column Mask Policies](/concepts/column-mask-policies.md)

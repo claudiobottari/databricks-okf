@@ -39,7 +39,7 @@ Using `TO` and `EXCEPT` is the recommended approach for principal targeting beca
 
 ## Usage in GRANT Policies (Beta)
 
-For [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (currently in Beta), `TO` and `EXCEPT` are the **only** mechanisms available for targeting principals. Unlike row filter and column mask policies, GRANT policies do not use UDFs at all, so these clauses serve as the exclusive way to define which users and groups receive the granted privileges. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+For [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (currently in Beta), `TO` and `EXCEPT` are the **only** mechanisms available for targeting principals. Unlike row filter and column mask policies, GRANT policies do not use UDFs at all, so these clauses serve as the exclusive way to define which users and groups receive the granted privileges. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## Best Practices
 
@@ -50,7 +50,7 @@ For [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (currently in Beta),
 ## Related Concepts
 
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - [Row Filter Policies](/concepts/row-filter-policies.md)
 - [Column Mask Policies](/concepts/column-mask-policies.md)
 - [Principal targeting approaches](/concepts/toexcept-principal-targeting-in-abac.md)

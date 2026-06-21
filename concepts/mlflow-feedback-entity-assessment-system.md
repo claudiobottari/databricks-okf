@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - mlflow-feedback-entity-assessment-system
     - MFE(S
+    - mlflow-feedback-entity-and-assessment-data-model
+    - Assessment Data Model and MLflow Feedback Entity
+    - MFEAADM
   citations:
     - file: collect-user-feedback-databricks-on-aws.md
 title: MLflow Feedback Entity (Assessment System)

@@ -11,6 +11,10 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - sqlstate-42711
+    - sqlstate-42711-databricks-error-code
+    - S4(EC
+    - sqlstate-42711-duplicate-column-error
+    - S4(CE
   citations:
     - file: delta_duplicate_columns_found-error-condition-databricks-on-aws.md
 title: SQLSTATE 42711

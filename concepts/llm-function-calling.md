@@ -78,7 +78,7 @@ To use function calling, provide the function `parameters` and a `description` i
 - `{"type": "function", "function": {"name": "my_function"}}`: The model calls only the specified function.
 - `"none"`: Function calling is disabled; the model generates a plain text response.
 
-The following example uses the [OpenAI SDK](/concepts/openai-api-compatibility-in-databricks.md) to call a weather function: ^[function-calling-on-databricks-databricks-on-aws.md]
+The following example uses the [OpenAI SDK](/concepts/openai-compatible-api-interface.md) to call a weather function: ^[function-calling-on-databricks-databricks-on-aws.md]
 
 ```python
 import os, json

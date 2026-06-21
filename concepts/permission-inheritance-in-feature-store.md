@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - permission-inheritance-in-feature-store
     - PIIFS
+    - permission-inheritance-and-override-in-feature-store
+    - Override in Feature Store and Permission Inheritance
+    - PIAOIFS
   citations:
     - file: access-control-legacy-databricks-on-aws.md
 title: Permission Inheritance in Feature Store

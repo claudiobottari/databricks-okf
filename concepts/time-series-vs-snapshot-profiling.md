@@ -25,7 +25,7 @@ timestamp: "2026-06-19T09:44:53.076Z"
 
 # Time Series vs Snapshot Profiling
 
-**Time Series Profiling** and **Snapshot Profiling** are two of the three analysis modes offered by [Data Profiling](/concepts/data-profiling.md) in Databricks Unity Catalog (the third being [Inference Profiling](/concepts/inference-profiling.md)). They differ in how they compute metrics over time, which baseline table they expect, and the types of questions they answer about a table's data quality and distribution.
+**Time Series Profiling** and **Snapshot Profiling** are two of the three analysis modes offered by [Data Profiling](/concepts/data-profiling.md) in Databricks Unity Catalog (the third being [Inference Profiling](/concepts/inference-profile.md)). They differ in how they compute metrics over time, which baseline table they expect, and the types of questions they answer about a table's data quality and distribution.
 
 ## Overview
 
@@ -65,7 +65,7 @@ Snapshot profiling evaluates the current state of a table against a single stati
 
 ## Related Concepts
 
-- [Inference Profiling](/concepts/inference-profiling.md) – The third profile type, designed specifically for ML model inference tables.
+- [Inference Profiling](/concepts/inference-profile.md) – The third profile type, designed specifically for ML model inference tables.
 - Data Profiling Metric Tables – The two Delta tables (profile metrics and drift metrics) produced by both modes.
 - [Data profiling dashboard](/concepts/data-profiling-dashboard.md) – The auto-generated visualization for any profile type.
 - Custom Metrics – How to add user-defined metrics to a profile.

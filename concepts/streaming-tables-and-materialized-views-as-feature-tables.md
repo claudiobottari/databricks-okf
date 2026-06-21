@@ -28,7 +28,7 @@ timestamp: "2026-06-18T12:20:02.446Z"
 
 # Streaming Tables and Materialized Views as Feature Tables
 
-**Streaming tables and materialized views** created by [Lakeflow Spark Declarative Pipelines](/concepts/lakeflow-spark-declarative-pipelines.md) can serve as [Feature Tables](/concepts/feature-tables.md) in [Unity Catalog](/concepts/unity-catalog.md) when they include a [primary key constraint](/concepts/primary-key-constraints-as-feature-tables.md). This enables real-time and incremental feature computation pipelines that are automatically governed by Unity Catalog's data management capabilities. ^[feature-tables-in-unity-catalog-databricks-on-aws.md]
+**Streaming tables and materialized views** created by [Lakeflow Spark Declarative Pipelines](/concepts/lakeflow-spark-declarative-pipelines.md) can serve as [Feature Tables](/concepts/feature-table.md) in [Unity Catalog](/concepts/unity-catalog.md) when they include a [primary key constraint](/concepts/primary-key-constraints-as-feature-tables.md). This enables real-time and incremental feature computation pipelines that are automatically governed by Unity Catalog's data management capabilities. ^[feature-tables-in-unity-catalog-databricks-on-aws.md]
 
 ## Requirements
 

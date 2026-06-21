@@ -102,7 +102,7 @@ MLflow automatically populates several standard metadata fields based on the exe
 - [Trace](/concepts/traces.md) – The object that holds metadata and tags
 - mlflow.search_traces() API|Search traces programmatically – How to retrieve metadata and tags via `mlflow.search_traces()`
 - Tutorial: Trace and analyze users and environments
-- [Standard metadata fields for MLflow traces](/concepts/standardized-metadata-fields-for-mlflow-traces.md)
+- [Standard metadata fields for MLflow traces](/concepts/standardized-metadata-fields-for-traces.md)
 
 ## Sources
 

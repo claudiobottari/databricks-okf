@@ -17,6 +17,10 @@ x-llmwiki:
     - Clone a managed Iceberg table
     - Managed Iceberg
     - Managed Iceberg Table|managed Iceberg tables
+    - managed-iceberg-table-clone-limitations
+    - MITCL
+    - managed-iceberg-table-clone-restrictions
+    - MITCR
   citations:
     - file: create-table-clone-databricks-on-aws.md
 title: Managed Iceberg Table Cloning

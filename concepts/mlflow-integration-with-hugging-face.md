@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-integration-with-hugging-face
     - MIWHF
+    - mlflow-integration-with-hugging-face-transformers
+    - MIWHFT
   citations:
     - file: fine-tune-hugging-face-models-for-a-single-gpu-databricks-on-aws.md
 title: MLflow Integration with Hugging Face

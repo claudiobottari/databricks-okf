@@ -52,7 +52,7 @@ Unity AI Gateway extends governance to AI agents, allowing organizations to impl
 
 ## Integration with Unity Catalog
 
-Unity AI Gateway is part of the broader [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) framework. While Unity Catalog governs AI assets (models, functions, connections, and hosted foundation models) as securable objects with standard privileges, Unity AI Gateway specifically governs AI traffic — the runtime interactions with those AI resources. ^[ai-governance-databricks-on-aws.md]
+Unity AI Gateway is part of the broader [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) framework. While Unity Catalog governs AI assets (models, functions, connections, and hosted foundation models) as securable objects with standard privileges, Unity AI Gateway specifically governs AI traffic — the runtime interactions with those AI resources. ^[ai-governance-databricks-on-aws.md]
 
 This integration means organizations can apply the same access control, lineage, and audit model that protects data assets to both AI assets and AI traffic. ^[ai-governance-databricks-on-aws.md]
 
@@ -66,7 +66,7 @@ This integration means organizations can apply the same access control, lineage,
 
 ## Related Concepts
 
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — The broader framework for governing AI assets and traffic.
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — The broader framework for governing AI assets and traffic.
 - [Unity Catalog](/concepts/unity-catalog.md) — The unified governance layer for data and AI.
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — Databricks-hosted foundation models that can be governed through Unity Catalog.
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md) — Custom and foundation model endpoints that can integrate with Unity AI Gateway.

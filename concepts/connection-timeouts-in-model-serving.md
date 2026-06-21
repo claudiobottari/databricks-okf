@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - connection-timeouts-in-model-serving
     - CTIMS
+    - connection-timeouts-in-model-serving-pipelines
+    - CTIMSP
   citations:
     - file: debug-model-serving-timeouts-databricks-on-aws.md
 title: Connection Timeouts in Model Serving
@@ -69,11 +71,11 @@ Send test POST requests to the model serving endpoint and examine the response t
 - **Adjust client timeout parameters**: Configure the timeout settings in your client API to accommodate longer connection establishment times. For example, when using the [OpenAI client](/concepts/openai-client-compatibility.md), you can set the `timeout` parameter to a higher value. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 - **Pre-warm idle endpoints**: Ensure that endpoints scaled to 0 are warmed up before sending production requests, or adjust scale-to-zero settings to prevent cold starts during critical operations.
 - **Review network infrastructure**: Check for firewall rules, proxy configurations, or DNS issues that may delay connection establishment.
-- **Monitor third-party client configurations**: For model serving endpoints that consist of pipelines using third-party client APIs — such as [custom PyFunc models](/concepts/custom-mlflow-pyfunc-model.md) or PyFunc custom schema agents — review the timeout configurations of those clients. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+- **Monitor third-party client configurations**: For model serving endpoints that consist of pipelines using third-party client APIs — such as [custom PyFunc models](/concepts/custom-mlflow-pythonmodel.md) or PyFunc custom schema agents — review the timeout configurations of those clients. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ## Related Concepts
 
-- [Server-Side Timeouts](/concepts/server-side-timeouts.md) — Timeouts that occur during request processing after a connection is established.
+- [Server-Side Timeouts](/concepts/server-side-timeout.md) — Timeouts that occur during request processing after a connection is established.
 - [Model Deployment Timeouts](/concepts/model-deployment-timeouts.md) — Timeouts that occur during container build or model deployment.
 - Client-Side Timeouts — General timeouts originating from client configuration, including MLflow environment variables.
 - [Rate Limits](/concepts/rate-limits-and-timeouts-in-model-serving.md) — Restrictions on request frequency that can lead to request failures.

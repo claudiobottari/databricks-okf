@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - in-place-table-conversion
     - ITC
+    - in-place-table-format-conversion
+    - ITFC
   citations:
     - file: convert-to-delta-databricks-on-aws.md
 title: In-place Table Conversion

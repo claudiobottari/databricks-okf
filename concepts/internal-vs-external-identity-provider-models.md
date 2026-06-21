@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - internal-vs-external-identity-provider-models
     - IVEIPM
+    - internal-vs-external-identity-provider-patterns
+    - IVEIPP
   citations:
     - file: enable-open-id-connect-oidc-federation-for-opensharing-recipients-databricks-on-aws.md
 title: Internal vs External Identity Provider Models
@@ -88,7 +90,7 @@ If using an internal IdP, the provider retrieves this information from their own
 - [OpenSharing Recipients](/concepts/opensharing-recipient.md) – Objects that govern access to shared data
 - [OIDC Federation Policy](/concepts/oidc-federation-policy.md) – The policy configuration that specifies the IdP and identity claims
 - [Delta Sharing](/concepts/delta-sharing.md) – The underlying protocol for data sharing
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) – Alternative authentication method using long-lived tokens
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) – Alternative authentication method using long-lived tokens
 - [Unity Catalog](/concepts/unity-catalog.md) – The governance layer for managing data sharing permissions
 
 ## Sources

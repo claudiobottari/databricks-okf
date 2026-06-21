@@ -18,6 +18,9 @@ x-llmwiki:
     - Unity Catalog permissions
     - Unity Catalog Model Permissions
     - Unity Catalog model permissions
+    - unity-catalog-permission-hierarchy
+    - UCPH
+    - unity-catalog-permissions-hierarchy
   citations:
     - file: access-control-in-unity-catalog-databricks-on-aws.md
 title: Unity Catalog Permissions Model
@@ -81,9 +84,9 @@ The privileges model uses a system of grants on securable objects. The privilege
 
 ABAC policies use governed tags to dynamically control data access. Policies are defined centrally and can apply across many tables without per-table configuration. Related concepts include:
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — Dynamically mask column values
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) — Restrict which rows users can see
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Dynamically grant privileges (currently for models)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — Dynamically mask column values
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) — Restrict which rows users can see
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Dynamically grant privileges (currently for models)
 
 ### Table-Level Filtering and Masking
 

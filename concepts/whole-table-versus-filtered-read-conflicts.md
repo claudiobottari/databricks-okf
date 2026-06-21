@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - whole-table-versus-filtered-read-conflicts
     - WVFRC
+    - whole-table-read-vs-filtered-read-conflict-patterns
+    - WRVFRCP
   citations:
     - file: delta_concurrent_delete_read-error-condition-databricks-on-aws.md
 title: Whole-table versus filtered read conflicts

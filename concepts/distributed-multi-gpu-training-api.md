@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - distributed-multi-gpu-training-api
     - DMTA
+    - distributed-multi-gpu-training-on-databricks
+    - DMTOD
   citations:
     - file: computer-vision-databricks-on-aws.md
 title: Distributed Multi-GPU Training API

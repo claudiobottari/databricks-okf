@@ -28,7 +28,7 @@ timestamp: "2026-06-19T14:27:32.931Z"
 
 # Row Filter and Column Mask UDFs
 
-**Row Filter and Column Mask UDFs** are user-defined functions (UDFs) registered in [Unity Catalog](/concepts/unity-catalog.md) that implement the filtering or masking logic used by [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) and [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md). These UDFs determine which rows a user can see or how column values are presented when a policy’s tag-based conditions are met. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
+**Row Filter and Column Mask UDFs** are user-defined functions (UDFs) registered in [Unity Catalog](/concepts/unity-catalog.md) that implement the filtering or masking logic used by [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) and [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md). These UDFs determine which rows a user can see or how column values are presented when a policy’s tag-based conditions are met. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
 
 ## How UDFs Work in ABAC Policies
 
@@ -97,7 +97,7 @@ These permissions allow a governance admin to attach a policy that uses the UDF.
 
 ## Relation to Other Policy Types
 
-[ABAC GRANT Policies](/concepts/abac-grant-policies.md) do not use UDFs; instead, they grant privileges directly when tag-based conditions match. Row filter and column mask policies are the only types that rely on UDFs for their enforcement logic. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
+[ABAC GRANT Policies](/concepts/abac-grant-policy.md) do not use UDFs; instead, they grant privileges directly when tag-based conditions match. Row filter and column mask policies are the only types that rely on UDFs for their enforcement logic. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
 
 ## Related Concepts
 

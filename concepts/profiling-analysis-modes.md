@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - profiling-analysis-modes
     - PAM
+    - data-profiling-analysis-types
+    - DPAT
+    - Data Profile Types
   citations:
     - file: data-profiling-databricks-on-aws.md
 title: Profiling Analysis Modes

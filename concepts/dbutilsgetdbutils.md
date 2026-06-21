@@ -11,6 +11,11 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - dbutilsgetdbutils
+    - dbutilsgetdbutils-for-scala
+    - DFS
+    - dbutilsgetdbutils-in-databricks-connect-for-scala
+    - DIDCFS
+    - dbutilsgetdbutils-method
   citations:
     - file: databricks-utilities-with-databricks-connect-for-scala-databricks-on-aws.md
 title: DBUtils.getDBUtils

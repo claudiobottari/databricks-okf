@@ -31,7 +31,7 @@ timestamp: "2026-06-19T19:54:27.427Z"
 
 In general, use the policy's `TO`/`EXCEPT` clauses to define which principals a policy applies to. This keeps the policy definition simpler and the UDF focused on data transformation, filtering, or masking. The `EXCEPT` clause eliminates the policy entirely for exempt users, which means no UDF execution for those users. ^[performance-considerations-for-row-filter-and-column-mask-policies-databricks-on-aws.md]
 
-Using `EXCEPT` has a performance advantage beyond simplicity: when a user is exempted, the `SecureView` barrier that [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md) introduce is removed entirely for that user. This restores full [predicate pushdown](/concepts/selective-caching-with-predicate-pushdown.md) and partition pruning, which are otherwise blocked by the barrier. ^[performance-considerations-for-row-filter-and-column-mask-policies-databricks-on-aws.md]
+Using `EXCEPT` has a performance advantage beyond simplicity: when a user is exempted, the `SecureView` barrier that [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md) introduce is removed entirely for that user. This restores full [predicate pushdown](/concepts/selective-caching-with-predicate-pushdown.md) and partition pruning, which are otherwise blocked by the barrier. ^[performance-considerations-for-row-filter-and-column-mask-policies-databricks-on-aws.md]
 
 ## Alternative approach: identity functions in UDFs
 
@@ -78,7 +78,7 @@ RETURN
 ## Related concepts
 
 - ABAC policies — Attribute-based access control for Unity Catalog
-- [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md) — The policy types that execute UDFs at query time
+- [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md) — The policy types that execute UDFs at query time
 - [GRANT Policies (Beta)](/concepts/grant-policies-beta.md) — An alternative that does not execute UDFs
 - Predicate pushdown — Performance optimization affected by the SecureView barrier
 - SecureView barrier — The protection mechanism that can block query optimizations

@@ -57,7 +57,7 @@ You should only disable the metadata check when you are certain that:
 
 - [CONVERT TO DELTA](/concepts/convert-to-delta.md) — The command that performs the conversion
 - [Delta Lake Transaction Log](/concepts/delta-lake-transaction-log.md) — The metadata created during conversion
-- [ConvertMetastoreMetadataMismatchException](/concepts/metastore-metadata-mismatch-in-delta-conversion.md) — The error thrown when metadata mismatches occur
+- [ConvertMetastoreMetadataMismatchException](/concepts/metastore-metadata-mismatch.md) — The error thrown when metadata mismatches occur
 - [Metastore catalog](/concepts/metastore.md) — External table metadata storage
 - VACUUM — Cleanup operation for untracked files after conversion
 

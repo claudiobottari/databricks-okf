@@ -98,7 +98,7 @@ To stop the PySpark shell, use any of the following methods:
 
 - [Databricks Connect](/concepts/databricks-connect.md) — The client library that enables remote connection to Databricks clusters
 - SparkSession — The entry point for programming Spark with the DataFrame API
-- [PySpark DataFrame](/concepts/pysparklyr-package.md) — The primary data structure for structured data processing
+- [PySpark DataFrame](/concepts/pysparklyr.md) — The primary data structure for structured data processing
 - [Compute configuration for Databricks Connect](/concepts/compute-configuration-for-databricks-connect.md) — How to configure cluster connections
 - Interactive Analysis with the Spark Shell — General guide for using the Spark shell
 

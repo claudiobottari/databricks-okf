@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - apache-spark-trademark-attribution
     - ASTA
+    - apache-spark-trademark-attribution-in-databricks-documentation
+    - ASTAIDD
   citations:
     - file: applicable-model-terms-databricks-on-aws.md
 title: Apache Spark Trademark Attribution

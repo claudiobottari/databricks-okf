@@ -76,7 +76,7 @@ The typical workflow for evaluating a deployed endpoint with `to_predict_fn` is:
 - [MLflow GenAI Scorers](/concepts/mlflow-genai-scorers.md) — Built-in and custom scoring functions for evaluating model outputs.
 - [Model Serving on Databricks](/concepts/model-serving-on-databricks.md) — The deployment infrastructure for serving models as endpoints.
 - Custom Agents — Deployable agent applications that can be evaluated with this function.
-- [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) — Versioned datasets for production-ready evaluation.
+- [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) — Versioned datasets for production-ready evaluation.
 - predict_fn Patterns in MLflow Evaluation|predict_fn Patterns — Common patterns for providing prediction functions to the evaluation harness.
 
 ## Sources

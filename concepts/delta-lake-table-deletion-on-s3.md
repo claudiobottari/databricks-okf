@@ -13,6 +13,8 @@ x-llmwiki:
     - delta-lake-table-deletion-on-s3
     - DLTDOS
     - Delta Lake tables stored on Amazon S3
+    - delta-lake-table-deletion-risks-on-s3
+    - DLTDROS
   citations:
     - file: delta-lake-limitations-on-s3-databricks-on-aws.md
 title: Delta Lake Table Deletion on S3

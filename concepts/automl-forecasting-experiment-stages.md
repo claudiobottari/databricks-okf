@@ -16,6 +16,8 @@ x-llmwiki:
     - AutoML forecasting experiments
     - AutoML Experiments
     - Forecasting Experiments
+    - automl-forecasting-experiment-lifecycle
+    - AFEL
   citations:
     - file: forecasting-serverless-with-automl-databricks-on-aws.md
 title: AutoML Forecasting Experiment Stages

@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - struct_all_void_fields
     - STRUCT_ALL_VOID_FIELDS
+    - struct_all_void_fields-error-condition
+    - SEC
+    - STRUCT_ALL_VOID_FIELDS error condition
   citations:
     - file: delta_cannot_write_empty_schema-error-condition-databricks-on-aws.md
 title: STRUCT_ALL_VOID_FIELDS

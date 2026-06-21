@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - delta_uniform_ingress_violation
     - DELTA_UNIFORM_INGRESS_VIOLATION
+    - delta_uniform_ingress_violation-error-class
+    - DEC
+    - DELTA_UNIFORM_INGRESS_VIOLATION error class
   citations:
     - file: delta_uniform_ingress_violation-error-condition-databricks-on-aws.md
 title: DELTA_UNIFORM_INGRESS_VIOLATION

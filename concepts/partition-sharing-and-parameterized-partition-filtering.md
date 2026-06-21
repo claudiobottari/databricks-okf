@@ -103,7 +103,7 @@ For cloud token (directory-based) access to be used, tables must be shared witho
 
 - [Delta Sharing](/concepts/delta-sharing.md) — The framework for sharing data across platforms
 - [OpenSharing](/concepts/opensharing.md) — Databricks' implementation of the Delta Sharing protocol
-- [Shares, Providers, and Recipients](/concepts/recipient-and-share-concepts.md) — The sharing model in Unity Catalog
+- [Shares, Providers, and Recipients](/concepts/recipient-and-share-model.md) — The sharing model in Unity Catalog
 - CURRENT_RECIPIENT Function — SQL function for dynamic partition filtering
 - [Create Shares for OpenSharing](/concepts/delta-sharing-open-sharing.md) — How to create and manage shares
 - Manage Recipients — Creating recipients and their properties

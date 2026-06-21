@@ -13,6 +13,8 @@ x-llmwiki:
     - end-to-end-forecasting-pipeline
     - EFP
     - End-to-end pipeline
+    - end-to-end-forecasting-workflow
+    - EFW
   citations:
     - file: classic-machine-learning-databricks-on-aws.md
 title: End-to-End Forecasting Pipeline

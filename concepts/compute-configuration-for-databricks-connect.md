@@ -70,7 +70,7 @@ Full step‑by‑step instructions are provided in the [Install Databricks Conne
 - [Databricks Connect for R](/concepts/databricks-connect-for-r.md) – R client instructions  
 - Migrate to Databricks Connect for Scala – Migration from older runtime versions
 - Troubleshooting Databricks Connect – Common issues and fixes
-- [Limitations of Databricks Connect](/concepts/limitations-of-dbutils-in-databricks-connect.md) – Behavioral constraints
+- [Limitations of Databricks Connect](/concepts/restricted-dbutils-in-databricks-connect.md) – Behavioral constraints
 
 ### Sources
 

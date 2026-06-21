@@ -26,7 +26,7 @@ timestamp: "2026-06-18T11:17:02.485Z"
 
 # Unity Catalog Schema for Prompts
 
-**Unity Catalog Schema for Prompts** refers to the Unity Catalog schema that stores prompts in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md). A Unity Catalog schema with appropriate permissions is required to create, view, and manage prompts using the MLflow Python SDK or the Databricks MLflow UI.^[create-and-edit-prompts-databricks-on-aws.md]
+**Unity Catalog Schema for Prompts** refers to the Unity Catalog schema that stores prompts in the [MLflow Prompt Registry](/concepts/prompt-registry.md). A Unity Catalog schema with appropriate permissions is required to create, view, and manage prompts using the MLflow Python SDK or the Databricks MLflow UI.^[create-and-edit-prompts-databricks-on-aws.md]
 
 ## Prerequisites
 
@@ -114,7 +114,7 @@ Prompt versions are immutable after creation. To edit a prompt, you must create 
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The centralized registry for managing prompt templates
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The centralized registry for managing prompt templates
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — The organizational unit for MLflow runs
 - [Prompt Versioning](/concepts/prompt-versioning.md) — Managing immutable versions of prompts
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance solution that provides schema management

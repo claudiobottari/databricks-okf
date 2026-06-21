@@ -14,6 +14,8 @@ x-llmwiki:
     - LOCATION_NOT_SUPPORTED
     - PROJECTION_NOT_SUPPORTED
     - Location Not Supported for Streaming Table Deep Clone
+    - location_not_supported-sub-error
+    - LOCATION_NOT_SUPPORTED sub-error
   citations:
     - file: delta_deep_clone_streaming_table_error-error-condition-databricks-on-aws.md
 title: LOCATION_NOT_SUPPORTED

@@ -96,7 +96,7 @@ For general model serving endpoint quotas and regional availability, see Model S
 - AWS Instance Profile – How to create and manage instance profiles in AWS.
 - [Model Serving Endpoint](/concepts/model-serving-endpoint.md) – Overview of serving endpoints on Databricks.
 - Serverless Compute – The compute layer that model serving endpoints use.
-- [IAM Role Trust Policy for Serverless](/concepts/iam-trust-relationship-for-serverless-compute.md) – Configuring trust relationships for serverless workloads.
+- [IAM Role Trust Policy for Serverless](/concepts/trust-relationship-for-serverless-compute.md) – Configuring trust relationships for serverless workloads.
 - Lookup Features with Instance Profile – Using the same instance profile for feature store authentication.
 
 ## Sources

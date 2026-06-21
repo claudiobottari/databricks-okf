@@ -40,7 +40,7 @@ timestamp: "2026-06-19T19:58:08.391Z"
 
 # Prompt Versioning
 
-**Prompt versioning** is the practice of managing changes to prompt templates over time, enabling teams to track iterations, roll back to previous states, and systematically compare different versions to identify the best performing prompt. Versioning is a core capability of the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md), which provides a Git-like model for prompt lifecycle management.^[prompt-registry-databricks-on-aws.md]
+**Prompt versioning** is the practice of managing changes to prompt templates over time, enabling teams to track iterations, roll back to previous states, and systematically compare different versions to identify the best performing prompt. Versioning is a core capability of the [MLflow Prompt Registry](/concepts/prompt-registry.md), which provides a Git-like model for prompt lifecycle management.^[prompt-registry-databricks-on-aws.md]
 
 ## Overview
 
@@ -129,7 +129,7 @@ Prompt versions are linked to [MLflow experiments](/concepts/mlflow-experiment.m
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The centralized repository for prompt management
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The centralized repository for prompt management
 - [Aliases](/concepts/model-aliases.md) — Mutable pointers to specific prompt versions for safe deployment
 - [Prompt Templates](/concepts/prompt-templates-with-variables.md) — The template strings with `{{variable}}` syntax stored in the registry
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer providing schema and permissions for prompts

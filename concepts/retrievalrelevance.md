@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - retrievalrelevance
+    - retrievalrelevance-judge
+    - Retrieval Relevance Judge
   citations:
     - file: answer-and-context-relevance-judges-databricks-on-aws.md
 title: RetrievalRelevance
@@ -133,7 +135,7 @@ These judges work together to diagnose quality issues: if retrieval is poor, the
 - [Retriever](/concepts/retriever-spans.md) — The component whose documents are evaluated
 - [RelevanceToQuery](/concepts/relevancetoquery.md) — The companion judge for response-level relevance
 - [Custom Judges](/concepts/custom-judges.md) — Build your own evaluation criteria with make_judge()|make_judge
-- [Evaluation metrics](/concepts/gluonts-evaluation-metrics.md) — Broader set of GenAI quality metrics
+- [Evaluation metrics](/concepts/gluonts-evaluator.md) — Broader set of GenAI quality metrics
 
 ## Sources
 

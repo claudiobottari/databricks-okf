@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - deltauniversalformatcompatibilitylocation
     - Table property delta.universalFormat.compatibility.location
+    - deltauniversalformatcompatibilitylocation-configuration
   citations:
     - file: delta_uniform_compatibility_missing_or_invalid_location-error-condition-databricks-on-aws.md
 title: delta.universalFormat.compatibility.location
@@ -74,7 +75,7 @@ To resolve any of these errors, ensure that: ^[delta_uniform_compatibility_missi
 
 - [Uniform format compatibility](/concepts/delta-uniform-universal-format-compatibility.md) — the feature that this property enables
 - [Delta Lake table properties](/concepts/delta-lake-reader-table-features.md) — other configuration options for Delta tables
-- [Iceberg and Delta Lake interoperability](/concepts/delta-lake-table-features-and-iceberg-compatibility.md)
+- [Iceberg and Delta Lake interoperability](/concepts/delta-lake-table-features-compatibility.md)
 
 ## Sources
 

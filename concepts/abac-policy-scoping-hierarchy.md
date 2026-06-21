@@ -60,7 +60,7 @@ A user’s effective privileges on a data object are the union of direct grants 
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform that hosts ABAC policies
 - [Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md) — Alternative table‑level access controls
 - Tag Governance — Best practices for standardizing tags used in ABAC conditions
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Beta feature that grants privileges based on attributes
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Beta feature that grants privileges based on attributes
 
 ## Sources
 

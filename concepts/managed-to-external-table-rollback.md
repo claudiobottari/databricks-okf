@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - managed-to-external-table-rollback
     - MTETR
+    - managed-to-external-table-rollback-in-delta-lake
+    - MTETRIDL
+    - managed-to-external-table-rollback-in-unity-catalog
+    - MTETRIUC
   citations:
     - file: delta_alter_table_unset_managed_failed-error-condition-databricks-on-aws.md
 title: Managed to External Table Rollback

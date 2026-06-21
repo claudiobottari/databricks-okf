@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - relevance-scorer
+    - relevance-scorer-phoenix
+    - RS(
   citations:
     - file: arize-phoenix-scorers-databricks-on-aws.md
 title: Relevance Scorer

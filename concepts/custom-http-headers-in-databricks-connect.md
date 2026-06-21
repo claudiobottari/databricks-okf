@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - custom-http-headers-in-databricks-connect
     - CHHIDC
+    - custom-http-headers-for-proxy-in-databricks-connect
+    - CHHFPIDC
+    - custom-http-headers-in-databricks-connect-proxy-configuration
+    - CHHIDCPC
   citations:
     - file: advanced-usage-of-databricks-connect-databricks-on-aws.md
 title: Custom HTTP Headers in Databricks Connect

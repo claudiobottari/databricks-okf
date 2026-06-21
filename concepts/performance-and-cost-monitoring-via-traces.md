@@ -13,6 +13,11 @@ x-llmwiki:
     - performance-and-cost-monitoring-via-traces
     - Cost Monitoring via Traces and Performance
     - PACMVT
+    - performance-and-cost-optimization-via-traces
+    - Cost Optimization via Traces and Performance
+    - PACOVT
+    - performance-and-cost-optimization-via-tracing
+    - Cost Optimization via Tracing and Performance
   citations:
     - file: debug-and-analyze-your-app-with-tracing-databricks-on-aws.md
 title: Performance and Cost Monitoring via Traces

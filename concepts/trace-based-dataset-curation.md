@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - trace-based-dataset-curation
     - TDC
+    - trace-based-dataset-creation
   citations:
     - file: building-mlflow-evaluation-datasets-databricks-on-aws.md
 title: Trace-Based Dataset Curation

@@ -65,7 +65,7 @@ Permissions set at the Feature Store level are inherited by individual feature t
 - [CAN VIEW METADATA](/concepts/can-view-metadata-permission.md) – The read-only permission level.
 - [CAN MANAGE](/concepts/can-manage-permission.md) – The highest permission level, allowing editing, permission management, and deletion.
 - [Unity Catalog](/concepts/unity-catalog.md) – The modern data governance model for workspaces; if enabled, use Unity Catalog privileges instead of these legacy permissions.
-- [Workspace admins](/concepts/workspace-admins-unity-catalog.md) – Users who receive default CAN MANAGE access on all feature tables.
+- [Workspace admins](/concepts/workspace-admin-unity-catalog.md) – Users who receive default CAN MANAGE access on all feature tables.
 
 ## Sources
 

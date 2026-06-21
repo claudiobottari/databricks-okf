@@ -56,7 +56,7 @@ to compute the page's provenance metadata.
 Related wiki pages for cross-referencing:
 
 - [20B to 120B+ Parameter Model Training](/concepts/20b-to-120b-parameter-model-training.md)
-- [30-Day Lookback Window Limitation](/concepts/30-day-lookback-window-limitation.md)
+- [30-Day Lookback Window Limitation](/concepts/30-day-lookback-window.md)
 - [30-Day Lookback Window](/concepts/30-day-lookback-window.md)
 - 403 PERMISSION_DENIED Serverless Budget Policy Error
 - [8xH100 Single-Node Configuration](/concepts/8xh100-single-node-configuration.md)

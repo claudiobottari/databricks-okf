@@ -53,11 +53,11 @@ This limitation exists because the Delta Uniform format cannot represent column�
 
 ## Unity Catalog Implementation
 
-In Unity Catalog, column masks can be implemented as [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)—an [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) mechanism that applies a UDF to mask column contents based on governed tags and user attributes. These policies can be defined at catalog, schema, or table scope and automatically apply to all matching columns, making them reusable across many tables without per‑table configuration. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
+In Unity Catalog, column masks can be implemented as [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)—an [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) mechanism that applies a UDF to mask column contents based on governed tags and user attributes. These policies can be defined at catalog, schema, or table scope and automatically apply to all matching columns, making them reusable across many tables without per‑table configuration. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – attribute‑based policies that implement column masking in Unity Catalog
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – attribute‑based policies that implement column masking in Unity Catalog
 - [Column Mask Policies](/concepts/column-mask-policies.md) – the broader category of Unity Catalog security policies for column‑level masking
 - [Delta Lake](/concepts/delta-lake.md) – the open‑source storage layer that supports column masks
 - [Delta Uniform](/concepts/delta-uniform.md) – the format interoperability layer that does not support column masks

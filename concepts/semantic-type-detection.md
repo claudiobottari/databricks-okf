@@ -13,6 +13,8 @@ x-llmwiki:
     - semantic-type-detection
     - STD
     - AutoML Semantic Type Detection
+    - semantic-type-detection-in-automl
+    - STDIA
   citations:
     - file: data-preparation-for-classification-databricks-on-aws.md
 title: Semantic Type Detection

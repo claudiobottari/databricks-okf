@@ -26,7 +26,7 @@ timestamp: "2026-06-18T14:50:29.981Z"
 
 # Prompt Templates with Variable Substitution
 
-**Prompt Templates with Variable Substitution** is a feature of the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) that allows you to define reusable prompt structures with placeholders that are filled in at runtime. This enables dynamic prompt generation while maintaining consistency and traceability across your GenAI applications.
+**Prompt Templates with Variable Substitution** is a feature of the [MLflow Prompt Registry](/concepts/prompt-registry.md) that allows you to define reusable prompt structures with placeholders that are filled in at runtime. This enables dynamic prompt generation while maintaining consistency and traceability across your GenAI applications.
 
 ## Overview
 
@@ -146,7 +146,7 @@ This returns a list of prompt metadata including names, versions, tags, and time
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – Central repository for versioned prompt templates.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – Central repository for versioned prompt templates.
 - [MLflow GenAI](/concepts/mlflow-3-for-genai.md) – The broader framework for building and evaluating generative AI applications.
 - [Prompt Version Management](/concepts/prompt-version-management.md) – Creating, comparing, and rolling back prompt versions.
 - [Evaluation of Prompt Versions](/concepts/prompt-versioning.md) – Comparing different prompt templates to identify the best performer.

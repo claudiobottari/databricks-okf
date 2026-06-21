@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - model-deployment-timeouts
     - MDT
+    - model-serving-deployment-timeouts
+    - MSDT
   citations:
     - file: debug-model-serving-timeouts-databricks-on-aws.md
 title: Model Deployment Timeouts
@@ -53,7 +55,7 @@ Before deploying, check your configuration and compare it to previous successful
 ## Related Concepts
 
 - [Model Serving](/concepts/model-serving.md) — The platform for deploying and serving models on Databricks
-- [Server-Side Timeouts](/concepts/server-side-timeouts.md) — Timeouts that occur when making requests to a healthy endpoint
+- [Server-Side Timeouts](/concepts/server-side-timeout.md) — Timeouts that occur when making requests to a healthy endpoint
 - Client-Side Timeouts — Timeouts caused by MLflow or third-party client API configurations
 - Model Serving Endpoint Events — The interface for monitoring deployment and serving events
 - [Model Serving Build Logs](/concepts/model-serving-build-logs-troubleshooting.md) — Logs that provide details about container build processes

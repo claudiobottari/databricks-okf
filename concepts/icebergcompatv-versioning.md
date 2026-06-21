@@ -13,6 +13,8 @@ x-llmwiki:
     - icebergcompatv-versioning
     - Iceberg Compat Version
     - IcebergCompatV1 configuration
+    - icebergcompatv-versioning-in-delta-lake
+    - IVIDL
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: IcebergCompatV versioning

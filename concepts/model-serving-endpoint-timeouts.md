@@ -79,7 +79,7 @@ Configure MLflow environment variables using the Serving UI or programmatically:
 
 ## Client-Side Timeouts: Third-Party Client APIs
 
-Client-side timeouts can also originate from third-party client APIs used in model pipelines, such as [custom PyFunc models](/concepts/custom-mlflow-pyfunc-model.md) or PyFunc custom schema agents. These timeouts typically return error messages containing `"timed out"` or `4xx Bad Request`. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+Client-side timeouts can also originate from third-party client APIs used in model pipelines, such as [custom PyFunc models](/concepts/custom-mlflow-pythonmodel.md) or PyFunc custom schema agents. These timeouts typically return error messages containing `"timed out"` or `4xx Bad Request`. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ### Debugging Third-Party Client Timeouts
 
@@ -139,7 +139,7 @@ Multiple requests made over the rate limit of an endpoint might lead to failure 
 
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md)
 - [Debug after container build failure](/concepts/container-build-debugging-for-model-serving.md)
-- [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md)
+- [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md)
 - PyFunc Custom Schema Agents
 - [Resource and Payload Limits](/concepts/model-serving-resource-and-payload-limits.md)
 - Scale to Zero

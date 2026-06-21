@@ -19,6 +19,14 @@ x-llmwiki:
     - Delta Lake write operations
     - Delta Merge Operations
     - MERGE Operations
+    - delta-lake-dml-statements
+    - DLDS
+    - Delta Lake statements
+    - DELETE FROM statement
+    - DML Statements
+    - Delta Lake`s `OVERWRITE` semantics
+    - MERGE Statement
+    - SQL DML statements
   citations:
     - file: delete-from-databricks-on-aws.md
 title: Delta Lake DML Operations

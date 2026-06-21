@@ -120,7 +120,7 @@ dataset.save()
 
 1. **Create a dataset** using `create_dataset` in a Unity Catalog schema.
 2. **Populate records** – either manually via the SDK or by importing from production traces.
-3. **Edit and curate** records using `EvaluationDataset` methods or the [MLflow Evaluation Dataset UI](/concepts/mlflow-evaluation-dataset-ui.md).
+3. **Edit and curate** records using `EvaluationDataset` methods or the [MLflow Evaluation Dataset UI](/concepts/evaluation-dataset-ui.md).
 4. **Run evaluation** by passing the dataset to `mlflow.genai.evaluate()`.
 5. **Iterate** – refine the dataset as needed and re‑evaluate.
 

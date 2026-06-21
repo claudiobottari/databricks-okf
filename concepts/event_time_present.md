@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - event_time_present
     - EVENT_TIME_PRESENT
+    - event_time_present-sub-condition
+    - event_time_present-subcondition
+    - EVENT_TIME_PRESENT error condition
   citations:
     - file: delta_streaming_skip_offsets_invalid_offset_range-error-condition-databricks-on-aws.md
 title: EVENT_TIME_PRESENT

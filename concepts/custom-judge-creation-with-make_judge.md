@@ -14,6 +14,8 @@ x-llmwiki:
     - CJCWM
     - custom judges created with `make_judge()`
     - Custom Judge Creation
+    - custom-multi-turn-judges-with-make_judge
+    - CMJWM
   citations:
     - file: evaluate-conversations-databricks-on-aws.md
 title: Custom Judge Creation with make_judge
@@ -34,7 +36,7 @@ timestamp: "2026-06-19T18:42:11.074Z"
 
 `make_judge` is a factory function that accepts a set of instructions (the "prompt" for the judge LLM) and a structured output type, returning a callable scorer object. This scorer can then be passed to `mlflow.genai.evaluate()` to automatically grade model responses or entire conversations. ^[evaluate-conversations-databricks-on-aws.md]
 
-The primary use case described in the source material is for [Multi-turn Judges](/concepts/multi-turn-judges.md)—evaluating whole conversation sessions rather than individual turns. The function is flexible enough to create judges for any custom criterion that an LLM can assess. ^[evaluate-conversations-databricks-on-aws.md]
+The primary use case described in the source material is for [Multi-turn Judges](/concepts/multi-turn-judge.md)—evaluating whole conversation sessions rather than individual turns. The function is flexible enough to create judges for any custom criterion that an LLM can assess. ^[evaluate-conversations-databricks-on-aws.md]
 
 ## Parameters
 
@@ -100,7 +102,7 @@ The assessment is stored on the first trace (chronologically) in each conversati
 
 ## Related Concepts
 
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) – Built‑in and custom judges for conversation‑level evaluation.
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) – Built‑in and custom judges for conversation‑level evaluation.
 - MLflow evaluate – The main evaluation API that consumes custom judges.
 - [LLM Judges](/concepts/llm-judges.md) – The general concept of using an LLM as an evaluator.
 - [Conversation Evaluation](/concepts/conversation-evaluation.md) – Overview of evaluating multi‑turn sessions.

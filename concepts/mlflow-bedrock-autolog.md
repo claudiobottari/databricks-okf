@@ -116,7 +116,7 @@ Auto tracing for Amazon Bedrock can be disabled globally by calling:
 
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – The framework for capturing and visualizing LLM call [Traces](/concepts/traces.md).
 - Amazon Bedrock – The managed service providing foundation models.
-- [Automated Logging (autolog)](/concepts/automatic-tracing-autolog.md) – The general [MLflow](/concepts/mlflow.md) mechanism that enables automatic logging without explicit instrumentation.
+- [Automated Logging (autolog)](/concepts/automatic-tracing.md) – The general [MLflow](/concepts/mlflow.md) mechanism that enables automatic logging without explicit instrumentation.
 - [Serverless Budget Policy](/concepts/serverless-budget-policy.md) – Relevant for controlling [MLflow](/concepts/mlflow.md) serverless workload spending on Databricks.
 - Function Calling Agent – A pattern for building ReAct-style agents that [MLflow](/concepts/mlflow.md) can trace.
 

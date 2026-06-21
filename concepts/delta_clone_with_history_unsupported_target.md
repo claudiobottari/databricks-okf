@@ -13,6 +13,12 @@ x-llmwiki:
     - delta_clone_with_history_unsupported_target
     - DELTA_CLONE_WITH_HISTORY_UNSUPPORTED_SOURCE
     - DELTA_CLONE_WITH_HISTORY_UNSUPPORTED_TARGET
+    - delta_clone_with_history_unsupported_source-error-class
+    - DEC
+    - DELTA_CLONE_WITH_HISTORY_UNSUPPORTED_SOURCE error class
+    - DELTA_CLONE_WITH_HISTORY_UNSUPPORTED_SOURCE error condition
+    - delta_clone_with_history_unsupported_target-error-class
+    - DELTA_CLONE_WITH_HISTORY_UNSUPPORTED_TARGET error class
   citations:
     - file: delta_clone_with_history_unsupported_target-error-condition-databricks-on-aws.md
 title: DELTA_CLONE_WITH_HISTORY_UNSUPPORTED_TARGET

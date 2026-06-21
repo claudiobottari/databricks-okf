@@ -72,7 +72,7 @@ The scorer relies on the `context` field inside each record’s `expectations` d
 
 ## Related concepts
 
-- [Relevance scorer (Phoenix)](/concepts/relevance-scorer-phoenix.md) — another Phoenix scorer that measures how relevant the output is to the query.
+- [Relevance scorer (Phoenix)](/concepts/relevance-scorer.md) — another Phoenix scorer that measures how relevant the output is to the query.
 - [MLflow GenAI Evaluation](/concepts/mlflow-genai-evaluation.md) — the framework that orchestrates offline evaluation using scorers.
 - [Evaluation Datasets](/concepts/evaluation-datasets.md) — the structure expected by MLflow GenAI scorers.
 - Hallucination detection — general techniques for identifying unsupported content.

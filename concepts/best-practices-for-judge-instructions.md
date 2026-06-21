@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - best-practices-for-judge-instructions
     - BPFJI
+    - best-practices-for-llm-judge-instructions
+    - BPFLJI
+    - best-practices-for-writing-judge-instructions
+    - BPFWJI
   citations:
     - file: custom-judges-databricks-on-aws.md
 title: Best Practices for Judge Instructions

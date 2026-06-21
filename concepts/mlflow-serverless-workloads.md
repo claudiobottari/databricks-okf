@@ -13,6 +13,8 @@ x-llmwiki:
     - mlflow-serverless-workloads
     - MSW
     - Serverless workloads
+    - mlflow-serverless-workloads-for-experiments
+    - MSWFE
   citations:
     - file: configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md
 title: MLflow Serverless Workloads

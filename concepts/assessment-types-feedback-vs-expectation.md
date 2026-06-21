@@ -13,6 +13,9 @@ x-llmwiki:
   aliases:
     - assessment-types-feedback-vs-expectation
     - ATFVE
+    - label-schema-types-feedback-vs-expectation
+    - LSTFVE
+    - Feedback types (Feedback vs. Expectation)
   citations:
     - file: label-during-development-databricks-on-aws.md
     - file: create-and-manage-labeling-schemas-databricks-on-aws.md

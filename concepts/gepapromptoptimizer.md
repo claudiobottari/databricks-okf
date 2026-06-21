@@ -111,7 +111,7 @@ optimized_prompt = result.optimized_prompts[0]
 - Prompt Optimization — General techniques for improving prompt templates
 - [MLflow Scorers](/concepts/mlflow-scorers.md) — Evaluation metrics used during optimization
 - make_judge()|make_judge — API for creating [Custom Judges](/concepts/custom-judges.md)/[[scorers|Scorers]]
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — Central storage for prompt versions
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — Central storage for prompt versions
 - [LLM Chaining](/concepts/prompt-chaining.md) — Pattern of connecting multiple LLM calls in sequence
 - [Agent evaluation](/concepts/mlflow-agent-evaluation.md) — Evaluating multi‑step agent workflows
 

@@ -13,6 +13,8 @@ x-llmwiki:
     - external-lineage-apis-and-sdk
     - SDK and External Lineage APIs
     - ELAAS
+    - external-lineage-apis-and-sdks
+    - SDKs and External Lineage APIs
   citations:
     - file: external-lineage-databricks-on-aws.md
 title: External Lineage APIs and SDK

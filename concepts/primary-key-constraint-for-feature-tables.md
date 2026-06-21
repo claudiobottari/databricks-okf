@@ -145,7 +145,7 @@ Use `read_table` of the `FeatureEngineeringClient` to read feature values. The F
 - [Time Series Feature Tables](/concepts/time-series-feature-tables.md) — Feature tables with point-in-time lookup capabilities.
 - [Delta Tables](/concepts/delta-lake-table.md) — The underlying storage format for feature tables.
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer for managing feature tables.
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) — Programmatic access to feature table operations.
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) — Programmatic access to feature table operations.
 
 ## Sources
 

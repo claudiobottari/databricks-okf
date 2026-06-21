@@ -67,7 +67,7 @@ The resulting Unity Catalog model path follows the format `catalog.schema.model_
 - [MLflow](/concepts/mlflow.md) – Experiment tracking and model registry
 - [Unity Catalog](/concepts/unity-catalog.md) – Data governance and model lineage
 - HuggingFace Hub – Model source repository
-- [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu-compute.md) – Multi-GPU infrastructure for training
+- [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu.md) – Multi-GPU infrastructure for training
 - [Cut Cross Entropy](/concepts/cut-cross-entropy.md) – Memory-efficient loss computation
 - [SDPA Attention](/concepts/sdpa-scaled-dot-product-attention.md) – Scaled Dot Product Attention implementation
 

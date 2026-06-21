@@ -19,6 +19,9 @@ x-llmwiki:
     - Foundation Model Serving Endpoint
     - Scoring a model endpoint
     - scoring a model endpoint
+    - foundation-model-serving-endpoints-databricks
+    - FMSE(
+    - Foundation Model Serving on Databricks
   citations:
     - file: create-foundation-model-serving-endpoints-databricks-on-aws.md
 title: Foundation Model Serving Endpoints

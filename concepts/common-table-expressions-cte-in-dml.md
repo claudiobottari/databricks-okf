@@ -19,6 +19,9 @@ x-llmwiki:
     - Common Table Expression
     - common table expression
     - common_table_expression
+    - common-table-expressions-cte-with-delete
+    - CTE(WD
+    - CTE
   citations:
     - file: delete-from-databricks-on-aws.md
 title: Common Table Expressions (CTE) in DML

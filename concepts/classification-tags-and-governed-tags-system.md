@@ -113,7 +113,7 @@ Views and metric views are not supported by Data Classification. To classify dat
 ## Related Concepts
 
 - Supported Classification Tags – The full list of system-defined governed tags for sensitive data types.
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – How classification tags are used to enforce dynamic masking.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – How classification tags are used to enforce dynamic masking.
 - [Governed Tags Management](/concepts/governed-tags-and-system-tags.md) – Detailed permissions for creating and assigning governed tags.
 - [Data Classification System Table](/concepts/data-classification-system-table.md) – Schema reference for `system.data_classification.results`.
 - [Unity Catalog](/concepts/unity-catalog.md) – The governance platform that hosts governed tags and classification.

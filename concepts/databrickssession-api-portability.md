@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - databrickssession-api-portability
     - DAP
+    - databricks-connect-api-portability
+    - DCAP
+    - databricks-connect-code-portability
+    - DCCP
+    - code portability
   citations:
     - file: databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md
 title: DatabricksSession API Portability

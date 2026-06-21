@@ -29,7 +29,7 @@ Here is the wiki page for "Delta Lake Partition Spec Immutability in IcebergComp
 
 ## Delta Lake Partition Spec Immutability in IcebergCompatV1
 
-**Delta Lake Partition Spec Immutability in IcebergCompatV1** refers to a constraint enforced by the [IcebergCompatV1](/concepts/icebergcompatv1.md) protocol that prevents replacing a partitioned table with a differently-named partition specification. Once a table uses IcebergCompatV1, the names of its partition columns cannot be changed through operations like `REPLACE TABLE`.
+**Delta Lake Partition Spec Immutability in IcebergCompatV1** refers to a constraint enforced by the [IcebergCompatV1](/concepts/icebergcompatv.md) protocol that prevents replacing a partitioned table with a differently-named partition specification. Once a table uses IcebergCompatV1, the names of its partition columns cannot be changed through operations like `REPLACE TABLE`.
 
 ### Overview
 
@@ -70,7 +70,7 @@ The `DELTA_ICEBERG_COMPAT_V1_VIOLATION` error class includes several other subty
 
 ### Related Concepts
 
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) — The Delta Lake protocol that enforces Iceberg compatibility.
+- [IcebergCompatV1](/concepts/icebergcompatv.md) — The Delta Lake protocol that enforces Iceberg compatibility.
 - DELTA_ICEBERG_COMPAT_V1_VIOLATION — The parent error class for IcebergCompatV1 violations.
 - [Delta Lake Partitioning](/concepts/delta-lake-partitioning-constraints.md) — General concepts for partitioning Delta tables.
 - Apache Iceberg Compatibility — The broader requirement for interoperability between Delta Lake and Iceberg.

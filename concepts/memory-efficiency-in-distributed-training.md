@@ -46,7 +46,7 @@ For smaller models that fit comfortably in a single GPU, DDP offers a simpler im
 ## Related Concepts
 
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md)
-- [GPU Memory](/concepts/gpu-utilization-monitoring-with-mlflow.md)
+- [GPU Memory](/concepts/gpu-utilization-monitoring-dashboard.md)
 - [Large Language Models](/concepts/large-language-models-llms-on-databricks.md)
 - Model Parallelism
 - Tensor Parallelism

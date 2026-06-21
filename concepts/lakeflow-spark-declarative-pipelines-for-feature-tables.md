@@ -108,7 +108,7 @@ After the refresh, the table appears in the Features UI and can be used as a fea
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Delta tables](/concepts/delta-lake-table.md)
 - [Lakeflow Jobs](/concepts/lakeflow-jobs.md)
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md)
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md)
 
 ## Sources
 

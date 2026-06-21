@@ -13,6 +13,8 @@ x-llmwiki:
     - stateful-scorers-in-production
     - SSIP
     - Run scorers in production
+    - stateful-scorers-in-production-using-scorer
+    - SSIPU@
   citations:
     - file: code-based-scorers-databricks-on-aws.md
 title: Stateful Scorers in Production

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - assessments-feedback-vs-expectation
     - AFVE
+    - assessment-data-feedback-vs-expectation
+    - AD(VE
   citations:
     - file: create-and-manage-labeling-sessions-databricks-on-aws.md
 title: "Assessments: Feedback vs Expectation"

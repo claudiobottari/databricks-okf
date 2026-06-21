@@ -86,7 +86,7 @@ For more complex partial reveal requirements (such as revealing different portio
 
 ## Related concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — ABAC policies that mask sensitive columns
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — ABAC policies that mask sensitive columns
 - ABAC Performance Considerations — Performance implications of ABAC policy design
 - Common patterns for row filtering and column masking — Additional ABAC policy patterns
 - [Consistent hashing (deterministic pseudonymization)](/concepts/consistent-hashing-deterministic-pseudonymization.md) — Alternative approach for masking sensitive data

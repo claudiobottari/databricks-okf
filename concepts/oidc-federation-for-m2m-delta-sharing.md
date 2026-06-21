@@ -134,7 +134,7 @@ Save the file as `test.py` and run it. The script should successfully list the s
 
 - [Delta Sharing](/concepts/delta-sharing.md) — The open protocol for secure data sharing across platforms.
 - [Open Sharing Recipient](/concepts/opensharing-recipient.md) — The recipient entity that receives shared data.
-- [Bearer Token Authentication for Delta Sharing](/concepts/bearer-token-authentication-for-delta-sharing.md) — An alternative authentication method using long-lived tokens.
+- [Bearer Token Authentication for Delta Sharing](/concepts/bearer-token-authentication-for-open-sharing.md) — An alternative authentication method using long-lived tokens.
 - OIDC Federation for U2M Delta Sharing — The user-to-machine variant of this authentication flow.
 - Service Principal (SP) — The identity used by applications to authenticate in OAuth flows.
 - JSON Web Token (JWT) — The token format used in OIDC federation.

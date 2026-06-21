@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - pre-signed-url-sharing-audit-events
     - PUSAE
+    - pre-signed-url-sharing-audit-details
+    - PUSAD
   citations:
     - file: audit-and-monitor-data-sharing-databricks-on-aws.md
 title: Pre-signed URL Sharing Audit Events

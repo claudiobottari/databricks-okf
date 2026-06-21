@@ -29,7 +29,7 @@ timestamp: "2026-06-19T18:45:18.047Z"
 
 # Feature Flag Performance Analysis with Traces
 
-**Feature Flag Performance Analysis with Traces** is a pattern for using [MLflow Tracing](/concepts/mlflow-tracing.md) to compare the latency and performance of production GenAI applications under different [Feature Flag](/concepts/feature-tables.md) configurations. By annotating traces with feature flag metadata and then querying the resulting trace data, teams can measure the real-world impact of a flag change before fully rolling it out. ^[examples-analyzing-traces-databricks-on-aws.md]
+**Feature Flag Performance Analysis with Traces** is a pattern for using [MLflow Tracing](/concepts/mlflow-tracing.md) to compare the latency and performance of production GenAI applications under different [Feature Flag](/concepts/feature-table.md) configurations. By annotating traces with feature flag metadata and then querying the resulting trace data, teams can measure the real-world impact of a flag change before fully rolling it out. ^[examples-analyzing-traces-databricks-on-aws.md]
 
 ## Overview
 
@@ -94,7 +94,7 @@ def analyze_feature_flag_performance(
 ## Related Concepts
 
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – The tracing infrastructure that captures span-level and trace-level latency data.
-- [Feature Flag](/concepts/feature-tables.md) – A configuration toggle used to roll out new behavior gradually.
+- [Feature Flag](/concepts/feature-table.md) – A configuration toggle used to roll out new behavior gradually.
 - A/B Testing with Traces – A broader methodology for comparing multiple variants using trace metadata.
 - [Performance Monitoring with Traces](/concepts/performance-monitoring-with-mlflow-traces.md) – General techniques for profiling latency and identifying outliers.
 - Experimental Design and Analysis – Principles for designing experiments so that flag‑based comparisons yield valid causal conclusions.

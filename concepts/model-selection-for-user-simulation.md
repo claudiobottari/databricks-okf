@@ -30,7 +30,7 @@ timestamp: "2026-06-19T14:25:50.321Z"
 
 ## Overview
 
-When using [Conversation Simulation](/concepts/conversation-simulation.md) to generate synthetic multi-turn conversations, a user simulation LLM generates realistic user messages that drive the conversation toward defined goals. Selecting the right model affects how naturally the simulated user behaves, how well it follows the defined persona, and how effectively it pursues the conversation goal. ^[conversation-simulation-databricks-on-aws.md]
+When using [Conversation Simulation](/concepts/conversationsimulator.md) to generate synthetic multi-turn conversations, a user simulation LLM generates realistic user messages that drive the conversation toward defined goals. Selecting the right model affects how naturally the simulated user behaves, how well it follows the defined persona, and how effectively it pursues the conversation goal. ^[conversation-simulation-databricks-on-aws.md]
 
 ## Configuration
 
@@ -90,7 +90,7 @@ If the workspace disables Partner-powered AI features, conversation simulation c
 
 ## Related Concepts
 
-- [Conversation Simulation](/concepts/conversation-simulation.md) — The overall workflow for generating synthetic conversations
+- [Conversation Simulation](/concepts/conversationsimulator.md) — The overall workflow for generating synthetic conversations
 - Persona — User characteristics and communication style for simulation
 - Goal — The desired outcome driving simulated user behavior
 - Test Cases — Input definitions for simulated conversations

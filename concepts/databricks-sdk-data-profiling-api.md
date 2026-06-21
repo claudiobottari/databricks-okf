@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - databricks-sdk-data-profiling-api
     - DSDPA
+    - databricks-data-profiling-sdk-and-api
+    - API and Databricks Data Profiling SDK
+    - DDPSAA
   citations:
     - file: create-a-data-profile-using-the-api-databricks-on-aws.md
 title: Databricks SDK Data Profiling API

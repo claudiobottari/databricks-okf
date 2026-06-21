@@ -11,6 +11,10 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - invalid_index
+    - invalid_index-sub-condition
+    - invalid_index-subcondition
+    - INVALID_INDEX subcondition
+    - INVALID_INDEX Sub-Condition|INVALID_INDEX
   citations:
     - file: delta_streaming_skip_offsets_invalid_offset_range-error-condition-databricks-on-aws.md
 title: INVALID_INDEX

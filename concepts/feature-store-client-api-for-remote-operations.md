@@ -25,13 +25,13 @@ timestamp: "2026-06-19T23:05:33.414Z"
 
 # [Feature Store](/concepts/feature-store.md) Client API for Remote Operations
 
-The **Feature Store Client API for Remote Operations** allows you to use the `FeatureStoreClient` to create, read, write, and manage [Feature Tables](/concepts/feature-tables.md) across multiple Databricks workspaces. This is useful when teams share access to a centralized [Feature Store](/concepts/feature-store.md) or when your organization uses separate workspaces for different development stages. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+The **Feature Store Client API for Remote Operations** allows you to use the `FeatureStoreClient` to create, read, write, and manage [Feature Tables](/concepts/feature-table.md) across multiple Databricks workspaces. This is useful when teams share access to a centralized [Feature Store](/concepts/feature-store.md) or when your organization uses separate workspaces for different development stages. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
-> **Deprecation note:** This documentation describes the legacy cross-workspace approach. Databricks now recommends using **[Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md)** to share [Feature Tables](/concepts/feature-tables.md) across workspaces. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+> **Deprecation note:** This documentation describes the legacy cross-workspace approach. Databricks now recommends using **[Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md)** to share [Feature Tables](/concepts/feature-table.md) across workspaces. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ## Overview
 
-In a multi-workspace setup, a single workspace (e.g., Workspace B) is designated as the centralized [Feature Store](/concepts/feature-store.md). All [Feature Store](/concepts/feature-store.md) metadata is stored there, and users from other workspaces access [Feature Tables](/concepts/feature-tables.md) remotely. Access is controlled by [personal access tokens](/concepts/databricks-personal-access-token-pat-authentication.md) (PATs) created in the centralized workspace. Each user or script stores the token as a secret in the local workspace’s secret manager and passes it to the remote [Feature Store](/concepts/feature-store.md) client. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+In a multi-workspace setup, a single workspace (e.g., Workspace B) is designated as the centralized [Feature Store](/concepts/feature-store.md). All [Feature Store](/concepts/feature-store.md) metadata is stored there, and users from other workspaces access [Feature Tables](/concepts/feature-table.md) remotely. Access is controlled by [personal access tokens](/concepts/databricks-personal-access-token-pat-authentication.md) (PATs) created in the centralized workspace. Each user or script stores the token as a secret in the local workspace’s secret manager and passes it to the remote [Feature Store](/concepts/feature-store.md) client. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 As a security best practice, Databricks recommends using **OAuth tokens for M2M** or, if using PATs, tokens belonging to **service principals** instead of individual users. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
@@ -64,7 +64,7 @@ feature_store_uri = f'databricks://<scope>:<prefix>'
 fs = FeatureStoreClient(feature_store_uri=feature_store_uri)
 ```
 
-Before creating [Feature Tables](/concepts/feature-tables.md), you must create a database in the shared DBFS location. For example:
+Before creating [Feature Tables](/concepts/feature-table.md), you must create a database in the shared DBFS location. For example:
 
 ```sql
 CREATE DATABASE IF NOT EXISTS recommender LOCATION '/mnt/shared'
@@ -72,7 +72,7 @@ CREATE DATABASE IF NOT EXISTS recommender LOCATION '/mnt/shared'
 
 ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
-## Creating and Reading [Feature Tables](/concepts/feature-tables.md) Remotely
+## Creating and Reading [Feature Tables](/concepts/feature-table.md) Remotely
 
 Once the client is configured with the remote URI, you can use standard `FeatureStoreClient` methods:
 
@@ -107,12 +107,12 @@ This allows you to train a model using features from any local or remote [Featur
 ## Related Concepts
 
 - [Feature Store](/concepts/feature-store.md) – Centralized repository for machine learning features.
-- [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) – Recommended modern approach for sharing [Feature Tables](/concepts/feature-tables.md).
+- [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) – Recommended modern approach for sharing [Feature Tables](/concepts/feature-table.md).
 - [MLflow](/concepts/mlflow.md) – Open-source platform for the [ML Lifecycle](/concepts/ml-lifecycle.md).
 - [Personal Access Tokens](/concepts/databricks-personal-access-token-pat-authentication.md) – Authentication mechanism for Databricks APIs.
 - Secret Manager – Stores sensitive credentials like PATs.
 - [External Hive Metastore](/concepts/object-ownership-in-hive-metastore.md) – Shared [Metastore](/concepts/metastore.md) required for cross-workspace access.
-- DBFS – Shared file system for datasets and [Feature Tables](/concepts/feature-tables.md).
+- DBFS – Shared file system for datasets and [Feature Tables](/concepts/feature-table.md).
 - [Model Registry](/concepts/mlflow-model-registry.md) – Centralized model store used with [MLflow](/concepts/mlflow.md).
 
 ## Sources

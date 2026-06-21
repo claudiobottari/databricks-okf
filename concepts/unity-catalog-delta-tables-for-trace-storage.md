@@ -72,7 +72,7 @@ To enable trace archiving, the principal calling `enable_databricks_trace_archiv
 - **Custom dashboards**: Build operational or analytical dashboards in Databricks SQL or Lakeview Dashboards that display trace volume, latency distributions, error rates, or assessment scores over time.
 - **Advanced analytics**: Join archived traces with other tables (e.g., model metadata, user feedback) for in‑depth analysis of application behavior and model performance.
 - **Durable record**: Maintain a permanent, immutable record of all traces for compliance, auditing, or debugging purposes.
-- **Evaluation dataset creation**: Use archived traces to construct training or evaluation datasets for future iterations of your GenAI application (see [Building MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md)).^[archive-traces-to-a-delta-table-databricks-on-aws.md]
+- **Evaluation dataset creation**: Use archived traces to construct training or evaluation datasets for future iterations of your GenAI application (see [Building MLflow evaluation datasets](/concepts/evaluation-datasets.md)).^[archive-traces-to-a-delta-table-databricks-on-aws.md]
 
 ## Related Concepts
 
@@ -81,7 +81,7 @@ To enable trace archiving, the principal calling `enable_databricks_trace_archiv
 - [Delta Lake](/concepts/delta-lake.md) – The storage format that provides ACID transactions and time travel on the archived table.
 - [MLflow Experiment](/concepts/mlflow-experiment.md) – The logical container for which trace archiving is configured.
 - [Production Monitoring](/concepts/production-monitoring.md) – A complementary feature for monitoring GenAI apps in production.
-- [Building MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md) – A workflow that can consume archived traces as input.
+- [Building MLflow evaluation datasets](/concepts/evaluation-datasets.md) – A workflow that can consume archived traces as input.
 
 ## Sources
 

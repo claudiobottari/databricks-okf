@@ -75,7 +75,7 @@ The table below compares the Ray Delta Sharing Read API to alternative methods f
 
 - [Delta Sharing](/concepts/delta-sharing.md) — The open protocol underlying this API
 - Ray Data API — The broader Ray dataset read/write framework
-- [Combine Ray and Spark on Databricks](/concepts/ray-and-spark-integration-on-databricks.md) — General guidance for integrating Ray and Spark workloads
+- [Combine Ray and Spark on Databricks](/concepts/ray-spark-integration-on-databricks.md) — General guidance for integrating Ray and Spark workloads
 - Ray Data from Databricks Warehouse API — Alternative for reading via SQL warehouses
 
 ## Sources

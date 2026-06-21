@@ -13,6 +13,8 @@ x-llmwiki:
     - synthetic-data-generation-for-evaluation
     - SDGFE
     - Synthetic data generation
+    - synthetic-data-generation-for-genai-evaluation
+    - SDGFGE
   citations:
     - file: building-mlflow-evaluation-datasets-databricks-on-aws.md
     - file: configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md
@@ -47,7 +49,7 @@ The exact mechanism of synthetic data generation is not detailed in the source m
 
 ### Related Concepts
 
-- [Building MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md) – The broader dataset creation workflow.
+- [Building MLflow evaluation datasets](/concepts/evaluation-datasets.md) – The broader dataset creation workflow.
 - [MLflow Experiment](/concepts/mlflow-experiment.md) – The organizational unit that evaluation datasets are attached to.
 - Evaluation dataset from traces – An alternative method using captured application logs.
 - [Human feedback alignment](/concepts/human-feedback-for-llm-judge-alignment.md) – Enriching synthetic data with expert annotations.

@@ -42,7 +42,7 @@ The Review App includes a Chat UI that allows evaluators to perform informal "vi
 
 ### Expert Feedback UI for Labeling Traces
 
-The Review App also provides an [expert feedback UI](/concepts/review-apps-for-expert-feedback.md) for labeling existing traces. This allows domain experts to review and annotate specific model interactions, providing structured feedback that can be used for further analysis, model improvement, or as training data for [reinforcement learning from human feedback (RLHF)](/concepts/trl-transformers-reinforcement-learning-sfttrainer.md). ^[open-source-vs-managed-mlflow-on-databricks-databricks-on-aws.md]
+The Review App also provides an [expert feedback UI](/concepts/review-apps-for-expert-feedback.md) for labeling existing traces. This allows domain experts to review and annotate specific model interactions, providing structured feedback that can be used for further analysis, model improvement, or as training data for [reinforcement learning from human feedback (RLHF)](/concepts/trl-transformer-reinforcement-learning.md). ^[open-source-vs-managed-mlflow-on-databricks-databricks-on-aws.md]
 
 ## Integration with the Databricks Platform
 

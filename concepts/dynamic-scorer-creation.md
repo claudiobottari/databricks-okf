@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - dynamic-scorer-creation
     - DSC
+    - dynamic-scorer-creation-via-get_scorer
+    - DSCVG
   citations:
     - file: deepeval-scorers-databricks-on-aws.md
 title: Dynamic Scorer Creation

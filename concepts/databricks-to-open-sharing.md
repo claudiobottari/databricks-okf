@@ -15,6 +15,8 @@ x-llmwiki:
     - databricks-to-open-sharing
     - Databricks‑to‑open sharing
     - Databricks-to-Open
+    - databricks-to-open-sharing-model
+    - DSM
   citations:
     - file: what-is-opensharing-databricks-on-aws.md
     - file: access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md

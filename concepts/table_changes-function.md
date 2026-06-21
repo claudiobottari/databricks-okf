@@ -16,6 +16,8 @@ x-llmwiki:
     - table_changes function
     - Table changes
     - table_changes
+    - table_changes-function-databricks
+    - TF(
   citations:
     - file: describe-history-databricks-on-aws.md
     - file: delta_table_changes_view_unsupported-error-condition-databricks-on-aws.md

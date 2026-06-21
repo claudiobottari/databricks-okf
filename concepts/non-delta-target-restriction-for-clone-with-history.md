@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - non-delta-target-restriction-for-clone-with-history
     - NTRFCWH
+    - path-based-target-restriction-for-clone-with-history
+    - PTRFCWH
   citations:
     - file: delta_clone_with_history_unsupported_target-error-condition-databricks-on-aws.md
 title: Non-Delta target restriction for clone with history

@@ -35,7 +35,7 @@ Here is the wiki page for "Agent Bricks Knowledge Assistant Incompatibility".
 
 ## Overview
 
-When an account admin enacts foundation model Unity Catalog permissions — by removing the default `EXECUTE` privilege on the `system.ai` schema and selectively granting it on approved individual models — the policy is automatically enforced for [pay-per-token](/concepts/pay-per-token-pricing.md) endpoints and [batch inference (AI Functions)](/concepts/ai-functions-and-batch-inference.md) workloads. However, [Knowledge Assistant](/concepts/agent-bricks-knowledge-assistant-incompatibility.md) calls are **not** subject to this permission model. ^[foundation-model-unity-catalog-permissions-databricks-on-aws.md]
+When an account admin enacts foundation model Unity Catalog permissions — by removing the default `EXECUTE` privilege on the `system.ai` schema and selectively granting it on approved individual models — the policy is automatically enforced for [pay-per-token](/concepts/pay-per-token-pricing.md) endpoints and [batch inference (AI Functions)](/concepts/ai-functions.md) workloads. However, [Knowledge Assistant](/concepts/agent-bricks-knowledge-assistant-incompatibility.md) calls are **not** subject to this permission model. ^[foundation-model-unity-catalog-permissions-databricks-on-aws.md]
 
 ## When the Incompatibility Applies
 

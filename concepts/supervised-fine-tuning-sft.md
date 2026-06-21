@@ -16,6 +16,9 @@ x-llmwiki:
     - Supervised Fine-Tuning
     - Supervised Fine‑Tuning (SFT)
     - Fine-Tuning
+    - supervised-fine-tuning-sft-of-llms
+    - SF(OL
+    - Fine-tuning (LLM)
   citations:
     - file: fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md
     - file: fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md

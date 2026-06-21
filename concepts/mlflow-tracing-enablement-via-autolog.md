@@ -70,7 +70,7 @@ Databricks Autologging automatically calls `mlflow.autolog()` when a notebook is
 - [Databricks Autologging](/concepts/databricks-autologging.md) — Automatic MLflow tracking for traditional ML frameworks.
 - [MLflow Experiment Permissions](/concepts/mlflow-experiment-permission-levels-for-apps.md) — Controls that secure trace data stored in MLflow Tracking.
 - [MLflow Model Registry](/concepts/mlflow-model-registry.md) — Where traced models can be logged for lifecycle management.
-- [OpenAI Autologging](/concepts/mlflow-openai-autologging.md) — Specific autolog implementation for OpenAI models.
+- [OpenAI Autologging](/concepts/mlflow-openai-autolog.md) — Specific autolog implementation for OpenAI models.
 
 ## Sources
 

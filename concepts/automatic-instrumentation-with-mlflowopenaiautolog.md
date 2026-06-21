@@ -124,7 +124,7 @@ If you encounter authentication errors when traces are sent to Databricks: ^[get
 ## Related Concepts
 
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — The underlying observability framework for GenAI applications
-- [Manual Tracing with @mlflow.trace](/concepts/manual-tracing-mlflow.md) — Adding custom spans to complement automatic instrumentation
+- [Manual Tracing with @mlflow.trace](/concepts/manual-tracing.md) — Adding custom spans to complement automatic instrumentation
 - OpenAI Integration — Detailed documentation of the OpenAI autologging integration
 - GenAI Application Observability — Best practices for monitoring AI applications
 - [MLflow Experiment](/concepts/mlflow-experiment.md) — The container where traces are stored and visualized

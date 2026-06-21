@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - service-principal-authentication-for-endpoint-testing
     - SPAFET
+    - service-principal-authentication-for-ml-endpoint-load-tests
+    - SPAFMELT
+    - service-principal-authentication-for-model-serving-load-tests
+    - SPAFMSLT
+    - Service Principal Authentication for Model Serving
   citations:
     - file: configure-a-load-test-for-custom-model-serving-endpoints-databricks-on-aws.md
 title: Service Principal Authentication for Endpoint Testing

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-distributed-decorator
     - D@D
+    - databricks-distributed-decorator-for-multi-gpu-training
+    - D@DFMT
   citations:
     - file: fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md
 title: Databricks @distributed Decorator

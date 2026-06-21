@@ -119,7 +119,7 @@ The following HTML template can be used to format the alert email with a table s
 
 ^[alerts-for-anomaly-detection-databricks-on-aws.md]
 
-For more information about custom templates, see [Advanced settings for alerts](/concepts/anomaly-detection-alerts.md). ^[alerts-for-anomaly-detection-databricks-on-aws.md]
+For more information about custom templates, see [Advanced settings for alerts](/concepts/anomaly-detection-alert.md). ^[alerts-for-anomaly-detection-databricks-on-aws.md]
 
 ### Query Details
 
@@ -135,10 +135,10 @@ The provided SQL query performs the following operations:
 - [Anomaly Detection](/concepts/anomaly-detection.md) — The underlying data quality monitoring system
 - [Data Quality Monitoring UI](/concepts/data-quality-monitoring-ui.md) — An alternative UI-based method for creating alerts
 - Create an alert — General documentation for Databricks SQL alerts
-- [Advanced settings for alerts](/concepts/anomaly-detection-alerts.md) — Customizing alert behavior and templates
+- [Advanced settings for alerts](/concepts/anomaly-detection-alert.md) — Customizing alert behavior and templates
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer hosting the system tables
-- [Freshness Metric](/concepts/freshness-data-quality-metric.md) — Detecting stale tables
-- [Completeness Metric](/concepts/completeness-data-quality-metric.md) — Detecting unexpected drops in row count
+- [Freshness Metric](/concepts/freshness-data-quality.md) — Detecting stale tables
+- [Completeness Metric](/concepts/completeness-data-quality.md) — Detecting unexpected drops in row count
 
 ## Sources
 

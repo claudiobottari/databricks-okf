@@ -21,6 +21,8 @@ x-llmwiki:
     - Instance profiles
     - instance profile (IAM role)
     - instance profiles
+    - instance-profile-for-databricks-model-serving
+    - IPFDMS
   citations:
     - file: add-an-instance-profile-to-a-model-serving-endpoint-databricks-on-aws.md
 title: Instance Profile (Databricks on AWS)
@@ -104,7 +106,7 @@ For general model serving endpoint limitations, see Model Serving Limits and Reg
 - [Model Serving](/concepts/model-serving.md) – Deploy and manage models on Databricks.
 - Serverless Compute – The compute environment used by model serving endpoints.
 - AWS Instance Profiles – AWS IAM roles used for granting permissions to resources.
-- [Store environment variables for model serving](/concepts/secrets-based-environment-variables-for-model-serving.md) – Alternative method for configuring resource access.
+- [Store environment variables for model serving](/concepts/secrets-based-environment-variables-in-model-serving.md) – Alternative method for configuring resource access.
 - Feature Store Lookup – Use the same instance profile to authenticate feature lookups.
 
 ## Additional Resources

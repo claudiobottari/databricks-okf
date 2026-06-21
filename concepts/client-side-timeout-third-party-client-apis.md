@@ -31,7 +31,7 @@ timestamp: "2026-06-19T09:55:47.673Z"
 
 ## Overview
 
-Client-side timeouts from third-party client APIs typically return error messages containing **"timed out"** or **4xx Bad Request**. These errors can affect model serving endpoints that consist of pipelines using third-party client APIs, such as [custom PyFunc models](/concepts/custom-mlflow-pyfunc-model.md) or PyFunc custom schema agents. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+Client-side timeouts from third-party client APIs typically return error messages containing **"timed out"** or **4xx Bad Request**. These errors can affect model serving endpoints that consist of pipelines using third-party client APIs, such as [custom PyFunc models](/concepts/custom-mlflow-pythonmodel.md) or PyFunc custom schema agents. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ## Identifying Third-Party Client Timeouts
 
@@ -88,7 +88,7 @@ For the OpenAI client, you can work around the maximum timeout window by enablin
 Third-party client timeout issues can compound with other timeout types:
 
 - **[Model Deployment Timeouts](/concepts/model-deployment-timeouts.md)** – Timeouts during container build and model deployment
-- **[Server-Side Timeouts](/concepts/server-side-timeouts.md)** – Timeouts from the model serving endpoint itself
+- **[Server-Side Timeouts](/concepts/server-side-timeout.md)** – Timeouts from the model serving endpoint itself
 - **MLflow Client-Side Timeouts** – Timeouts caused by MLflow environment variable configurations
 - **Idle Endpoint Warm-Up** – If an endpoint is scaled to 0 and receives a request, the warm-up period can lead to client-side timeouts, especially in pipelines that make calls to [Provisioned throughput endpoints](/concepts/provisioned-throughput-endpoints.md) or AI Search indices
 - **[Connection Timeouts](/concepts/connection-timeout.md)** – Timeouts related to establishing a connection with the server, such as `SocketTimeout` for JDBC connections
@@ -105,7 +105,7 @@ Third-party client timeout issues can compound with other timeout types:
 ## Related Concepts
 
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md)
-- [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md)
+- [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md)
 - PyFunc Custom Schema Agents
 - [Debug Model Serving](/concepts/model-serving.md)
 - [Resource and Payload Limits](/concepts/model-serving-resource-and-payload-limits.md)

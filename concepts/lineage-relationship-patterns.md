@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - lineage-relationship-patterns
     - LRP
+    - external-lineage-relationship-patterns
+    - ELRP
+    - External lineage relationship
   citations:
     - file: external-lineage-databricks-on-aws.md
 title: Lineage Relationship Patterns

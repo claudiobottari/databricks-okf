@@ -26,7 +26,7 @@ timestamp: "2026-06-19T10:28:08.457Z"
 
 # Environment Packaging (env_pack)
 
-**Environment Packaging (env_pack)** is a feature in MLflow that enables packaging and staging of model artifacts and their serving environment during model registration, rather than at deployment time. This approach powers [express deployments for model serving endpoints](/concepts/express-deployments-for-model-serving.md) by decoupling the environment preparation step from endpoint creation.
+**Environment Packaging (env_pack)** is a feature in MLflow that enables packaging and staging of model artifacts and their serving environment during model registration, rather than at deployment time. This approach powers [express deployments for model serving endpoints](/concepts/express-deployments-databricks.md) by decoupling the environment preparation step from endpoint creation.
 
 ## Overview
 
@@ -77,7 +77,7 @@ After registration with `env_pack` completes, deployment times are reduced and t
 
 ## Related Concepts
 
-- [Express deployments for model serving endpoints](/concepts/express-deployments-for-model-serving.md)
+- [Express deployments for model serving endpoints](/concepts/express-deployments-databricks.md)
 - [Model Serving on Databricks](/concepts/model-serving-on-databricks.md)
 - [Serverless Notebook Environments](/concepts/serverless-notebook-environments.md)
 - MLflow model registration

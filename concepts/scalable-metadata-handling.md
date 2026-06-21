@@ -44,7 +44,7 @@ Delta Lake runs on top of an existing data lake (e.g., Amazon S3, Azure Data Lak
 
 ## Related Concepts
 
-- [Delta Lake API Reference](/concepts/delta-lake-api-reference.md) – Official API documentation for Scala, Java, and Python.
+- [Delta Lake API Reference](/concepts/delta-lake-api.md) – Official API documentation for Scala, Java, and Python.
 - [Delta Lake Table](/concepts/delta-lake-table.md) – The primary table format in Delta Lake with ACID guarantees.
 - [ACID transactions](/concepts/delta-acid-transactions.md) – Atomic, consistent, isolated, and durable operations provided by Delta Lake.
 - [Transaction log](/concepts/delta-transaction-log.md) – The internal log that records all changes to a Delta table.

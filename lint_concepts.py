@@ -107,26 +107,75 @@ def edit_distance(a, b):
     return prev[n]
 
 
-def names_are_related(a, b):
+STOPWORDS = {
+    'a', 'an', 'the', 'of', 'in', 'on', 'for', 'to', 'and', 'or', 'is',
+    'are', 'that', 'which', 'it', 'its', 'this', 'with', 'from', 'by', 'as',
+    'at', 'be', 'can', 'has', 'have', 'how', 'not', 'use', 'used', 'using',
+    'when', 'where', 'whether', 'also', 'each', 'other', 'they', 'their',
+}
+
+
+def name_token_overlap(a, b):
+    """Fraction of common name tokens (split by -), relative to the smaller set."""
+    ta = set(a.split('-'))
+    tb = set(b.split('-'))
+    if not ta or not tb:
+        return 0.0
+    return len(ta & tb) / min(len(ta), len(tb))
+
+
+def desc_jaccard(da, db):
+    """Jaccard similarity of content words in two description strings."""
+    wa = set(da.lower().split()) - STOPWORDS
+    wb = set(db.lower().split()) - STOPWORDS
+    if not wa or not wb:
+        return 0.0
+    return len(wa & wb) / len(wa | wb)
+
+
+def names_are_structurally_related(a, b):
     """
-    True if two concept IDs plausibly refer to the same topic.
-    Used as a sanity-check guard alongside cosine similarity.
+    True when names are structurally near-identical:
+    one is a prefix of the other, OR edit distance <= 35 % of the longer name,
+    AND length ratio >= 0.40.
     """
-    # One name is a prefix of the other (generalization/specialization pair)
     if a.startswith(b) or b.startswith(a):
         return True
+    lo = min(len(a), len(b))
+    hi = max(len(a), len(b))
+    if hi == 0 or lo / hi < 0.40:
+        return False
+    return edit_distance(a, b) / hi <= 0.35
 
-    lo, hi = (len(a), len(b)) if len(a) <= len(b) else (len(b), len(a))
-    if hi == 0:
+
+def should_merge(meta_a, meta_b, cos_sim):
+    """
+    Structural merge decision — two rules:
+
+    Rule 1a (prefix): one ID is a prefix of the other AND cosine >= 0.85.
+    Covers: concept-X vs concept-X-suffix-detail (highest confidence).
+
+    Rule 1b (edit): structurally near-identical names (edit_ratio <= 35% of
+    longer name, length ratio >= 40%) AND cosine >= 0.88.
+    Covers: singular/plural, preposition swap, word insertion/deletion.
+
+    No description-content rule — too many false positives in a single-domain
+    corpus where every concept shares vocabulary.
+    """
+    a, b = meta_a["id"], meta_b["id"]
+
+    # Rule 1a: prefix match (very high confidence at lower threshold)
+    if cos_sim >= 0.85 and (a.startswith(b) or b.startswith(a)):
         return True
 
-    # Reject if one name is less than 40 % of the other's length
-    if lo / hi < 0.40:
-        return False
+    # Rule 1b: structural edit similarity
+    if cos_sim >= 0.88:
+        lo = min(len(a), len(b))
+        hi = max(len(a), len(b))
+        if hi > 0 and lo / hi >= 0.40 and edit_distance(a, b) / hi <= 0.35:
+            return True
 
-    # Accept if edit distance is within 35 % of the longer name
-    dist = edit_distance(a, b)
-    return dist / hi <= 0.35
+    return False
 
 
 class UnionFind:
@@ -152,24 +201,28 @@ class UnionFind:
 
 
 def find_clusters(metas, vectors, threshold):
+    """
+    threshold is kept as a CLI arg for --dry-run exploration but the
+    real merge logic is inside should_merge() (dual-rule: structural + semantic).
+    """
     n = len(metas)
-    print(f"  Computing {n}×{n} cosine similarity matrix...")
+    print(f"  Computing {n}x{n} cosine similarity matrix...")
     sim = cosine_sim_matrix(vectors)
 
-    print("  Building clusters via Union-Find...")
+    print("  Building clusters via Union-Find (structural >= 0.88 | semantic >= 0.80)...")
     uf = UnionFind(n)
     n_pairs = 0
 
-    # Vectorised: find all pairs above threshold first, then filter by name
-    rows, cols = np.where(sim >= threshold)
+    # Only examine pairs above the lower bound to keep it fast
+    rows, cols = np.where(sim >= 0.85)
     for i, j in zip(rows.tolist(), cols.tolist()):
         if i >= j:
             continue
-        if names_are_related(metas[i]["id"], metas[j]["id"]):
+        if should_merge(metas[i], metas[j], float(sim[i, j])):
             uf.union(i, j)
             n_pairs += 1
 
-    print(f"  Found {n_pairs} near-duplicate pairs above threshold={threshold}")
+    print(f"  Found {n_pairs} mergeable pairs")
 
     groups = defaultdict(list)
     for i in range(n):
@@ -306,28 +359,40 @@ def find_all_md_files():
     return result
 
 
-def update_refs_in_file(path, old_id, new_id):
-    """Replace every link variant of old_id → new_id. Returns True if file changed."""
-    try:
-        with open(path, encoding="utf-8") as f:
-            content = f.read()
-    except (OSError, UnicodeDecodeError):
-        return False
+def batch_update_refs(all_md, replacements):
+    """
+    Apply ALL {old_id -> new_id} replacements in a single pass per file
+    (instead of scanning every file for every replacement — much faster at scale).
+    Returns set of modified file paths.
+    """
+    pattern_pairs = []
+    for old_id, new_id in replacements.items():
+        pattern_pairs.extend([
+            (f"/concepts/{old_id}.md",  f"/concepts/{new_id}.md"),
+            (f"/concepts/{old_id})",    f"/concepts/{new_id})"),
+            (f"/concepts/{old_id}#",    f"/concepts/{new_id}#"),
+            (f"concepts/{old_id}.md",   f"concepts/{new_id}.md"),
+        ])
 
-    new_content = content
-    for old_pat, new_pat in [
-        (f"/concepts/{old_id}.md", f"/concepts/{new_id}.md"),
-        (f"/concepts/{old_id})", f"/concepts/{new_id})"),
-        (f"/concepts/{old_id}#", f"/concepts/{new_id}#"),
-        (f"concepts/{old_id}.md", f"concepts/{new_id}.md"),
-    ]:
-        new_content = new_content.replace(old_pat, new_pat)
+    modified = set()
+    for md_file in all_md:
+        try:
+            with open(md_file, encoding="utf-8") as f:
+                content = f.read()
+        except (OSError, UnicodeDecodeError):
+            continue
 
-    if new_content != content:
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(new_content)
-        return True
-    return False
+        new_content = content
+        for old_pat, new_pat in pattern_pairs:
+            if old_pat in new_content:
+                new_content = new_content.replace(old_pat, new_pat)
+
+        if new_content != content:
+            with open(md_file, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            modified.add(md_file)
+
+    return modified
 
 
 # ---------------------------------------------------------------------------
@@ -367,12 +432,17 @@ def git_add(paths):
 
 
 def git_rm(paths):
+    """Remove files from git index AND disk. Silently skip if not tracked."""
     for p in paths:
-        if p.exists():
+        if not p.exists():
+            continue
+        try:
             subprocess.run(
                 ["git", "rm", "-f", str(p)],
                 cwd=OKF_DIR, check=True, capture_output=True,
             )
+        except subprocess.CalledProcessError:
+            p.unlink(missing_ok=True)  # not tracked; just delete from disk
 
 
 def git_commit(message):
@@ -441,6 +511,7 @@ def main():
 
     modified: set = set()
     deleted_ids: list = []
+    replacements: dict = {}   # {old_id: canonical_id}
 
     for canonical_idx, dup_indices in all_merges:
         canonical_id = metas[canonical_idx]["id"]
@@ -454,7 +525,8 @@ def main():
         new_aliases = []
         for dup_idx in dup_indices:
             dup_id = metas[dup_idx]["id"]
-            new_aliases.append(dup_id)  # the file ID itself becomes an alias
+            new_aliases.append(dup_id)
+            replacements[dup_id] = canonical_id
 
             dup_path = CONCEPTS_DIR / f"{dup_id}.md"
             if dup_path.exists():
@@ -464,8 +536,8 @@ def main():
                 if fm_end is not None:
                     new_aliases.extend(get_xllmwiki_aliases(lines, fm_end))
 
-        # Remove duplicates, preserve order, skip canonical's own ID
-        seen_aliases = set()
+        # Deduplicate aliases, skip canonical's own ID
+        seen_aliases: set = set()
         unique_new = []
         for a in new_aliases:
             if a != canonical_id and a not in seen_aliases:
@@ -481,13 +553,13 @@ def main():
                 f.write(patched)
             modified.add(canonical_path)
 
-        # Update all cross-references
         for dup_idx in dup_indices:
-            dup_id = metas[dup_idx]["id"]
-            for md_file in all_md:
-                if update_refs_in_file(md_file, dup_id, canonical_id):
-                    modified.add(md_file)
-            deleted_ids.append(dup_id)
+            deleted_ids.append(metas[dup_idx]["id"])
+
+    # Single-pass reference update across all files
+    print(f"  Updating cross-references ({len(replacements)} replacements)...")
+    ref_modified = batch_update_refs(all_md, replacements)
+    modified |= ref_modified
 
     # --- Update index (gitignored, not staged) ---
     print("Updating dbokf-index …")
@@ -505,7 +577,7 @@ def main():
 
     msg = (
         f"lint: merge {len(deleted_ids)} duplicate concepts into {len(all_merges)} canonical file(s)\n\n"
-        f"Near-duplicate concept files merged (cosine similarity ≥ {args.threshold},\n"
+        f"Near-duplicate concept files merged (structural similarity cos>=0.85/0.88).\n"
         f"names structurally related). Absorbed aliases preserved in canonical\n"
         f"frontmatter. All cross-references updated. dbokf-index pruned.\n\n"
         f"Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"

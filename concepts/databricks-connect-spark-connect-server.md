@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-connect-spark-connect-server
     - DCSCS
+    - databricks-connect-with-open-source-spark-connect-server
+    - DCWOSSCS
   citations:
     - file: advanced-usage-of-databricks-connect-databricks-on-aws.md
 title: Databricks Connect Spark Connect Server

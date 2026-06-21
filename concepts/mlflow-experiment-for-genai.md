@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-experiment-for-genai
     - MEFG
+    - mlflow-experiments-for-genai-applications
+    - MEFGA
   citations:
     - file: get-started-mlflow-tracing-for-genai-in-a-local-ide-databricks-on-aws.md
     - file: configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md

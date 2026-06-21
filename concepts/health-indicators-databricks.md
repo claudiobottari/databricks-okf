@@ -15,6 +15,8 @@ x-llmwiki:
     - Health Indicators
     - Health Indicators (Data Quality)
     - health indicators
+    - health-indicators-databricks-anomaly-detection
+    - HI(AD
   citations:
     - file: anomaly-detection-databricks-on-aws.md
 title: Health Indicators (Databricks)

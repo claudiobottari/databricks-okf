@@ -25,7 +25,7 @@ timestamp: "2026-06-19T09:34:36.999Z"
 
 # MANAGE Permission Requirement
 
-The **MANAGE Permission Requirement** is a privilege level in [Unity Catalog](/concepts/unity-catalog.md) that governs who can create, edit, delete, and view [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) and [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md). It is a higher-level permission than standard object access privileges and is required for administrative operations on security policies.
+The **MANAGE Permission Requirement** is a privilege level in [Unity Catalog](/concepts/unity-catalog.md) that governs who can create, edit, delete, and view [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) and [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md). It is a higher-level permission than standard object access privileges and is required for administrative operations on security policies.
 
 ## Permission Scope
 
@@ -44,13 +44,13 @@ The following operations require `MANAGE` on the relevant securable object:
 ## Relationship to Other Permissions
 
 - **`MANAGE` permission** is distinct from privileges like `SELECT`, `EXECUTE`, or `MODIFY`. A user may have `SELECT` on a table (allowing them to query data) without having `MANAGE` (allowing them to create or modify policies on that table).
-- For [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md), users querying masked data need `SELECT` (or appropriate) privileges on the table. The policy does not grant access; it only controls how data appears to users who already have access.
+- For [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md), users querying masked data need `SELECT` (or appropriate) privileges on the table. The policy does not grant access; it only controls how data appears to users who already have access.
 - Creating a policy also requires `EXECUTE` privilege on the UDF referenced by the policy.
 
 ## Related Concepts
 
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md)
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
 - [Unity Catalog Permissions](/concepts/unity-catalog-permissions-model.md)
 - User-Defined Functions (UDFs)
 

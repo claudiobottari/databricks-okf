@@ -20,6 +20,10 @@ x-llmwiki:
     - Row Filters and Column Masks (table-level)
     - Row Filters and Column Masks in Unity Catalog
     - Rules for multiple filters and masks
+    - table-level-row-filters-and-column-masks
+    - Column Masks and Table-Level Row Filters
+    - TRFACM
+    - ABAC vs Table-Level Row Filters and Column Masks
   citations:
     - file: access-control-in-unity-catalog-databricks-on-aws.md
 title: Row Filters and Column Masks

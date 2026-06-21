@@ -26,7 +26,7 @@ timestamp: "2026-06-19T22:11:49.663Z"
 
 # AutoML Forecasting Experiment Configuration
 
-**AutoML Forecasting Experiment Configuration** refers to the setup and parameters used when running an AutoML forecasting experiment on Databricks, particularly the mechanism for incorporating [covariates](/concepts/covariates-external-regressors-in-time-series-forecasting.md) (external regressors) via [Feature Store](/concepts/feature-store.md) lookups. The configuration allows users to join additional feature tables to the primary training data, improving forecast accuracy by including external factors that influence the target time series. ^[automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md]
+**AutoML Forecasting Experiment Configuration** refers to the setup and parameters used when running an AutoML forecasting experiment on Databricks, particularly the mechanism for incorporating [covariates](/concepts/covariates-external-regressors-for-forecasting.md) (external regressors) via [Feature Store](/concepts/feature-store.md) lookups. The configuration allows users to join additional feature tables to the primary training data, improving forecast accuracy by including external factors that influence the target time series. ^[automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md]
 
 ## Overview
 

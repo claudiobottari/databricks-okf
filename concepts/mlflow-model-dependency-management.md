@@ -153,7 +153,7 @@ local_path = mlflow.artifacts.download_artifacts(ARTIFACT_URI)
 - [Model Serving](/concepts/model-serving.md) – Production inference endpoints on Databricks.
 - Conda Environment – The environment definition used alongside pip requirements.
 - MLflow CLI – Command-line interface for model management operations.
-- [PyFunc Model](/concepts/custom-mlflow-pyfunc-model.md) – The Python function model format used by MLflow.
+- [PyFunc Model](/concepts/custom-mlflow-pythonmodel.md) – The Python function model format used by MLflow.
 
 ## Sources
 

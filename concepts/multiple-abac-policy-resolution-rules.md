@@ -45,7 +45,7 @@ The system detects conflicts when two or more distinct policies would apply to t
 - [ABAC Policy Evaluation](/concepts/dynamic-abac-policy-evaluation.md) – Detailed rules for how policies are evaluated at runtime
 - [Row Filter Policies](/concepts/row-filter-policies.md) – Policies that restrict which rows a user can see
 - [Column Mask Policies](/concepts/column-mask-policies.md) – Policies that modify or hide column values
-- [Table-Level Row Filters and Column Masks](/concepts/table-level-row-filters-and-column-masks.md) – Non-ABAC filters and masks that can coexist with ABAC policies
+- [Table-Level Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md) – Non-ABAC filters and masks that can coexist with ABAC policies
 - ABAC Limitations – Broader constraints on ABAC policy usage
 
 ## Sources

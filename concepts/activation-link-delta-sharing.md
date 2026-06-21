@@ -14,6 +14,8 @@ x-llmwiki:
     - AL(S
     - Activation Link
     - Activation link
+    - activation-link-for-delta-sharing-recipients
+    - ALFDSR
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
 title: Activation Link (Delta Sharing)
@@ -66,10 +68,10 @@ After sharing the new activation link, the recipient must apply the new credenti
 
 - [Delta Sharing](/concepts/delta-sharing.md) — The open protocol for secure data sharing
 - [Recipient Object (Delta Sharing)](/concepts/recipient-object-delta-sharing.md) — The object that defines a data consumer
-- [Bearer Token Authentication (Delta Sharing)](/concepts/bearer-token-authentication-for-delta-sharing.md) — The authentication method that uses tokens
+- [Bearer Token Authentication (Delta Sharing)](/concepts/bearer-token-authentication-for-open-sharing.md) — The authentication method that uses tokens
 - [Open Sharing (Delta Sharing)](/concepts/opensharing-delta-sharing.md) — Sharing with non-Databricks recipients
 - [Credential File (Delta Sharing)](/concepts/credential-file-delta-sharing.md) — The file downloaded via the activation link
-- [Token Rotation (Delta Sharing)](/concepts/recipient-token-rotation-delta-sharing.md) — The process of replacing an existing token
+- [Token Rotation (Delta Sharing)](/concepts/recipient-token-rotation.md) — The process of replacing an existing token
 
 ## Sources
 

@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - metastore-metadata-mismatch
     - MMM
+    - metastore-metadata-mismatch-in-delta-conversion
+    - MMMIDC
+    - ConvertMetastoreMetadataMismatchException
   citations:
     - file: convert-to-delta-databricks-on-aws.md
 title: Metastore Metadata Mismatch

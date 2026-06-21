@@ -12,6 +12,18 @@ x-llmwiki:
   aliases:
     - customer-managed-keys-for-online-feature-stores
     - CKFOFS
+    - customer-managed-key-cmk-encryption-for-online-feature-stores
+    - CK(EFOFS
+    - customer-managed-key-encryption-for-online-feature-stores
+    - CKEFOFS
+    - customer-managed-key-encryption-for-online-stores
+    - CKEFOS
+    - customer-managed-keys-cmk-for-online-feature-stores
+    - CK(FOFS
+    - Customer-Managed Keys (CMK)
+    - Customer-managed key (CMK)
+    - customer-managed keys (CMK)
+    - customer‑managed keys (CMK)
   citations:
     - file: databricks-online-feature-stores-databricks-on-aws.md
 title: Customer-Managed Keys for Online Feature Stores

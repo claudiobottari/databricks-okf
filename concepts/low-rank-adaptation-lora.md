@@ -14,6 +14,8 @@ x-llmwiki:
     - low-rank-adaptation-lora
     - LA(
     - LoRA Adapter
+    - low-rank-adaptation-lora-for-parameter-efficient-fine-tuning
+    - LA(FPF
   citations:
     - file: large-language-models-llms-databricks-on-aws.md
     - file: finetune-llama-32-3b-with-unsloth-databricks-on-aws.md

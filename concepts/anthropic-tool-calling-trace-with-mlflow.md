@@ -135,7 +135,7 @@ The resulting trace in the [MLflow](/concepts/mlflow.md) UI highlights the tool 
 - `anthropic.Anthropic().messages.create()` (synchronous)
 - `anthropic.AsyncAnthropic().messages.create()` (async, supported from [MLflow](/concepts/mlflow.md) 2.21.0)
 
-To request support for additional APIs, users can file a feature request on the [MLflow GitHub repository](/concepts/databricks-connect-github-repository.md). ^[tracing-anthropic-databricks-on-aws.md]
+To request support for additional APIs, users can file a feature request on the [MLflow GitHub repository](/concepts/databricks-connect-github-examples.md). ^[tracing-anthropic-databricks-on-aws.md]
 
 ### Disabling Auto-Tracing
 

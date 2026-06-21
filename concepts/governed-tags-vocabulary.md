@@ -57,7 +57,7 @@ ABAC policies in Unity Catalog use governed tags as condition expressions. For e
 ## Related Concepts
 
 - [Governed Tags](/concepts/governed-tags.md) — The key-value pairs that belong to a controlled vocabulary
-- [Data Classification in Unity Catalog](/concepts/data-classification-in-unity-catalog.md) — Automatic tag assignment for sensitive data
+- [Data Classification in Unity Catalog](/concepts/data-classification-unity-catalog.md) — Automatic tag assignment for sensitive data
 - ABAC Policies — Access control policies driven by governed tags
 - Certified and Deprecated Data — System tags for data quality signals
 - Discover Data — The user-facing catalog browsing experience

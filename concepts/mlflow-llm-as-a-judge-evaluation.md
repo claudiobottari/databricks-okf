@@ -67,7 +67,7 @@ LLM-as-a-Judge evaluation provides automated, scalable quality assessment, but i
 
 - Learn about [MLflow Tracing](/concepts/mlflow-tracing.md) to instrument GenAI applications.
 - Explore MLflow Evaluation and Monitoring for detailed documentation on scorers and metrics.
-- Understand how to [build MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md) from logged usage data.
+- Understand how to [build MLflow evaluation datasets](/concepts/evaluation-datasets.md) from logged usage data.
 - See [production monitoring with MLflow](/concepts/production-monitoring.md) for deploying scorers in live environments.
 
 ## Sources

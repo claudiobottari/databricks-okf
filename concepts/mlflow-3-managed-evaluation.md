@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-3-managed-evaluation
     - M3ME
+    - mlflow-3-agent-evaluation-sdk
+    - M3AES
   citations:
     - file: evaluate-and-monitor-ai-agents-databricks-on-aws.md
 title: MLflow 3 Managed Evaluation

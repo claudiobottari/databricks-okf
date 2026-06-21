@@ -18,6 +18,11 @@ x-llmwiki:
     - Incrementally Clone Parquet and Apache Iceberg Tables to Delta Lake
     - Incrementally Clone Parquet and Iceberg Tables to Delta Lake
     - Incrementally clone Parquet and Apache Iceberg tables to Delta Lake
+    - incremental-cloning-of-parquet-and-iceberg-to-delta-lake
+    - Iceberg to Delta Lake and Incremental Cloning of Parquet
+    - Incremental Cloning of Parquet and Iceberg Tables
+    - Incremental cloning from Iceberg to Delta Lake
+    - Incremental cloning of Parquet and Iceberg tables
   citations:
     - file: convert-to-delta-lake-databricks-on-aws.md
 title: Incremental Clone of Parquet and Iceberg to Delta Lake

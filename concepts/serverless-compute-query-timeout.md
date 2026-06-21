@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - serverless-compute-query-timeout
     - SCQT
+    - serverless-compute-query-timeout-configuration
+    - SCQTC
+    - serverless-compute-query-timeout-in-databricks-notebooks
+    - SCQTIDN
   citations:
     - file: databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md
 title: Serverless Compute Query Timeout

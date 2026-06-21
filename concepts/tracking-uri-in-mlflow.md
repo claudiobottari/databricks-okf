@@ -97,7 +97,7 @@ Alongside the tracking URI, users can control where runs are logged by setting t
 - [MLflow Experiments](/concepts/mlflow-experiment.md)
 - [Databricks-hosted tracking server](/concepts/databricks-hosted-mlflow-tracking-server.md)
 - [Remote MLflow tracking server](/concepts/remote-mlflow-tracking-server.md)
-- [Authentication for MLflow](/concepts/authentication-methods-for-remote-mlflow-tracking.md)
+- [Authentication for MLflow](/concepts/mlflow-authentication-methods.md)
 
 ## Sources
 

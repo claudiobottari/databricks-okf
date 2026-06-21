@@ -47,8 +47,8 @@ For detailed usage instructions, refer to the [TypeScript SDK documentation](htt
 
 ## Related Concepts
 
-- [Automatic Tracing in MLflow](/concepts/automatic-tracing-mlflow.md)
-- [Manual Tracing in MLflow](/concepts/manual-tracing-mlflow.md)
+- [Automatic Tracing in MLflow](/concepts/automatic-tracing.md)
+- [Manual Tracing in MLflow](/concepts/manual-tracing.md)
 - MLflow Tracing Overview
 - Generative AI Application Monitoring
 

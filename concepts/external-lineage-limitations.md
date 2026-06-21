@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - external-lineage-limitations
     - ELL
+    - external-lineage-limitations-and-quotas
+    - Quotas and External Lineage Limitations
+    - ELLAQ
   citations:
     - file: external-lineage-databricks-on-aws.md
 title: External Lineage Limitations

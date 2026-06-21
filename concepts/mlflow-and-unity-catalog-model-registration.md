@@ -13,6 +13,9 @@ x-llmwiki:
     - mlflow-and-unity-catalog-model-registration
     - Unity Catalog Model Registration and MLflow
     - MAUCMR
+    - mlflow-and-unity-catalog-model-registration-pipeline
+    - Unity Catalog Model Registration Pipeline and MLflow
+    - MAUCMRP
   citations:
     - file: distributed-finetune-llama-32-3b-with-unsloth-on-multiple-gpus-databricks-on-aws.md
 title: MLflow and Unity Catalog Model Registration

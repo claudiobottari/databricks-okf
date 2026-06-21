@@ -27,6 +27,23 @@ x-llmwiki:
     - row filter policy
     - row filter policy|row filter
     - row filters
+    - row-filter-and-column-mask-policies
+    - Column Mask Policies and Row Filter
+    - RFACMP
+    - ABAC row filter and column mask policies
+    - Quotas for Row Filter and Column Mask Policies
+    - Row Filter and Column Mask Policy
+    - Create and Manage Row Filter and Column Mask Policies
+    - Create and manage row filter and column mask policies
+    - Performance Considerations for Row Filter and Column Mask Policies
+    - Row Filter and Column Mask Policy Evaluation
+    - Row Filter and Column Mask Policy Evaluation and Runtime Behavior
+    - Row Filters and Column Masks (ABAC)|row filter and column mask policies
+    - row-filter-policies-and-column-mask-policies
+    - column mask policies and Row filter policies
+    - RFPACMP
+    - row-filter-policies-in-unity-catalog
+    - RFPIUC
   citations:
     - file: attribute-based-access-control-in-unity-catalog-databricks-on-aws.md
     - file: tutorial-configure-abac-with-sql-databricks-on-aws.md

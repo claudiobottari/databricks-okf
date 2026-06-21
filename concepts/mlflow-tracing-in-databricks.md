@@ -99,7 +99,7 @@ The general [Databricks Autologging](/concepts/databricks-autologging.md) featur
 - [MLflow Autologging](/concepts/mlflow-autologging.md) — The underlying automatic logging system used to enable tracing.
 - [MLflow Tracking](/concepts/mlflow-tracking.md) — The storage and UI layer where traces are recorded.
 - [Generative AI on Databricks](/concepts/ai-runtime-ai-v5-on-databricks.md) — Overview of GenAI workloads that benefit from tracing.
-- [OpenAI Autologging](/concepts/mlflow-openai-autologging.md) — Details on tracing for OpenAI models.
+- [OpenAI Autologging](/concepts/mlflow-openai-autolog.md) — Details on tracing for OpenAI models.
 - LangChain Autologging — Tracing for LangChain and LangGraph workflows.
 
 ## Sources

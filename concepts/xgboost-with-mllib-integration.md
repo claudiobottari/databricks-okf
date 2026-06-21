@@ -13,6 +13,9 @@ x-llmwiki:
     - xgboost-with-mllib-integration
     - XWMI
     - PySpark XGBoost integration
+    - xgboost-with-mllib-ml-pipeline
+    - XWMMP
+    - XGBoost for Spark Pipeline
   citations:
     - file: distributed-training-of-xgboost-models-using-scala-databricks-on-aws.md
 title: XGBoost with MLlib Integration

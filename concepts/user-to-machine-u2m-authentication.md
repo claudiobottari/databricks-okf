@@ -20,6 +20,9 @@ x-llmwiki:
     - OAuth User-to-Machine (U2M)
     - OAuth authentication
     - User-to-Machine (U2M)
+    - u2m-user-to-machine-authentication-flow
+    - U(AF
+    - U2M Flow|user-to-machine (U2M) OIDC flow
   citations:
     - file: enable-open-id-connect-oidc-federation-for-opensharing-recipients-databricks-on-aws.md
 title: User-to-Machine (U2M) Authentication

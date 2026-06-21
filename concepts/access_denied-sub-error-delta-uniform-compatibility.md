@@ -62,7 +62,7 @@ After correcting the permissions, retry the operation that produced the error.^[
 
 - DELTA_UNIFORM_COMPATIBILITY_MISSING_OR_INVALID_LOCATION – The parent error condition that includes all sub-errors.
 - [Delta Uniform Compatibility](/concepts/delta-uniform-compatibility-format.md) – The feature that requires this location to be set.
-- [Delta Iceberg Compatibility](/concepts/delta-iceberg-table-feature-compatibility.md) – The primary use case for the compatibility location.
+- [Delta Iceberg Compatibility](/concepts/delta-lake-table-features-compatibility.md) – The primary use case for the compatibility location.
 - Error conditions in Delta Lake – General guidance on Delta error handling.
 - [Table property delta.universalFormat.compatibility.location](/concepts/deltauniversalformatcompatibilitylocation.md) – The property that triggers this check.
 

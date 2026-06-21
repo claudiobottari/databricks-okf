@@ -40,7 +40,7 @@ The API offers several advantages for prompt development:
 - **Framework Agnostic** – Works with any agent framework, providing broad compatibility.
 - **Joint Optimization** – Enables simultaneous refinement of multiple prompts for best overall performance.
 - **Flexible Evaluation** – Supports custom scorers and aggregation functions.
-- **Version Control** – Automatically registers optimized prompts in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md).
+- **Version Control** – Automatically registers optimized prompts in the [MLflow Prompt Registry](/concepts/prompt-registry.md).
 - **Extensible** – Allows plugging in custom optimization algorithms by extending the base class.
 
 ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
@@ -128,7 +128,7 @@ For more advanced scenarios, refer to the following guides:
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md)
+- [MLflow Prompt Registry](/concepts/prompt-registry.md)
 - [GepaPromptOptimizer](/concepts/gepapromptoptimizer.md)
 - [Correctness Scorer](/concepts/correctness-scorer.md)
 - [Safety scorer](/concepts/safety-scorer-in-mlflow.md)

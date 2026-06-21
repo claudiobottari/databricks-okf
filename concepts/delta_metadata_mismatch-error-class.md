@@ -17,6 +17,8 @@ x-llmwiki:
     - DELTA_METADATA_MISMATCH error class
     - Delta Metadata Mismatch Error
     - DELTA_METADATA_MISMATCH
+    - delta_metadata_mismatch-error-condition
+    - DELTA_METADATA_MISMATCH error condition
   citations:
     - file: delta_metadata_mismatch-error-condition-databricks-on-aws.md
 title: DELTA_METADATA_MISMATCH Error Class

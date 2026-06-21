@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - answer-sheet-evaluation
     - ASE
+    - answer-sheet-evaluation-mode
+    - ASEM
   citations:
     - file: evaluate-genai-apps-during-development-databricks-on-aws.md
 title: Answer Sheet Evaluation

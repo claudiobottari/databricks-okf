@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-connect-for-scala-compatibility
     - DCFSC
+    - databricks-connect-for-scala-runtime-compatibility
+    - DCFSRC
   citations:
     - file: databricks-utilities-with-databricks-connect-for-scala-databricks-on-aws.md
 title: Databricks Connect for Scala Compatibility

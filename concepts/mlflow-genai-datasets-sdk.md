@@ -60,7 +60,7 @@ The SDK also supports lineage tracking fields for dataset records: ^[evaluation-
 
 ## Record-Level Tags
 
-The SDK supports adding tags to individual dataset records, enabling flexible metadata and categorization for evaluation data. Tags can be managed programmatically or through the [MLflow Evaluation Dataset UI](/concepts/mlflow-evaluation-dataset-ui.md). ^[evaluation-dataset-reference-databricks-on-aws.md]
+The SDK supports adding tags to individual dataset records, enabling flexible metadata and categorization for evaluation data. Tags can be managed programmatically or through the [MLflow Evaluation Dataset UI](/concepts/evaluation-dataset-ui.md). ^[evaluation-dataset-reference-databricks-on-aws.md]
 
 ## Usage with Evaluation
 
@@ -70,7 +70,7 @@ Evaluation datasets created with the SDK are designed to be used with `mlflow.ge
 
 - [Evaluation Dataset Schema](/concepts/evaluation-dataset-schema.md) – The full schema specification for dataset fields and reserved keys.
 - [MLflow GenAI Evaluation](/concepts/mlflow-genai-evaluation.md) – The evaluation harness that consumes datasets from the SDK.
-- [MLflow Evaluation Dataset UI](/concepts/mlflow-evaluation-dataset-ui.md) – The visual interface for managing datasets without writing code.
+- [MLflow Evaluation Dataset UI](/concepts/evaluation-dataset-ui.md) – The visual interface for managing datasets without writing code.
 - MLflow GenAI Datasets – General concepts and examples for using evaluation datasets.
 
 ## Sources

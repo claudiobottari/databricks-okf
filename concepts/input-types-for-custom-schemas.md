@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - input-types-for-custom-schemas
     - ITFCS
+    - input-types-for-custom-labeling-schemas
+    - ITFCLS
+    - input-types-for-labeling-schemas
+    - ITFLS
   citations:
     - file: create-and-manage-labeling-schemas-databricks-on-aws.md
 title: Input types for custom schemas

@@ -41,16 +41,16 @@ The specific rate limits that trigger these failures vary depending on the type 
 
 ## Third-Party Client Considerations
 
-For model serving endpoints that incorporate third-party clients — such as through [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md) or PyFunc Custom Schema Agents — rate limit induced failures can originate from the third-party service as well. Databricks recommends reviewing the documentation of any third-party client used in your model pipeline to understand their specific rate limiting behavior. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+For model serving endpoints that incorporate third-party clients — such as through [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md) or PyFunc Custom Schema Agents — rate limit induced failures can originate from the third-party service as well. Databricks recommends reviewing the documentation of any third-party client used in your model pipeline to understand their specific rate limiting behavior. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ## Related Concepts
 
 - [Model Serving Timeouts](/concepts/model-serving-endpoint-timeouts.md) — The broader category of timeout errors during model serving.
-- [Server-Side Timeouts](/concepts/server-side-timeouts.md) — Timeouts caused by the server processing time exceeding limits.
+- [Server-Side Timeouts](/concepts/server-side-timeout.md) — Timeouts caused by the server processing time exceeding limits.
 - Client-Side Timeouts — Timeouts caused by client configuration, including MLflow environment variables.
 - [Connection Timeout](/concepts/connection-timeout.md) — Timeouts related to establishing a connection with the server.
 - [Resource and Payload Limits](/concepts/model-serving-resource-and-payload-limits.md) — The specific rate limits and payload size constraints for different endpoint types.
-- [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md) — Custom Python functions that may incorporate third-party APIs with their own rate limits.
+- [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md) — Custom Python functions that may incorporate third-party APIs with their own rate limits.
 
 ## Sources
 

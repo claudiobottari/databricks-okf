@@ -14,6 +14,11 @@ x-llmwiki:
     - F(Q
     - Freshness
     - freshness
+    - freshness-data-quality-metric
+    - F(QM
+    - Freshness Metric
+    - Freshness Metrics
+    - quality metrics
   citations:
     - file: data-quality-monitoring-databricks-on-aws.md
 title: Freshness (data quality)

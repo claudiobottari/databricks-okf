@@ -25,7 +25,7 @@ timestamp: "2026-06-18T10:51:15.572Z"
 
 # FeatureEngineeringClient for Covariate Tables
 
-The `FeatureEngineeringClient` is a Python SDK client that enables you to create, manage, and store [Feature Tables](/concepts/feature-tables.md) in [Unity Catalog](/concepts/unity-catalog.md) for use as covariates (external regressors) in AutoML forecasting experiments. Covariates are additional variables outside the target time series that can improve forecasting model accuracy. ^[automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md]
+The `FeatureEngineeringClient` is a Python SDK client that enables you to create, manage, and store [Feature Tables](/concepts/feature-table.md) in [Unity Catalog](/concepts/unity-catalog.md) for use as covariates (external regressors) in AutoML forecasting experiments. Covariates are additional variables outside the target time series that can improve forecasting model accuracy. ^[automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md]
 
 ## Overview
 

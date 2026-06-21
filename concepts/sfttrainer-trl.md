@@ -46,7 +46,7 @@ inferredParagraphs: 1
 
 # SFTTrainer (TRL)
 
-**SFTTrainer** is a trainer class from the [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) (Transformer Reinforcement Learning) library that simplifies supervised fine-tuning (SFT) of language models. It handles the training loop, loss computation, logging, and integrates with Hugging Face Transformers and PEFT (Parameter-Efficient Fine-Tuning) libraries. It is commonly used alongside techniques like LoRA and [MXFP4 Quantization](/concepts/mxfp4-quantization.md) to reduce memory requirements during training.^[distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md]
+**SFTTrainer** is a trainer class from the [TRL](/concepts/trl-transformer-reinforcement-learning.md) (Transformer Reinforcement Learning) library that simplifies supervised fine-tuning (SFT) of language models. It handles the training loop, loss computation, logging, and integrates with Hugging Face Transformers and PEFT (Parameter-Efficient Fine-Tuning) libraries. It is commonly used alongside techniques like LoRA and [MXFP4 Quantization](/concepts/mxfp4-quantization.md) to reduce memory requirements during training.^[distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md]
 
 ## Usage
 
@@ -92,7 +92,7 @@ SFTTrainer supports distributed data parallelism (DDP) natively. In the source n
 
 ## Related Concepts
 
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) – The library containing SFTTrainer and other RLHF tools.
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md) – The library containing SFTTrainer and other RLHF tools.
 - SFTConfig – Configuration class for training hyperparameters.
 - LoRA – Parameter-efficient fine-tuning method often used with SFTTrainer.
 - [MXFP4 Quantization](/concepts/mxfp4-quantization.md) – Memory reduction technique used in conjunction with SFTTrainer.

@@ -64,8 +64,8 @@ For models like `databricks-meta-llama-3-3-70b-instruct`, a user prompt is trans
 
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — The overarching API suite that includes the Completions API.
 - [Chat Completions API (Databricks)](/concepts/chat-completions-api-databricks.md) — The multi-turn conversation counterpart to the Completions API.
-- [Embeddings API (Databricks)](/concepts/embeddings-api-databricks.md) — Another task-specific API in the Foundation Model APIs suite.
-- [Responses API (Databricks)](/concepts/responses-api-databricks.md) — A newer API for multi-turn conversations with OpenAI models.
+- [Embeddings API (Databricks)](/concepts/embeddings-api.md) — Another task-specific API in the Foundation Model APIs suite.
+- [Responses API (Databricks)](/concepts/responses-api.md) — A newer API for multi-turn conversations with OpenAI models.
 - [Model Serving on Databricks](/concepts/model-serving-on-databricks.md) — The infrastructure that hosts and serves foundation models.
 
 ## Sources

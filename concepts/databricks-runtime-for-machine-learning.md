@@ -18,6 +18,8 @@ x-llmwiki:
     - DRFML
     - AI Runtime for Machine Learning
     - Databricks AI Runtime for Machine Learning
+    - databricks-runtime-for-machine-learning-databricks-runtime-ml
+    - DRFML(RM
   citations:
     - file: databricks-runtime-for-machine-learning-databricks-on-aws.md
     - file: best-practices-for-deep-learning-on-databricks-databricks-on-aws.md

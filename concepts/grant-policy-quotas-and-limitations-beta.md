@@ -39,7 +39,7 @@ Creating, modifying, or dropping GRANT policies using SQL requires a classic com
 
 ## Quotas
 
-The quota limits for GRANT policies are separate from the [Quotas for Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md). The source document does not specify numerical limits; it only notes that they are distinct and advises referring to the platform documentation for current values. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
+The quota limits for GRANT policies are separate from the [Quotas for Row Filter and Column Mask Policies](/concepts/row-filter-policies.md). The source document does not specify numerical limits; it only notes that they are distinct and advises referring to the platform documentation for current values. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
 
 ## Limitations
 
@@ -58,7 +58,7 @@ The following limitations apply in the Beta release:
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Governed Tags](/concepts/governed-tags.md)
-- [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md)
+- [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md)
 - [Delta Sharing](/concepts/delta-sharing.md)
 - [MLflow Model Registry](/concepts/mlflow-model-registry.md)
 - System AI Foundation Models

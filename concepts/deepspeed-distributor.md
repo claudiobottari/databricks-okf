@@ -11,6 +11,11 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - deepspeed-distributor
+    - deepspeed-distributor-databricks
+    - DD(
+    - deepspeed-distributor-on-databricks
+    - DDOD
+    - torchdistributor-databricks
   citations:
     - file: distributed-training-databricks-on-aws.md
 title: DeepSpeed Distributor

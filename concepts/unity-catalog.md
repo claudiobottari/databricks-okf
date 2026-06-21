@@ -27,6 +27,10 @@ x-llmwiki:
     - What is Unity Catalog?
     - catalogs
     - data catalog
+    - unity-catalog-overview
+    - UCO
+    - Unity Catalog Views
+    - Unity Catalog view
   citations:
     - file: what-is-unity-catalog-databricks-on-aws.md
     - file: get-started-with-unity-catalog-databricks-on-aws.md

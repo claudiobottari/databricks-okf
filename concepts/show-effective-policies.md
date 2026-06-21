@@ -100,9 +100,9 @@ Viewing effective policies for a table does not require `MANAGE` or `SELECT` per
 
 ## Related Concepts
 
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md)
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - Policy Evaluation Order
 - [Row Filters and Column Masks (table-level)](/concepts/row-filters-and-column-masks.md)
 

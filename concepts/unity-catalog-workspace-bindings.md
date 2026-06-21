@@ -13,6 +13,7 @@ x-llmwiki:
     - unity-catalog-workspace-bindings
     - UCWB
     - External Location Workspace Binding
+    - unity-catalog-workspace-catalog-binding
   citations:
     - file: access-control-in-unity-catalog-databricks-on-aws.md
 title: Unity Catalog Workspace Bindings

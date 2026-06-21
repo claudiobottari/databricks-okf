@@ -13,6 +13,8 @@ x-llmwiki:
     - mlflow-deep-learning-tracking
     - MDLT
     - Deep Learning Training Logging
+    - mlflow-for-deep-learning-tracking
+    - MFDLT
   citations:
     - file: deep-learning-databricks-on-aws.md
 title: MLflow deep learning tracking

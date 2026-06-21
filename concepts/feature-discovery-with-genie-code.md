@@ -27,7 +27,7 @@ timestamp: "2026-06-19T18:45:54.171Z"
 
 # Feature Discovery with Genie Code
 
-**Feature Discovery with Genie Code** refers to the capability to use [Genie Code](/concepts/genie-code.md) to search for and identify [Feature Tables](/concepts/feature-tables.md) and individual features within [Unity Catalog](/concepts/unity-catalog.md) using natural language queries. This approach streamlines the process of finding relevant features for [machine learning](/concepts/cicd-for-machine-learning.md) workflows without requiring manual navigation of the catalog.
+**Feature Discovery with Genie Code** refers to the capability to use [Genie Code](/concepts/genie-code.md) to search for and identify [Feature Tables](/concepts/feature-table.md) and individual features within [Unity Catalog](/concepts/unity-catalog.md) using natural language queries. This approach streamlines the process of finding relevant features for [machine learning](/concepts/cicd-for-machine-learning.md) workflows without requiring manual navigation of the catalog.
 
 ## Overview
 
@@ -53,7 +53,7 @@ Genie Code enables faster, more intuitive discovery of features compared to manu
 ## Related Concepts
 
 - [Genie Code](/concepts/genie-code.md) — The AI-powered code generation and discovery tool on Databricks
-- [Feature Tables](/concepts/feature-tables.md) — Delta tables in Unity Catalog with primary key constraints that serve as feature sources
+- [Feature Tables](/concepts/feature-table.md) — Delta tables in Unity Catalog with primary key constraints that serve as feature sources
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance and metadata layer for Databricks assets
 - [Feature Store](/concepts/feature-store.md) — The system for managing and serving features for ML
 - [Catalog Explorer](/concepts/catalog-explorer.md) — The UI for browsing and managing Unity Catalog assets

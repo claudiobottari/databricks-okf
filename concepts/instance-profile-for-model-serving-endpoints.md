@@ -17,6 +17,8 @@ x-llmwiki:
     - Instance Profile for Model Serving
     - adding an instance profile to a model serving endpoint
     - instance profile on a served model
+    - instance-profile-attachment-to-model-serving-endpoints
+    - IPATMSE
   citations:
     - file: add-an-instance-profile-to-a-model-serving-endpoint-databricks-on-aws.md
 title: Instance Profile for Model Serving Endpoints

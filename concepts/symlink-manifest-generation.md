@@ -13,6 +13,8 @@ x-llmwiki:
     - symlink-manifest-generation
     - SMG
     - Symlink Manifest
+    - symlink-manifest-generation-incremental
+    - SMG(
   citations:
     - file: delta_violate_table_property_validation_failed-error-condition-databricks-on-aws.md
       start: 7
@@ -38,7 +40,7 @@ timestamp: "2026-06-19T10:11:10.071Z"
 
 ## Limitations and Conflicts
 
-Symlink manifest generation is incompatible with [Deletion Vectors](/concepts/deletion-vectors.md), a Delta Lake feature that tracks deleted rows in separate files. The error `EXISTING_DELETION_VECTORS_WITH_INCREMENTAL_MANIFEST_GENERATION` is raised when symlink manifest generation is attempted on a table that contains deletion vectors. To produce a version of the table without deletion vectors, run the [REORG Command](/concepts/reorg-table-command.md): `REORG TABLE <table> APPLY (PURGE)`. ^[delta_violate_table_property_validation_failed-error-condition-databricks-on-aws.md:7-9]
+Symlink manifest generation is incompatible with [Deletion Vectors](/concepts/deletion-vectors.md), a Delta Lake feature that tracks deleted rows in separate files. The error `EXISTING_DELETION_VECTORS_WITH_INCREMENTAL_MANIFEST_GENERATION` is raised when symlink manifest generation is attempted on a table that contains deletion vectors. To produce a version of the table without deletion vectors, run the [REORG Command](/concepts/reorg-table.md): `REORG TABLE <table> APPLY (PURGE)`. ^[delta_violate_table_property_validation_failed-error-condition-databricks-on-aws.md:7-9]
 
 Persistent deletion vectors and incremental symlink manifest generation are mutually exclusive. The error `PERSISTENT_DELETION_VECTORS_WITH_INCREMENTAL_MANIFEST_GENERATION` indicates that both features cannot be enabled simultaneously. ^[delta_violate_table_property_validation_failed-error-condition-databricks-on-aws.md:15-16]
 
@@ -47,7 +49,7 @@ Persistent deletion vectors are only supported on Parquet‑based Delta tables. 
 ## Related Concepts
 
 - [Deletion Vectors](/concepts/deletion-vectors.md) – row‑level delete tracking that conflicts with symlink manifests.
-- [REORG Command](/concepts/reorg-table-command.md) – used to purge deletion vectors and restore compatibility.
+- [REORG Command](/concepts/reorg-table.md) – used to purge deletion vectors and restore compatibility.
 - [Persistent Deletion Vectors](/concepts/persistent-deletion-vectors.md) – a variant of deletion vectors that cannot coexist with incremental symlink manifest generation.
 - Parquet – the required file format for tables using persistent deletion vectors.
 

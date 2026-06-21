@@ -15,6 +15,10 @@ x-llmwiki:
     - Scorer Base Class
     - Scorer base class
     - Scorer (base class)|class-based scorers
+    - scorer-class-for-advanced-customization
+    - SCFAC
+    - scorer-class-pydantic-base-class
+    - SC(BC
   citations:
     - file: code-based-scorer-reference-databricks-on-aws.md
 title: Scorer class

@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - truncated_history
+    - truncated_history-rollback-error
+    - TRE
   citations:
     - file: delta_alter_table_unset_managed_failed-error-condition-databricks-on-aws.md
 title: TRUNCATED_HISTORY

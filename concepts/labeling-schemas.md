@@ -92,7 +92,7 @@ The `sync()` method on labeling sessions performs an intelligent upsert operatio
 
 - [Labeling Sessions](/concepts/labeling-sessions.md) – the mechanism for organizing traces and schemas for review
 - [Review App](/concepts/mlflow-review-app.md) – the user interface where domain experts use schemas to label traces
-- [Assessment (MLflow)](/concepts/assessments-mlflow-genai.md) – the stored label object on a trace
+- [Assessment (MLflow)](/concepts/assessments.md) – the stored label object on a trace
 - [Evaluation Datasets](/concepts/evaluation-datasets.md) – datasets built from expectation-type labels
 - [MLflow GenAI](/concepts/mlflow-3-for-genai.md) – the broader framework for evaluating and monitoring GenAI applications
 

@@ -15,6 +15,15 @@ x-llmwiki:
     - DROP BLOOM FILTER INDEX
     - DROP BLOOMFILTER INDEX
     - Bloom filter
+    - bloom-filter-index-databricks
+    - BFI(
+    - bloom-filter-index-deprecated
+    - Bloom filter indexes (deprecated)
+    - CREATE BLOOM FILTER INDEX (deprecated)
+    - bloom filter indexes (deprecated)
+    - Bloom filter indexes (deprecated)|the Bloom filter indexes documentation
+    - bloom-filter-indexes-databricks
+    - bloom-filter-indexes
   citations:
     - file: create-bloom-filter-index-deprecated-databricks-on-aws.md
 title: Bloom Filter Index

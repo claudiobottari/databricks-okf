@@ -121,7 +121,7 @@ traces = client.search_traces(
 - [Production Monitoring](/concepts/production-monitoring.md) — Monitoring quality metrics in production
 - [Code-based Scorers](/concepts/code-based-scorers.md) — Custom evaluation functions for GenAI
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The evaluation API for development assessment
-- [Accessing Databricks secrets in scorers](/concepts/accessing-databricks-secrets-in-scorers.md) — Secure secret retrieval for production scorers
+- [Accessing Databricks secrets in scorers](/concepts/accessing-secrets-in-scorers.md) — Secure secret retrieval for production scorers
 
 ## Sources
 

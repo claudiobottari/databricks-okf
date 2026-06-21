@@ -25,7 +25,7 @@ timestamp: "2026-06-18T15:33:32.647Z"
 
 # AppState Pattern for Distributed Checkpointing
 
-The **AppState Pattern for Distributed Checkpointing** is a design pattern for saving and loading training state (model parameters and optimizer state) in [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md) workflows. It leverages the `Stateful` protocol from [PyTorch Distributed Checkpoint](/concepts/pytorch-distributed-checkpoint-dcp.md) (DCP) to automatically manage the conversion between the native model/optimizer state dictionaries and the sharded state dictionaries required by FSDP. ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
+The **AppState Pattern for Distributed Checkpointing** is a design pattern for saving and loading training state (model parameters and optimizer state) in [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md) workflows. It leverages the `Stateful` protocol from [PyTorch Distributed Checkpoint](/concepts/pytorch-distributed-checkpoint-dcp.md) (DCP) to automatically manage the conversion between the native model/optimizer state dictionaries and the sharded state dictionaries required by FSDP. ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
 
 ## Overview
 
@@ -117,7 +117,7 @@ model.load_state_dict(app_state.state_dict()['model'])
 
 ## Related Concepts
 
-- [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md)
+- [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md)
 - [PyTorch Distributed Checkpoint (DCP)](/concepts/pytorch-distributed-checkpoint-dcp.md)
 - Stateful Protocol
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md)

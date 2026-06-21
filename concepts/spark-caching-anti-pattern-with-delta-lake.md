@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - spark-caching-anti-pattern-with-delta-lake
     - SCAWDL
+    - spark-caching-incompatibility-with-delta-lake
+    - SCIWDL
   citations:
     - file: best-practices-delta-lake-databricks-on-aws.md
 title: Spark Caching Anti-pattern with Delta Lake

@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - delta_alter_table_set_managed_failed
     - DELTA_ALTER_TABLE_SET_MANAGED_FAILED
+    - delta_alter_table_set_managed_failed-error-class
+    - DEC
+    - DELTA_ALTER_TABLE_SET_MANAGED_FAILED Error Condition
+    - DELTA_ALTER_TABLE_SET_MANAGED_FAILED error class
+    - DELTA_ALTER_TABLE_SET_MANAGED_FAILED error condition
   citations:
     - file: delta_alter_table_set_managed_failed-error-condition-databricks-on-aws.md
 title: DELTA_ALTER_TABLE_SET_MANAGED_FAILED

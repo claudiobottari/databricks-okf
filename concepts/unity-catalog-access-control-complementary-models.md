@@ -72,7 +72,7 @@ This layered approach allows administrators to implement the principle of least 
 ## Related Concepts
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform that provides these access control models
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Attribute-based grant policies for models (Beta)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Attribute-based grant policies for models (Beta)
 - [Row Filter Policies](/concepts/row-filter-policies.md) — ABAC-style row filters using governed tags
 - [Column Mask Policies](/concepts/column-mask-policies.md) — ABAC-style column masking using governed tags
 - [Workspace-Catalog Binding](/concepts/workspace-catalog-binding.md) — Restricting catalog access to specific workspaces

@@ -14,6 +14,9 @@ x-llmwiki:
     - GC(L
     - GENERATE Command
     - GENERATE command
+    - generate-statement-delta-lake
+    - GS(L
+    - DELETE Statement (Delta Lake)
   citations:
     - file: generate-databricks-on-aws.md
 title: GENERATE Command (Delta Lake)

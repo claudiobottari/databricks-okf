@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - external-ray-applications-connecting-to-databricks
     - ERACTD
+    - external-ray-application-connectivity-to-databricks
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
 title: External Ray Applications Connecting to Databricks

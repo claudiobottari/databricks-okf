@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - ray-spark-resource-allocation-on-databricks
     - RRAOD
+    - ray-spark-resource-allocation-best-practices-on-databricks
+    - RRABPOD
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
 title: Ray-Spark Resource Allocation on Databricks

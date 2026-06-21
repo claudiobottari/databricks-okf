@@ -26,7 +26,7 @@ timestamp: "2026-06-19T13:50:25.861Z"
 
 # Policy Quotas and Audit Logging
 
-**Policy Quotas and Audit Logging** refers to the usage limits and operational tracking mechanisms that apply to [ABAC GRANT Policies](/concepts/abac-grant-policies.md) in Unity Catalog. These quotas and logs are distinct from those associated with row filter and column mask policies.
+**Policy Quotas and Audit Logging** refers to the usage limits and operational tracking mechanisms that apply to [ABAC GRANT Policies](/concepts/abac-grant-policy.md) in Unity Catalog. These quotas and logs are distinct from those associated with row filter and column mask policies.
 
 ## Overview
 
@@ -34,7 +34,7 @@ Unity Catalog enforces separate quotas for GRANT policies — attribute-based po
 
 ## Policy Quotas
 
-Quotas for GRANT policies are independent from the quotas applied to [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md).^[abac-grant-policies-for-models-beta-databricks-on-aws.md] Specific numerical limits are not detailed in the source material; administrators should consult the Databricks documentation for current quota values.
+Quotas for GRANT policies are independent from the quotas applied to [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md).^[abac-grant-policies-for-models-beta-databricks-on-aws.md] Specific numerical limits are not detailed in the source material; administrators should consult the Databricks documentation for current quota values.
 
 ## Audit Logging
 
@@ -49,7 +49,7 @@ For example audit log queries, see the Databricks documentation on [Audit loggin
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — The policy type governed by these quotas and logs
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — The policy type governed by these quotas and logs
 - [Row Filter Policies](/concepts/row-filter-policies.md)
 - [Column Mask Policies](/concepts/column-mask-policies.md)
 - Unity Catalog audit logging

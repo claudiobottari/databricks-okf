@@ -15,6 +15,8 @@ x-llmwiki:
     - abac-policy-requirements-and-prerequisites
     - Prerequisites and ABAC Policy Requirements
     - APRAP
+    - abac-policy-requirements-and-permissions
+    - Permissions and ABAC Policy Requirements
   citations:
     - file: create-and-manage-row-filter-and-column-mask-policies-databricks-on-aws.md
 title: ABAC Policy Requirements
@@ -80,9 +82,9 @@ Tags must be applied before the policy is created; policies cannot reference tag
 
 ## Related Concepts
 
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md)
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - [Governed Tags](/concepts/governed-tags.md)
 - Core Concepts for ABAC
 - Policy Evaluation Order

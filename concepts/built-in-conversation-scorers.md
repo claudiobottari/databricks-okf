@@ -26,7 +26,7 @@ timestamp: "2026-06-19T18:42:00.535Z"
 
 # Built-in Conversation Scorers
 
-**Built-in Conversation Scorers** are pre-defined [Multi-turn Judges](/concepts/multi-turn-judges.md) provided by [MLflow](/concepts/mlflow.md) for evaluating entire conversation sessions rather than individual turns. They are designed to assess conversational AI systems on session-level quality dimensions such as user frustration, conversation completeness, and safety, which emerge only over multiple interactions. ^[evaluate-conversations-databricks-on-aws.md]
+**Built-in Conversation Scorers** are pre-defined [Multi-turn Judges](/concepts/multi-turn-judge.md) provided by [MLflow](/concepts/mlflow.md) for evaluating entire conversation sessions rather than individual turns. They are designed to assess conversational AI systems on session-level quality dimensions such as user frustration, conversation completeness, and safety, which emerge only over multiple interactions. ^[evaluate-conversations-databricks-on-aws.md]
 
 ## Overview
 
@@ -89,7 +89,7 @@ Multi-turn assessments are stored on the **first trace** (chronologically) in ea
 
 ## Related Concepts
 
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) – The underlying LLM judge mechanism for conversation evaluation.
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) – The underlying LLM judge mechanism for conversation evaluation.
 - [ConversationSimulator](/concepts/conversationsimulator.md) – Generates synthetic conversations for evaluation.
 - [Custom Judges](/concepts/custom-judges.md) – Create your own multi-turn judges using `make_judge` and the `{{ conversation }}` template variable.
 - [Production Monitoring](/concepts/production-monitoring.md) – Use multi-turn judges for continuous evaluation in production.

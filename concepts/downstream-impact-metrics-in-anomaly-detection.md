@@ -105,8 +105,8 @@ While freshness and completeness indicate *what* is wrong with a table, downstre
 - Alerts for Anomaly Detection — Configuring notifications based on anomaly results
 - [Data Quality Monitoring UI](/concepts/data-quality-monitoring-ui.md) — Visual interface for managing quality checks
 - System Tables — Metadata tables storing anomaly detection results
-- [Freshness Metrics](/concepts/freshness-data-quality-metric.md) — Measures of data staleness
-- [Completeness Metrics](/concepts/completeness-data-quality-metric.md) — Measures of data row volume expectations
+- [Freshness Metrics](/concepts/freshness-data-quality.md) — Measures of data staleness
+- [Completeness Metrics](/concepts/completeness-data-quality.md) — Measures of data row volume expectations
 
 ## Sources
 

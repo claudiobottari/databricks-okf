@@ -13,6 +13,8 @@ x-llmwiki:
     - regional-model-availability-us-vs-eu
     - RMA(VE
     - Regional Model Availability
+    - regional-model-availability-restrictions
+    - RMAR
   citations:
     - file: foundation-model-apis-compliance-and-security-databricks-on-aws.md
 title: Regional Model Availability (US vs EU)

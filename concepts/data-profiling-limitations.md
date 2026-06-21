@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - data-profiling-limitations
     - DPL
+    - data-profiling-limitations-and-requirements
+    - Requirements and Data Profiling Limitations
+    - DPLAR
   citations:
     - file: data-profiling-databricks-on-aws.md
 title: Data Profiling Limitations

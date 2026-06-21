@@ -62,7 +62,7 @@ This ownership model applies only to the legacy Hive [Metastore](/concepts/metas
 - GRANT
 - REVOKE
 - DENY
-- [Unity Catalog privileges reference](/concepts/unity-catalog-privileges-and-ownership.md)
+- [Unity Catalog privileges reference](/concepts/privileges-and-ownership.md)
 - Workspace admin
 - SQL permissions with Terraform
 

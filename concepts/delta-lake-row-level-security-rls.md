@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta-lake-row-level-security-rls
     - DLRS(
+    - delta-lake-row-level-security-rls-policies
+    - DLRS(P
   citations:
     - file: delta_external_metadata_unsupported_source-error-condition-databricks-on-aws.md
 title: Delta Lake Row-Level Security (RLS)

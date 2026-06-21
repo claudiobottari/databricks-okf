@@ -13,6 +13,9 @@ x-llmwiki:
     - aggregation-functions-and-columnselection
     - ColumnSelection and Aggregation Functions
     - AFAC
+    - aggregation-functions-and-column-selection
+    - Column Selection and Aggregation Functions
+    - AFACS
   citations:
     - file: declarative-features-api-reference-databricks-on-aws.md
 title: Aggregation Functions and ColumnSelection

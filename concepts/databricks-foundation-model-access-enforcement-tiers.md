@@ -113,7 +113,7 @@ The source material states that foundation model Unity Catalog permissions shoul
 - [Databricks Foundation Model APIs](/concepts/databricks-foundation-model-apis.md) — The API surface for model invocation
 - [AI Gateway](/concepts/ai-gateway.md) — Rate limiting and usage tracking for models
 - [Provisioned throughput endpoints](/concepts/provisioned-throughput-endpoints.md) — Dedicated compute for model serving
-- [Batch Inference AI Functions](/concepts/ai-functions-and-batch-inference.md) — Batch inference workloads
+- [Batch Inference AI Functions](/concepts/ai-functions.md) — Batch inference workloads
 
 ## Sources
 

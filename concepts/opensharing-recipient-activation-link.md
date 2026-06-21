@@ -63,7 +63,7 @@ Credential files should be treated as secrets and must not be shared outside of 
 ## Related Concepts
 
 - [OpenSharing Recipient Object](/concepts/opensharing-recipient-object.md) — The recipient configuration that generates the activation link
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) — The authentication method used with activation links
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) — The authentication method used with activation links
 - [OIDC Token Federation for OpenSharing](/concepts/oidc-token-federation-for-opensharing.md) — Alternative authentication flow with security advantages
 - [Recipient Token Rotation](/concepts/recipient-token-rotation.md) — Process for replacing expired or compromised tokens
 - Managing OpenSharing Recipients — Full lifecycle management of recipient objects

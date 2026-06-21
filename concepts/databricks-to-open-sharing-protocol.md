@@ -96,7 +96,7 @@ OpenSharing does not require data replication, so egress costs may apply when sh
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Delta Sharing](/concepts/delta-sharing.md)
 - [SecureConnect](/concepts/secureconnect.md)
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md)
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md)
 - OpenID Connect (OIDC) Federation
 - IP Access Lists
 - [Directory-Based Access](/concepts/cloud-token-access-directory-based-access.md)

@@ -57,7 +57,7 @@ Auditing **direct grants** and **ABAC GRANT policies** together is a critical go
 
 ## The Union of Privileges
 
-Direct grants — the traditional assignment of privileges to a user or group — and [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (currently in Beta) both contribute to the final set of permissions a principal holds on a Unity Catalog object. Because the system computes effective access as the combination of these two sources, neither can be ignored during an access review. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+Direct grants — the traditional assignment of privileges to a user or group — and [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (currently in Beta) both contribute to the final set of permissions a principal holds on a Unity Catalog object. Because the system computes effective access as the combination of these two sources, neither can be ignored during an access review. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## The Risk of One-Sided Auditing
 
@@ -69,12 +69,12 @@ If an auditor checks only direct grants, they might miss permissions that were a
 - Use the `SHOW EFFECTIVE POLICIES` command (see Dynamic policy evaluation) to see the combined effect of direct grants and ABAC policies on a specific object.
 - Document the tag taxonomy and policy scopes so that auditors understand which ABAC GRANT policies might apply.
 
-For detailed guidance on creating and managing ABAC GRANT policies, see [ABAC GRANT policies for models (Beta)](/concepts/abac-grant-policies.md). ^[best-practices-for-abac-policies-databricks-on-aws.md]
+For detailed guidance on creating and managing ABAC GRANT policies, see [ABAC GRANT policies for models (Beta)](/concepts/abac-grant-policy.md). ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## Related Concepts
 
 - Direct grants
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - Dynamic policy evaluation
 - Access control auditing

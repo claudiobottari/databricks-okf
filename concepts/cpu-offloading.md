@@ -11,6 +11,9 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - cpu-offloading
+    - cpu-offloading-in-deepspeed
+    - COID
+    - NVMe Offloading in DeepSpeed
   citations:
     - file: distributed-training-using-deepspeed-databricks-on-aws.md
 title: CPU Offloading

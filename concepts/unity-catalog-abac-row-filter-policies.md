@@ -33,7 +33,7 @@ timestamp: "2026-06-18T11:19:31.829Z"
 
 Row filter policies allow you to implement fine-grained, attribute-based row-level security without modifying the underlying table or writing per-query `WHERE` clauses. The policy is attached to a scope — a catalog, schema, or table — and evaluates a UDF against each row at query time. The UDF receives columns (or constant values) as inputs and returns a boolean. Only rows where the UDF returns `TRUE` are visible to the principal. ^[create-and-manage-row-filter-and-column-mask-policies-databricks-on-aws.md]
 
-Policies can target specific principals using `TO` and `EXCEPT` clauses, or use dynamic conditions inside the UDF (e.g., `is_account_group_member()`). Row filter policies are complementary to [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md), which mask column values rather than filtering rows. Unlike [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta), row filter policies do not grant privileges — they restrict data that the user already has permission to access. ^[create-and-manage-row-filter-and-column-mask-policies-databricks-on-aws.md]
+Policies can target specific principals using `TO` and `EXCEPT` clauses, or use dynamic conditions inside the UDF (e.g., `is_account_group_member()`). Row filter policies are complementary to [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md), which mask column values rather than filtering rows. Unlike [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (Beta), row filter policies do not grant privileges — they restrict data that the user already has permission to access. ^[create-and-manage-row-filter-and-column-mask-policies-databricks-on-aws.md]
 
 ## Requirements
 
@@ -165,10 +165,10 @@ This includes both row filter and column mask policies. Tag assignment events ar
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — Mask column values instead of filtering rows
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Dynamic privilege grants based on tags (Beta)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — Mask column values instead of filtering rows
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Dynamic privilege grants based on tags (Beta)
 - [Governed Tags](/concepts/governed-tags.md) — Tags used in ABAC policy conditions
-- [Row Filter and Column Mask Policy Evaluation](/concepts/row-filter-and-column-mask-policies.md) — Runtime behavior
+- [Row Filter and Column Mask Policy Evaluation](/concepts/row-filter-policies.md) — Runtime behavior
 - Performance Considerations for ABAC Policies
 - ABAC Tutorials — Step-by-step guides
 - [Unity Catalog UDFs](/concepts/unity-catalog.md) — Creating user-defined functions for policies

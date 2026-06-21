@@ -52,7 +52,7 @@ Grant policies support dynamic privilege grants. Currently scoped to `EXECUTE` o
 
 ## Comparison with Table-Level Row Filters and Column Masks
 
-Unity Catalog supports two approaches for row-level and column-level security: ABAC policies and [Table-Level Row Filters and Column Masks](/concepts/table-level-row-filters-and-column-masks.md). Neither approach grants access to data on its own — both add restrictions on top of existing object-level privileges. You must grant base table access separately through object-level permissions (`GRANT`). ^[when-to-use-abac-vs-table-level-row-filters-and-column-masks-databricks-on-aws.md]
+Unity Catalog supports two approaches for row-level and column-level security: ABAC policies and [Table-Level Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md). Neither approach grants access to data on its own — both add restrictions on top of existing object-level privileges. You must grant base table access separately through object-level permissions (`GRANT`). ^[when-to-use-abac-vs-table-level-row-filters-and-column-masks-databricks-on-aws.md]
 
 ### Key Differences
 
@@ -94,7 +94,7 @@ For details on conflict resolution and troubleshooting, see [Rules for multiple 
 - [Grant Policies](/concepts/grant-policies-beta.md) — Dynamic privilege grant policies (Beta)
 - [Unity Catalog](/concepts/unity-catalog.md) — The overall data governance platform
 - Dynamic Views — An alternative approach for row-level and column-level security
-- [Table-Level Row Filters and Column Masks](/concepts/table-level-row-filters-and-column-masks.md) — The table-level approach to data protection
+- [Table-Level Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md) — The table-level approach to data protection
 
 ## Sources
 

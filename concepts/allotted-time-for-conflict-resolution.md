@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - allotted-time-for-conflict-resolution
     - ATFCR
+    - allotted-time-exceeded-in-delta-conflict-resolution
+    - ATEIDCR
   citations:
     - file: delta_concurrent_append-error-condition-databricks-on-aws.md
 title: Allotted Time for Conflict Resolution

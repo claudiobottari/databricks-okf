@@ -59,7 +59,7 @@ The Data Classification Results Page displays a warning when one or more custom 
 ## Related Concepts
 
 - [Custom Classifiers](/concepts/custom-classifiers.md) — User-defined classifiers that extend built-in detection capabilities
-- [Data Classification in Unity Catalog](/concepts/data-classification-in-unity-catalog.md) — The overall data classification system
+- [Data Classification in Unity Catalog](/concepts/data-classification-unity-catalog.md) — The overall data classification system
 - [Governed Tags](/concepts/governed-tags.md) — Tags used by custom classifiers to mark detected sensitive data
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform that hosts classification functionality
 - System Catalog — Where classification metadata and custom classifier configuration are stored

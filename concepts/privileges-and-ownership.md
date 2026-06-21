@@ -16,6 +16,20 @@ x-llmwiki:
     - Privileges
     - Privileges and Ownership in Unity Catalog
     - privileges
+    - privileges-and-ownership-model
+    - Ownership Model and Privileges
+    - PAOM
+    - unity-catalog-privileges-and-ownership-model
+    - Ownership Model and Unity Catalog Privileges
+    - UCPAOM
+    - Unity Catalog Privilege Model
+    - Unity Catalog Privileges#CREATE MODEL VERSION|CREATE MODEL VERSION
+    - unity-catalog-privileges-and-ownership
+    - Ownership and Unity Catalog Privileges
+    - UCPAO
+    - Unity Catalog privilege hierarchy
+    - Unity Catalog privileges (CREATE RECIPIENT, USE RECIPIENT)
+    - Unity Catalog privileges reference
   citations:
     - file: access-control-in-unity-catalog-databricks-on-aws.md
 title: Privileges and Ownership
@@ -143,7 +157,7 @@ These models evaluate access at different levels and are designed to be used tog
 
 - **Use groups for privilege management** — Grant privileges to groups rather than individual users to simplify administration. Adding or removing users from a group automatically updates their effective privileges. ^[access-control-in-unity-catalog-databricks-on-aws.md]
 - **Grant at the appropriate level** — Grant privileges at the highest level that still provides the necessary access control. For example, grant `SELECT` on a schema rather than on individual tables when appropriate. ^[access-control-in-unity-catalog-databricks-on-aws.md]
-- **Use ABAC for dynamic access** — For tag-based access control, use [ABAC GRANT Policies](/concepts/abac-grant-policies.md) instead of managing individual grants on each object. ^[access-control-in-unity-catalog-databricks-on-aws.md]
+- **Use ABAC for dynamic access** — For tag-based access control, use [ABAC GRANT Policies](/concepts/abac-grant-policy.md) instead of managing individual grants on each object. ^[access-control-in-unity-catalog-databricks-on-aws.md]
 - **Audit privileges regularly** — Use `SHOW GRANTS` and the effective permissions API to review who has access to what, and revoke unnecessary privileges. ^[access-control-in-unity-catalog-databricks-on-aws.md]
 - **Understand privilege inheritance** — Be aware that privileges on parent objects flow to children, which can lead to broader access than intended if not carefully managed. ^[access-control-in-unity-catalog-databricks-on-aws.md]
 
@@ -152,7 +166,7 @@ These models evaluate access at different levels and are designed to be used tog
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform that provides the privileges and ownership model
 - Unity Catalog Privileges Reference — Detailed descriptions of every privilege
 - Admin Roles — Account admin, [Metastore](/concepts/metastore.md) admin, and workspace admin roles
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Attribute-based policies that dynamically grant privileges
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Attribute-based policies that dynamically grant privileges
 - [Row Filter Policies](/concepts/row-filter-policies.md) — Table-level filters that restrict data content
 - [Column Mask Policies](/concepts/column-mask-policies.md) — Column-level masks that protect sensitive data
 - [Workspace-Catalog Binding](/concepts/workspace-catalog-binding.md) — Restricting catalog access to specific workspaces

@@ -14,6 +14,9 @@ x-llmwiki:
     - UIT
     - Uniform Ingress
     - uniform ingress
+    - uniform-iceberg-ingress-table
+    - UIIT
+    - Iceberg Ingress Table
   citations:
     - file: delta_uniform_ingress_violation-error-condition-databricks-on-aws.md
 title: Uniform Ingress Table

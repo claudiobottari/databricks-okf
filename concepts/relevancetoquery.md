@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - relevancetoquery
     - RelevanceToQuery Scorer
+    - relevancetoquery-judge
+    - Relevance to Query Judge
+    - Relevance Judge
   citations:
     - file: answer-and-context-relevance-judges-databricks-on-aws.md
 title: RelevanceToQuery

@@ -146,7 +146,7 @@ Feature Serving endpoints (the older serving type for [Feature Store](/concepts/
 
 - [Feature Store](/concepts/feature-store.md) – Central repository for registering and sharing features.
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md) – Infrastructure to deploy and query ML models.
-- [Unity Catalog](/concepts/unity-catalog.md) – The [Metastore](/concepts/metastore.md) that manages [Feature Tables](/concepts/feature-tables.md) and model lineage.
+- [Unity Catalog](/concepts/unity-catalog.md) – The [Metastore](/concepts/metastore.md) that manages [Feature Tables](/concepts/feature-table.md) and model lineage.
 - [Declarative Feature Engineering](/concepts/declarative-feature-engineering-api.md) – Approach that defines feature transformations declaratively.
 - [Online Store](/concepts/online-feature-store.md) – Low‑latency storage used for [Feature Lookup](/concepts/feature-lookup.md) during serving.
 

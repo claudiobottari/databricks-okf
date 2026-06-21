@@ -52,7 +52,7 @@ Databricks Runtime ML supports logging to MLflow directly from worker nodes. You
 - [SparkTrials](/concepts/sparktrials.md) – The Databricks class that distributes Hyperopt trials across a Spark cluster.
 - fmin() – The core Hyperopt function for executing a tuning run.
 - [MLflow Tracking](/concepts/mlflow-tracking.md) – The component that records experiment metadata.
-- [Distributed Hyperparameter Tuning](/concepts/raytune-for-distributed-hyperparameter-tuning-on-databricks.md) – Broader topic of scaling hyperparameter search.
+- [Distributed Hyperparameter Tuning](/concepts/raytune.md) – Broader topic of scaling hyperparameter search.
 
 ## Sources
 

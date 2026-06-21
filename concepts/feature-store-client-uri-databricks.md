@@ -30,7 +30,7 @@ The **Feature Store Client URI** (`databricks://`) is a connection string used b
 
 ### Legacy Status
 
-> **Important:** This approach is **deprecated**. Databricks now recommends using [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) to share [Feature Tables](/concepts/feature-tables.md) across workspaces. The `databricks://` URI is part of the legacy cross-workspace [Feature Store](/concepts/feature-store.md) sharing mechanism. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+> **Important:** This approach is **deprecated**. Databricks now recommends using [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) to share [Feature Tables](/concepts/feature-table.md) across workspaces. The `databricks://` URI is part of the legacy cross-workspace [Feature Store](/concepts/feature-store.md) sharing mechanism. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ### Structure
 
@@ -87,10 +87,10 @@ This allows training a model using a remote [Feature Table](/concepts/feature-ta
 
 ### Related Concepts
 
-- Feature Store Client — The Python client used to interact with [Feature Tables](/concepts/feature-tables.md).
+- Feature Store Client — The Python client used to interact with [Feature Tables](/concepts/feature-table.md).
 - [Cross-workspace model sharing](/concepts/cross-workspace-feature-sharing.md) — Analogous pattern for sharing registered models across workspaces.
 - [Secret scopes](/concepts/databricks-secret-scopes.md) — Databricks feature for securely storing credentials.
-- [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) — The modern, recommended alternative for sharing [Feature Tables](/concepts/feature-tables.md).
+- [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) — The modern, recommended alternative for sharing [Feature Tables](/concepts/feature-table.md).
 - Service principal authentication — Best practice for automated access tokens.
 
 ### Sources

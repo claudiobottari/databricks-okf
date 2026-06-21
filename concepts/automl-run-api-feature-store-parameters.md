@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - automl-run-api-feature-store-parameters
     - ARAFSP
+    - automl-api-feature_store_lookups-parameter
+    - AAFP
   citations:
     - file: automl-feature-store-integration-databricks-on-aws.md
 title: AutoML Run API Feature Store Parameters

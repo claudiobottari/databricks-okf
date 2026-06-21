@@ -14,6 +14,7 @@ x-llmwiki:
     - REDIRECT_READY_ALREADY_EXISTS
     - redirect_ready_already_exists-error
     - REDIRECT_READY_ALREADY_EXISTS error (Delta managed migration)
+    - redirect_ready_already_exists-sub-error
   citations:
     - file: delta_alter_table_set_managed_failed-error-condition-databricks-on-aws.md
 title: REDIRECT_READY_ALREADY_EXISTS

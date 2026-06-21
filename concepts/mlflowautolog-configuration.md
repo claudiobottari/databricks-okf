@@ -145,7 +145,7 @@ Databricks Autologging supports the following ML frameworks via `mlflow.autolog(
 - MLflow Tracking Runs
 - [MLflow Model Registry](/concepts/mlflow-model-registry.md)
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md)
-- [OpenAI Autologging](/concepts/mlflow-openai-autologging.md)
+- [OpenAI Autologging](/concepts/mlflow-openai-autolog.md)
 
 ## Sources
 

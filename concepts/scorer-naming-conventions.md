@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - scorer-naming-conventions
     - SNC
+    - scorer-metric-naming-conventions
+    - SMNC
+    - scorer-naming-conventions-mlflow
+    - SNC(
+    - SYNC
   citations:
     - file: code-based-scorer-examples-databricks-on-aws.md
 title: Scorer Naming Conventions

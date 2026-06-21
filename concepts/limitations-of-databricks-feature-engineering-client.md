@@ -55,7 +55,7 @@ Despite the API call restriction, the client is still useful for local developme
 
 ## Related Concepts
 
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) – Full API reference for the client library
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) – Full API reference for the client library
 - [FeatureEngineeringClient](/concepts/featureengineeringclient-api.md) – Primary client for Unity Catalog feature tables
 - [FeatureStoreClient](/concepts/feature-store.md) – Deprecated client for workspace-level feature store
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md) – Pre-installed environment that includes the client

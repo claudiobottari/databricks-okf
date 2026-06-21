@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - table-name-restrictions-in-describe-history
     - TNRIDH
+    - table_name-restrictions-for-describe-history
+    - TRFDH
   citations:
     - file: describe-history-databricks-on-aws.md
 title: Table Name Restrictions in DESCRIBE HISTORY

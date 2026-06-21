@@ -12,6 +12,19 @@ x-llmwiki:
   aliases:
     - code-based-scorers-in-mlflow
     - CSIM
+    - code-based-scorers-for-mlflow-genai-evaluation
+    - CSFMGE
+    - code-based-scorers-for-mlflow-genai
+    - CSFMG
+    - code-based-scorers-in-mlflow-genai
+    - CSIMG
+    - code-based-scorers-mlflow-genai
+    - CS(G
+    - Code-based Scorer Reference
+    - code-based scorer reference
+    - custom-code-based-scorers-mlflow-genai
+    - CCS(G
+    - Custom code-based scorers|custom scorer
   citations:
     - file: code-based-scorer-examples-databricks-on-aws.md
 title: Code-based scorers in MLflow

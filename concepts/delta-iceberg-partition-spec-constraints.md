@@ -86,10 +86,10 @@ To avoid partition spec constraint violations when using IcebergCompatV:
 
 - [IcebergCompatV](/concepts/icebergcompatv2.md) – The compatibility version that enforces these partition constraints.
 - [Delta Lake Partitioning](/concepts/delta-lake-partitioning-constraints.md) – General partitioning concepts in Delta Lake.
-- [Uniform Format](/concepts/delta-uniform-uniform.md) – The unified format that bridges Delta and Iceberg metadata.
+- [Uniform Format](/concepts/delta-uniform.md) – The unified format that bridges Delta and Iceberg metadata.
 - Delta Lake Table Features – The features system that enables IcebergCompatV.
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) – The open table format that defines the compatibility constraints.
-- [REORG TABLE command](/concepts/reorg-table-command.md) – The command used to upgrade uniform format and resolve compatibility violations.
+- [REORG TABLE command](/concepts/reorg-table.md) – The command used to upgrade uniform format and resolve compatibility violations.
 - [Deletion Vectors](/concepts/deletion-vectors.md) – Table feature that must be purged or disabled before enabling IcebergCompatV.
 
 ## Sources

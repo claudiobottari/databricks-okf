@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - run-evaluation-from-dataset
     - REFD
+    - running-evaluations-from-datasets
   citations:
     - file: evaluation-dataset-reference-databricks-on-aws.md
 title: Run Evaluation From Dataset

@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - archival-support-in-databricks
     - ASID
+    - archival-support-for-delta-tables-in-databricks
+    - ASFDTID
+    - archival-support-for-delta-tables
+    - ASFDT
+    - Archival Support in Delta Lake
   citations:
     - file: archival-support-in-databricks-databricks-on-aws.md
 title: Archival Support in Databricks

@@ -28,6 +28,8 @@ x-llmwiki:
     - PII masking policies|PII masking
     - column mask policy
     - column mask policy|column mask
+    - column-mask-policies-in-unity-catalog
+    - CMPIUC
   citations:
     - file: attribute-based-access-control-in-unity-catalog-databricks-on-aws.md
     - file: tutorial-configure-abac-databricks-on-aws.md

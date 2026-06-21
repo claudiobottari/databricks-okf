@@ -16,6 +16,8 @@ x-llmwiki:
     - Cluster configuration
     - GPU Cluster Configuration
     - Ray Cluster Configuration
+    - ray-gpu-cluster-configuration-on-databricks
+    - RGCCOD
   citations:
     - file: create-and-connect-to-ray-clusters-on-databricks-databricks-on-aws.md
 title: Ray GPU Cluster Configuration

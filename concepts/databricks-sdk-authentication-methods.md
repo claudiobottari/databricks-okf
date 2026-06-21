@@ -16,6 +16,8 @@ x-llmwiki:
     - Databricks SDK authentication
     - Databricks-supported authentication methods
     - Databricks Utilities authentication
+    - databricks-sdk-for-python-authentication-methods
+    - DSFPAM
   citations:
     - file: databricks-utilities-with-databricks-connect-for-python-databricks-on-aws.md
 title: Databricks SDK Authentication Methods
@@ -97,7 +99,7 @@ The Databricks SDK for Python also provides an `AccountClient` class for accessi
 - Databricks Utilities — Helper functions (`dbutils`) that require authenticated SDK access
 - [Databricks Configuration Profile](/concepts/databricks-configuration-profiles.md) — A file-based credential store for `host` and `token`
 - [Databricks Connect](/concepts/databricks-connect.md) — A related tool that uses the `SPARK_REMOTE` environment variable (not recognized by the SDK)
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) — The primary class for workspace-level API access
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) — The primary class for workspace-level API access
 - AccountClient — The class for account-level API access
 
 ## Sources

@@ -36,7 +36,7 @@ The data in shared views is **read‑only** (`SELECT` privilege). Updates made b
 
 ## Permissions Required
 
-To query a shared view, a user must have the `SELECT` privilege on the view (inherited from the catalog or schema) and the `USE CATALOG` privilege on the catalog that contains the view. The catalog owner or a [Metastore](/concepts/metastore.md) admin can grant these privileges following the standard [Unity Catalog privilege hierarchy](/concepts/unity-catalog-privileges-and-ownership.md). ^[read-data-shared-using-databricks-to-databricks-opensharing-for-recipients-databricks-on-aws.md]
+To query a shared view, a user must have the `SELECT` privilege on the view (inherited from the catalog or schema) and the `USE CATALOG` privilege on the catalog that contains the view. The catalog owner or a [Metastore](/concepts/metastore.md) admin can grant these privileges following the standard [Unity Catalog privilege hierarchy](/concepts/privileges-and-ownership.md). ^[read-data-shared-using-databricks-to-databricks-opensharing-for-recipients-databricks-on-aws.md]
 
 ## How to Read a Shared View
 

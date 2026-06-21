@@ -25,7 +25,7 @@ timestamp: "2026-06-19T17:51:56.419Z"
 
 # MLflow Evaluation Dataset Integration for Conversation Simulation
 
-**MLflow Evaluation Dataset Integration** for [Conversation Simulation](/concepts/conversation-simulation.md) allows you to persist and reuse test case definitions as first-class [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md). This integration ensures reproducibility and versionability of the scenarios used to test conversational AI agents.
+**MLflow Evaluation Dataset Integration** for [Conversation Simulation](/concepts/conversationsimulator.md) allows you to persist and reuse test case definitions as first-class [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md). This integration ensures reproducibility and versionability of the scenarios used to test conversational AI agents.
 
 ## Overview
 
@@ -101,8 +101,8 @@ simulator = ConversationSimulator(test_cases=dataset)
 
 ## Related Concepts
 
-- [Conversation Simulation](/concepts/conversation-simulation.md) – The core workflow for generating synthetic multi-turn conversations.
-- [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) – The data abstraction that stores and version evaluation inputs.
+- [Conversation Simulation](/concepts/conversationsimulator.md) – The core workflow for generating synthetic multi-turn conversations.
+- [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) – The data abstraction that stores and version evaluation inputs.
 - [ConversationSimulator](/concepts/conversationsimulator.md) – The API that drives simulation using test cases.
 - Evaluation with MLflow – General evaluation framework for LLM-based agents.
 - Red-teaming – Security testing scenario supported by conversation simulation.

@@ -26,7 +26,7 @@ timestamp: "2026-06-19T15:08:24.599Z"
 
 # ACCESS_DENIED (Delta Uniform error)
 
-**ACCESS_DENIED** is a sub-error condition of the `DELTA_UNIFORM_COMPATIBILITY_MISSING_OR_INVALID_LOCATION` error class in Databricks. It occurs when attempting to set a [Uniform Format](/concepts/delta-uniform-uniform.md) compatibility location that cannot be accessed due to insufficient permissions. ^[delta_uniform_compatibility_missing_or_invalid_location-error-condition-databricks-on-aws.md]
+**ACCESS_DENIED** is a sub-error condition of the `DELTA_UNIFORM_COMPATIBILITY_MISSING_OR_INVALID_LOCATION` error class in Databricks. It occurs when attempting to set a [Uniform Format](/concepts/delta-uniform.md) compatibility location that cannot be accessed due to insufficient permissions. ^[delta_uniform_compatibility_missing_or_invalid_location-error-condition-databricks-on-aws.md]
 
 ## Error Message
 
@@ -60,7 +60,7 @@ To resolve the ACCESS_DENIED error, ensure that the location specified in `delta
 
 ## Related Concepts
 
-- [Uniform Format](/concepts/delta-uniform-uniform.md) – The feature that requires the compatibility location configuration.
+- [Uniform Format](/concepts/delta-uniform.md) – The feature that requires the compatibility location configuration.
 - [Delta Lake](/concepts/delta-lake.md) – The underlying storage format for which Uniform compatibility is configured.
 - Cloud Storage Permissions – General guidance on accessing cloud storage from Databricks.
 

@@ -13,6 +13,13 @@ x-llmwiki:
     - delta_iceberg_compat_v1_violation
     - DELTA_ICEBERG_COMPAT_V1_VIOLATION
     - DELTA_ICEBERG_COMPAT_VIOLATION
+    - delta_iceberg_compat_v1_violation-error-class
+    - DEC
+    - DELTA_ICEBERG_COMPAT_V1_VIOLATION error class
+    - IcebergCompatV1 error class
+    - delta_iceberg_compat_violation-error-class
+    - DELTA_ICEBERG_COMPAT_VIOLATION Error Class
+    - DELTA_ICEBERG_COMPAT_VIOLATION error class
   citations:
     - file: delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md
 title: DELTA_ICEBERG_COMPAT_V1_VIOLATION
@@ -28,7 +35,7 @@ timestamp: "2026-06-19T15:05:14.761Z"
 
 ## Overview
 
-The `DELTA_ICEBERG_COMPAT_V1_VIOLATION` error class (SQLSTATE `KD00E`) occurs when a [Delta Lake](/concepts/delta-lake.md) table operation violates the requirements of [IcebergCompatV1](/concepts/icebergcompatv1.md), a compatibility mode that allows Delta tables to be read by Apache Iceberg readers. The validation failure prevents the operation from completing. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
+The `DELTA_ICEBERG_COMPAT_V1_VIOLATION` error class (SQLSTATE `KD00E`) occurs when a [Delta Lake](/concepts/delta-lake.md) table operation violates the requirements of [IcebergCompatV1](/concepts/icebergcompatv.md), a compatibility mode that allows Delta tables to be read by Apache Iceberg readers. The validation failure prevents the operation from completing. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
 
 This error class includes several specific subtypes, each corresponding to a different type of violation.
 
@@ -72,7 +79,7 @@ IcebergCompatV1 requires a specific table property to be set to a particular val
 
 ## Related Concepts
 
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) – The compatibility mode that enforces these validation rules.
+- [IcebergCompatV1](/concepts/icebergcompatv.md) – The compatibility mode that enforces these validation rules.
 - Delta Lake Table Features – The mechanism for enabling/disabling capabilities that may conflict with IcebergCompatV1.
 - Partition Specifications – Rules for how table data is partitioned; changing partition names is restricted under IcebergCompatV1.
 - Delta Lake Data Types – Supported column types; MapType, ArrayType, and NullType are incompatible with IcebergCompatV1.

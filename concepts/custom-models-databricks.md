@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - custom-models-databricks
     - CM(
+    - custom-models-databricks-model-serving
+    - CM(MS
+    - custom-models-on-databricks-model-serving
+    - CMODMS
+    - custom-models-on-databricks
+    - CMOD
   citations:
     - file: query-serving-endpoints-for-custom-models-databricks-on-aws.md
 title: Custom Models (Databricks)

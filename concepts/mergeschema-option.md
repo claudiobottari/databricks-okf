@@ -13,6 +13,8 @@ x-llmwiki:
     - mergeschema-option
     - Auto Merge Schema
     - mergeSchema
+    - mergeschema-option-pattern
+    - MOP
   citations:
     - file: delta_metadata_mismatch-error-condition-databricks-on-aws.md
 title: mergeSchema Option

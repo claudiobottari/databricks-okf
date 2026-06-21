@@ -73,10 +73,10 @@ Custom classifier configuration and detection metadata are encrypted at rest. A 
 
 - [Data Classification](/concepts/data-classification.md) – The built-in system that custom classifiers extend.
 - [Governed Tags](/concepts/governed-tags.md) – The tag infrastructure used by custom classifiers.
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – A downstream governance control enabled by custom classifier detections.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – A downstream governance control enabled by custom classifier detections.
 - Tag Policy – Rules governing tag naming and structure.
 - [Metastore Admin](/concepts/metastore-admin-role.md) – Role required to manage custom classifiers.
-- [Customer-managed key (CMK)](/concepts/customer-managed-keys-cmk-for-online-feature-stores.md) – Encryption option for system catalog data.
+- [Customer-managed key (CMK)](/concepts/customer-managed-keys-for-online-feature-stores.md) – Encryption option for system catalog data.
 
 ## Sources
 

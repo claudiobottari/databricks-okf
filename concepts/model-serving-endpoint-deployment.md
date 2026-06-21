@@ -14,6 +14,8 @@ x-llmwiki:
     - MSED
     - Model Serving Deployment
     - Model Deployment
+    - model-serving-endpoint-deployment-for-custom-models
+    - MSEDFCM
   citations:
     - file: deploy-python-code-with-model-serving-databricks-on-aws.md
 title: Model Serving Endpoint Deployment

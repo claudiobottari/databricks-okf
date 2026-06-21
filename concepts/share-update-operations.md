@@ -69,7 +69,7 @@ When a share is deleted, recipients can no longer access the shared data. To del
 - Create shares for OpenSharing — The process for creating new shares.
 - Manage access to OpenSharing data shares — The process for granting recipient access.
 - [Manage data recipients for OpenSharing](/concepts/data-recipient-opensharing.md) — The management of data recipients.
-- [Shares, providers, and recipients](/concepts/recipient-and-share-concepts.md) — The overall sharing model in Databricks.
+- [Shares, providers, and recipients](/concepts/recipient-and-share-model.md) — The overall sharing model in Databricks.
 - [Time travel queries](/concepts/delta-lake-time-travel.md) — A capability that can be enabled or disabled on shared tables.
 - Partition definitions — Data organization that can be added or removed from a share.
 

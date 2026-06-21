@@ -13,6 +13,8 @@ x-llmwiki:
     - sparksession-with-spark_remote
     - SWS
     - SparkSession management
+    - sparksession-with-spark_remote-authentication
+    - SWSA
   citations:
     - file: code-examples-for-databricks-connect-for-scala-databricks-on-aws.md
 title: SparkSession with SPARK_REMOTE

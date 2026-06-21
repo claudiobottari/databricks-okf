@@ -98,7 +98,7 @@ Schemas are automatically available when creating labeling sessions — they do 
 - [Built-in LLM Judges](/concepts/built-in-llm-judges.md)
 - [MLflow experiments](/concepts/mlflow-experiment.md)
 - Label existing traces
-- [Feedback types (Feedback vs. Expectation)](/concepts/label-schema-types-feedback-vs-expectation.md)
+- [Feedback types (Feedback vs. Expectation)](/concepts/assessment-types-feedback-vs-expectation.md)
 
 ## Sources
 

@@ -27,7 +27,7 @@ timestamp: "2026-06-18T12:09:45.462Z"
 
 **Bloom Filter Index Metadata Removal** refers to the process of deleting a [Bloom Filter Index](/concepts/bloom-filter-index.md) from a [Delta Lake](/concepts/delta-lake.md) table using the `DROP BLOOMFILTER INDEX` SQL command. This operation removes all Bloom filter related metadata from the specified columns and, over time, cleans up the underlying index files from storage. ^[drop-bloom-filter-index-databricks-on-aws.md]
 
-Bloom filter indexes are deprecated. Databricks recommends dropping all existing Bloom filter indexes and migrating to alternative optimization techniques. See [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) for details and recommended alternatives. ^[drop-bloom-filter-index-databricks-on-aws.md]
+Bloom filter indexes are deprecated. Databricks recommends dropping all existing Bloom filter indexes and migrating to alternative optimization techniques. See [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) for details and recommended alternatives. ^[drop-bloom-filter-index-databricks-on-aws.md]
 
 ## Syntax
 
@@ -57,7 +57,7 @@ Because Bloom filter indexes are deprecated, you should drop all existing Bloom 
 
 ## Related Concepts
 
-- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) — The deprecated feature this command removes
+- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) — The deprecated feature this command removes
 - [Delta Lake](/concepts/delta-lake.md) — The storage format that supports Bloom filter indexes
 - VACUUM — The command that cleans up orphaned index files after all Bloom filters are dropped
 - Data skipping — An alternative optimization technique for predicate filtering

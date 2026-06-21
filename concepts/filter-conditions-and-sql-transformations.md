@@ -13,6 +13,9 @@ x-llmwiki:
     - filter-conditions-and-sql-transformations
     - SQL Transformations and Filter Conditions
     - FCAST
+    - filter-conditions-and-sql-transformations-on-source-data
+    - SQL Transformations on Source Data and Filter Conditions
+    - FCASTOSD
   citations:
     - file: declarative-features-api-reference-databricks-on-aws.md
 title: Filter Conditions and SQL Transformations

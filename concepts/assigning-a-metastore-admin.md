@@ -13,6 +13,9 @@ x-llmwiki:
     - assigning-a-metastore-admin
     - AAMA
     - Assign a metastore admin
+    - assigning-the-metastore-admin-role
+    - ATMAR
+    - Assign admin roles
   citations:
     - file: admin-privileges-in-unity-catalog-databricks-on-aws.md
     - file: |-
@@ -37,7 +40,7 @@ A **metastore admin** is an optional but highly privileged role in [Unity Catalo
 
 ## When to Assign a [Metastore](/concepts/metastore.md) Admin
 
-For workspaces created after November 8, 2023, the [Metastore](/concepts/metastore.md) admin role is optional because [workspace admins](/concepts/workspace-admins-unity-catalog.md) receive sufficient metastore-level privileges by default. However, a [Metastore](/concepts/metastore.md) admin is required in the following situations: ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
+For workspaces created after November 8, 2023, the [Metastore](/concepts/metastore.md) admin role is optional because [workspace admins](/concepts/workspace-admin-unity-catalog.md) receive sufficient metastore-level privileges by default. However, a [Metastore](/concepts/metastore.md) admin is required in the following situations: ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
 
 - **Changing ownership** of objects or granting privileges on objects you do not own. For example, this is needed when taking over a catalog after the original owning account is removed. Workspace admins can create objects but cannot make grants on or change ownership of existing objects they do not own. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
 - **Removing** default workspace admin permissions. ^[admin-privileges-in-unity-catalog-databricks-on-aws.md]
@@ -76,7 +79,7 @@ It can take up to 30 seconds for a metastore admin assignment change to be refle
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance solution for managing metastores and permissions.
 - [Account admins](/concepts/account-admin-unity-catalog.md) — The only role that can assign [Metastore](/concepts/metastore.md) admins.
-- [Workspace admins](/concepts/workspace-admins-unity-catalog.md) — Receive default privileges that may make the [Metastore](/concepts/metastore.md) admin role optional.
+- [Workspace admins](/concepts/workspace-admin-unity-catalog.md) — Receive default privileges that may make the [Metastore](/concepts/metastore.md) admin role optional.
 - [Unity Catalog permissions](/concepts/unity-catalog-permissions-model.md) — Detailed management of privileges across securable objects.
 - [Metastore](/concepts/metastore.md) — The top-level container for all Unity Catalog metadata.
 

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - duplicate-column-scenarios-in-delta-lake
     - DCSIDL
+    - duplicate-column-error-scenarios-in-delta-lake
+    - DCESIDL
   citations:
     - file: delta_duplicate_columns_found-error-condition-databricks-on-aws.md
 title: Duplicate column scenarios in Delta Lake

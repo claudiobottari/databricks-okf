@@ -101,7 +101,7 @@ The `put()` method writes the specified contents to the given file path, with th
 - Databricks Utilities – Overview of all available dbutils features.
 - Unity Catalog Volumes – Managed storage locations for files in Unity Catalog.
 - [Databricks Connect](/concepts/databricks-connect.md) – How to connect external applications to Databricks clusters.
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) – The SDK class that provides access to Databricks APIs.
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) – The SDK class that provides access to Databricks APIs.
 - Databricks SDK for Python – Low-level client for Databricks REST APIs.
 
 ## Sources

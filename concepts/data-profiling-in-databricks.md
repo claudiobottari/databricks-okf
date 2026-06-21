@@ -15,6 +15,11 @@ x-llmwiki:
     - Data Profiling on Databricks
     - Data profiling on Databricks
     - Data Profiling on Databricks|data profile
+    - data-profiling-in-databricks-unity-catalog
+    - DPIDUC
+    - data-profiling-in-unity-catalog
+    - DPIUC
+    - Data Billing in Unity Catalog
   citations:
     - file: create-a-profile-using-the-databricks-ui-databricks-on-aws.md
 title: Data Profiling in Databricks

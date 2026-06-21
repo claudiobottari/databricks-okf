@@ -29,7 +29,7 @@ timestamp: "2026-06-19T22:02:38.698Z"
 
 ## Integration with AI Runtime CLI Workloads
 
-The AI Runtime CLI includes end-to-end example workloads that demonstrate real distributed‑training patterns on H100 GPUs. One such example — multi‑node LLM fine‑tuning with [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md) — explicitly logs training runs to **MLflow** and saves model checkpoints to a [Unity Catalog](/concepts/unity-catalog.md) volume. ^[ai-runtime-cli-examples-databricks-on-aws.md]
+The AI Runtime CLI includes end-to-end example workloads that demonstrate real distributed‑training patterns on H100 GPUs. One such example — multi‑node LLM fine‑tuning with [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md) — explicitly logs training runs to **MLflow** and saves model checkpoints to a [Unity Catalog](/concepts/unity-catalog.md) volume. ^[ai-runtime-cli-examples-databricks-on-aws.md]
 
 This integration means that any custom workload defined in a YAML configuration file and submitted via `air run` can leverage MLflow’s tracking capabilities without additional setup. Users can view experiment runs, compare hyperparameters, and manage model versions directly from the Databricks workspace.
 

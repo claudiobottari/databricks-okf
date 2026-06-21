@@ -61,7 +61,7 @@ Common uses of the Producers table include:
 ## Related Concepts
 
 - [Workspace Feature Store](/concepts/workspace-feature-store-ui.md) — The feature store platform that hosts the Producers table
-- [Feature Tables](/concepts/feature-tables.md) — The organizational unit for feature data
+- [Feature Tables](/concepts/feature-table.md) — The organizational unit for feature data
 - [Feature Lineage](/concepts/feature-lineage-tracking.md) — The end-to-end tracking of how features are created and consumed
 - Feature Freshness — How recently a feature table has been updated
 

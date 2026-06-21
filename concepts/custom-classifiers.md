@@ -16,6 +16,8 @@ x-llmwiki:
     - custom-classifiers-for-data-classification
     - CCFDC
     - Custom Classifier|Custom Classifier
+    - custom-classifiers-for-databricks-data-classification
+    - CCFDDC
   citations:
     - file: custom-classifiers-databricks-on-aws.md
 title: Custom Classifiers
@@ -136,7 +138,7 @@ You must have `SELECT` on the table that contains the column. If you lack this p
 - [Governed Tags](/concepts/governed-tags.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
 - System Tables
 
 ## Sources

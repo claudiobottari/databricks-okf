@@ -70,7 +70,7 @@ Unity Catalog offers several advantages over the legacy system:
 
 - **Unified governance:** Manage permissions for feature tables alongside other data assets (tables, views, models) using the same privilege model
 - **Granular control:** Use standard SQL `GRANT` and `REVOKE` statements
-- **Integration:** Permissions integrate with [ABAC GRANT Policies](/concepts/abac-grant-policies.md) and other Unity Catalog security features
+- **Integration:** Permissions integrate with [ABAC GRANT Policies](/concepts/abac-grant-policy.md) and other Unity Catalog security features
 - **Auditability:** Full audit logging through Unity Catalog's system tables
 
 ## Key Differences
@@ -92,8 +92,8 @@ If you are migrating from a legacy workspace to a Unity Catalog-enabled workspac
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance solution for Databricks
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — The standard permission model for Unity Catalog
 - [Feature Store](/concepts/feature-store.md) — The feature management platform
-- [Feature Tables](/concepts/feature-tables.md) — The securable objects managed by these access control systems
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Attribute-based access control policies in Unity Catalog
+- [Feature Tables](/concepts/feature-table.md) — The securable objects managed by these access control systems
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Attribute-based access control policies in Unity Catalog
 
 ## Sources
 

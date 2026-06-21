@@ -38,7 +38,7 @@ timestamp: "2026-06-18T14:32:50.422Z"
 
 ABAC policies are evaluated dynamically because they rely on runtime attributes—the principal's identity and group memberships, and the governed tags on the securable object—rather than on a static list of grants. This means that a single data object can be subject to different policies for different users, and that adding or removing a tag from an object can immediately change which policies apply to it. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
-This dynamic evaluation is a key difference between ABAC policies and [Table-Level Row Filters and Column Masks](/concepts/table-level-row-filters-and-column-masks.md), which are defined directly on the table schema and are visible as part of the table definition. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+This dynamic evaluation is a key difference between ABAC policies and [Table-Level Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md), which are defined directly on the table schema and are visible as part of the table definition. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## Why Dynamic Evaluation Matters
 
@@ -57,14 +57,14 @@ Because ABAC policies are dynamic, teams should take proactive steps to manage a
 
 ## Transparency vs. Dynamic Policy Evaluation
 
-There is a trade-off between transparency and dynamic policy evaluation. For cases where transparency is critical for a specific table, consider using [Table-Level Row Filters and Column Masks](/concepts/table-level-row-filters-and-column-masks.md) for that isolated case instead of relying on ABAC policies. However, before doing so, ensure that any potential conflicts between the table-level policy and the broader ABAC policies are addressed. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+There is a trade-off between transparency and dynamic policy evaluation. For cases where transparency is critical for a specific table, consider using [Table-Level Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md) for that isolated case instead of relying on ABAC policies. However, before doing so, ensure that any potential conflicts between the table-level policy and the broader ABAC policies are addressed. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Dynamically grant privileges based on matching tags
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Dynamically grant privileges based on matching tags
 - [Row Filter Policies](/concepts/row-filter-policies.md) — ABAC policies that restrict data content
 - [Column Mask Policies](/concepts/column-mask-policies.md) — ABAC policies that mask sensitive columns
-- [Table-Level Row Filters and Column Masks](/concepts/table-level-row-filters-and-column-masks.md) — Static filters defined on the table definition
+- [Table-Level Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md) — Static filters defined on the table definition
 - [Governed Tags](/concepts/governed-tags.md) — Tags used in policy conditions
 - [SHOW EFFECTIVE POLICIES](/concepts/show-effective-policies.md) — Command to determine which policies apply
 

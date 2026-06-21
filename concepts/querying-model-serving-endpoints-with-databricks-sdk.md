@@ -102,7 +102,7 @@ The primary endpoint type used in this workflow is a [Model Serving Endpoint](/c
 
 ### Related Concepts
 
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) — The client class used to interact with Databricks APIs.
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) — The client class used to interact with Databricks APIs.
 - [Unity Catalog](/concepts/unity-catalog.md) — Required for serving models that use [Feature Store](/concepts/feature-store.md) lookups.
 - [Declarative Feature Engineering](/concepts/declarative-feature-engineering-api.md) — The feature engineering approach that produces models needing [Online Feature Serving](/concepts/online-feature-serving.md).
 - [Online Store](/concepts/online-feature-store.md) — The system that serves pre‑computed feature values for real‑time predictions.

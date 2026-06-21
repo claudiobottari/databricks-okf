@@ -51,7 +51,7 @@ Set a [Metastore](/concepts/metastore.md) to auto-assign for every region in whi
 
 ### Migrate Workflows to Non-Legacy Access Modes
 
-New workspaces will be provisioned without support for [No Isolation Shared Clusters](/concepts/no-isolation-shared-clusters.md). If you plan to migrate any existing workflows to new workspaces created after the deadline, make sure they do not rely on this legacy access mode. See [Enabling admin protection for no isolation shared clusters](/concepts/no-isolation-shared-clusters-and-legacy-access.md). ^[migrate-your-account-to-uc-only-workspaces-databricks-on-aws.md]
+New workspaces will be provisioned without support for [No Isolation Shared Clusters](/concepts/no-isolation-shared-clusters.md). If you plan to migrate any existing workflows to new workspaces created after the deadline, make sure they do not rely on this legacy access mode. See [Enabling admin protection for no isolation shared clusters](/concepts/no-isolation-shared-clusters-limitation.md). ^[migrate-your-account-to-uc-only-workspaces-databricks-on-aws.md]
 
 ## Migrating Existing Workspaces to Unity Catalog
 

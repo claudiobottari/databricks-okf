@@ -13,6 +13,8 @@ x-llmwiki:
     - grant-policy-vs-direct-grant
     - GPVDG
     - Direct Grant
+    - grant-policy-vs-direct-grants
+    - Direct Grants
   citations:
     - file: abac-grant-policies-for-models-beta-databricks-on-aws.md
 title: GRANT Policy vs Direct Grant
@@ -104,7 +106,7 @@ To audit access on a model, combine two sources of information: ^[abac-grant-pol
 - [Governed Tags](/concepts/governed-tags.md)
 - [System Tags](/concepts/system-tags.md)
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md)
-- [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md)
+- [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md)
 - Manage Privileges in Unity Catalog
 
 ## Sources

@@ -11,6 +11,10 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - delta_uniform_refresh_invalid_argument-error
+    - delta_uniform_refresh_invalid_argument-error-class
+    - DEC
+    - delta_uniform_refresh_invalid_argument-error-condition
+    - DELTA_UNIFORM_REFRESH_INVALID_ARGUMENT error condition
   citations:
     - file: delta_uniform_refresh_invalid_argument-error-condition-databricks-on-aws.md
 title: DELTA_UNIFORM_REFRESH_INVALID_ARGUMENT Error

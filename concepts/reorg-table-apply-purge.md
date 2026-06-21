@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - reorg-table-apply-purge
     - RTA(
+    - reorg-table-apply-purge-command
+    - RTA(C
   citations:
     - file: delta_violate_table_property_validation_failed-error-condition-databricks-on-aws.md
 title: REORG TABLE APPLY (PURGE)

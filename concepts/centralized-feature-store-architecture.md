@@ -25,15 +25,15 @@ timestamp: "2026-06-19T23:05:10.499Z"
 
 # Centralized [Feature Store](/concepts/feature-store.md) Architecture
 
-A **Centralized [Feature Store](/concepts/feature-store.md) Architecture** enables multiple Databricks workspaces to share access to [Feature Tables](/concepts/feature-tables.md) from a single, designated [Feature Store](/concepts/feature-store.md) workspace. This architecture is useful when multiple teams need to reuse the same features or when an organization maintains separate workspaces for different development stages. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+A **Centralized [Feature Store](/concepts/feature-store.md) Architecture** enables multiple Databricks workspaces to share access to [Feature Tables](/concepts/feature-table.md) from a single, designated [Feature Store](/concepts/feature-store.md) workspace. This architecture is useful when multiple teams need to reuse the same features or when an organization maintains separate workspaces for different development stages. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ## Overview
 
-In a centralized setup, one workspace acts as the central repository for all [Feature Store](/concepts/feature-store.md) metadata and [Feature Table](/concepts/feature-table.md) data. Other workspaces (local workspaces) can create, write, and read [Feature Tables](/concepts/feature-tables.md) hosted in the central workspace. Access is controlled through tokens: each user or script creates a personal access token (or, as a security best practice, an OAuth token) in the central workspace and stores that token in the secret manager of their local workspace. Every API request to the centralized [Feature Store](/concepts/feature-store.md) must include the access token. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+In a centralized setup, one workspace acts as the central repository for all [Feature Store](/concepts/feature-store.md) metadata and [Feature Table](/concepts/feature-table.md) data. Other workspaces (local workspaces) can create, write, and read [Feature Tables](/concepts/feature-table.md) hosted in the central workspace. Access is controlled through tokens: each user or script creates a personal access token (or, as a security best practice, an OAuth token) in the central workspace and stores that token in the secret manager of their local workspace. Every API request to the centralized [Feature Store](/concepts/feature-store.md) must include the access token. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
-If teams are also sharing models across workspaces, they may dedicate the same centralized workspace for both [Feature Tables](/concepts/feature-tables.md) and models, or use separate centralized workspaces for each. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+If teams are also sharing models across workspaces, they may dedicate the same centralized workspace for both [Feature Tables](/concepts/feature-table.md) and models, or use separate centralized workspaces for each. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
-> **Deprecation notice:** The approach described on this page is legacy. Databricks now recommends using [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) to share [Feature Tables](/concepts/feature-tables.md) across workspaces. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+> **Deprecation notice:** The approach described on this page is legacy. Databricks now recommends using [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) to share [Feature Tables](/concepts/feature-table.md) across workspaces. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ## Requirements
 
@@ -77,7 +77,7 @@ Then pass this URI when instantiating a `FeatureStoreClient`:
 fs = FeatureStoreClient(feature_store_uri=feature_store_uri)
 ```
 
-Before creating [Feature Tables](/concepts/feature-tables.md) in the remote [Feature Store](/concepts/feature-store.md), a database must exist in the shared DBFS location. For example:
+Before creating [Feature Tables](/concepts/feature-table.md) in the remote [Feature Store](/concepts/feature-store.md), a database must exist in the shared DBFS location. For example:
 
 ```sql
 CREATE DATABASE IF NOT EXISTS recommender LOCATION '/mnt/shared'
@@ -85,7 +85,7 @@ CREATE DATABASE IF NOT EXISTS recommender LOCATION '/mnt/shared'
 
 ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
-## Operations on Remote [Feature Tables](/concepts/feature-tables.md)
+## Operations on Remote [Feature Tables](/concepts/feature-table.md)
 
 All standard [Feature Store](/concepts/feature-store.md) APIs are supported for the remote [Feature Store](/concepts/feature-store.md):
 

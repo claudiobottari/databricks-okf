@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - automatic-container-rebuilds-for-compliance
     - ACRFC
+    - automatic-container-rebuilding-for-compliance
   citations:
     - file: foundation-model-apis-compliance-and-security-databricks-on-aws.md
 title: Automatic Container Rebuilds for Compliance

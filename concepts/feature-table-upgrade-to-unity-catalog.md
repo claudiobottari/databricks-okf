@@ -85,9 +85,9 @@ upgrade_client.upgrade_workspace_table(
 
 ## Related Concepts
 
-- [Unity Catalog](/concepts/unity-catalog.md) – The governance layer to which [Feature Tables](/concepts/feature-tables.md) are migrated.
+- [Unity Catalog](/concepts/unity-catalog.md) – The governance layer to which [Feature Tables](/concepts/feature-table.md) are migrated.
 - [Feature Store](/concepts/feature-store.md) – The workspace-level feature management system being replaced.
-- [Delta Table](/concepts/delta-lake-table.md) – The storage format underlying [Feature Tables](/concepts/feature-tables.md).
+- [Delta Table](/concepts/delta-lake-table.md) – The storage format underlying [Feature Tables](/concepts/feature-table.md).
 - [databricks-feature-engineering](/concepts/databricks-feature-engineering-client.md) – The Python library providing `UpgradeClient`.
 - UpgradeClient – The API class for metadata migration.
 - [Workspace Feature Table](/concepts/databricks-workspace-feature-store-legacy.md) – A [Feature Table](/concepts/feature-table.md) that resides in the workspace catalog (legacy).

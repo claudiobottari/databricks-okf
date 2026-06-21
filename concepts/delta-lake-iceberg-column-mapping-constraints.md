@@ -97,7 +97,7 @@ To resolve a `DELTA_ICEBERG_WRITER_COMPAT_VIOLATION` error:
 - [IcebergWriterCompatV](/concepts/icebergwritercompatv.md) — The compatibility version setting that enforces these constraints
 - [Delta Lake table features](/concepts/delta-lake-reader-table-features.md) — Features that may be required or incompatible
 - [Column mapping in Delta Lake](/concepts/column-mapping-in-delta-lake.md) — The physical column naming conventions enforced by this constraint
-- [Delta Lake-Iceberg interoperability](/concepts/delta-lake-table-features-and-iceberg-compatibility.md) — The broader framework for cross-format compatibility
+- [Delta Lake-Iceberg interoperability](/concepts/delta-lake-table-features-compatibility.md) — The broader framework for cross-format compatibility
 - DELTA_ICEBERG_WRITER_COMPAT_VIOLATION — The error class for all constraint violations
 
 ## Sources

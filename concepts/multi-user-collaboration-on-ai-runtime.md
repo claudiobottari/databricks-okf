@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - multi-user-collaboration-on-ai-runtime
     - MCOAR
+    - multi-user-collaboration-on-databricks-ai-runtime
+    - MCODAR
+    - multi-user-collaboration-on-databricks
+    - MCOD
+    - Notebook collaboration and commenting
   citations:
     - file: experiment-tracking-and-observability-databricks-on-aws.md
 title: Multi-User Collaboration on AI Runtime
@@ -79,7 +84,7 @@ Collaborators can monitor GPU resources on AI Runtime using the **GPU resources*
 - [MLflow](/concepts/mlflow.md) — Experiment tracking and model management
 - Git on Databricks — Version control integration for collaborative development
 - Unity Catalog Volumes — Shared storage for checkpoints and data
-- [Notebook collaboration and commenting](/concepts/multi-user-collaboration-on-databricks.md) — Databricks' built-in sharing features for notebooks
+- [Notebook collaboration and commenting](/concepts/multi-user-collaboration-on-ai-runtime.md) — Databricks' built-in sharing features for notebooks
 - [GPU resources pane](/concepts/gpu-resources-monitoring-pane.md) — Real-time monitoring of GPU metrics
 
 ## Sources

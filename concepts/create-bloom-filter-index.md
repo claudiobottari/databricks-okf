@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - create-bloom-filter-index
     - CBFI
+    - create-bloom-filter-index-databricks-sql
+    - CBFI(S
+    - create-bloom-filter-index-statement
+    - CBFIS
   citations:
     - file: create-bloom-filter-index-deprecated-databricks-on-aws.md
 title: CREATE BLOOM FILTER INDEX
@@ -42,11 +46,11 @@ Replace bloom filter indexes with one of the following features:
 - [Predictive I/O](/concepts/predictive-io.md) — A Databricks optimization that automatically determines which data files to read for a query without requiring manual index creation.
 - [Liquid Clustering](/concepts/liquid-clustering.md) — A table optimization technique that automatically reorganizes data to improve query performance by co-locating related data.
 
-For details and migration guidance from bloom filter indexes to these alternatives, see [Bloom filter indexes (deprecated)|the Bloom filter indexes documentation](/concepts/bloom-filter-index-deprecated.md).^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
+For details and migration guidance from bloom filter indexes to these alternatives, see [Bloom filter indexes (deprecated)|the Bloom filter indexes documentation](/concepts/bloom-filter-index.md).^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
 
 ## Related Concepts
 
-- [Bloom Filter Index (Deprecated)](/concepts/bloom-filter-index-deprecated.md)
+- [Bloom Filter Index (Deprecated)](/concepts/bloom-filter-index.md)
 - [Predictive I/O](/concepts/predictive-io.md)
 - [Liquid Clustering](/concepts/liquid-clustering.md)
 - [Delta Lake](/concepts/delta-lake.md)

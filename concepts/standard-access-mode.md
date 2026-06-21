@@ -17,6 +17,8 @@ x-llmwiki:
     - Access Modes
     - Access modes
     - access modes
+    - standard-access-mode-for-clusters
+    - SAMFC
   citations:
     - file: enable-hive-metastore-table-access-control-on-a-cluster-legacy-databricks-on-aws.md
     - file: what-is-the-any-file-securable-databricks-on-aws.md

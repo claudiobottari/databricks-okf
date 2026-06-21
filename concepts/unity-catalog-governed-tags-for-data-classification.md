@@ -150,7 +150,7 @@ You can use classification tags in [row filter](/concepts/row-filter-policies.md
 
 ### Creating ABAC GRANT Policies
 
-Classification tags can also be used in [ABAC GRANT Policies](/concepts/abac-grant-policies.md) to grant `EXECUTE` on models based on the tags applied to the model's catalog, schema, or the model itself. For example, a GRANT policy can grant access to models that have a specific classification tag. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
+Classification tags can also be used in [ABAC GRANT Policies](/concepts/abac-grant-policy.md) to grant `EXECUTE` on models based on the tags applied to the model's catalog, schema, or the model itself. For example, a GRANT policy can grant access to models that have a specific classification tag. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
 
 ## Requirements
 

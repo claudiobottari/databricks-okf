@@ -45,7 +45,7 @@ inferredParagraphs: 0
 
 # Composite Scoring for Prompt Selection
 
-**Composite Scoring for Prompt Selection** is a technique used with [MLflow GenAI](/concepts/mlflow-3-for-genai.md) evaluation to combine multiple individual [quality metrics](/concepts/freshness-data-quality-metric.md) into a single weighted score, enabling systematic comparison and selection of the best performing [prompt versions](/concepts/prompt-versioning.md). ^[evaluate-and-compare-prompt-versions-databricks-on-aws.md]
+**Composite Scoring for Prompt Selection** is a technique used with [MLflow GenAI](/concepts/mlflow-3-for-genai.md) evaluation to combine multiple individual [quality metrics](/concepts/freshness-data-quality.md) into a single weighted score, enabling systematic comparison and selection of the best performing [prompt versions](/concepts/prompt-versioning.md). ^[evaluate-and-compare-prompt-versions-databricks-on-aws.md]
 
 ## Overview
 

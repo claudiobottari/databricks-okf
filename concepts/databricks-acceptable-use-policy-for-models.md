@@ -102,7 +102,7 @@ Databricks may update this Acceptable Use Policy from time to time. Customers wi
 ## Related Concepts
 
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — The service through which Databricks-hosted foundation models are accessed
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — Governance framework for AI assets including usage policies
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — Governance framework for AI assets including usage policies
 - [System.ai](/concepts/systemai-schema.md) — The Unity Catalog schema containing Databricks-provided foundation models
 - Responsible AI — Databricks' broader framework for ethical AI development and deployment
 - [Model Serving](/concepts/model-serving.md) — The infrastructure for serving models on Databricks

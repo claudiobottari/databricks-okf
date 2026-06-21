@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - ray-spark-cluster-resource-configuration
     - RCRC
+    - ray-and-spark-cluster-resource-configuration
+    - Spark Cluster Resource Configuration and Ray
+    - RASCRC
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
 title: Ray-Spark Cluster Resource Configuration

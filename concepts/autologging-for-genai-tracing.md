@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - autologging-for-genai-tracing
     - AFGT
+    - mlflow-autolog-for-genai-tracing
+    - MAFGT
+    - mlflowautolog-for-genai-tracing
+    - MFGT
+    - mlflowautolog-for-generative-ai-tracing
+    - MFGAT
   citations:
     - file: automatic-tracing-databricks-on-aws.md
 title: Autologging for GenAI Tracing

@@ -13,6 +13,7 @@ x-llmwiki:
     - custom-review-app-template
     - CRAT
     - Review App Template
+    - customizable-review-app-template
   citations:
     - file: collect-feedback-and-expectations-by-labeling-existing-traces-databricks-on-aws.md
 title: Custom Review App Template

@@ -115,7 +115,7 @@ summary = automl.forecast(
 - [Feature EngineeringClient](/concepts/featureengineeringclient-api.md) — Client for creating and managing feature tables
 - [Feature Store](/concepts/feature-store.md) — Centralized repository for storing and serving features
 - [Unity Catalog](/concepts/unity-catalog.md) — Governance layer for feature tables
-- [Covariates](/concepts/covariates-external-regressors-in-time-series-forecasting.md) — External regressors used to improve forecasting models
+- [Covariates](/concepts/covariates-external-regressors-for-forecasting.md) — External regressors used to improve forecasting models
 
 ## Sources
 

@@ -84,7 +84,7 @@ Converting Iceberg tables is supported in Databricks Runtime 10.4 LTS and above,
 
 See [Upgrade a Hive table to a Unity Catalog managed table using CREATE TABLE AS SELECT](/concepts/ctas-for-migrating-hive-tables-to-unity-catalog-managed-delta-tables.md) for details. ^[convert-to-delta-lake-databricks-on-aws.md]
 
-To upgrade an external Parquet table to a Unity Catalog external table, see [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-table-migration.md). ^[convert-to-delta-lake-databricks-on-aws.md]
+To upgrade an external Parquet table to a Unity Catalog external table, see [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-migration.md). ^[convert-to-delta-lake-databricks-on-aws.md]
 
 ## Related Concepts
 

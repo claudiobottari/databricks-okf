@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - inference-tables-for-feature-logging
     - ITFFL
+    - inference-table-logging-for-feature-serving
+    - ITLFFS
   citations:
     - file: feature-serving-endpoints-databricks-on-aws.md
 title: Inference Tables for Feature Logging

@@ -101,7 +101,7 @@ The typical evaluation workflow in the Prompt Registry follows these steps: ^[ev
 
 ## Relation to ABAC GRANT Policies
 
-Prompt Registry objects are securable entities in Unity Catalog. Access to them can be controlled by [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — for example, a policy that grants `EXECUTE` on all prompts in a schema that carry a governed tag such as `lifecycle = 'production'`. This allows fine-grained access control without needing to grant permissions on each prompt individually. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
+Prompt Registry objects are securable entities in Unity Catalog. Access to them can be controlled by [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — for example, a policy that grants `EXECUTE` on all prompts in a schema that carry a governed tag such as `lifecycle = 'production'`. This allows fine-grained access control without needing to grant permissions on each prompt individually. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
 
 ## Browsing with Genie Code
 
@@ -113,7 +113,7 @@ The Prompt Registry can also be browsed conversationally using [Genie Code](/con
 - [MLflow GenAI](/concepts/mlflow-3-for-genai.md) — The toolkit used to register, load, and evaluate prompts.
 - [Custom Judges](/concepts/custom-judges.md) — LLM-based scorers used during evaluation (created via `make_judge()`).
 - [Evaluation Dataset](/concepts/evaluation-dataset.md) — A dataset stored in Unity Catalog for consistent evaluation across prompt versions.
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Attribute-based policies that can control access to prompts.
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Attribute-based policies that can control access to prompts.
 - [Prompt Versioning](/concepts/prompt-versioning.md) — The mechanism for tracking iterations of a single prompt name.
 - Deployment Aliases — Used to point production systems to a specific version without code changes.
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — The organizational unit for tracking evaluation runs.

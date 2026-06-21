@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - data-profiling-dashboard
     - DPD
+    - data-profiling-dashboard-databricks
+    - DPD(
   citations:
     - file: data-profiling-dashboard-databricks-on-aws.md
 title: Data profiling dashboard

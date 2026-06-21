@@ -51,7 +51,7 @@ Both are imported from the `trl` package: `from trl import SFTConfig, SFTTrainer
 
 ### Related Concepts
 
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) — The parent library providing SFTTrainer and reinforcement learning utilities.
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md) — The parent library providing SFTTrainer and reinforcement learning utilities.
 - [LoRA (Low-Rank Adaptation)](/concepts/lora-low-rank-adaptation.md) — Parameter‑efficient fine‑tuning technique used with SFTTrainer.
 - PEFT — Library for applying LoRA and other adapter methods.
 - [MXFP4 Quantization](/concepts/mxfp4-quantization.md) — 4‑bit floating point format that reduces memory during training.

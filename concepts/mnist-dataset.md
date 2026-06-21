@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - mnist-dataset
+    - mnist-dataset-for-distributed-training-examples
+    - MDFDTE
   citations:
     - file: horovodrunner-examples-databricks-on-aws.md
 title: MNIST Dataset

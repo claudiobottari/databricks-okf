@@ -76,7 +76,7 @@ The same wrapper approach works regardless of whether the evaluation data is pro
 
 - [MLflow Evaluation Harness](/concepts/mlflow-genai-evaluation-harness.md) – Overview of `mlflow.genai.evaluate()` and its components.
 - [MLflow Model Registry](/concepts/mlflow-model-registry.md) – Central repository for logged models and their versions.
-- [PyFunc Model Flavor](/concepts/custom-mlflow-pyfunc-model.md) – The standard Python function wrapper used by many MLflow models.
+- [PyFunc Model Flavor](/concepts/custom-mlflow-pythonmodel.md) – The standard Python function wrapper used by many MLflow models.
 - [GenAI Scorers](/concepts/mlflow-genai-scorers.md) – Built-in scorers like `Safety`, `Correctness`, and `RelevanceToQuery`.
 - [Evaluation Dataset Schema](/concepts/evaluation-dataset-schema.md) – Required structure for evaluation data inputs.
 

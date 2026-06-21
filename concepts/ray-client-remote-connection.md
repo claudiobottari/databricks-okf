@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - ray-client-remote-connection
     - RCRC
+    - ray-client-remote-connection-on-databricks
+    - RCRCOD
   citations:
     - file: create-and-connect-to-ray-clusters-on-databricks-databricks-on-aws.md
 title: Ray Client Remote Connection

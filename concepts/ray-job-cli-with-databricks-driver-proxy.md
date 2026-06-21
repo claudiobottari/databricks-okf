@@ -14,6 +14,8 @@ x-llmwiki:
     - RJCWDDP
     - Databricks Driver Proxy
     - Databricks driver proxy
+    - ray-job-cli-integration-via-databricks-driver-proxy
+    - RJCIVDDP
   citations:
     - file: create-and-connect-to-ray-clusters-on-databricks-databricks-on-aws.md
 title: Ray Job CLI with Databricks Driver Proxy

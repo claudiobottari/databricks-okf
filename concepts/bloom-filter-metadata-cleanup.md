@@ -25,7 +25,7 @@ timestamp: "2026-06-19T10:20:19.925Z"
 
 # Bloom Filter Metadata Cleanup
 
-**Bloom Filter Metadata Cleanup** refers to the process of removing metadata and index files associated with deprecated [Bloom filter indexes](/concepts/bloom-filter-indexes.md) in [Delta Lake](/concepts/delta-lake.md) tables. This cleanup is necessary when dropping Bloom filter indexes, as the metadata removal and file cleanup occur at different stages.
+**Bloom Filter Metadata Cleanup** refers to the process of removing metadata and index files associated with deprecated [Bloom filter indexes](/concepts/bloom-filter-index.md) in [Delta Lake](/concepts/delta-lake.md) tables. This cleanup is necessary when dropping Bloom filter indexes, as the metadata removal and file cleanup occur at different stages.
 
 ## Overview
 
@@ -44,7 +44,7 @@ The actual index files remain on disk until the table is VACUUM. Only when a tab
 ## Related Articles
 
 - [DROP BLOOM FILTER INDEX](/concepts/drop-bloom-filter-index-syntax.md) — The SQL command for removing Bloom filter indexes
-- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) — Overview of the deprecated feature and recommended alternatives
+- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) — Overview of the deprecated feature and recommended alternatives
 - Delta Lake table management
 - Data skipping optimizations
 - [VACUUM command](/concepts/vacuum-command-databricks.md)

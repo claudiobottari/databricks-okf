@@ -32,7 +32,7 @@ timestamp: "2026-06-18T11:42:39.079Z"
 Before you can perform volume file operations with `dbutils.fs`, you must:
 
 - Have a Unity Catalog volume created and accessible in your workspace.
-- Initialize a `WorkspaceClient` instance with valid Databricks authentication (see [Initializing WorkspaceClient](/concepts/workspaceclient-and-dbutils.md)).
+- Initialize a `WorkspaceClient` instance with valid Databricks authentication (see [Initializing WorkspaceClient](/concepts/workspaceclient-dbutils.md)).
 - Use Databricks Connect (for remote IDE or custom application usage) or run the code directly in a Databricks notebook.
 
 ## Available dbutils.fs Operations
@@ -87,7 +87,7 @@ fs.rm(file_path)
 ## Related Concepts
 
 - dbutils.fs – The file system utility reference
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) – The SDK client that provides access to `dbutils`
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) – The SDK client that provides access to `dbutils`
 - Unity Catalog volumes – The storage abstraction for non-tabular data
 - [Databricks Connect for Python](/concepts/databricks-connect-for-python.md) – The framework for remote execution
 - Databricks SDK for Python – The underlying library for REST API access

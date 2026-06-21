@@ -20,6 +20,8 @@ x-llmwiki:
     - Human feedback
     - Human feedback for GenAI
     - feedback collection
+    - mlflow-human-feedback-collection-review-app
+    - MHFC(A
   citations:
     - file: get-started-mlflow-3-for-genai-databricks-on-aws.md
 title: MLflow Human Feedback Collection

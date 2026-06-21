@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - streaming-table-managed-storage
     - STMS
+    - streaming-table-managed-storage-location-restriction
+    - STMSLR
   citations:
     - file: delta_deep_clone_streaming_table_error-error-condition-databricks-on-aws.md
 title: Streaming table managed storage

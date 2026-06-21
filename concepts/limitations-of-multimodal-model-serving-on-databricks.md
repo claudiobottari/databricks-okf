@@ -49,7 +49,7 @@ Multimodal inputs are supported through two API pathways: the Chat Completions A
 
 ## Related Concepts
 
-- [Foundation Model Serving on Databricks](/concepts/foundation-model-serving-endpoints-databricks.md)
+- [Foundation Model Serving on Databricks](/concepts/foundation-model-serving-endpoints.md)
 - [Chat Completions API](/concepts/chat-completions-api.md)
 - [Google Gemini API](/concepts/google-gemini-api-on-databricks.md)
 - Query vision models

@@ -12,6 +12,20 @@ x-llmwiki:
   aliases:
     - mlflow-integration-in-ai-runtime
     - MIIAR
+    - mlflow-experiment-integration-for-ai-runtime
+    - MEIFAR
+    - mlflow-integration-for-ai-runtime-cli
+    - MIFARC
+    - mlflow-integration-for-ai-runtime
+    - MIFAR
+    - mlflow-integration-in-ai-runtime-cli
+    - MIIARC
+    - mlflow-integration-with-ai-runtime-cli
+    - MIWARC
+    - mlflow-integration-with-ai-runtime
+    - MIWAR
+    - mlflow-run-tracking-on-ai-runtime
+    - MRTOAR
   citations:
     - file: ai-runtime-cli-quickstart-databricks-on-aws.md
 title: MLflow Integration in AI Runtime

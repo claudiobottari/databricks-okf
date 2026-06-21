@@ -16,6 +16,16 @@ x-llmwiki:
     - Reinforcement Learning
     - Reinforcement Learning|reinforcement learning
     - Reinforcement learning
+    - trl-transformer-reinforcement-learning-library
+    - T(RLL
+    - TRL
+    - trl
+    - trl-transformers-reinforcement-learning-sfttrainer
+    - T(RLS
+    - reinforcement learning from human feedback (RLHF)
+    - trl-transformers-reinforcement-learning
+    - Transformers Reinforcement Learning (TRL)
+    - Reinforcement Learning from Human Feedback (RLHF)
   citations:
     - file: lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md
 title: TRL (Transformer Reinforcement Learning)

@@ -13,6 +13,9 @@ x-llmwiki:
     - feedback-mlflow-evaluation
     - F(E
     - Feedback (MLflow entity)
+    - feedback-in-mlflow-evaluation
+    - FIME
+    - Feedbacks in MLflow Evaluation
   citations:
     - file: evaluation-runs-in-mlflow-databricks-on-aws.md
 title: Feedback (MLflow Evaluation)

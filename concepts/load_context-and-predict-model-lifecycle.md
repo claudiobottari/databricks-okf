@@ -92,7 +92,7 @@ This pattern is recommended for any custom model that involves expensive initial
 
 ## Related Concepts
 
-- [Custom MLflow Python Function Model](/concepts/custom-mlflow-pyfunc-model.md)
+- [Custom MLflow Python Function Model](/concepts/custom-mlflow-pythonmodel.md)
 - [Model Serving](/concepts/model-serving.md)
 - MLflow pyfunc
 - Deploy Python code with Model Serving

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - limitations-of-databricks-utilities-in-scala-connect
     - LODUISC
+    - limited-databricks-utilities-support-in-scala-connect
+    - LDUSISC
   citations:
     - file: databricks-utilities-with-databricks-connect-for-scala-databricks-on-aws.md
 title: Limitations of Databricks Utilities in Scala Connect

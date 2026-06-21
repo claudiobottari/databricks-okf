@@ -16,6 +16,14 @@ x-llmwiki:
     - Workspace Administration
     - Workspace administrator
     - workspace admin
+    - workspace-admin-role-unity-catalog
+    - WAR(C
+    - Workspace Admin Role
+    - workspace-admins-in-unity-catalog
+    - WAIUC
+    - workspace-admins-unity-catalog
+    - Workspace admins
+    - workspace admins
   citations:
     - file: admin-privileges-in-unity-catalog-databricks-on-aws.md
 title: Workspace Admin (Unity Catalog)

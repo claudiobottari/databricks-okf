@@ -49,7 +49,7 @@ To resolve this error, you must identify which reader features are causing the i
 - Remove the unsupported reader feature from the table (if possible).
 - Consider an alternative method to convert the table to UniForm without using `REFRESH SYNC UNIFORM`.
 
-Consult the [Delta UniForm documentation](/concepts/delta-uniform-uniform.md) for the current list of supported reader features. ^[delta_uniform_refresh_not_supported-error-condition-databricks-on-aws.md]
+Consult the [Delta UniForm documentation](/concepts/delta-uniform.md) for the current list of supported reader features. ^[delta_uniform_refresh_not_supported-error-condition-databricks-on-aws.md]
 
 ## Related Concepts
 

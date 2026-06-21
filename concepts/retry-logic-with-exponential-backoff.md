@@ -97,7 +97,7 @@ The function retries only when the exception message contains `"rate_limit"` or 
 - Rate Limiting and Quotas – How token‑ and query‑based limits work.
 - Foundation Model APIs limits and quotas – Specific ITPM, OTPM, and QPH limits for Databricks endpoints.
 - [Provisioned throughput endpoints](/concepts/provisioned-throughput-endpoints.md) – Alternative for workloads requiring higher, predictable throughput.
-- [Error Handling and Resilience Patterns](/concepts/error-handling-patterns-for-scorers.md) – Broader strategies for robust API clients.
+- [Error Handling and Resilience Patterns](/concepts/error-handling-in-scorers.md) – Broader strategies for robust API clients.
 - Model Serving Limits – Additional constraints on payload size and concurrency.
 
 ## Sources

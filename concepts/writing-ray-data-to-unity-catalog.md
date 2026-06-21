@@ -13,6 +13,8 @@ x-llmwiki:
     - writing-ray-data-to-unity-catalog
     - WRDTUC
     - Write Ray Data to Spark
+    - writing-ray-data-to-unity-catalog-tables
+    - WRDTUCT
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
 title: Writing Ray Data to Unity Catalog

@@ -62,7 +62,7 @@ to_pandas(entry).plot(label=entry[FieldName.ITEM_ID])
 ## Related Concepts
 
 - [GluonTS](/concepts/gluonts.md) – The overarching library for probabilistic time series modeling
-- [DeepAREstimator](/concepts/deepar-estimator.md) – A recurrent neural network model trained on a PandasDataset
+- [DeepAREstimator](/concepts/deepar.md) – A recurrent neural network model trained on a PandasDataset
 - DateSplitter – GluonTS utility for creating train/test splits from a PandasDataset
 - [Time Series Forecasting](/concepts/multi-series-forecasting.md) – The general task addressed by PandasDataset
 - [Unity Catalog](/concepts/unity-catalog.md) – Used in the notebook for storing model checkpoints, not directly related to PandasDataset but part of the Databricks workflow

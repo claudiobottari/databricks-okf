@@ -94,7 +94,7 @@ Delete any [Provisioned Throughput](/concepts/provisioned-throughput.md) endpoin
 - EXECUTE permission — The privilege required to invoke a model.
 - [Pay-per-Token Endpoints](/concepts/pay-per-token-endpoints.md) — Endpoints that automatically enforce model permissions.
 - [Provisioned Throughput](/concepts/provisioned-throughput.md) — Reserved capacity endpoints that require manual cleanup after permission changes.
-- [Batch inference (AI Functions)](/concepts/ai-functions-and-batch-inference.md) — Serverless inference that automatically enforces permissions.
+- [Batch inference (AI Functions)](/concepts/ai-functions.md) — Serverless inference that automatically enforces permissions.
 - [AI Gateway](/concepts/ai-gateway.md) — Alternative governance tool for rate limits and usage tracking.
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — Overview of Databricks hosted model serving.
 

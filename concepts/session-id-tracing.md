@@ -155,8 +155,8 @@ Generate new conversations by simulating user interactions with your agent. Use 
 ## Related Concepts
 
 - [Conversation Evaluation](/concepts/conversation-evaluation.md) — Evaluating entire conversation sessions rather than individual turns
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) — LLM-based judges that analyze complete conversation histories
-- [Conversation Simulation](/concepts/conversation-simulation.md) — Generating synthetic conversations for testing
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) — LLM-based judges that analyze complete conversation histories
+- [Conversation Simulation](/concepts/conversationsimulator.md) — Generating synthetic conversations for testing
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Using multi-turn judges for continuous production monitoring
 - [[MLflow Trace|MLflow Traces]] — The underlying trace records that session IDs group into conversations
 - [Track Users and Sessions](/concepts/mlflow-user-and-session-tracking.md) — Complete documentation for instrumenting agents with session IDs

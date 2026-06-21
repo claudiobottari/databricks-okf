@@ -25,7 +25,7 @@ timestamp: "2026-06-18T12:26:49.821Z"
 
 # FSDP on Databricks AI Runtime
 
-**FSDP on Databricks AI Runtime** refers to using [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md) to train large neural network models on GPU clusters managed by [Databricks AI Runtime](/concepts/databricks-ai-runtime.md). FSDP shards model parameters, gradients, and optimizer states across all available GPUs, enabling the training of very large models that would not fit into a single GPU's memory. ^[fully-sharded-data-parallel-fsdp-training-databricks-on-aws.md]
+**FSDP on Databricks AI Runtime** refers to using [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md) to train large neural network models on GPU clusters managed by [Databricks AI Runtime](/concepts/databricks-ai-runtime.md). FSDP shards model parameters, gradients, and optimizer states across all available GPUs, enabling the training of very large models that would not fit into a single GPU's memory. ^[fully-sharded-data-parallel-fsdp-training-databricks-on-aws.md]
 
 ## When to Use FSDP
 

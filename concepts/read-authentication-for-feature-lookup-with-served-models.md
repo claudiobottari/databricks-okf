@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - read-authentication-for-feature-lookup-with-served-models
     - RAFFLWSM
+    - read-authentication-for-feature-lookup-with-served-mlflow-models
+    - RAFFLWSMM
   citations:
     - file: authentication-for-working-with-third-party-online-stores-databricks-on-aws.md
 title: Read Authentication for Feature Lookup with Served Models

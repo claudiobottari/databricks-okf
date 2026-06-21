@@ -190,7 +190,7 @@ You can then analyze feedback patterns, satisfaction rates, and multi-dimensiona
 
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — The tracing infrastructure that underlies feedback collection
 - Feedback (MLflow) — The structured entity for capturing user feedback on traces
-- [Assessment (MLflow)](/concepts/assessments-mlflow-genai.md) — The parent entity type for feedback
+- [Assessment (MLflow)](/concepts/assessments.md) — The parent entity type for feedback
 - Production Tracing — Deploying tracing in production environments
 - [Build Evaluation Datasets](/concepts/evaluation-datasets.md) — Using collected feedback to create test datasets
 - [Production Monitoring](/concepts/production-monitoring.md) — Monitoring quality metrics based on feedback

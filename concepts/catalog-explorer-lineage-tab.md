@@ -13,6 +13,10 @@ x-llmwiki:
     - catalog-explorer-lineage-tab
     - CELT
     - Catalog Explorer Lineage
+    - catalog-explorer-lineage-graph
+    - CELG
+    - catalog-explorer-lineage-visualization
+    - CELV
   citations:
     - file: feature-governance-and-lineage-databricks-on-aws.md
 title: Catalog Explorer Lineage Tab
@@ -100,7 +104,7 @@ fe.log_model(
 
 - [Data Lineage in Unity Catalog](/concepts/data-lineage-in-unity-catalog.md) — Detailed exploration of the lineage graph
 - [Feature Engineering Client](/concepts/featureengineeringclient-api.md) — The API used to log models with lineage tracking
-- [Feature Tables](/concepts/feature-tables.md) — Tables containing features tracked in lineage
+- [Feature Tables](/concepts/feature-table.md) — Tables containing features tracked in lineage
 - MLflow Models — Models whose dependencies are captured in the Lineage tab
 - [Catalog Explorer](/concepts/catalog-explorer.md) — The UI where the Lineage tab is located
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer that stores lineage metadata

@@ -251,7 +251,7 @@ To migrate from Databricks Connect for Databricks Runtime 12.2 LTS and below to 
 ## Related concepts
 
 - [DatabricksSession](/concepts/databrickssession.md) — Main entry point for creating a Spark session in Databricks Connect
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) — Databricks SDK class for accessing utilities and REST APIs
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) — Databricks SDK class for accessing utilities and REST APIs
 - [OAuth U2M Authentication](/concepts/user-to-machine-u2m-authentication.md) — Recommended authentication flow
 - Serverless Compute — Compute type supported in Databricks Connect 15.4+
 - [Unity Catalog](/concepts/unity-catalog.md) — Governance layer for data

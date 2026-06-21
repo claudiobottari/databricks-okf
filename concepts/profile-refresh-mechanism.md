@@ -13,6 +13,9 @@ x-llmwiki:
     - profile-refresh-mechanism
     - PRM
     - Profile Refresh
+    - dashboard-refresh-mechanism
+    - DRM
+    - DLRM
   citations:
     - file: data-profiling-dashboard-databricks-on-aws.md
 title: Profile refresh mechanism

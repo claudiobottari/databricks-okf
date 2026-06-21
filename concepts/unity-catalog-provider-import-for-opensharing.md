@@ -87,7 +87,7 @@ For workspaces that are **not** enabled for Unity Catalog, the Python notebook a
 ## Related Concepts
 
 - [OpenSharing Protocol](/concepts/opensharing-protocol.md) — The open standard for data sharing with bearer tokens
-- [Databricks-to-Open Sharing Model](/concepts/databricks-to-open-sharing-model.md) — The provider-recipient model used for data sharing
+- [Databricks-to-Open Sharing Model](/concepts/databricks-to-open-sharing.md) — The provider-recipient model used for data sharing
 - [Unity Catalog](/concepts/unity-catalog.md) — The catalog system that manages imported providers and shared data
 - Credential File — The file shared by the provider containing endpoint and token information
 - [Delta Sharing](/concepts/delta-sharing.md) — The underlying sharing protocol

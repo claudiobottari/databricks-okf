@@ -105,7 +105,7 @@ The primary documented use case is distributed fine‑tuning of the 20B‑parame
 * [LoRA (Low-Rank Adaptation)](/concepts/lora-low-rank-adaptation.md): the base model is frozen; only small adapter matrices are trained in full precision.
 * [Distributed Data Parallelism](/concepts/distributed-data-parallel-ddp.md): training is distributed across 8 H100 GPUs on a single node using the `@distributed` decorator from the `serverless_gpu` library.^[distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md]
 * [Gradient Checkpointing](/concepts/activation-checkpointing.md): trades compute for memory by recomputing activations during the backward pass.
-* Mixed‑precision training: configured via `SFTConfig` / `SFTTrainer` from [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) (Transformer Reinforcement Learning library).
+* Mixed‑precision training: configured via `SFTConfig` / `SFTTrainer` from [TRL](/concepts/trl-transformer-reinforcement-learning.md) (Transformer Reinforcement Learning library).
 * GPU memory logging: a `log_gpu_memory` helper reports allocated and reserved GPU memory during training to aid memory debugging.^[distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md]
 
 This stack allows the 20B model to fit into the combined memory of 8 H100 GPUs with reasonable per‑GPU memory usage.^[distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md>

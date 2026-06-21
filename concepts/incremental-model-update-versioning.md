@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - incremental-model-update-versioning
     - IMUV
+    - incremental-model-updates-databricks
+    - IMU(
   citations:
     - file: generative-ai-models-maintenance-policy-databricks-on-aws.md
 title: Incremental Model Update Versioning

@@ -81,7 +81,7 @@ inferredParagraphs: 0
 
 # Policy Scope and Attachment Levels
 
-**Policy Scope and Attachment Levels** describes where a policy is defined in a Databricks resource hierarchy and which securable objects it applies to. The attachment level determines the policy's reach: a policy attached at a higher level (e.g., catalog or experiment) applies to all descendants within that scope unless overridden, while a policy attached at a narrower level (e.g., schema) is confined to that specific resource. This concept is fundamental to both [ABAC GRANT Policies](/concepts/abac-grant-policies.md) and [serverless budget policies](/concepts/serverless-budget-policy.md). ^[abac-grant-policies-for-models-beta-databricks-on-aws.md, configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md]
+**Policy Scope and Attachment Levels** describes where a policy is defined in a Databricks resource hierarchy and which securable objects it applies to. The attachment level determines the policy's reach: a policy attached at a higher level (e.g., catalog or experiment) applies to all descendants within that scope unless overridden, while a policy attached at a narrower level (e.g., schema) is confined to that specific resource. This concept is fundamental to both [ABAC GRANT Policies](/concepts/abac-grant-policy.md) and [serverless budget policies](/concepts/serverless-budget-policy.md). ^[abac-grant-policies-for-models-beta-databricks-on-aws.md, configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md]
 
 ## Attachment Levels for ABAC GRANT Policies
 
@@ -122,7 +122,7 @@ The effective privileges on a model are the union of direct grants and any appli
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
 - [Serverless Budget Policy](/concepts/serverless-budget-policy.md)
 - [MLflow Experiments](/concepts/mlflow-experiment.md)

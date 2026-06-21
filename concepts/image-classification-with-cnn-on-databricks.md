@@ -13,6 +13,9 @@ x-llmwiki:
     - image-classification-with-cnn-on-databricks
     - ICWCOD
     - Image Classification on Databricks
+    - image-classification-with-cnn-on-serverless-gpu
+    - ICWCOSG
+    - image-classification-with-cnns-on-databricks
   citations:
     - file: computer-vision-databricks-on-aws.md
     - file: best-practices-for-deep-learning-on-databricks-databricks-on-aws.md

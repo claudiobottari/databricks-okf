@@ -13,6 +13,22 @@ x-llmwiki:
     - delta-lake-table-features-compatibility
     - DLTFC
     - Delta Lake feature compatibility matrix
+    - delta-iceberg-table-feature-compatibility
+    - DTFC
+    - Delta Iceberg Compatibility
+    - Delta-Iceberg Compatibility
+    - delta-lake-table-features-and-iceberg-compatibility
+    - Iceberg compatibility and Delta Lake table features
+    - DLTFAIC
+    - Apache Iceberg compatibility in Delta Lake
+    - Delta Lake Iceberg Compatibility
+    - Delta Lake and Apache Iceberg Compatibility
+    - Delta Lake and Iceberg interoperability
+    - Delta Lake to Iceberg compatibility
+    - Delta Lake-Iceberg Compatibility
+    - Delta Lake-Iceberg interoperability
+    - Delta table Iceberg compatibility
+    - Iceberg and Delta Lake interoperability
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: Delta Lake Table Features Compatibility

@@ -141,7 +141,7 @@ When `name` is omitted, a name is automatically generated following the pattern 
 - MLflow Models – Models logged with feature metadata for automatic inference
 - [Point-in-time Joins](/concepts/point-in-time-joins.md) – The technique ensuring temporal consistency between training and inference
 - materialize_features() API|Materialized Features – Pre-computed feature values for low-latency serving
-- [Time Window Aggregation](/concepts/time-windows-for-aggregation.md) – The mechanism for computing window-based features
+- [Time Window Aggregation](/concepts/time-windows.md) – The mechanism for computing window-based features
 
 ## Sources
 

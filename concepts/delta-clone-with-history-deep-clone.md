@@ -46,7 +46,7 @@ To resolve this error, ensure the target table is a persisted Delta table in a [
 ## Related Concepts
 
 - [Delta Table](/concepts/delta-lake-table.md)
-- [Clone Table](/concepts/deep-clone-delta-lake.md)
+- [Clone Table](/concepts/deep-clone.md)
 - [Deep Clone](/concepts/deep-clone.md)
 - [Shallow Clone](/concepts/shallow-clone.md)
 - [Unity Catalog](/concepts/unity-catalog.md)

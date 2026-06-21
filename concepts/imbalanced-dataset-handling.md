@@ -14,6 +14,9 @@ x-llmwiki:
     - IDH
     - Imbalanced Dataset Support
     - Imbalanced dataset support
+    - imbalanced-dataset-handling-in-automl
+    - IDHIA
+    - Imbalanced Dataset Support in AutoML
   citations:
     - file: data-preparation-for-classification-databricks-on-aws.md
 title: Imbalanced Dataset Handling

@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - crc-checksum-corruption-detection
     - CCCD
+    - checkpoint-crc-corruption-detection
   citations:
     - file: fsck-repair-table-databricks-on-aws.md
 title: CRC Checksum Corruption Detection

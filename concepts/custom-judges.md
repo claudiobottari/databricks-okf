@@ -136,7 +136,7 @@ def test_alignment_improvement(
 
 - [Built-in Judges](/concepts/built-in-judges.md) — Predefined LLM evaluators like `RelevanceToQuery` and `Correctness`
 - [Judge Alignment](/concepts/judge-alignment.md) — The process of aligning judges with human evaluation standards
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — Unified governance for AI assets
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — Unified governance for AI assets
 - [MLflow](/concepts/mlflow.md) — Platform for tracking and managing ML experiments
 - [Custom Alignment Optimizers](/concepts/custom-alignment-optimizer.md) — Specialized alignment strategies for custom judges
 

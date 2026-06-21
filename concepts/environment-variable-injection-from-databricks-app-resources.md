@@ -57,7 +57,7 @@ This allows the app to log runs, parameters, and metrics to the correct experime
 
 ## Resource Types and Injected Variables
 
-The source material only describes the MLflow experiment resource, where the injected environment variable is `MLFLOW_EXPERIMENT_ID`. Other resource types (e.g., models, secrets, databases) are expected to follow the same `valueFrom` pattern, but their specific variable names are not covered in the provided source. For full details, see the general documentation on [accessing environment variables from resources](/concepts/environment-variable-injection-from-app-resources.md) in Databricks Apps. ^[add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md]
+The source material only describes the MLflow experiment resource, where the injected environment variable is `MLFLOW_EXPERIMENT_ID`. Other resource types (e.g., models, secrets, databases) are expected to follow the same `valueFrom` pattern, but their specific variable names are not covered in the provided source. For full details, see the general documentation on [accessing environment variables from resources](/concepts/environment-variable-injection-for-app-resources.md) in Databricks Apps. ^[add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md]
 
 ## Permissions and Security
 
@@ -73,7 +73,7 @@ If you remove a resource from the app, the associated environment variable is no
 - [MLflow experiments](/concepts/mlflow-experiment.md) – The resource type used in the example.
 - [Service Principal Authorization for Databricks Apps](/concepts/service-principal-authorization-for-databricks-apps.md)
 - app.yaml configuration – The file where `valueFrom` is defined.
-- [Environment variables in Databricks Apps](/concepts/environment-variable-injection-for-databricks-app-resources.md) – General guidance on environment variable usage.
+- [Environment variables in Databricks Apps](/concepts/environment-variable-injection-for-app-resources.md) – General guidance on environment variable usage.
 
 ## Sources
 

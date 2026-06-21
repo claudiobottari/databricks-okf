@@ -17,6 +17,8 @@ x-llmwiki:
     - Databricks error messages
     - Delta error classes
     - Error classes
+    - databricks-error-classes-pattern
+    - DECP
   citations:
     - file: delta_clone_with_history_unsupported_target-error-condition-databricks-on-aws.md
     - file: delta_streaming_skip_offsets_invalid_offset_range-error-condition-databricks-on-aws.md

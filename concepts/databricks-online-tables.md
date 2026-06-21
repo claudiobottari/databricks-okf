@@ -13,6 +13,12 @@ x-llmwiki:
     - databricks-online-tables
     - DOT
     - Databricks Tables
+    - databricks-online-tables-legacy
+    - DOT(
+    - Databricks online table (legacy)
+    - Online Table (legacy)
+    - Online Tables (Legacy)
+    - Online tables (legacy)
   citations:
     - file: databricks-online-tables-legacy-databricks-on-aws.md
 title: Databricks Online Tables

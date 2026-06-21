@@ -13,6 +13,8 @@ x-llmwiki:
     - feature-engineering-compatibility-matrix
     - FECM
     - Compatibility Matrix
+    - databricks-feature-engineering-compatibility-matrix
+    - DFECM
   citations:
     - file: feature-engineering-python-api-databricks-on-aws.md
 title: Feature Engineering Compatibility Matrix
@@ -57,7 +59,7 @@ The actual matrix table is hosted in the Databricks documentation under the rele
 
 ## Related Concepts
 
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) – The client packages and their usage.
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) – The client packages and their usage.
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md) – The runtime that bundles these packages.
 - [Feature Engineering (Unity Catalog)](/concepts/feature-engineering-in-unity-catalog.md) – Working with feature tables in Unity Catalog.
 - [Workspace Feature Store (Deprecated)](/concepts/workspace-feature-store-deprecated.md) – Legacy feature store approach.

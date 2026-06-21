@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - when-to-use-ddp-vs-fsdpdeepspeed
     - WTUDVF
+    - when-to-use-fsdp-vs-ddp-vs-deepspeed
+    - WTUFVDVD
   citations:
     - file: distributed-data-parallel-ddp-training-databricks-on-aws.md
     - file: fully-sharded-data-parallel-fsdp-training-databricks-on-aws.md

@@ -11,6 +11,10 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - data-freshness
+    - data-freshness-anomaly-detection
+    - DF(D
+    - data-freshness-table-monitoring
+    - DF(M
   citations:
     - file: data-quality-monitoring-databricks-on-aws.md
 title: Data Freshness

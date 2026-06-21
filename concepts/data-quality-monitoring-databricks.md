@@ -13,6 +13,10 @@ x-llmwiki:
     - data-quality-monitoring-databricks
     - DQM(
     - Data Quality Monitoring on Databricks
+    - data-quality-monitoring-unity-catalog
+    - DQM(C
+    - Data Quality Monitoring in Unity Catalog
+    - Data Quality Monitoring with Unity Catalog
   citations:
     - file: data-quality-monitoring-databricks-on-aws.md
 title: Data quality monitoring (Databricks)

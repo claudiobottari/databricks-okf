@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - fallback-rules-for-unclassified-data
     - FRFUD
+    - fallback-rules-for-unclassified-data-in-abac
+    - FRFUDIA
   citations:
     - file: best-practices-for-abac-policies-databricks-on-aws.md
 title: Fallback Rules for Unclassified Data

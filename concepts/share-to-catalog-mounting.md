@@ -100,7 +100,7 @@ You need `USE CATALOG` and `MANAGE` privileges on the shared catalog to perform 
 - [Databricks-to-Databricks OpenSharing](/concepts/databricks-to-databricks-sharing.md) — The sharing protocol that uses Unity Catalog for secure connections
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform that manages shared catalogs
 - [OpenSharing Catalog](/concepts/opensharing-catalog.md) — The catalog type created when mounting a share
-- [Unity Catalog Privilege Model](/concepts/unity-catalog-privileges-and-ownership-model.md) — The access control system governing shared data
+- [Unity Catalog Privilege Model](/concepts/privileges-and-ownership.md) — The access control system governing shared data
 - [Databricks-to-Open Sharing](/concepts/databricks-to-open-sharing.md) — An alternative sharing protocol using bearer tokens
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) — Applying row filters and column masks on shared data
 

@@ -136,7 +136,7 @@ Each assessment includes `session_id` metadata that links it to the full convers
 ## Related Concepts
 
 - [ConversationSimulator](/concepts/conversationsimulator.md) — The API for defining test scenarios
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) — Judges that analyze full conversation history
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) — Judges that analyze full conversation history
 - [Pre-generated evaluation](/concepts/pre-generated-conversation-evaluation.md) — The alternative approach that uses traced production data
 - make_judge()|Make Judge API — The `make_judge()` function for creating custom evaluators
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The `mlflow.genai.evaluate()` API for offline assessment

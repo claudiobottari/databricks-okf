@@ -198,7 +198,7 @@ FROM sales_raw
 
 ## Comparison with Unity Catalog
 
-Unity Catalog uses a different model for granting privileges. For more information, see the [Unity Catalog privileges reference](/concepts/unity-catalog-privileges-and-ownership.md). Table Access Control is the legacy system that is built into each Databricks workspace. ^[hive-metastore-privileges-and-securable-objects-legacy-databricks-on-aws.md]
+Unity Catalog uses a different model for granting privileges. For more information, see the [Unity Catalog privileges reference](/concepts/privileges-and-ownership.md). Table Access Control is the legacy system that is built into each Databricks workspace. ^[hive-metastore-privileges-and-securable-objects-legacy-databricks-on-aws.md]
 
 ## Related Concepts
 

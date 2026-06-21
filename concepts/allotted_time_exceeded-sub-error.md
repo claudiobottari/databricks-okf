@@ -13,6 +13,8 @@ x-llmwiki:
     - allotted_time_exceeded-sub-error
     - ALLOTTED_TIME_EXCEEDED
     - Allotted time exceeded
+    - allotted_time_exceeded-in-delta-lake
+    - AIDL
   citations:
     - file: delta_concurrent_delete_delete-error-condition-databricks-on-aws.md
 title: ALLOTTED_TIME_EXCEEDED Sub-error

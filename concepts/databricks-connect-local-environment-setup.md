@@ -67,7 +67,7 @@ Databricks Connect version numbers correspond to Databricks Runtime version numb
 
 #### End-of-Support Versions
 
-Databricks Connect follows the Databricks Runtime [support lifecycles](/concepts/databricks-runtime-support-lifecycles.md). If you are using a version that has reached end-of-support, upgrade to a supported version. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
+Databricks Connect follows the Databricks Runtime [support lifecycles](/concepts/databricks-connect-support-lifecycle.md). If you are using a version that has reached end-of-support, upgrade to a supported version. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
 
 ## Installation Steps
 

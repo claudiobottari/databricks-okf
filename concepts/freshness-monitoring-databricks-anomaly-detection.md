@@ -25,7 +25,7 @@ timestamp: "2026-06-19T08:58:55.317Z"
 
 # Freshness Monitoring (Databricks Anomaly Detection)
 
-**Freshness Monitoring** is a feature of [Databricks Anomaly Detection](/concepts/databricks-anomaly-detection.md) that automatically tracks how recently tables have been updated and flags any table whose commits are unusually late compared to historical patterns. It is one of two primary quality dimensions monitored by Databricks, alongside [completeness monitoring](/concepts/data-completeness-table-monitoring.md). ^[anomaly-detection-databricks-on-aws.md]
+**Freshness Monitoring** is a feature of [Databricks Anomaly Detection](/concepts/databricks-anomaly-detection.md) that automatically tracks how recently tables have been updated and flags any table whose commits are unusually late compared to historical patterns. It is one of two primary quality dimensions monitored by Databricks, alongside [completeness monitoring](/concepts/data-completeness.md). ^[anomaly-detection-databricks-on-aws.md]
 
 ## Overview
 

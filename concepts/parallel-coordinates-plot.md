@@ -14,6 +14,10 @@ x-llmwiki:
     - PCP
     - Parallel coordinates
     - parallel coordinates plots
+    - mlflow-parallel-coordinates-plot
+    - MPCP
+    - parallel-coordinates-plot-for-mlflow
+    - PCPFM
   citations:
     - file: compare-mlflow-runs-and-models-using-graphs-and-charts-databricks-on-aws.md
 title: Parallel Coordinates Plot

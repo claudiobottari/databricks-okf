@@ -15,6 +15,9 @@ x-llmwiki:
     - PAPWP
     - Preprocessing and Postprocessing
     - preprocessing
+    - preprocessing-and-postprocessing-with-custom-pyfunc
+    - Postprocessing with Custom PyFunc and Preprocessing
+    - PAPWCP
   citations:
     - file: deploy-python-code-with-model-serving-databricks-on-aws.md
 title: Preprocessing and Postprocessing with PyFunc

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - post-hoc-tag-management
     - PTM
+    - post-hoc-trace-tag-management
+    - PTTM
   citations:
     - file: attach-custom-tags-and-metadata-databricks-on-aws.md
 title: Post-hoc Tag Management

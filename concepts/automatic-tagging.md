@@ -11,6 +11,11 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - automatic-tagging
+    - automatic-tagging-in-data-classification
+    - ATIDC
+    - Automatic Data Classification
+    - automatic-tagging-with-governed-tags
+    - ATWGT
   citations:
     - file: data-classification-databricks-on-aws.md
 title: Automatic Tagging

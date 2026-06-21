@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - anomaly-detection-alert
     - ADA
+    - anomaly-detection-alerts
+    - Advanced settings for alerts
+    - advanced settings for alerts
   citations:
     - file: alerts-for-anomaly-detection-databricks-on-aws.md
 title: Anomaly Detection Alert

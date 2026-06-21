@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - automatic-feature-lineage
     - AFL
+    - automatic-feature-lineage-tracking
+    - AFLT
   citations:
     - file: databricks-feature-store-databricks-on-aws.md
 title: Automatic Feature Lineage

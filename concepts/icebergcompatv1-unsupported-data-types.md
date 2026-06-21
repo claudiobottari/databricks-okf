@@ -75,7 +75,7 @@ If the table fundamentally requires these data types, disable IcebergCompatV1 an
 ## Related Concepts
 
 - DELTA_ICEBERG_COMPAT_V1_VIOLATION error class|IcebergCompatV1 error class — Full list of IcebergCompatV1 validation errors
-- [Delta Lake to Iceberg compatibility](/concepts/delta-lake-table-features-and-iceberg-compatibility.md) — Overview of format interoperability
+- [Delta Lake to Iceberg compatibility](/concepts/delta-lake-table-features-compatibility.md) — Overview of format interoperability
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) — Target format for IcebergCompatV1
 - Delta Lake data types — Supported column types in Delta Lake
 - Schema evolution in Delta Lake — How schemas can be modified over time

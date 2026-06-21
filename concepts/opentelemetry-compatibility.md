@@ -13,6 +13,12 @@ x-llmwiki:
   aliases:
     - opentelemetry-compatibility
     - OpenTelemetry (OTel)
+    - mlflow-opentelemetry-compatibility
+    - MOC
+    - opentelemetry-compatibility-in-mlflow-tracing
+    - OCIMT
+    - opentelemetry-compatibility-with-mlflow-tracing
+    - OCWMT
   citations:
     - file: debug-and-analyze-your-app-with-tracing-databricks-on-aws.md
     - file: trace-concepts-databricks-on-aws.md

@@ -13,6 +13,8 @@ x-llmwiki:
     - mlflow-pyspark-ml-autologging
     - MPMA
     - Spark model logging
+    - databricks-mlflow-pyspark-ml-autologging
+    - DMPMA
   citations:
     - file: apache-spark-mllib-and-automated-mlflow-tracking-databricks-on-aws.md
 title: MLflow PySpark ML Autologging
@@ -89,7 +91,7 @@ with mlflow.start_run(run_name="my_pyspark_run"):
 - [MLflow Tracking](/concepts/mlflow-tracking.md) — The underlying tracking system
 - [Apache Spark MLlib automated MLflow tracking](/concepts/mllib-automated-mlflow-tracking.md) — The deprecated predecessor
 - [Hyperparameter Tuning](/concepts/hyperparameter-tuning.md) — General approaches for tuning models
-- [CrossValidator and TrainValidationSplit](/concepts/crossvalidator-and-trainvalidationsplit.md) — PySpark ML tuning estimators
+- [CrossValidator and TrainValidationSplit](/concepts/crossvalidator.md) — PySpark ML tuning estimators
 
 ## Sources
 

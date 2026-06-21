@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - workspaceclient-authentication
     - Workspace authentication
+    - workspaceclient-authentication-methods
+    - WAM
   citations:
     - file: databricks-utilities-with-databricks-connect-for-python-databricks-on-aws.md
 title: WorkspaceClient Authentication

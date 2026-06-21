@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - appstate-stateful-wrapper-pattern
     - ASWP
+    - appstate-stateful-wrapper-for-checkpointing
+    - ASWFC
   citations:
     - file: distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md
 title: AppState Stateful Wrapper Pattern
@@ -25,7 +27,7 @@ timestamp: "2026-06-18T12:08:19.908Z"
 
 # AppState Stateful Wrapper Pattern
 
-The **AppState Stateful Wrapper Pattern** is a design pattern for checkpointing machine learning models trained with [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md). It implements the `Stateful` protocol from PyTorch's distributed checkpoint API, enabling seamless saving and loading of model and optimizer state in distributed training contexts. The pattern is particularly useful for [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) workloads where checkpointing must handle sharded model parameters across multiple GPUs. ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
+The **AppState Stateful Wrapper Pattern** is a design pattern for checkpointing machine learning models trained with [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md). It implements the `Stateful` protocol from PyTorch's distributed checkpoint API, enabling seamless saving and loading of model and optimizer state in distributed training contexts. The pattern is particularly useful for [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) workloads where checkpointing must handle sharded model parameters across multiple GPUs. ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
 
 ## Purpose
 

@@ -108,7 +108,7 @@ Multi-turn assessments generated from session tracking are stored on the **first
 
 ## Multi-Turn Judges
 
-Session tracking enables the use of [Multi-turn Judges](/concepts/multi-turn-judges.md), which analyze the entire conversation history rather than individual responses. MLflow provides built-in multi-turn judges such as `ConversationCompleteness`, which evaluates whether the agent answered all user questions, and `UserFrustration`, which evaluates whether the user became frustrated during the conversation. ^[evaluate-conversations-databricks-on-aws.md]
+Session tracking enables the use of [Multi-turn Judges](/concepts/multi-turn-judge.md), which analyze the entire conversation history rather than individual responses. MLflow provides built-in multi-turn judges such as `ConversationCompleteness`, which evaluates whether the agent answered all user questions, and `UserFrustration`, which evaluates whether the user became frustrated during the conversation. ^[evaluate-conversations-databricks-on-aws.md]
 
 ### Custom Multi-Turn Judges
 
@@ -133,9 +133,9 @@ The `{{ conversation }}` variable can only be used with `{{ expectations }}`, no
 
 ## Related Concepts
 
-- [Multi-turn Judges](/concepts/multi-turn-judges.md)
+- [Multi-turn Judges](/concepts/multi-turn-judge.md)
 - [[MLflow Trace|MLflow Traces]]
-- [Conversation Simulation](/concepts/conversation-simulation.md)
+- [Conversation Simulation](/concepts/conversationsimulator.md)
 - [Production monitoring with multi-turn judges](/concepts/genai-production-monitoring-with-llm-judges.md)
 - [LLM evaluation](/concepts/llm-as-a-judge-evaluation.md)
 - [Track users and sessions](/concepts/mlflow-user-and-session-tracking.md)

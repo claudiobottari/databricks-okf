@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - recipient-properties
     - recipient property
+    - recipient-properties-opensharing
+    - RP(
   citations:
     - file: manage-data-recipients-for-opensharing-databricks-on-aws.md
     - file: create-data-recipients-for-opensharing-databricks-to-databricks-sharing-databricks-on-aws.md

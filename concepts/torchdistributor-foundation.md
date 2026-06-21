@@ -28,7 +28,7 @@ timestamp: "2026-06-18T15:33:49.586Z"
 
 ## Overview
 
-TorchDistributor is the foundational distributed training utility in the Databricks ecosystem. The DeepSpeed distributor is explicitly "built on top of TorchDistributor," meaning that DeepSpeed leverages TorchDistributor’s core distributed training capabilities while layering on advanced memory optimizations like [ZeRO optimization](/concepts/deepspeed-zero-stage-3-optimization.md), gradient checkpointing, and pipeline parallelism. ^[distributed-training-with-deepspeed-distributor-databricks-on-aws.md]
+TorchDistributor is the foundational distributed training utility in the Databricks ecosystem. The DeepSpeed distributor is explicitly "built on top of TorchDistributor," meaning that DeepSpeed leverages TorchDistributor’s core distributed training capabilities while layering on advanced memory optimizations like [ZeRO optimization](/concepts/deepspeed-zero-stage-3.md), gradient checkpointing, and pipeline parallelism. ^[distributed-training-with-deepspeed-distributor-databricks-on-aws.md]
 
 ## Relationship to DeepSpeed Distributor
 
@@ -53,7 +53,7 @@ TorchDistributor is available as part of the distributed training infrastructure
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md)
 - [DeepSpeed Distributor](/concepts/deepspeed-distributor.md)
 - [PyTorch Distributed Data Parallel](/concepts/distributed-data-parallel-ddp.md)
-- [ZeRO Optimization](/concepts/deepspeed-zero-stage-3-optimization.md)
+- [ZeRO Optimization](/concepts/deepspeed-zero-stage-3.md)
 - Model Parallelism
 
 ## Sources

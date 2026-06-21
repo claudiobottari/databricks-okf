@@ -72,11 +72,11 @@ IcebergCompatV1 does not support replacing partitioned tables with a differently
 
 ## Related Concepts
 
-- [Delta Lake Iceberg Compatibility](/concepts/delta-lake-table-features-and-iceberg-compatibility.md)
+- [Delta Lake Iceberg Compatibility](/concepts/delta-lake-table-features-compatibility.md)
 - Iceberg Table Format
 - Delta Table Properties
 - Delta Table Features
-- [IcebergCompatV1](/concepts/icebergcompatv1.md)
+- [IcebergCompatV1](/concepts/icebergcompatv.md)
 
 ## Sources
 

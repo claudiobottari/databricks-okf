@@ -21,6 +21,10 @@ x-llmwiki:
     - GPU-accelerated
     - GPU-accelerated machine learning
     - XGBoost GPU Training
+    - gpu-accelerated-xgboost-on-databricks
+    - GXOD
+    - gpu-training-for-xgboost-on-databricks
+    - GTFXOD
   citations:
     - file: distributed-training-of-xgboost-models-using-sparkdlxgboost-databricks-on-aws.md
     - file: train-xgboost-model-on-a-single-gpu-databricks-on-aws.md

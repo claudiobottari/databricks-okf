@@ -51,7 +51,7 @@ When you remove a resource from an app's configuration, the app's service princi
 - Databricks Apps Service Principal — The identity used by the app to access workspace resources.
 - [App Resource Permissions](/concepts/app-resource-permission-levels.md) — The permission levels available for different resource types.
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — A common resource type that supports scoped access for experiment tracking.
-- [Environment Variables from Resources](/concepts/environment-variable-injection-from-app-resources.md) — How apps access resource IDs and connections through environment variables.
+- [Environment Variables from Resources](/concepts/environment-variable-injection-for-app-resources.md) — How apps access resource IDs and connections through environment variables.
 
 ## Sources
 

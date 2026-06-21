@@ -85,7 +85,7 @@ disable_databricks_trace_archival(experiment_id="YOUR_EXPERIMENT_ID")
 
 After enabling archival, you can use the archived traces to:
 - Set up [Production Monitoring](/concepts/production-monitoring.md) for GenAI applications.
-- Build [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) from historical trace data.
+- Build [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) from historical trace data.
 
 ^[archive-traces-to-a-delta-table-databricks-on-aws.md]
 

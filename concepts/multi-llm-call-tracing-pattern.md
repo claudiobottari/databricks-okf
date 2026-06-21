@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - multi-llm-call-tracing-pattern
     - MCTP
+    - sequential-multi-llm-call-tracing-pattern
+    - SMCTP
   citations:
     - file: automatic-tracing-databricks-on-aws.md
 title: Multi-LLM Call Tracing Pattern

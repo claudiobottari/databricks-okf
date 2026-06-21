@@ -38,7 +38,7 @@ A custom classifier is defined by selecting a governed tag (and optionally a spe
 This integration enables two key workflows:
 
 - **Tagging organization-specific data**: Detect and auto-tag data types that are unique to your organization. ^[custom-classifiers-databricks-on-aws.md]
-- **Enabling ABAC governance controls**: Once a column is tagged, you can apply [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) that reference the tag, enforcing dynamic masking at query time. ^[custom-classifiers-databricks-on-aws.md]
+- **Enabling ABAC governance controls**: Once a column is tagged, you can apply [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) that reference the tag, enforcing dynamic masking at query time. ^[custom-classifiers-databricks-on-aws.md]
 
 ## Requirements for Integration
 
@@ -60,7 +60,7 @@ To create or edit a custom classifier that uses a governed tag, you must:
 - [Governed Tags](/concepts/governed-tags.md) — The attribute system used in tag-based governance.
 - [Data Classification](/concepts/data-classification.md) — The scanning engine that detects sensitive data.
 - [Custom Classifiers](/concepts/custom-classifiers.md) — Extensions to built-in classification for organization-specific data.
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — Dynamic masking policies that reference governed tags.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — Dynamic masking policies that reference governed tags.
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) — The framework that evaluates tag-based policies at query time.
 
 ## Sources

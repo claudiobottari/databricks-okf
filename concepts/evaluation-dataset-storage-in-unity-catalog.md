@@ -26,7 +26,7 @@ timestamp: "2026-06-19T14:10:31.896Z"
 
 # Evaluation Dataset Storage in Unity Catalog
 
-**Evaluation Dataset Storage in Unity Catalog** refers to the system by which [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) are persisted, versioned, and governed within [Unity Catalog](/concepts/unity-catalog.md) on Databricks. These datasets are the primary mechanism for systematically testing and improving [GenAI](/concepts/mlflow-genai-evaluate-api.md) applications by providing a curated set of example inputs — either labeled (with known expected outputs) or unlabeled.
+**Evaluation Dataset Storage in Unity Catalog** refers to the system by which [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) are persisted, versioned, and governed within [Unity Catalog](/concepts/unity-catalog.md) on Databricks. These datasets are the primary mechanism for systematically testing and improving [GenAI](/concepts/mlflow-genai-evaluate-api.md) applications by providing a curated set of example inputs — either labeled (with known expected outputs) or unlabeled.
 
 ## Overview
 
@@ -67,7 +67,7 @@ You can update an evaluation dataset by adding records through the UI (click **A
 
 ## Limitations
 
-- Evaluation datasets **cannot** be stored in catalogs encrypted with [customer-managed keys (CMK)](/concepts/customer-managed-keys-cmk-for-online-feature-stores.md). Workspaces with CMK are supported only if the dataset is stored in a non‑CMK catalog.
+- Evaluation datasets **cannot** be stored in catalogs encrypted with [customer-managed keys (CMK)](/concepts/customer-managed-keys-for-online-feature-stores.md). Workspaces with CMK are supported only if the dataset is stored in a non‑CMK catalog.
 - **Maximum of 2000 rows** per evaluation dataset.
 - **Maximum of 20 expectations** per dataset record.
 
@@ -75,7 +75,7 @@ If you need any of these limitations relaxed, contact your Databricks representa
 
 ## Related Concepts
 
-- [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md)
+- [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [MLflow Tracing](/concepts/mlflow-tracing.md)
 - [GenAI evaluation](/concepts/mlflow-genai-evaluation.md)

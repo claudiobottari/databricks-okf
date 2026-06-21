@@ -63,8 +63,8 @@ Note that changing `delta.timeUntilArchived` does **not** alter which files the 
 
 ## Related Concepts
 
-- [Archival Support in Delta Lake](/concepts/archival-support-for-delta-tables.md) — Overview of enabling cloud‑based lifecycle policies on Delta tables.
-- [delta.timeUntilArchived Property](/concepts/deltatimeuntilarchived-table-property.md) — The table property that defines the archival threshold.
+- [Archival Support in Delta Lake](/concepts/archival-support-in-databricks.md) — Overview of enabling cloud‑based lifecycle policies on Delta tables.
+- [delta.timeUntilArchived Property](/concepts/deltatimeuntilarchived.md) — The table property that defines the archival threshold.
 - Lifecycle Management Policy — Cloud provider policies (e.g., S3 Lifecycle) that move objects to cheaper storage tiers.
 - [SHOW ARCHIVED FILES](/concepts/show-archived-files-syntax.md) — Syntax to list files that must be restored.
 - [Delta transaction log](/concepts/delta-transaction-log.md) — Archiving the `_delta_log/` directory makes the table entirely inaccessible; must be excluded from lifecycle policies.

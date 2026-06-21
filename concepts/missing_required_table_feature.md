@@ -12,6 +12,13 @@ x-llmwiki:
   aliases:
     - missing_required_table_feature
     - MISSING_REQUIRED_TABLE_FEATURE
+    - disabling_required_table_feature-delta-iceberg-error
+    - D(IE
+    - disabling_required_table_feature-error
+    - disabling_required_table_feature
+    - DISABLING_REQUIRED_TABLE_FEATURE
+    - missing_required_table_feature-delta-iceberg-error
+    - M(IE
   citations:
     - file: delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md
 title: MISSING_REQUIRED_TABLE_FEATURE
@@ -25,7 +32,7 @@ timestamp: "2026-06-19T18:25:04.603Z"
 
 # MISSING_REQUIRED_TABLE_FEATURE error
 
-The **MISSING_REQUIRED_TABLE_FEATURE** error occurs when the [IcebergCompatV1](/concepts/icebergcompatv1.md) protocol is enabled on a [Delta Lake](/concepts/delta-lake.md) table, but a required Delta table feature is not supported or enabled. It is a sub‑error of the DELTA_ICEBERG_COMPAT_V1_VIOLATION error class. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
+The **MISSING_REQUIRED_TABLE_FEATURE** error occurs when the [IcebergCompatV1](/concepts/icebergcompatv.md) protocol is enabled on a [Delta Lake](/concepts/delta-lake.md) table, but a required Delta table feature is not supported or enabled. It is a sub‑error of the DELTA_ICEBERG_COMPAT_V1_VIOLATION error class. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
 
 ## Error Message
 

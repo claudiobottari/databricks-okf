@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - databricks-connect-service-disabling
     - DCSD
+    - databricks-connect-cluster-disabling
+    - DCCD
+    - databricks-connect-service-disablement
+    - DBFS disablement
   citations:
     - file: compute-configuration-for-databricks-connect-databricks-on-aws.md
 title: Databricks Connect Service Disabling

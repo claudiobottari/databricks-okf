@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - prompt-version-management
     - PVM
+    - prompt-version-management-in-mlflow
+    - PVMIM
   citations:
     - file: evaluate-and-compare-prompt-versions-databricks-on-aws.md
 title: Prompt Version Management

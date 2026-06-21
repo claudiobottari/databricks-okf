@@ -49,8 +49,8 @@ Start with automatic tracing. It is the fastest way to get traces working. Add m
 
 ## Related Concepts
 
-- [Automatic Tracing (MLflow)](/concepts/automatic-tracing-mlflow.md)
-- [Manual Tracing (MLflow)](/concepts/manual-tracing-mlflow.md)
+- [Automatic Tracing (MLflow)](/concepts/automatic-tracing.md)
+- [Manual Tracing (MLflow)](/concepts/manual-tracing.md)
 - Function Decorator API
 - [Low-Level Tracing API](/concepts/common-pitfalls-of-low-level-tracing-apis.md)
 - Supported libraries for MLflow tracing

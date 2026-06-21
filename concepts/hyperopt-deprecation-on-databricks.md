@@ -16,6 +16,8 @@ x-llmwiki:
     - HDOD
     - Hyperopt (deprecated)
     - Hyperopt on Databricks
+    - hyperopt-deprecation-in-databricks-runtime-ml
+    - HDIDRM
   citations:
     - file: compare-model-types-with-hyperopt-and-mlflow-databricks-on-aws.md
     - file: hyperopt-best-practices-and-troubleshooting-databricks-on-aws.md

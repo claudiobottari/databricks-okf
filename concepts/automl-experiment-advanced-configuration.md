@@ -84,7 +84,7 @@ Databricks recommends leaving the **Data directory** field empty. When empty, th
 ## Related Concepts
 
 - [AutoML forecasting](/concepts/automl-forecast.md)
-- [Evaluation metrics](/concepts/gluonts-evaluation-metrics.md)
+- [Evaluation metrics](/concepts/gluonts-evaluator.md)
 - [MLflow experiments](/concepts/mlflow-experiment.md)
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md)
 - Time series forecasting

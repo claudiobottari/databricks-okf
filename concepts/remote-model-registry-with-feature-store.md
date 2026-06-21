@@ -25,7 +25,7 @@ timestamp: "2026-06-19T23:05:32.478Z"
 
 # Remote Model Registry with [Feature Store](/concepts/feature-store.md)
 
-**Remote Model Registry with Feature Store** is a configuration pattern that allows you to train a model using [Feature Tables](/concepts/feature-tables.md) from one workspace (the [Feature Store](/concepts/feature-store.md)) and register the model in a different workspace (the model registry), enabling cross-workspace coordination for machine learning lifecycle management.
+**Remote Model Registry with Feature Store** is a configuration pattern that allows you to train a model using [Feature Tables](/concepts/feature-table.md) from one workspace (the [Feature Store](/concepts/feature-store.md)) and register the model in a different workspace (the model registry), enabling cross-workspace coordination for machine learning lifecycle management.
 
 ## Overview
 

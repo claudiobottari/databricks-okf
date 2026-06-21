@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - oidc-token-federation-for-opensharing
     - OTFFO
+    - oidc-token-federation-for-open-sharing
+    - OTFFOS
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
 title: OIDC Token Federation for OpenSharing

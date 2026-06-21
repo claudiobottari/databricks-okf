@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - ai-runtime-distributed-training
     - ARDT
+    - ai-runtime-distributed-training-api
+    - ARDTA
   citations:
     - file: ai-runtime-databricks-on-aws.md
 title: AI Runtime Distributed Training

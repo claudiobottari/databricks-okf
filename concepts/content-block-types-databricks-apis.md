@@ -60,7 +60,7 @@ The Chat Completions API uses `ContentItem` to define the content of a message. 
 
 ### Context and Usage
 
-Content blocks and content items enable multi-modal interactions with models, allowing inputs that include text, images, and documents. The structure is designed to be compatible with [OpenAI API Compatibility (Databricks)|OpenAI's REST API format](/concepts/openai-api-compatibility-in-databricks.md) for ease of migration. ^[foundation-model-rest-api-reference-databricks-on-aws.md]
+Content blocks and content items enable multi-modal interactions with models, allowing inputs that include text, images, and documents. The structure is designed to be compatible with [OpenAI API Compatibility (Databricks)|OpenAI's REST API format](/concepts/openai-compatible-api-interface.md) for ease of migration. ^[foundation-model-rest-api-reference-databricks-on-aws.md]
 
 For the Responses API, custom tools (`CustomToolCall`, `CustomToolCallOutput`) and grammar-based output formats are only available with GPT-5 series models (`gpt-5`, `gpt-5.1`, `gpt-5.2`). ^[foundation-model-rest-api-reference-databricks-on-aws.md]
 
@@ -69,7 +69,7 @@ For the Responses API, custom tools (`CustomToolCall`, `CustomToolCallOutput`) a
 - [Foundation Model REST API Reference (Databricks APIs)](/concepts/foundation-models-apis-on-databricks.md)
 - [Chat Completions API](/concepts/chat-completions-api.md)
 - [Responses API](/concepts/responses-api.md)
-- [OpenAI API Compatibility (Databricks)](/concepts/openai-api-compatibility-in-databricks.md)
+- [OpenAI API Compatibility (Databricks)](/concepts/openai-compatible-api-interface.md)
 - [Function Calling (Databricks)](/concepts/ai-functions-databricks.md)
 - [Structured Outputs (Databricks)](/concepts/structured-outputs-in-foundation-model-apis.md)
 

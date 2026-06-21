@@ -48,7 +48,7 @@ This recommendation is part of a broader set of ABAC best practices that also in
 ## Related concepts
 
 - [ABAC GRANT Policy](/concepts/abac-grant-policy.md) – attribute-based policies that dynamically grant privileges
-- [Direct Grants](/concepts/grant-policy-vs-direct-grants.md) – static `GRANT` statements in Unity Catalog
+- [Direct Grants](/concepts/grant-policy-vs-direct-grant.md) – static `GRANT` statements in Unity Catalog
 - Effective Privileges – the union of all privilege sources
 - [Unity Catalog](/concepts/unity-catalog.md) – the governance layer that enforces both mechanisms
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) – the broader access control model

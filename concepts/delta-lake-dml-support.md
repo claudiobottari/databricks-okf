@@ -29,7 +29,7 @@ timestamp: "2026-06-19T18:19:51.959Z"
 
 ## Overview
 
-Delta Lake supports the standard [SQL DML statements](/concepts/delta-lake-dml-statements.md) (`DELETE`, `UPDATE`, `MERGE`, and `INSERT`) for modifying data in Delta tables. These operations are fully transactional: each DML statement creates a new version of the table, allowing users to roll back changes or query historical snapshots of the data. ^[delete-from-databricks-on-aws.md]
+Delta Lake supports the standard [SQL DML statements](/concepts/delta-lake-dml-operations.md) (`DELETE`, `UPDATE`, `MERGE`, and `INSERT`) for modifying data in Delta tables. These operations are fully transactional: each DML statement creates a new version of the table, allowing users to roll back changes or query historical snapshots of the data. ^[delete-from-databricks-on-aws.md]
 
 ## Supported DML Statements
 
@@ -50,7 +50,7 @@ The `WHERE` clause supports subqueries, including `IN`, `NOT IN`, `EXISTS`, `NOT
 
 In most cases, `NOT IN` subqueries can be rewritten using `NOT EXISTS`. Using `NOT EXISTS` is recommended whenever possible, as `DELETE` with `NOT IN` subqueries can be slow.
 
-Common table expressions ([CTE](/concepts/common-table-expressions-cte-with-delete.md)) can precede the `DELETE FROM` statement to define named queries that can be reused within the main query block. ^[delete-from-databricks-on-aws.md]
+Common table expressions ([CTE](/concepts/common-table-expressions-cte-in-dml.md)) can precede the `DELETE FROM` statement to define named queries that can be reused within the main query block. ^[delete-from-databricks-on-aws.md]
 
 The `table_name` must identify an existing [Delta table](/concepts/delta-lake-table.md) and must not include a temporal specification. It must not be a foreign table. An optional table alias can be provided without a column list. ^[delete-from-databricks-on-aws.md]
 

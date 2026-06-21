@@ -106,7 +106,7 @@ spark.sql('DROP TABLE zzz_demo_temps_table')
 
 ## SQL Queries on Remote Tables
 
-You can execute arbitrary SQL statements against tables on the remote cluster using `spark.sql()`. This includes `SELECT`, `INSERT`, `CREATE`, `ALTER`, and `DROP` operations. The SQL executes entirely on the remote cluster, and results are returned to the local client as a [PySpark DataFrame](/concepts/pysparklyr-package.md). ^[code-examples-for-databricks-connect-for-python-databricks-on-aws.md]
+You can execute arbitrary SQL statements against tables on the remote cluster using `spark.sql()`. This includes `SELECT`, `INSERT`, `CREATE`, `ALTER`, and `DROP` operations. The SQL executes entirely on the remote cluster, and results are returned to the local client as a [PySpark DataFrame](/concepts/pysparklyr.md). ^[code-examples-for-databricks-connect-for-python-databricks-on-aws.md]
 
 ## Portable Code Pattern
 
@@ -138,7 +138,7 @@ get_taxis(get_spark()).show(5)
 
 - [Databricks Connect](/concepts/databricks-connect.md) — The overall framework for connecting local environments to Databricks clusters.
 - [DatabricksSession](/concepts/databrickssession.md) — The entry point for Databricks Connect operations.
-- [PySpark DataFrame](/concepts/pysparklyr-package.md) — The data structure used for representing and manipulating table data.
+- [PySpark DataFrame](/concepts/pysparklyr.md) — The data structure used for representing and manipulating table data.
 - Spark SQL — The query engine used for remote table operations.
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md) — Runtime versions that support Databricks Connect.
 

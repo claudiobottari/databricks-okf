@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - deepar
+    - deepar-estimator
+    - DeepAREstimator
   citations:
     - file: forecasting-time-series-with-gluonts-databricks-on-aws.md
 title: DeepAR

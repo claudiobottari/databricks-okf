@@ -14,6 +14,16 @@ x-llmwiki:
     - CLONE
     - Deep cloning
     - Delta Deep Clone
+    - deep-clone-databricks
+    - DC(
+    - deep-clone-delta-lake
+    - DC(L
+    - CLONE (Delta Lake)
+    - Clone Table
+    - deep-clone-delta-table
+    - DC(T
+    - Deep Clone a Delta Table
+    - Deep Clone a Delta Table|clone a Delta table
   citations:
     - file: create-table-clone-databricks-on-aws.md
 title: Deep Clone

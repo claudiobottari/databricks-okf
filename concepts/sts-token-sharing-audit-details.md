@@ -99,7 +99,7 @@ Other common errors include missing recipients, non-existent shares, or disabled
 - [Unity Catalog](/concepts/unity-catalog.md) – The governance layer that manages shares and recipients.
 - [Audit log system table](/concepts/audit-log-system-table-requirements.md) – The system table (`system.access.audit`) that stores audit events.
 - AWS STS – The AWS service providing temporary credentials used in STS token sharing.
-- [Pre-signed URL Sharing Audit Details](/concepts/pre-signed-url-sharing-audit-details.md) – The equivalent audit details for pre-signed URL sharing.
+- [Pre-signed URL Sharing Audit Details](/concepts/pre-signed-url-sharing-audit-events.md) – The equivalent audit details for pre-signed URL sharing.
 
 ## Sources
 

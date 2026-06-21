@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - locust-load-testing-framework-on-databricks
     - LLTFOD
+    - locust-load-testing-framework-for-model-serving
+    - LLTFFMS
   citations:
     - file: configure-a-load-test-for-custom-model-serving-endpoints-databricks-on-aws.md
 title: Locust Load Testing Framework on Databricks

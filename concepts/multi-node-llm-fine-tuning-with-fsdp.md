@@ -23,6 +23,10 @@ x-llmwiki:
     - Multi-node LLM SFT example
     - Multi-node training
     - model fine-tuning
+    - multi-node-fsdp-fine-tuning-on-databricks
+    - MFFOD
+    - multi-node-llm-fine-tuning-with-fsdp-on-databricks
+    - MLFWFOD
   citations:
     - file: ai-runtime-cli-examples-databricks-on-aws.md
 title: Multi-node LLM fine-tuning with FSDP

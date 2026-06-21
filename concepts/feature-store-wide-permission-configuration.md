@@ -25,7 +25,7 @@ timestamp: "2026-06-19T13:51:06.896Z"
 
 # Feature Store-Wide Permission Configuration
 
-**Feature Store-Wide Permission Configuration** allows workspace administrators to set permission levels on all [Feature Tables](/concepts/feature-tables.md) in a Feature Store for specific users or groups. This configuration is applied at the Feature Store level rather than on individual feature tables, providing centralized access control for metadata operations.
+**Feature Store-Wide Permission Configuration** allows workspace administrators to set permission levels on all [Feature Tables](/concepts/feature-table.md) in a Feature Store for specific users or groups. This configuration is applied at the Feature Store level rather than on individual feature tables, providing centralized access control for metadata operations.
 
 ## Overview
 

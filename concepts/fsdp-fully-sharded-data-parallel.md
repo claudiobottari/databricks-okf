@@ -14,6 +14,9 @@ x-llmwiki:
     - fsdp-fully-sharded-data-parallel
     - F(SDP
     - FSDP
+    - pytorch-fully-sharded-data-parallel-fsdp
+    - PFSDP(
+    - PyTorch FSDP
   citations:
     - file: fine-tune-llama-31-8b-using-mosaic-llm-foundry-on-databricks-serverless-gpu-databricks-on-aws.md
     - file: fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md
@@ -29,7 +32,7 @@ timestamp: "2026-06-19T18:50:17.304Z"
 
 # FSDP (Fully Sharded Data Parallel)
 
-**FSDP (Fully Sharded Data Parallel)** is a distributed training strategy that shards model parameters, gradients, and optimizer states across multiple GPUs, enabling the fine-tuning of large language models (LLMs) that would not fit in the memory of a single GPU. FSDP is supported by frameworks such as [Mosaic LLM Foundry](/concepts/mosaic-llm-foundry.md) and [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) (Transformers Reinforcement Learning), and it is the default distributed parallelism technique used in many large‑scale training workflows on Databricks Serverless GPU. ^[fine-tune-llama-31-8b-using-mosaic-llm-foundry-on-databricks-serverless-gpu-databricks-on-aws.md, fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
+**FSDP (Fully Sharded Data Parallel)** is a distributed training strategy that shards model parameters, gradients, and optimizer states across multiple GPUs, enabling the fine-tuning of large language models (LLMs) that would not fit in the memory of a single GPU. FSDP is supported by frameworks such as [Mosaic LLM Foundry](/concepts/mosaic-llm-foundry.md) and [TRL](/concepts/trl-transformer-reinforcement-learning.md) (Transformers Reinforcement Learning), and it is the default distributed parallelism technique used in many large‑scale training workflows on Databricks Serverless GPU. ^[fine-tune-llama-31-8b-using-mosaic-llm-foundry-on-databricks-serverless-gpu-databricks-on-aws.md, fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
 
 ## How FSDP Works
 
@@ -55,7 +58,7 @@ With `device_train_microbatch_size` set to 1, these settings allow the Llama 3.1
 
 ### TRL (SFTTrainer) with FSDP2
 
-For workflows using Hugging Face’s [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) library, FSDP can be enabled through the `SFTConfig`’s `fsdp` and `fsdp_config` parameters. The example fine‑tuning the 120B parameter GPT-OSS model uses the following settings: ^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
+For workflows using Hugging Face’s [TRL](/concepts/trl-transformer-reinforcement-learning.md) library, FSDP can be enabled through the `SFTConfig`’s `fsdp` and `fsdp_config` parameters. The example fine‑tuning the 120B parameter GPT-OSS model uses the following settings: ^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
 
 ```python
 training_args = SFTConfig(
@@ -106,7 +109,7 @@ FSDP is recommended over DDP when the model does not fit in a single GPU’s mem
 - [Distributed Data Parallel (DDP)](/concepts/distributed-data-parallel-ddp.md)
 - [DeepSpeed](/concepts/deepspeed.md)
 - [Mosaic LLM Foundry](/concepts/mosaic-llm-foundry.md)
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md)
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md)
 - LoRA – often combined with FSDP for parameter‑efficient fine‑tuning.
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md)
 - Llama 3.1 8B – example model fine‑tuned with FSDP.

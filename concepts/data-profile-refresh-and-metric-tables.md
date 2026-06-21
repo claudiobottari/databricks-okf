@@ -148,7 +148,7 @@ w.data_quality.get_monitor(object_type="table", object_id=table.table_id)
 
 ## Related Concepts
 
-- [Data Profile Types](/concepts/data-profiling-analysis-types.md) (TimeSeries, InferenceLog, Snapshot)
+- [Data Profile Types](/concepts/profiling-analysis-modes.md) (TimeSeries, InferenceLog, Snapshot)
 - [Create a Data Profile using the API](/concepts/databricks-data-profiling-api.md)
 - Monitor Metric Tables
 - Serverless Compute

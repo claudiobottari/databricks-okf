@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - automatically-populated-trace-metadata
     - APTM
+    - automatically-populated-trace-metadata-in-mlflow
+    - APTMIM
+    - mlflow-automatically-populated-trace-metadata
+    - MAPTM
   citations:
     - file: add-context-to-traces-databricks-on-aws.md
 title: Automatically Populated Trace Metadata

@@ -29,7 +29,7 @@ Here is the wiki page for "ShareGPT chat template standardization".
 
 ## ShareGPT Chat Template Standardization
 
-**ShareGPT Chat Template Standardization** refers to the process of converting a dataset of multi-turn conversations from the ShareGPT format into a standardized chat template format that a language model's tokenizer can correctly parse and use for training. This step is essential when fine-tuning models like Llama-3.2 using frameworks such as [Unsloth](/concepts/unsloth.md) or [TRL](/concepts/trl-transformer-reinforcement-learning-library.md).
+**ShareGPT Chat Template Standardization** refers to the process of converting a dataset of multi-turn conversations from the ShareGPT format into a standardized chat template format that a language model's tokenizer can correctly parse and use for training. This step is essential when fine-tuning models like Llama-3.2 using frameworks such as [Unsloth](/concepts/unsloth.md) or [TRL](/concepts/trl-transformer-reinforcement-learning.md).
 
 ## Overview
 

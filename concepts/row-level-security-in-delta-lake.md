@@ -55,7 +55,7 @@ Delta Lake supports different mechanisms for implementing row-level security:
 If a Delta table has row-level security policies applied:
 
 - You cannot use `REFRESH SYNC UNIFORM` to generate or update the Iceberg manifest for that table.
-- To enable [Uniform (Delta Lake)](/concepts/delta-uniform-delta-lake-uniform.md) on a table that requires row-level security, you must either remove the row-level security policies before performing the refresh, or choose a different approach to expose the table in Iceberg format without the `SYNC UNIFORM` operation.
+- To enable [Uniform (Delta Lake)](/concepts/delta-uniform.md) on a table that requires row-level security, you must either remove the row-level security policies before performing the refresh, or choose a different approach to expose the table in Iceberg format without the `SYNC UNIFORM` operation.
 - This limitation applies regardless of whether row filters are implemented through Unity Catalog row filter policies or ABAC row filter policies.
 
 This restriction is independent of the row-level security implementation and applies to all forms of row filtering on Delta tables. ^[delta_uniform_refresh_not_supported-error-condition-databricks-on-aws.md]
@@ -72,8 +72,8 @@ The same error class also includes other reasons why `REFRESH SYNC UNIFORM` may 
 ## Related Concepts
 
 - [Row Filter Policies](/concepts/row-filter-policies.md) – The primary mechanism for row-level security in Unity Catalog
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) – Attribute-based row filters that work across multiple tables
-- [Uniform (Delta Lake)](/concepts/delta-uniform-delta-lake-uniform.md) – The feature that enables reading Delta tables in Iceberg format
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) – Attribute-based row filters that work across multiple tables
+- [Uniform (Delta Lake)](/concepts/delta-uniform.md) – The feature that enables reading Delta tables in Iceberg format
 - [REFRESH SYNC UNIFORM](/concepts/refresh-sync-uniform.md) – The SQL command that fails when row-level security is present
 - [Column Mask Policies](/concepts/column-mask-policies.md) – Another form of access control that has the same limitation
 - Delta Lake Security Features – Overview of security capabilities in Delta Lake

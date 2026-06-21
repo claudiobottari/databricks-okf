@@ -52,7 +52,7 @@ When `use_spark_chunk_api=False`, the function uses an alternative data transfer
 
 ## Related Concepts
 
-- [Ray and Spark Integration](/concepts/ray-and-spark-integration-on-databricks.md) — Overview of combining Ray and Spark on Databricks
+- [Ray and Spark Integration](/concepts/ray-spark-integration-on-databricks.md) — Overview of combining Ray and Spark on Databricks
 - Ray Data — The Ray dataset abstraction for distributed data
 - [Spark DataFrame](/concepts/spark-dataframe-evaluation-pattern.md) — The primary Spark data abstraction
 - Autoscaling Clusters — Databricks cluster autoscaling behavior

@@ -14,6 +14,8 @@ x-llmwiki:
     - ARHO
     - Hardware options
     - hardware options
+    - ai-runtime-hardware-accelerators
+    - ARHA
   citations:
     - file: ai-runtime-databricks-on-aws.md
 title: AI Runtime Hardware Options

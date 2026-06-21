@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - copy-into-delta-lake
     - CI(L
+    - copy-into-databricks-sql
+    - CI(S
+    - copy-into-databricks
+    - CI(
+    - Copy Into Data Loading (Databricks)
   citations:
     - file: copy-into-databricks-on-aws.md
 title: COPY INTO (Delta Lake)

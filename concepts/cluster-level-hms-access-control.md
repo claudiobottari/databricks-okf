@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - cluster-level-hms-access-control
     - CHAC
+    - cluster-level-hive-metastore-access-control
+    - CHMAC
+    - Enable Hive Metastore Table Access Control on a Cluster
   citations:
     - file: disable-access-to-the-hive-metastore-used-by-your-databricks-workspace-databricks-on-aws.md
 title: Cluster-Level HMS Access Control

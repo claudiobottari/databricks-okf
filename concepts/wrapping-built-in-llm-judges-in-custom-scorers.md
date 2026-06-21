@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - wrapping-built-in-llm-judges-in-custom-scorers
     - WBLJICS
+    - wrapping-predefined-llm-judges-in-custom-scorers
+    - WPLJICS
   citations:
     - file: code-based-scorer-examples-databricks-on-aws.md
 title: Wrapping built-in LLM judges in custom scorers

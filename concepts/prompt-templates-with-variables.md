@@ -183,7 +183,7 @@ To create or view prompts in a Unity Catalog schema, you must have the following
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – Central repository for managing prompt versions.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – Central repository for managing prompt versions.
 - [Prompt Versioning](/concepts/prompt-versioning.md) – Managing changes to prompt templates over time.
 - [MLflow GenAI](/concepts/mlflow-3-for-genai.md) – Framework for building and evaluating generative AI applications.
 - [Unity Catalog](/concepts/unity-catalog.md) – Governance layer for managing data and AI assets.

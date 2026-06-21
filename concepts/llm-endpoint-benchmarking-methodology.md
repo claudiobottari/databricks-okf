@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - llm-endpoint-benchmarking-methodology
     - LEBM
+    - databricks-llm-endpoint-benchmarking-methodology
+    - DLEBM
   citations:
     - file: conduct-your-own-llm-endpoint-benchmarking-databricks-on-aws.md
 title: LLM Endpoint Benchmarking Methodology

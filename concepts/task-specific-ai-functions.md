@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - task-specific-ai-functions
     - TAF
+    - task-specific-ai-functions-databricks
+    - TAF(
   citations:
     - file: deploy-models-for-batch-inference-and-prediction-databricks-on-aws.md
 title: Task-Specific AI Functions

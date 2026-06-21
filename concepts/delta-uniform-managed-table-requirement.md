@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta-uniform-managed-table-requirement
     - DMTR
+    - icebergcompatv-managed-table-requirement
+    - IMR
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: Delta-Uniform Managed Table Requirement

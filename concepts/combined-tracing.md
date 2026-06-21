@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - combined-tracing
+    - combined-tracing-approach
+    - CTA
   citations:
     - file: add-traces-to-applications-automatic-and-manual-tracing-databricks-on-aws.md
 title: Combined Tracing

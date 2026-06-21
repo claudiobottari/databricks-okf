@@ -56,7 +56,7 @@ By default, all columns in the input dataset are included for training. ^[data-p
 - [AutoML Classification Data Preparation](/concepts/automl-classification-data-preparation.md) — Data preparation specifics for classification
 - AutoML Regression Data Preparation — Data preparation specifics for regression
 - [AutoML Impute Missing Values](/concepts/automl-missing-value-imputation.md) — Option to specify imputation methods per column
-- [AutoML Semantic Type Detection](/concepts/semantic-type-detection-in-automl.md) — Automatic detection of column semantic types
+- [AutoML Semantic Type Detection](/concepts/semantic-type-detection.md) — Automatic detection of column semantic types
 
 ## Sources
 

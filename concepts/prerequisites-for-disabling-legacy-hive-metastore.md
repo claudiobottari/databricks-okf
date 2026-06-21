@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - prerequisites-for-disabling-legacy-hive-metastore
     - PFDLHM
+    - prerequisites-for-disabling-hive-metastore-access
+    - PFDHMA
   citations:
     - file: disable-access-to-the-hive-metastore-used-by-your-databricks-workspace-databricks-on-aws.md
 title: Prerequisites for Disabling Legacy Hive Metastore

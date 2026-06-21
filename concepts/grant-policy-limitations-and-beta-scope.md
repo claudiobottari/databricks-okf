@@ -26,7 +26,7 @@ timestamp: "2026-06-18T14:16:12.405Z"
 
 # GRANT Policy Limitations and Beta Scope
 
-**GRANT Policy Limitations and Beta Scope** documents the current restrictions and supported functionality for [ABAC GRANT Policies](/concepts/abac-grant-policies.md) in Unity Catalog during their Beta phase. GRANT policies are attribute-based access control policies that dynamically grant privileges to securable objects based on governed tag conditions, but they are not yet fully featured.
+**GRANT Policy Limitations and Beta Scope** documents the current restrictions and supported functionality for [ABAC GRANT Policies](/concepts/abac-grant-policy.md) in Unity Catalog during their Beta phase. GRANT policies are attribute-based access control policies that dynamically grant privileges to securable objects based on governed tag conditions, but they are not yet fully featured.
 
 ## Beta Status
 
@@ -89,7 +89,7 @@ Additional privileges and securable types will be supported in future releases f
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — The full concept page for GRANT policies
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — The full concept page for GRANT policies
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform providing ABAC capabilities
 - [Governed Tags](/concepts/governed-tags.md) — Tags used in GRANT policy conditions
 - [System Tags](/concepts/system-tags.md) — Predefined tags provided by Databricks

@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - automl-import-notebook
     - AIN
+    - automl-import_notebook
   citations:
     - file: automl-python-api-reference-databricks-on-aws.md
 title: AutoML Import Notebook

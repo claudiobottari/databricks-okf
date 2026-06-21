@@ -73,7 +73,7 @@ Because `dbutils.secrets` runs remotely on the Databricks workspace, your Databr
 - [Databricks Connect](/concepts/databricks-connect.md) – The framework that enables connecting external tools to Databricks clusters.
 - Databricks Utilities – The collection of utility commands, including `dbutils.secrets`.
 - Secrets utility – The specific Databricks utility for managing and retrieving secrets.
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) – The main entry point for the Databricks SDK for Python, providing access to workspace-level APIs.
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) – The main entry point for the Databricks SDK for Python, providing access to workspace-level APIs.
 - databricks-sdk – The underlying Python SDK used by Databricks Connect.
 
 ## Sources

@@ -65,7 +65,7 @@ This lineage information helps with data governance, debugging, impact analysis,
 
 - [Feature Store](/concepts/feature-store.md)
 - [Feature Lineage](/concepts/feature-lineage-tracking.md)
-- [Feature Tables](/concepts/feature-tables.md)
+- [Feature Tables](/concepts/feature-table.md)
 - [Model Serving](/concepts/model-serving.md)
 - Feature Freshness
 

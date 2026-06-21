@@ -14,6 +14,13 @@ x-llmwiki:
     - ARPL
     - App Resource Permissions
     - app resource prerequisites
+    - databricks-app-resource-permission-levels
+    - DARPL
+    - databricks-app-resource-permissions
+    - DARP
+    - Databricks Apps resources
+    - databricks-apps-resource-permission-levels
+    - Databricks Apps Resource Model
   citations:
     - file: add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md
 title: App Resource Permission Levels
@@ -53,7 +60,7 @@ When you remove an MLflow Experiment resource from an app, the app's service pri
 - [MLflow experiments](/concepts/mlflow-experiment.md) — The organizational unit for MLflow runs
 - Service principal — The identity used by the app for authentication
 - App resource prerequisites — Requirements before adding resources
-- [Access environment variables from resources](/concepts/environment-variable-injection-from-app-resources.md) — How to reference resources in app configuration
+- [Access environment variables from resources](/concepts/environment-variable-injection-for-app-resources.md) — How to reference resources in app configuration
 
 ## Sources
 

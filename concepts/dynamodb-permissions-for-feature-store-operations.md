@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - dynamodb-permissions-for-feature-store-operations
     - DPFFSO
+    - dynamodb-permissions-required-for-feature-store-operations
+    - DPRFFSO
   citations:
     - file: authentication-for-working-with-third-party-online-stores-databricks-on-aws.md
 title: DynamoDB Permissions for Feature Store Operations

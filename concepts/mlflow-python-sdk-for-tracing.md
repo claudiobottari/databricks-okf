@@ -55,8 +55,8 @@ MLflow recommends starting with automatic tracing, as it is the fastest way to g
 ### Related Concepts
 
 - MLflow Tracing Overview
-- [Automatic Tracing with MLflow](/concepts/automatic-tracing-mlflow.md)
-- [Manual Tracing with MLflow](/concepts/manual-tracing-mlflow.md)
+- [Automatic Tracing with MLflow](/concepts/automatic-tracing.md)
+- [Manual Tracing with MLflow](/concepts/manual-tracing.md)
 - [MLflow TypeScript SDK for Tracing](/concepts/mlflow-typescript-sdk-for-tracing.md)
 
 ### Sources

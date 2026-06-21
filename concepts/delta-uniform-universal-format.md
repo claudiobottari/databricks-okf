@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta-uniform-universal-format
     - DU(F
+    - delta-uniform-delta-universal-format
+    - DU(UF
   citations:
     - file: delta_uniform_compatibility_missing_or_invalid_location-error-condition-databricks-on-aws.md
 title: Delta UniForm (Universal Format)

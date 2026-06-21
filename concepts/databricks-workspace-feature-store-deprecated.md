@@ -66,7 +66,7 @@ To migrate, install `databricks-feature-engineering` instead of `databricks-feat
 
 ## API Reference
 
-For the latest Workspace Feature Store API reference, see the [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) reference documentation for `FeatureStoreClient`. For versions 0.16.3 and below, download the appropriate reference for your Databricks Runtime ML version using the compatibility matrix. ^[feature-engineering-python-api-databricks-on-aws.md]
+For the latest Workspace Feature Store API reference, see the [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) reference documentation for `FeatureStoreClient`. For versions 0.16.3 and below, download the appropriate reference for your Databricks Runtime ML version using the compatibility matrix. ^[feature-engineering-python-api-databricks-on-aws.md]
 
 ## Installation
 
@@ -120,7 +120,7 @@ See the [Databricks Feature Store](/concepts/databricks-feature-store.md) releas
 
 ## Related Concepts
 
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) — The replacement API package for feature management.
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) — The replacement API package for feature management.
 - [Unity Catalog](/concepts/unity-catalog.md) — The recommended catalog for storing feature tables in Unity Catalog mode.
 - [Feature Store vs Feature Engineering](/concepts/feature-store-and-feature-engineering.md) — Comparison between the legacy and modern approaches.
 - [Online Feature Stores](/concepts/online-feature-store.md) — Publishing features for real-time serving.

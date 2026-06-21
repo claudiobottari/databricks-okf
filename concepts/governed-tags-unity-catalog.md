@@ -54,7 +54,7 @@ While governed tags are used for organization and discovery, other tag types ser
 ## Use Cases
 
 - **Organizing by domain:** Apply tags like `domain: finance`, `domain: marketing`, or `domain: engineering` to schemas so users can browse by business area.
-- **Classifying sensitivity:** Apply tags like `pii: ssn`, `pii: email`, or `classification: internal` to columns to indicate data sensitivity. (Note: Tagged columns are referenced by [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) and [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) to apply dynamic access controls.)
+- **Classifying sensitivity:** Apply tags like `pii: ssn`, `pii: email`, or `classification: internal` to columns to indicate data sensitivity. (Note: Tagged columns are referenced by [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) and [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) to apply dynamic access controls.)
 - **Team ownership:** Tag tables with the owning team name so users know whom to contact with questions.
 
 ## Best Practices

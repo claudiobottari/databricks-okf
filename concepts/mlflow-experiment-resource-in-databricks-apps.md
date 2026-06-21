@@ -97,7 +97,7 @@ with mlflow.start_run():
 
 ^[add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md]
 
-For more information, see [Access environment variables from resources](/concepts/environment-variable-injection-from-app-resources.md).
+For more information, see [Access environment variables from resources](/concepts/environment-variable-injection-for-app-resources.md).
 
 ## Removing an MLflow Experiment Resource
 

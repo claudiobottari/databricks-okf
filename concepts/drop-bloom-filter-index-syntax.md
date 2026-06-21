@@ -15,6 +15,8 @@ x-llmwiki:
     - DBFS
     - DROP BLOOM FILTER INDEX
     - DROP BLOOMFILTER INDEX
+    - drop-bloom-filter-index-command
+    - DBFIC
   citations:
     - file: drop-bloom-filter-index-databricks-on-aws.md
 title: DROP BLOOM FILTER INDEX syntax
@@ -87,7 +89,7 @@ If no `FOR COLUMNS` clause is specified, the command drops the entire Bloom filt
 - [Bloom Filter Index](/concepts/bloom-filter-index.md) — The deprecated indexing feature that this command removes.
 - [CREATE BLOOM FILTER INDEX](/concepts/create-bloom-filter-index.md) — The command to create a Bloom filter index.
 - [Delta table](/concepts/delta-lake-table.md) — The table type on which Bloom filter indexes operate.
-- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) — Documentation on alternatives and migration guidance.
+- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) — Documentation on alternatives and migration guidance.
 - VACUUM — The command that cleans up index files after all Bloom filters have been dropped.
 - Databricks SQL — The environment where this command is available.
 

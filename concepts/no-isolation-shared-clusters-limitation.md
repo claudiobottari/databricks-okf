@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - no-isolation-shared-clusters-limitation
     - NISCL
+    - no-isolation-shared-clusters-and-legacy-access
+    - Legacy Access and No Isolation Shared Clusters
+    - NISCALA
+    - Enabling admin protection for no isolation shared clusters
   citations:
     - file: disable-access-to-the-hive-metastore-used-by-your-databricks-workspace-databricks-on-aws.md
 title: No Isolation Shared Clusters Limitation

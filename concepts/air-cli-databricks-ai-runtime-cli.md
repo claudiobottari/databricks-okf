@@ -36,7 +36,7 @@ The primary command is `air run -f <workload.yaml>`, where the YAML file specifi
 
 The following complete workloads demonstrate real distributed‑training patterns:
 
-- **Multi‑node LLM fine‑tuning with FSDP** – Supervised fine‑tuning of Llama‑3.1‑8B across 16 H100 GPUs (2 nodes) using `torchrun` and [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md). The job logs metrics to [MLflow](/concepts/mlflow.md) and saves checkpoints to a [Unity Catalog](/concepts/unity-catalog.md) volume. ^[ai-runtime-cli-examples-databricks-on-aws.md]
+- **Multi‑node LLM fine‑tuning with FSDP** – Supervised fine‑tuning of Llama‑3.1‑8B across 16 H100 GPUs (2 nodes) using `torchrun` and [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md). The job logs metrics to [MLflow](/concepts/mlflow.md) and saves checkpoints to a [Unity Catalog](/concepts/unity-catalog.md) volume. ^[ai-runtime-cli-examples-databricks-on-aws.md]
 - **Distributed training with Ray Train** – Distributed data‑parallel fine‑tuning with [Ray Train](/concepts/ray-train-resource-allocation.md)’s `TorchTrainer` across 8 H100 GPUs on a single node, with one worker per GPU. ^[ai-runtime-cli-examples-databricks-on-aws.md]
 
 ## Getting started

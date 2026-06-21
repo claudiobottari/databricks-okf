@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - recipient-object-unity-catalog
     - RO(C
+    - recipient-object-in-unity-catalog
+    - ROIUC
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
 title: Recipient Object (Unity Catalog)
@@ -104,10 +106,10 @@ Account admins can change the default recipient token lifetime for the entire Un
 - [Delta Sharing](/concepts/delta-sharing.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Open Sharing](/concepts/opensharing.md)
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md)
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md)
 - OIDC Federation
 - [Recipient Properties](/concepts/recipient-properties.md)
-- [Share Object](/concepts/opensharing-share-object.md)
+- [Share Object](/concepts/opensharing-share.md)
 - [Grant Access to Shares](/concepts/granting-share-access-to-recipients.md)
 - [Metastore](/concepts/metastore.md)
 

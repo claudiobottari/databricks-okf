@@ -13,6 +13,8 @@ x-llmwiki:
     - spark-mllib-limitations-with-databricks-connect
     - SMLWDC
     - Apache Spark MLlib limitations with Spark Connect
+    - spark-mllib-compatibility-limitations-with-databricks-connect
+    - SMCLWDC
   citations:
     - file: databricks-connect-for-r-databricks-on-aws.md
 title: Spark MLlib limitations with Databricks Connect

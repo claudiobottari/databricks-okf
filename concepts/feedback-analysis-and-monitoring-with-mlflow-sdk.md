@@ -141,7 +141,7 @@ for dimension, avg_score in ratings.items():
 
 ## Feedback Data Model
 
-User feedback is captured using the **Feedback** entity, which is a type of [Assessment (MLflow GenAI)](/concepts/assessments-mlflow-genai.md) that can be attached to traces or specific spans. The Feedback entity provides structured storage for:^[collect-user-feedback-databricks-on-aws.md]
+User feedback is captured using the **Feedback** entity, which is a type of [Assessment (MLflow GenAI)](/concepts/assessments.md) that can be attached to traces or specific spans. The Feedback entity provides structured storage for:^[collect-user-feedback-databricks-on-aws.md]
 
 - **Value**: The actual feedback (boolean, numeric, text, or structured data)
 - **Source**: Information about who or what provided the feedback (human user, LLM judge, or code), represented as an `AssessmentSource` object with `source_type` (e.g., `"HUMAN"` or `"LLM_JUDGE"`) and `source_id` (identifying the specific user or system)
@@ -160,7 +160,7 @@ The MLflow Trace UI provides a visual interface for inspecting feedback attached
 
 - MlflowClient – The SDK client used for trace and assessment retrieval
 - Trace (MLflow) – The execution record on which feedback assessments are stored
-- [Assessment (MLflow GenAI)](/concepts/assessments-mlflow-genai.md) – The data model underlying user feedback
+- [Assessment (MLflow GenAI)](/concepts/assessments.md) – The data model underlying user feedback
 - MLflow log_feedback API|Log User Feedback – The API used to record feedback from production
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) – Using feedback data to monitor application quality over time
 

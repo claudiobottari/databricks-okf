@@ -57,7 +57,7 @@ In workspaces enabled for [Unity Catalog](/concepts/unity-catalog.md), any Delta
 
 - [Feature Store](/concepts/feature-store.md) — The centralized repository that includes both offline and online components
 - [Online Feature Store](/concepts/online-feature-store.md) — The low-latency serving layer for real-time inference
-- [Feature Tables](/concepts/feature-tables.md) — Organized collections of features backed by Delta tables
+- [Feature Tables](/concepts/feature-table.md) — Organized collections of features backed by Delta tables
 - [FeatureLookup](/concepts/featurelookup.md) — Defines which features to use and how to join them during training
 - [FeatureSpec](/concepts/featurespec.md) — A Unity Catalog entity combining feature lookups and functions
 - [Model Packaging](/concepts/model-packaging.md) — How models retain references to offline features for inference

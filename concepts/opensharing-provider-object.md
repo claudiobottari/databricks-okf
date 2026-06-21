@@ -93,7 +93,7 @@ Deleting a provider removes access to all data shared by that provider for the r
 - [Databricks-to-Databricks Sharing](/concepts/databricks-to-databricks-sharing.md)
 - [Databricks-to-Open Sharing](/concepts/databricks-to-open-sharing.md)
 - [Delta Sharing](/concepts/delta-sharing.md)
-- [OpenSharing Share Object](/concepts/opensharing-share-object.md)
+- [OpenSharing Share Object](/concepts/opensharing-share.md)
 
 ## Sources
 

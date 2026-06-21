@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - horovodrunner-deprecation
+    - horovodrunner-deprecation-on-databricks
+    - HDOD
   citations:
     - file: horovodrunner-distributed-deep-learning-with-horovod-databricks-on-aws.md
 title: HorovodRunner Deprecation

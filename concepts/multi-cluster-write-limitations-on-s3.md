@@ -17,6 +17,8 @@ x-llmwiki:
     - multi-cluster write limitations
     - Multi-Cluster Writes
     - Multi-cluster writes on S3
+    - multi-cluster-write-limitations-for-delta-lake-on-s3
+    - MWLFDLOS
   citations:
     - file: delta-lake-limitations-on-s3-databricks-on-aws.md
 title: Multi-cluster Write Limitations on S3

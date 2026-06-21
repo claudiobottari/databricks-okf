@@ -13,6 +13,8 @@ x-llmwiki:
   aliases:
     - review-app-content-rendering
     - RACR
+    - review-app-trace-content-rendering
+    - RATCR
   citations:
     - file: collect-feedback-and-expectations-by-labeling-existing-traces-databricks-on-aws.md
     - file: test-an-app-version-with-the-review-apps-chat-ui-databricks-on-aws.md

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - external-lineage-unity-catalog
     - EL(C
+    - external-lineage-in-unity-catalog
+    - ELIUC
   citations:
     - file: external-lineage-databricks-on-aws.md
 title: External Lineage (Unity Catalog)

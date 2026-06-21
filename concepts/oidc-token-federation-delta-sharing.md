@@ -28,7 +28,7 @@ timestamp: "2026-06-19T09:29:47.804Z"
 
 # OIDC Token Federation (Delta Sharing)
 
-**OIDC Token Federation** is an authentication flow for [Delta Sharing](/concepts/delta-sharing.md)'s **Databricks-to-Open sharing** model that allows non-Databricks recipients to securely access shared data using OpenID Connect (OIDC) tokens. It is an alternative to the [Bearer Token Authentication (Delta Sharing)|bearer token authentication flow](/concepts/bearer-token-authentication-for-delta-sharing.md) and offers improved security and convenience. ^[create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md]
+**OIDC Token Federation** is an authentication flow for [Delta Sharing](/concepts/delta-sharing.md)'s **Databricks-to-Open sharing** model that allows non-Databricks recipients to securely access shared data using OpenID Connect (OIDC) tokens. It is an alternative to the [Bearer Token Authentication (Delta Sharing)|bearer token authentication flow](/concepts/bearer-token-authentication-for-open-sharing.md) and offers improved security and convenience. ^[create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md]
 
 ## Overview
 
@@ -53,7 +53,7 @@ The provider creates a recipient object with authentication type set to OIDC fed
 
 ## Related Concepts
 
-- [Bearer Token Authentication (Delta Sharing)](/concepts/bearer-token-authentication-for-delta-sharing.md) – The alternative authentication flow for open sharing.
+- [Bearer Token Authentication (Delta Sharing)](/concepts/bearer-token-authentication-for-open-sharing.md) – The alternative authentication flow for open sharing.
 - [Recipient Object (Delta Sharing)](/concepts/recipient-object-delta-sharing.md) – The Unity Catalog object that represents a data consumer.
 - [Open Sharing (Delta Sharing)](/concepts/opensharing-delta-sharing.md) – The umbrella term for Databricks-to-Open sharing with either bearer token or OIDC federation.
 - [Delta Sharing](/concepts/delta-sharing.md) – The open protocol for secure data sharing.

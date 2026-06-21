@@ -65,7 +65,7 @@ If a custom key such as `my-training-experiment` was assigned, the `valueFrom` w
 
 - Databricks Apps — The deployment platform that uses resource keys
 - [MLflow experiments](/concepts/mlflow-experiment.md) — The objects being referenced by the resource key
-- [Environment variables in Databricks Apps](/concepts/environment-variable-injection-for-databricks-app-resources.md) — How resource keys are used to inject values into the app runtime
+- [Environment variables in Databricks Apps](/concepts/environment-variable-injection-for-app-resources.md) — How resource keys are used to inject values into the app runtime
 - App configuration (app.yaml) — The file where resource keys are referenced
 
 ## Sources

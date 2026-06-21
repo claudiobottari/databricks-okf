@@ -15,6 +15,9 @@ x-llmwiki:
     - APCABF
     - Identity functions in ABAC policies
     - Policy Conditions and Built-in Functions (has_tag, has_tag_value)
+    - tag-based-policy-conditions-and-built-in-functions
+    - Built-in Functions and Tag-based Policy Conditions
+    - TPCABF
   citations:
     - file: core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md
 title: ABAC Policy Conditions and Built-in Functions

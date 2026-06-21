@@ -89,11 +89,11 @@ Large numbers of policies and complex conditions can slow authorization checks. 
 
 ### Audit Direct Grants and ABAC GRANT Policies Together
 
-A user’s effective privileges on a data object are the union of both direct grants and [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta). When reviewing access, check both surfaces. Auditing only one surface can hide unintended permissions.^[best-practices-for-abac-policies-databricks-on-aws.md]
+A user’s effective privileges on a data object are the union of both direct grants and [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (Beta). When reviewing access, check both surfaces. Auditing only one surface can hide unintended permissions.^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ### Prefer TO/EXCEPT for Principal Targeting
 
-For [Row Filters and Column Masks (ABAC)|row filter and column mask policies](/concepts/row-filter-and-column-mask-policies.md), use the policy’s `TO` and `EXCEPT` clauses to define which users and groups the policy applies to. This keeps the underlying UDF logic simple. The `EXCEPT` clause excludes specific users from the policy entirely so they are not subject to any filtering or masking. When complex conditional logic is required, identity functions like `is_account_group_member()` inside UDFs remain a valid option. For GRANT policies (Beta), `TO` and `EXCEPT` are the only mechanisms for targeting principals because GRANT policies do not use UDFs.^[best-practices-for-abac-policies-databricks-on-aws.md]
+For [Row Filters and Column Masks (ABAC)|row filter and column mask policies](/concepts/row-filter-policies.md), use the policy’s `TO` and `EXCEPT` clauses to define which users and groups the policy applies to. This keeps the underlying UDF logic simple. The `EXCEPT` clause excludes specific users from the policy entirely so they are not subject to any filtering or masking. When complex conditional logic is required, identity functions like `is_account_group_member()` inside UDFs remain a valid option. For GRANT policies (Beta), `TO` and `EXCEPT` are the only mechanisms for targeting principals because GRANT policies do not use UDFs.^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ### Plan for Dynamic Policy Evaluation
 

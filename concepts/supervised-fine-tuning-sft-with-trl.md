@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - supervised-fine-tuning-sft-with-trl
     - SF(WT
+    - supervised-fine-tuning-sft-with-sfttrainer
+    - SF(WS
+    - supervised-fine-tuning-sft-with-trl-library
+    - SF(WTL
+    - supervised-fine-tuning-sft-with-trl-sfttrainer
+    - SF(WTS
   citations:
     - file: finetune-llama-32-3b-with-unsloth-databricks-on-aws.md
 title: Supervised Fine-Tuning (SFT) with TRL

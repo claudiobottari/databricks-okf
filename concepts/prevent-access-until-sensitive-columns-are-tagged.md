@@ -87,7 +87,7 @@ To ensure new objects start with the `classification : unverified` tag automatic
 
 ## Usage considerations
 
-- The pattern uses row filter and column mask policies only. [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta) currently support only `EXECUTE` on models and cannot be used for this table-based pattern.
+- The pattern uses row filter and column mask policies only. [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (Beta) currently support only `EXECUTE` on models and cannot be used for this table-based pattern.
 - The `EXCEPT` clause in the policy allows data stewards (`data_admins`) to see unverified tables so they can classify them. Adjust the group names to match your governance structure.
 - After classification, the blocking policy condition (`has_tag_value('classification', 'unverified')`) is no longer `TRUE`, so the row filter does not apply. The column mask condition (`NOT has_tag_value('classification', 'unverified')`) becomes `TRUE`, and the mask function replaces sensitive column values.
 

@@ -45,7 +45,7 @@ For [row filter](/concepts/row-filter-policies.md) and column mask policies, usi
 
 ### Exclusive Mechanism for GRANT Policies
 
-For [ABAC GRANT Policies](/concepts/abac-grant-policies.md), `TO` and `EXCEPT` are the only mechanisms for targeting principals, because GRANT policies do not use UDFs. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+For [ABAC GRANT Policies](/concepts/abac-grant-policy.md), `TO` and `EXCEPT` are the only mechanisms for targeting principals, because GRANT policies do not use UDFs. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ### Alternatives
 
@@ -58,7 +58,7 @@ When more complex conditional logic is required beyond simple inclusion/exclusio
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — GRANT policies that use TO/EXCEPT for principal targeting
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — GRANT policies that use TO/EXCEPT for principal targeting
 - [Row Filter Policies](/concepts/row-filter-policies.md) — Policies that restrict data content, often using TO/EXCEPT
 - [Column Mask Policies](/concepts/column-mask-policies.md) — Policies that mask sensitive columns, using TO/EXCEPT
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform that implements ABAC

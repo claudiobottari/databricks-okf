@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - incompatible_table_feature
     - INCOMPATIBLE_TABLE_FEATURE
+    - incompatible_table_feature-delta-iceberg-error
+    - I(IE
   citations:
     - file: delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md
 title: INCOMPATIBLE_TABLE_FEATURE
@@ -37,7 +39,7 @@ where `<feature>` is replaced with the name of the incompatible table feature. ^
 
 ## Cause
 
-[IcebergCompatV1](/concepts/icebergcompatv1.md) requires that certain table features are either not present or are explicitly compatible. When a table has a feature enabled that IcebergCompatV1 cannot work with, this error is raised. The incompatible feature must be removed or disabled before IcebergCompatV1 can be applied to the table. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
+[IcebergCompatV1](/concepts/icebergcompatv.md) requires that certain table features are either not present or are explicitly compatible. When a table has a feature enabled that IcebergCompatV1 cannot work with, this error is raised. The incompatible feature must be removed or disabled before IcebergCompatV1 can be applied to the table. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
 
 ## Related Errors
 

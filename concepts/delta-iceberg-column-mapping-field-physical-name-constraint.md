@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - delta-iceberg-column-mapping-field-physical-name-constraint
     - DCMFPNC
+    - delta-iceberg-column-mapping-field-physical-name-convention
   citations:
     - file: delta_iceberg_writer_compat_violation-error-condition-databricks-on-aws.md
 title: Delta-Iceberg Column Mapping Field Physical Name Constraint

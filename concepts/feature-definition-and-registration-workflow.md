@@ -13,6 +13,9 @@ x-llmwiki:
     - feature-definition-and-registration-workflow
     - Registration Workflow and Feature Definition
     - FDARW
+    - feature-definition-and-registration-lifecycle
+    - Registration Lifecycle and Feature Definition
+    - FDARL
   citations:
     - file: declarative-features-databricks-on-aws.md
 title: Feature Definition and Registration Workflow

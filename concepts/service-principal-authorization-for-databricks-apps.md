@@ -15,6 +15,8 @@ x-llmwiki:
     - Authorize service principal access to Databricks with OAuth
     - Service Principal Authorization
     - Service Principal Permissions for Apps
+    - service-principal-authorization-for-databricks-app-resources
+    - SPAFDAR
   citations:
     - file: add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md
 title: Service Principal Authorization for Databricks Apps

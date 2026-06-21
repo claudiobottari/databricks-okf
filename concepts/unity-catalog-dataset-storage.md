@@ -26,7 +26,7 @@ timestamp: "2026-06-18T10:54:25.500Z"
 
 # Unity Catalog Dataset Storage
 
-**Unity Catalog Dataset Storage** refers to the storage of [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) as managed tables in [Unity Catalog](/concepts/unity-catalog.md). Evaluation datasets are selected sets of example inputs used to test and improve GenAI applications. Storing them in Unity Catalog provides built-in versioning, lineage, sharing, and governance capabilities. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
+**Unity Catalog Dataset Storage** refers to the storage of [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) as managed tables in [Unity Catalog](/concepts/unity-catalog.md). Evaluation datasets are selected sets of example inputs used to test and improve GenAI applications. Storing them in Unity Catalog provides built-in versioning, lineage, sharing, and governance capabilities. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
 
 ## Key Features
 
@@ -45,7 +45,7 @@ An evaluation dataset is attached to an [MLflow Experiment](/concepts/mlflow-exp
 
 - The user must have `CREATE TABLE` permission on a Unity Catalog schema.
 - An MLflow experiment must already exist (see [Create an MLflow Experiment](https://docs.databricks.com/aws/en/mlflow3/genai/getting-started/connect-environment#create-expt)).
-- The dataset cannot be stored in a catalog encrypted with [customer-managed keys (CMK)](/concepts/customer-managed-keys-cmk-for-online-feature-stores.md). Workspaces using CMK are supported as long as the dataset resides in a non-CMK catalog. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
+- The dataset cannot be stored in a catalog encrypted with [customer-managed keys (CMK)](/concepts/customer-managed-keys-for-online-feature-stores.md). Workspaces using CMK are supported as long as the dataset resides in a non-CMK catalog. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
 
 ## Creating a Dataset
 
@@ -113,7 +113,7 @@ If these limits are a concern, contact your Databricks representative. ^[buildin
 - [MLflow Evaluation Dataset](/concepts/mlflow-evaluation-dataset.md) — The broader concept of evaluation datasets in MLflow.
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — Source of trace data used to build datasets.
 - [MLflow Experiment](/concepts/mlflow-experiment.md) — The experiment to which datasets are attached.
-- [Customer-Managed Keys (CMK)](/concepts/customer-managed-keys-cmk-for-online-feature-stores.md) — Encryption key management that restricts dataset storage.
+- [Customer-Managed Keys (CMK)](/concepts/customer-managed-keys-for-online-feature-stores.md) — Encryption key management that restricts dataset storage.
 
 ## Sources
 

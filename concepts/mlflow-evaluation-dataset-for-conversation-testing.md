@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - mlflow-evaluation-dataset-for-conversation-testing
     - MEDFCT
+    - mlflow-evaluation-dataset-for-reproducible-testing
+    - MEDFRT
+    - Reproducible Testing
   citations:
     - file: conversation-simulation-databricks-on-aws.md
 title: MLflow Evaluation Dataset for Conversation Testing

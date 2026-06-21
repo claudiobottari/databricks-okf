@@ -19,6 +19,10 @@ x-llmwiki:
     - Databricks Repos (Git Folders)
     - Git folder
     - Git folders
+    - databricks-git-folders-and-cicd-integration
+    - CI/CD Integration and Databricks Git Folders
+    - DGFACI
+    - CI/CD workflows with Git integration and Databricks Git folders
   citations:
     - file: how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md
 title: Databricks Git Folders for CI/CD
@@ -48,7 +52,7 @@ Git folders are a core DevOps tool on the Databricks platform, supporting the au
 
 Using Git folders together with the Databricks REST API, teams can build automated deployment processes with popular CI/CD tools such as GitHub Actions, Azure DevOps pipelines, or Jenkins jobs. ^[how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md]
 
-For detailed best practices on setting up CI/CD workflows with Git integration, see the Databricks documentation on [CI/CD workflows with Git integration and Databricks Git folders](/concepts/databricks-git-folders-and-cicd-integration.md) and Use CI/CD. ^[how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md]
+For detailed best practices on setting up CI/CD workflows with Git integration, see the Databricks documentation on [CI/CD workflows with Git integration and Databricks Git folders](/concepts/databricks-git-folders-for-cicd.md) and Use CI/CD. ^[how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md]
 
 ## Role in ML CI/CD
 

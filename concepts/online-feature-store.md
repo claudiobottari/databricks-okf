@@ -174,7 +174,7 @@ Online feature tables are Unity Catalog entities that natively track lineage to 
 ## Related Concepts
 
 - [Feature Store](/concepts/feature-store.md) — The centralized repository for feature management
-- [Feature Tables](/concepts/feature-tables.md) — Delta tables with primary keys that store feature data
+- [Feature Tables](/concepts/feature-table.md) — Delta tables with primary keys that store feature data
 - [FeatureSpec](/concepts/featurespec.md) — A Unity Catalog entity defining a reusable set of features for serving
 - [FeatureLookup](/concepts/featurelookup.md) — Specifies which features to use from a feature table
 - [FeatureFunction](/concepts/featurefunction.md) — On-demand computation for features requiring real-time inputs

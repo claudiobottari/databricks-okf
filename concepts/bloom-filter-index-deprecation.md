@@ -13,6 +13,12 @@ x-llmwiki:
   aliases:
     - bloom-filter-index-deprecation
     - BFID
+    - bloom-filter-index-deprecation-databricks
+    - BFID(
+    - bloom-filter-index-deprecation-in-databricks
+    - BFIDID
+    - bloom-filter-index-deprecation-on-databricks
+    - BFIDOD
   citations:
     - file: create-bloom-filter-index-deprecated-databricks-on-aws.md
     - file: drop-bloom-filter-index-databricks-on-aws.md
@@ -39,7 +45,7 @@ Databricks strongly recommends migrating away from Bloom filter indexes:
   - [Predictive I/O](/concepts/predictive-io.md) – An optimization that automatically predicts which data files to read, reducing I/O.
   - [Liquid Clustering](/concepts/liquid-clustering.md) – A clustering technique that improves data skipping and query performance without requiring manual index maintenance.
 
-For detailed migration instructions, see the official documentation on [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md). ^[create-bloom-filter-index-deprecated-databricks-on-aws.md, drop-bloom-filter-index-databricks-on-aws.md]
+For detailed migration instructions, see the official documentation on [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md). ^[create-bloom-filter-index-deprecated-databricks-on-aws.md, drop-bloom-filter-index-databricks-on-aws.md]
 
 ## Dropping Existing Bloom Filter Indexes
 
@@ -55,7 +61,7 @@ If the command omits the column list, all Bloom filter indexes on the table are 
 
 - [Predictive I/O](/concepts/predictive-io.md)
 - [Liquid Clustering](/concepts/liquid-clustering.md)
-- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md)
+- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md)
 - Delta Lake optimizations
 - [Data skipping in Delta Lake](/concepts/z-ordering-delta-lake.md)
 - [VACUUM command](/concepts/vacuum-command-databricks.md)

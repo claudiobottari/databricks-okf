@@ -13,6 +13,9 @@ x-llmwiki:
     - trace-assessments-and-feedback
     - Feedback and Trace Assessments
     - TAAF
+    - trace-assessments-and-feedback-logging
+    - Feedback Logging and Trace Assessments
+    - TAAFL
   citations:
     - file: examples-analyzing-traces-databricks-on-aws.md
 title: Trace Assessments and Feedback

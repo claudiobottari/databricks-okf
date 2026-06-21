@@ -13,6 +13,11 @@ x-llmwiki:
     - feature-lookup-keys
     - FLK
     - lookup_key
+    - feature-store-lookup-keys
+    - FSLK
+    - Feature Store Lookup
+    - feature-table-lookup-keys
+    - FTLK
   citations:
     - file: automl-feature-store-integration-databricks-on-aws.md
 title: Feature Lookup Keys

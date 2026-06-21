@@ -16,6 +16,12 @@ x-llmwiki:
     - lora-low-rank-adaptation
     - L(A
     - LoRA (Low‑Rank Adaptation)
+    - lora-low-rank-adaptation-for-efficient-finetuning
+    - L(AFEF
+    - lora-low-rank-adaptation-for-llm-fine-tuning
+    - L(AFLF
+    - lora-low-rank-adaptation-for-llms
+    - L(AFL
   citations:
     - file: distributed-fine-tuning-of-qwen2-05b-with-lora-databricks-on-aws.md
     - file: distributed-fine-tuning-of-openai-gpt-oss-20b-databricks-on-aws.md

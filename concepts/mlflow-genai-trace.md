@@ -80,7 +80,7 @@ Traces can be viewed in the [MLflow Experiment UI](/concepts/mlflow-experiment.m
 ## Related Concepts
 
 - [MLflow GenAI](/concepts/mlflow-3-for-genai.md) — The overall framework for GenAI application development
-- [Assessments (MLflow)](/concepts/assessments-mlflow-genai.md) — Quality measurements attached to traces
+- [Assessments (MLflow)](/concepts/assessments.md) — Quality measurements attached to traces
 - [[Scorers]] — Functions that evaluate trace quality and produce assessments
 - [LLM Judges](/concepts/llm-judges.md) — Evaluation criteria that assess text quality
 - [Evaluation Harness](/concepts/evaluation-harness.md) — The SDK for systematic quality evaluation

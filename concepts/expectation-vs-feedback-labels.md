@@ -14,6 +14,8 @@ x-llmwiki:
     - EVFL
     - Expectation vs. Feedback
     - expectations
+    - expectation-vs-feedback-label-types
+    - EVFLT
   citations:
     - file: collect-feedback-and-expectations-by-labeling-existing-traces-databricks-on-aws.md
 title: Expectation vs Feedback Labels

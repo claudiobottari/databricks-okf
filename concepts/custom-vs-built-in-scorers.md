@@ -46,7 +46,7 @@ Databricks provides a library of predefined LLM judges that cover the most frequ
 - `ExpectationsGuidelines` – evaluates per-example natural language criteria embedded in the `expectations` field.
 - `ToolCallCorrectness`, `ToolCallEfficiency` – evaluate tool call correctness and efficiency (these also appear in the MLflow predefined scorer documentation).
 
-MLflow also provides [Multi-turn Judges](/concepts/multi-turn-judges.md) for conversational AI systems that analyze entire conversation histories rather than individual turns.^[built-in-llm-judges-databricks-on-aws.md]
+MLflow also provides [Multi-turn Judges](/concepts/multi-turn-judge.md) for conversational AI systems that analyze entire conversation histories rather than individual turns.^[built-in-llm-judges-databricks-on-aws.md]
 
 Built-in scorers are ideal when you want to **start evaluating quality quickly** and the standard quality dimensions (relevance, safety, groundedness, correctness) cover your use case.^[built-in-llm-judges-databricks-on-aws.md]
 
@@ -83,7 +83,7 @@ Use **built-in scorers** when the predefined dimensions align with your goals an
 - [[Scorers]] – The general concept of evaluation functions in MLflow GenAI.
 - [Custom LLM Judges](/concepts/custom-llm-judges.md) – Creating your own LLM-based scorer via `make_judge()`.
 - Python code-based scorers – Deterministic or computational scorers.
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) – Built-in judges for conversational AI.
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) – Built-in judges for conversational AI.
 - [A/B Comparison of Agent Configurations](/concepts/ab-comparison-of-agent-configurations.md) – A use case that often benefits from custom judges.
 
 ## Sources

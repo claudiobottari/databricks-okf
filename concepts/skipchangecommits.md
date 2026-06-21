@@ -11,6 +11,13 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - skipchangecommits
+    - skipchangecommits-for-handling-source-table-modifications
+    - SFHSTM
+    - skipchangecommits-for-source-table-changes
+    - SFSTC
+    - skipchangecommits-for-streaming-sources
+    - SFSS
+    - Skip Change Commits for Delta Streaming
   citations:
     - file: delta-lake-table-streaming-reads-and-writes-databricks-on-aws.md
 title: skipChangeCommits

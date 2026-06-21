@@ -46,7 +46,7 @@ inferredParagraphs: 0
 
 # Unity Catalog Access Control for Feature Tables
 
-Access control for [Feature Tables](/concepts/feature-tables.md) in [Databricks Feature Store](/concepts/databricks-feature-store.md) is managed entirely through [Unity Catalog](/concepts/unity-catalog.md)'s privilege model. Because feature tables are stored as Unity Catalog tables, the same permission system that governs other securable objects — such as schemas, tables, and views — applies to feature tables. ^[feature-governance-and-lineage-databricks-on-aws.md]
+Access control for [Feature Tables](/concepts/feature-table.md) in [Databricks Feature Store](/concepts/databricks-feature-store.md) is managed entirely through [Unity Catalog](/concepts/unity-catalog.md)'s privilege model. Because feature tables are stored as Unity Catalog tables, the same permission system that governs other securable objects — such as schemas, tables, and views — applies to feature tables. ^[feature-governance-and-lineage-databricks-on-aws.md]
 
 ## Access Control
 
@@ -56,7 +56,7 @@ For the full list of available privileges and detailed instructions on granting 
 
 ## Lineage Tracking
 
-In addition to access control, Databricks Feature Store automatically captures [lineage](/concepts/data-lineage.md) information when you log a model using `FeatureEngineeringClient.log_model`. The lineage tracks which feature tables, [feature functions](/concepts/feature-function-udf.md) (including Python UDFs used to compute on-demand features), and models were used. ^[feature-governance-and-lineage-databricks-on-aws.md]
+In addition to access control, Databricks Feature Store automatically captures [lineage](/concepts/data-lineage.md) information when you log a model using `FeatureEngineeringClient.log_model`. The lineage tracks which feature tables, [feature functions](/concepts/feature-function.md) (including Python UDFs used to compute on-demand features), and models were used. ^[feature-governance-and-lineage-databricks-on-aws.md]
 
 Lineage is visible in the **Lineage** tab of Catalog Explorer. You can click **See lineage graph** to explore the full lineage graph. For details about exploring the lineage graph, see [Data Lineage in Unity Catalog](/concepts/data-lineage-in-unity-catalog.md). ^[feature-governance-and-lineage-databricks-on-aws.md]
 
@@ -144,8 +144,8 @@ fe.log_model(
 - [Catalog Explorer](/concepts/catalog-explorer.md)
 - [Data Lineage in Unity Catalog](/concepts/data-lineage-in-unity-catalog.md)
 - [Unity Catalog privileges](/concepts/unity-catalog-privilege-management.md)
-- [Feature Tables](/concepts/feature-tables.md)
-- [Feature functions](/concepts/feature-function-udf.md)
+- [Feature Tables](/concepts/feature-table.md)
+- [Feature functions](/concepts/feature-function.md)
 
 ## Sources
 

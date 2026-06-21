@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - spark-connect-with-ray
     - SCWR
+    - spark-connect-with-ray-tasks-on-databricks
+    - SCWRTOD
+    - spark-connect-with-ray-tasks
+    - SCWRT
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
 title: Spark Connect with Ray
@@ -88,7 +92,7 @@ print(ray.get(sh.test.remote()))
 
 ## Related Concepts
 
-- [Combine Ray and Spark in the same environment on Databricks](/concepts/ray-and-spark-integration-on-databricks.md) — Overview of all integration patterns.
+- [Combine Ray and Spark in the same environment on Databricks](/concepts/ray-spark-integration-on-databricks.md) — Overview of all integration patterns.
 - Ray Core — Lower‑level Ray API for building distributed applications.
 - [Spark Connect](/concepts/spark-connect.md) — The Apache Spark protocol that decouples the client from the cluster.
 - [Databricks Connect](/concepts/databricks-connect.md) — The Databricks client library that uses Spark Connect.

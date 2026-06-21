@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - workspace-catalog-default-privileges
     - WCDP
+    - workspace-catalog-default-ownership-and-privileges
+    - Privileges and Workspace Catalog Default Ownership
+    - WCDOAP
   citations:
     - file: manage-privileges-in-unity-catalog-databricks-on-aws.md
 title: Workspace Catalog Default Privileges

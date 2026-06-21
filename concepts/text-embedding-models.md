@@ -19,6 +19,14 @@ x-llmwiki:
     - Query an Embedding Model
     - Query an embedding model
     - Text Embedding
+    - embedding-models-for-rag
+    - EMFR
+    - text-embedding-models-for-rag
+    - TEMFR
+    - text-embedding-models-for-semantic-search
+    - TEMFSS
+    - text-embedding-models-on-databricks
+    - TEMOD
   citations:
     - file: databricks-hosted-foundation-models-available-in-foundation-model-apis-databricks-on-aws.md
 title: Text Embedding Models

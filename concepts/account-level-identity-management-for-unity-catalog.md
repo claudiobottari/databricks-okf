@@ -13,6 +13,8 @@ x-llmwiki:
     - account-level-identity-management-for-unity-catalog
     - AIMFUC
     - Account‑level Identity Management
+    - account-level-identity-federation-for-unity-catalog
+    - AIFFUC
   citations:
     - file: enable-a-workspace-for-unity-catalog-databricks-on-aws.md
 title: Account-Level Identity Management for Unity Catalog

@@ -60,7 +60,7 @@ By default, only account admins have access to the `system.mlflow` schema. To gr
 - system.mlflow.experiments_latest
 - system.mlflow.run_metrics_history
 - Databricks SQL
-- [Unity Catalog privileges reference](/concepts/unity-catalog-privileges-and-ownership.md)
+- [Unity Catalog privileges reference](/concepts/privileges-and-ownership.md)
 
 ## Sources
 

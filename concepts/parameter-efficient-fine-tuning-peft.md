@@ -22,6 +22,10 @@ x-llmwiki:
     - Peft (Parameter-Efficient Fine-Tuning)
     - parameter-efficient fine-tuning
     - parameter-efficient fine-tuning methods
+    - parameter-efficient-fine-tuning-for-llms
+    - PFFL
+    - parameter-efficient-fine-tuning-peft-for-llms
+    - PF(FL
   citations:
     - file: large-language-models-llms-databricks-on-aws.md
     - file: lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md

@@ -155,7 +155,7 @@ For users outside Databricks notebooks, set `DATABRICKS_HOST` and `DATABRICKS_TO
 - Databricks Foundation Models — The [Model Serving](/concepts/model-serving.md) endpoints being traced
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — Where [Traces](/concepts/traces.md) are logged
 - [Agent Evaluation](/concepts/mlflow-agent-evaluation.md) — Evaluation workflows that benefit from function calling [Traces](/concepts/traces.md)
-- [OpenAI Autologging](/concepts/mlflow-openai-autologging.md) — The mechanism used to capture [Traces](/concepts/traces.md) automatically
+- [OpenAI Autologging](/concepts/mlflow-openai-autolog.md) — The mechanism used to capture [Traces](/concepts/traces.md) automatically
 
 ## Sources
 

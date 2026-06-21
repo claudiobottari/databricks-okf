@@ -27,7 +27,7 @@ timestamp: "2026-06-19T17:58:19.372Z"
 
 # Prompt Versioning and Immutability
 
-**Prompt Versioning and Immutability** is a core design principle of the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md): every saved version of a prompt is immutable after creation. To modify a prompt, you must create a new version, preserving a complete, auditable history of changes. This Git-like approach enables rollbacks, side‑by‑side comparison, and clear traceability across the lifecycle of a prompt. ^[create-and-edit-prompts-databricks-on-aws.md]
+**Prompt Versioning and Immutability** is a core design principle of the [MLflow Prompt Registry](/concepts/prompt-registry.md): every saved version of a prompt is immutable after creation. To modify a prompt, you must create a new version, preserving a complete, auditable history of changes. This Git-like approach enables rollbacks, side‑by‑side comparison, and clear traceability across the lifecycle of a prompt. ^[create-and-edit-prompts-databricks-on-aws.md]
 
 ## Overview
 

@@ -65,8 +65,8 @@ A concrete pattern illustrating this strategy is documented in Common ABAC Patte
 ## Related Concepts
 
 - [Governed Tags](/concepts/governed-tags.md) – The attribute system that powers ABAC conditions.
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) – Policies that filter rows based on tag conditions.
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – Policies that mask column values based on tag conditions.
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) – Policies that filter rows based on tag conditions.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – Policies that mask column values based on tag conditions.
 - Common ABAC Patterns – Contains the "prevent untagged columns" pattern.
 - Standardize Attributes and Naming – Best practice for maintaining a consistent tag taxonomy.
 

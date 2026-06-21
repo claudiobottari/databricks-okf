@@ -86,7 +86,7 @@ Before calling the upgrade API, you must first upgrade the underlying workspace 
 
 ## Related Concepts
 
-- [Feature Store](/concepts/feature-store.md) — The workspace-level [Feature Store](/concepts/feature-store.md) that stores [Feature Tables](/concepts/feature-tables.md) with metadata.
+- [Feature Store](/concepts/feature-store.md) — The workspace-level [Feature Store](/concepts/feature-store.md) that stores [Feature Tables](/concepts/feature-table.md) with metadata.
 - [Unity Catalog](/concepts/unity-catalog.md) — The target catalog for upgrading [Feature Table](/concepts/feature-table.md) metadata.
 - [Delta Table Upgrade](/concepts/delta-table-repair.md) — The prerequisite step for upgrading the underlying data.
 - UpgradeClient — The API client used for [Feature Table](/concepts/feature-table.md) metadata upgrades.

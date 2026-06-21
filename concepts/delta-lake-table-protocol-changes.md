@@ -18,6 +18,10 @@ x-llmwiki:
     - Delta Lake protocol version
     - Delta Table Protocol
     - table protocol
+    - delta-lake-transaction-protocol-changes
+    - Delta Lake Transaction Protocol
+    - Delta Lake transaction protocol
+    - Delta Transaction Log Protocol
   citations:
     - file: delta_concurrent_append-error-condition-databricks-on-aws.md
 title: Delta Lake Table Protocol Changes

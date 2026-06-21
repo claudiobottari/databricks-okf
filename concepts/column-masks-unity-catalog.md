@@ -13,6 +13,8 @@ x-llmwiki:
     - column-masks-unity-catalog
     - CM(C
     - Column Mask Functions
+    - column-masks-in-unity-catalog
+    - CMIUC
   citations:
     - file: row-filters-and-column-masks-databricks-on-aws.md
 title: Column masks (Unity Catalog)

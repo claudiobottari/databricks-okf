@@ -13,6 +13,8 @@ x-llmwiki:
     - custom-classifier-databricks
     - CC(
     - custom-classifiers-databricks-on-aws.md
+    - custom-classifier-databricks-unity-catalog
+    - CC(UC
   citations:
     - file: custom-classifiers-databricks-on-aws.md
 title: Custom Classifier (Databricks)

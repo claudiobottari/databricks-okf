@@ -68,7 +68,7 @@ This prevents Langfuse from collecting and sending traces on its own, while stil
 - [OpenTelemetry OTLP Exporter](/concepts/opentelemetry-export-for-mlflow-traces.md) – How to configure an OTLP exporter to send spans to Databricks.
 - MLflow Tracing and Unity Catalog – Storing and querying traces in Unity Catalog tables.
 - Langfuse SDK Initialization – Required environment variables and client setup.
-- [Trace Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) – Applying access controls and lineage to traces.
+- [Trace Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) – Applying access controls and lineage to traces.
 
 ## Sources
 

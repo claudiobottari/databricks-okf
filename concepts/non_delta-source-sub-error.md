@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - non_delta-source-sub-error
     - NSS
+    - non_delta-source-format-error
+    - NSFE
   citations:
     - file: delta_clone_with_history_unsupported_source-error-condition-databricks-on-aws.md
 title: NON_DELTA source sub-error

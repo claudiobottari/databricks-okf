@@ -54,7 +54,7 @@ The recommendation applies specifically when you create a profile using the **Ti
 
 ## Related Concepts
 
-- [Data Profiling with Databricks Lakehouse Monitoring](/concepts/data-profiling-lakehouse-monitoring.md)
+- [Data Profiling with Databricks Lakehouse Monitoring](/concepts/data-profiling.md)
 - [TimeSeries Profile](/concepts/timeseries-profile.md)
 - [Inference Profile](/concepts/inference-profile.md)
 - [Databricks Lakehouse Monitoring](/concepts/lakehouse-monitoring.md)

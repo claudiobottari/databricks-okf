@@ -65,7 +65,7 @@ The effective privileges on an object are the **union** of direct grants and any
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — Overview of permission types and inheritance
 - [Governed Tags](/concepts/governed-tags.md) — Tag management for ABAC policies
 - [System Tags](/concepts/system-tags.md) — Predefined tags available for policy conditions
-- [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md) — Related ABAC policy types that restrict data content rather than access
+- [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md) — Related ABAC policy types that restrict data content rather than access
 - MLflow Model Lifecycle in Unity Catalog — How models are registered and managed
 
 ## Sources

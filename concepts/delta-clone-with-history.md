@@ -20,6 +20,10 @@ x-llmwiki:
     - clone with history
     - Clone table with history
     - Clone|clone with history
+    - delta-clone-with-history-operation
+    - DCWHO
+    - delta-clone-with-history-semantics
+    - DCWHS
   citations:
     - file: delta_clone_with_history_unsupported_source-error-condition-databricks-on-aws.md
 title: Delta Clone with History

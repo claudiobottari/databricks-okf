@@ -32,7 +32,7 @@ timestamp: "2026-06-19T19:10:37.637Z"
 
 ## Overview
 
-The [MLflow Tracing](/concepts/mlflow-tracing.md) TypeScript SDK provides automatic tracing for supported libraries. Currently, the SDK supports automatic tracing for the [OpenAI SDK](/concepts/openai-api-compatibility-in-databricks.md). When enabled, each call to the OpenAI client (such as chat completions) is automatically captured as a trace span, enabling observability into GenAI application behavior. ^[instrument-nodejs-applications-with-mlflow-tracing-databricks-on-aws.md]
+The [MLflow Tracing](/concepts/mlflow-tracing.md) TypeScript SDK provides automatic tracing for supported libraries. Currently, the SDK supports automatic tracing for the [OpenAI SDK](/concepts/openai-compatible-api-interface.md). When enabled, each call to the OpenAI client (such as chat completions) is automatically captured as a trace span, enabling observability into GenAI application behavior. ^[instrument-nodejs-applications-with-mlflow-tracing-databricks-on-aws.md]
 
 ## Requirements
 
@@ -115,7 +115,7 @@ Automatic tracing requires only one additional line of code (the `tracedOpenAI` 
 - [Manual Tracing](/concepts/manual-tracing.md) — Alternative approach for instrumenting custom functions and code blocks
 - Trace UI — The interface for viewing and analyzing captured traces
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — The organizational unit for traces and runs
-- [OpenAI SDK](/concepts/openai-api-compatibility-in-databricks.md) — The library being automatically instrumented
+- [OpenAI SDK](/concepts/openai-compatible-api-interface.md) — The library being automatically instrumented
 - Span — The fundamental unit of work captured in a trace
 
 ## Sources

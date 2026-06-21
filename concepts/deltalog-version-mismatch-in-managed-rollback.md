@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - deltalog-version-mismatch-in-managed-rollback
     - DVMIMR
+    - delta-log-version-mismatch-on-concurrent-rollback
+    - DLVMOCR
   citations:
     - file: delta_alter_table_unset_managed_failed-error-condition-databricks-on-aws.md
 title: DeltaLog Version Mismatch in Managed Rollback

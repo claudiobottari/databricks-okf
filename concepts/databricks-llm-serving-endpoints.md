@@ -14,6 +14,8 @@ x-llmwiki:
     - DLSE
     - Databricks Serving Endpoint
     - Databricks serving endpoint
+    - databricks-llm-serving-endpoints-via-openai-sdk
+    - DLSEVOS
   citations:
     - file: 10-minute-demo-evaluate-a-genai-app-databricks-on-aws.md
     - file: create-a-custom-judge-using-make_judge-databricks-on-aws.md

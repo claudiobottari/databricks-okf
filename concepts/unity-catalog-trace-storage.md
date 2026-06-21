@@ -13,6 +13,8 @@ x-llmwiki:
   aliases:
     - unity-catalog-trace-storage
     - UCTS
+    - unity-catalog-trace-storage-for-opentelemetry
+    - UCTSFO
   citations:
     - file: store-opentelemetry-traces-in-unity-catalog-databricks-on-aws.md
     - file: export-langfuse-traces-to-databricks-mlflow-databricks-on-aws.md

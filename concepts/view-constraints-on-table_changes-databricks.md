@@ -72,7 +72,7 @@ If any of these conditions are violated, the `DELTA_TABLE_CHANGES_VIEW_UNSUPPORT
 
 ### Related Concepts
 
-- [Change Data Feed (Databricks)](/concepts/change-data-feed-metadata-conflict.md) — The underlying feature that `table_changes` reads from.
+- [Change Data Feed (Databricks)](/concepts/change-data-feed-column-conflict.md) — The underlying feature that `table_changes` reads from.
 - [Delta table](/concepts/delta-lake-table.md) — The required underlying table type for the view.
 - [OpenSharing](/concepts/opensharing.md) — The sharing protocol required for the view.
 - table_changes function — The function that reads change data from Delta tables.

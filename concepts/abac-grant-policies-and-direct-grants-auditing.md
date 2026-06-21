@@ -27,7 +27,7 @@ timestamp: "2026-06-19T22:13:24.763Z"
 
 # ABAC GRANT Policies and Direct Grants Auditing
 
-**ABAC GRANT Policies and Direct Grants Auditing** refers to the practice of reviewing both attribute-based access control (ABAC) GRANT policies and traditional direct grants to understand the effective privileges that principals hold on Unity Catalog securable objects. Because a user's effective privileges are the union of both sources, auditing only one surface can hide unintended permissions. ^[best-practices-for-abac-policies-databricks-on-aws.md] See [ABAC GRANT Policies](/concepts/abac-grant-policies.md) for details on the policy mechanism.
+**ABAC GRANT Policies and Direct Grants Auditing** refers to the practice of reviewing both attribute-based access control (ABAC) GRANT policies and traditional direct grants to understand the effective privileges that principals hold on Unity Catalog securable objects. Because a user's effective privileges are the union of both sources, auditing only one surface can hide unintended permissions. ^[best-practices-for-abac-policies-databricks-on-aws.md] See [ABAC GRANT Policies](/concepts/abac-grant-policy.md) for details on the policy mechanism.
 
 ## Why Audit Both
 
@@ -71,7 +71,7 @@ Use `SHOW GRANTS` on the securable object and its ancestors to enumerate direct 
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — The attribute-based access control mechanism that dynamically grants privileges based on tags
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — The attribute-based access control mechanism that dynamically grants privileges based on tags
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — The full set of securable actions and grantable privileges
 - [Governed Tags](/concepts/governed-tags.md) — Tags used in ABAC GRANT policy conditions
 - [Row Filter Policies](/concepts/row-filter-policies.md) and [Column Mask Policies](/concepts/column-mask-policies.md) — Other ABAC policy types that restrict data content rather than access

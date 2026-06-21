@@ -25,7 +25,7 @@ timestamp: "2026-06-19T10:18:56.929Z"
 
 # MLflow Experiment Tracking for Distributed Training
 
-**MLflow Experiment Tracking for Distributed Training** refers to the practice of using MLflow to log metrics, parameters, and artifacts during distributed model training workloads. When training large models across multiple GPUs or nodes, MLflow provides a centralized record of training progress, enabling reproducibility, comparison of runs, and debugging. The example demonstrated in the provided source uses [PyTorch FSDP](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md) on [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu-compute.md) with MLflow to track loss metrics and save distributed checkpoints.^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
+**MLflow Experiment Tracking for Distributed Training** refers to the practice of using MLflow to log metrics, parameters, and artifacts during distributed model training workloads. When training large models across multiple GPUs or nodes, MLflow provides a centralized record of training progress, enabling reproducibility, comparison of runs, and debugging. The example demonstrated in the provided source uses [PyTorch FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) on [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu.md) with MLflow to track loss metrics and save distributed checkpoints.^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
 
 ## Overview
 

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta_uniform_compatibility_missing_or_invalid_location
     - DELTA_UNIFORM_COMPATIBILITY_MISSING_OR_INVALID_LOCATION
+    - delta_uniform_compatibility_missing_or_invalid_location-error-class
+    - DEC
   citations:
     - file: delta_uniform_compatibility_missing_or_invalid_location-error-condition-databricks-on-aws.md
 title: DELTA_UNIFORM_COMPATIBILITY_MISSING_OR_INVALID_LOCATION

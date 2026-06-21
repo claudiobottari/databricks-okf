@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - deepeval-scorer-configuration
     - DSC
+    - deepeval-scorer-configuration-parameters
+    - DSCP
   citations:
     - file: deepeval-scorers-databricks-on-aws.md
 title: DeepEval Scorer Configuration

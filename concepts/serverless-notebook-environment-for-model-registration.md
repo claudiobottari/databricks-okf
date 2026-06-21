@@ -99,7 +99,7 @@ Because the environment is captured during training (within the serverless noteb
 
 ## Related Concepts
 
-- [Express Deployments for Model Serving](/concepts/express-deployments-for-model-serving.md) — The deployment approach enabled by serverless notebook environment packaging
+- [Express Deployments for Model Serving](/concepts/express-deployments-databricks.md) — The deployment approach enabled by serverless notebook environment packaging
 - MLflow Models — The model format used with serverless notebook registration
 - [Unity Catalog](/concepts/unity-catalog.md) — Required catalog for models using express deployment
 - [Model Serving Endpoint](/concepts/model-serving-endpoint.md) — The serving infrastructure that benefits from pre-packaged environments

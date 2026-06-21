@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - provider-side-resolution-for-delta-sharing-access-errors
     - PRFDSAE
+    - recipient-side-resolution-for-delta-sharing-access-errors
+    - RRFDSAE
   citations:
     - file: delta_sharing_current_recipient_property_undefined-error-condition-databricks-on-aws.md
 title: Provider-side resolution for Delta Sharing access errors

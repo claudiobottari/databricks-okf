@@ -11,6 +11,9 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - multiple_relations-sub-error
+    - multiple_relations-error-reason
+    - MER
+    - MULTIPLE_RELATIONS restriction
   citations:
     - file: delta_table_changes_view_unsupported-error-condition-databricks-on-aws.md
 title: MULTIPLE_RELATIONS sub-error

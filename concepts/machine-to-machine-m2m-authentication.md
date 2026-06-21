@@ -19,6 +19,10 @@ x-llmwiki:
     - OAuth (machine-to-machine)
     - OAuth M2M Authentication
     - OAuth M2M authentication
+    - m2m-machine-to-machine-authentication-flow
+    - M(AF
+    - machine-to-machine-m2m-authentication-flow
+    - Machine-to-Machine (M2M) Flow
   citations:
     - file: enable-open-id-connect-oidc-federation-for-opensharing-recipients-databricks-on-aws.md
 title: Machine-to-Machine (M2M) Authentication

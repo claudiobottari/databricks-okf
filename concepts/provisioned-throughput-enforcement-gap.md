@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - provisioned-throughput-enforcement-gap
     - PTEG
+    - provisioned-throughput-endpoint-enforcement-gap
+    - PTEEG
+    - provisioned-throughput-permissions-enforcement-gap
+    - PTPEG
   citations:
     - file: foundation-model-unity-catalog-permissions-databricks-on-aws.md
 title: Provisioned Throughput Enforcement Gap
@@ -56,7 +60,7 @@ Only after deletion is the policy fully enforced. The documentation notes that a
 - [Foundation Model Unity Catalog Permissions](/concepts/foundation-model-unity-catalog-permissions.md) – The overall mechanism for restricting model access.
 - [Provisioned Throughput](/concepts/provisioned-throughput.md) – Dedicated endpoints that require manual cleanup.
 - [Pay-per-token serving](/concepts/pay-per-token-serving-mode.md) – Endpoint type that enforces permissions automatically.
-- [Batch inference (AI Functions)](/concepts/ai-functions-and-batch-inference.md) – Another endpoint type that enforces automatically.
+- [Batch inference (AI Functions)](/concepts/ai-functions.md) – Another endpoint type that enforces automatically.
 - [system.ai Schema](/concepts/systemai-schema.md) – The Unity Catalog schema where model permissions are managed.
 
 ## Sources

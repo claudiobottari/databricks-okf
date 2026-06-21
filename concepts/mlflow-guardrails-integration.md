@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-guardrails-integration
     - MGI
+    - mlflow-guardrails-ai-scorer-integration
+    - MGASI
   citations:
     - file: guardrails-ai-scorers-databricks-on-aws.md
 title: MLflow Guardrails Integration

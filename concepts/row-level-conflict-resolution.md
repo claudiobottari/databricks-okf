@@ -16,6 +16,10 @@ x-llmwiki:
     - Row‑level conflict resolution
     - row‑level conflict resolution
     - Transaction conflict resolution
+    - delta-lake-row-level-conflict-resolution
+    - DLRCR
+    - Delta Lake conflict resolution
+    - Delta Lake write conflict resolution
   citations:
     - file: delta_concurrent_append-error-condition-databricks-on-aws.md
 title: Row-Level Conflict Resolution

@@ -83,7 +83,7 @@ After all compute has been upgraded and is using [Unity Catalog](/concepts/unity
 - [Access modes (compute)](/concepts/standard-access-mode-compute.md)
 - [Hive metastore migration to Unity Catalog](/concepts/hive-metastore-federation-to-unity-catalog.md)
 - System tables
-- [DBFS disablement](/concepts/databricks-connect-service-disablement.md)
+- [DBFS disablement](/concepts/databricks-connect-service-disabling.md)
 
 ## Sources
 

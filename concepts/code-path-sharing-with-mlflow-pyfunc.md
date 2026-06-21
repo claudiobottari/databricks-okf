@@ -104,8 +104,8 @@ mlflow.pyfunc.log_model(
 
 ## Related Concepts
 
-- [MLflow PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md) – The underlying framework for custom Python function models
-- [Custom PyFunc Model Creation](/concepts/custom-mlflow-pyfunc-model.md) – Creating custom MLflow Python function models
+- [MLflow PyFunc Models](/concepts/custom-mlflow-pythonmodel.md) – The underlying framework for custom Python function models
+- [Custom PyFunc Model Creation](/concepts/custom-mlflow-pythonmodel.md) – Creating custom MLflow Python function models
 - Model Serving Deployment – Deploying custom models to production endpoints
 - MLflow pyfunc load_context Pattern|PyFunc load_context – The initialization function for pyfunc models
 - Shared Module Patterns in MLflow – Best practices for organizing shared code in MLflow projects

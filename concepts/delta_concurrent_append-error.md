@@ -13,6 +13,13 @@ x-llmwiki:
     - delta_concurrent_append-error
     - DELTA_CONCURRENT_APPEND
     - DELTA_CONCURRENT_APPEND Error
+    - delta_concurrent_append-error-class
+    - DEC
+    - DELTA_CONCURRENT_APPEND Error Class
+    - DELTA_CONCURRENT_APPEND error class
+    - delta_concurrent_append-error-condition
+    - DELTA_CONCURRENT_APPEND Error Condition
+    - DELTA_CONCURRENT_APPEND error condition
   citations:
     - file: delta_concurrent_append-error-condition-databricks-on-aws.md
 title: DELTA_CONCURRENT_APPEND Error

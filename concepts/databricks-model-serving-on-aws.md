@@ -58,7 +58,7 @@ Databricks may suspend or terminate model serving for accounts that violate thes
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — Databricks-hosted endpoints for foundation models accessed through Model Serving
 - [Unity Catalog](/concepts/unity-catalog.md) — Governance layer that can be used to track model metadata and access
 - [ABAC GRANT Policy](/concepts/abac-grant-policy.md) — Attribute-based access control for model serving policies
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — Broader framework for governing AI assets on Databricks
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — Broader framework for governing AI assets on Databricks
 
 ## Sources
 

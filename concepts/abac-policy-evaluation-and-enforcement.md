@@ -80,7 +80,7 @@ Databricks automatically casts both the input and output of column mask function
 - Column Mask – Column‑level masking applied during query execution.
 - [Unity Catalog](/concepts/unity-catalog.md) – The catalog that evaluates ABAC policies.
 - Databricks Runtime – The execution engine that enforces policies.
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) – A separate (Beta) ABAC mechanism for model access.
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) – A separate (Beta) ABAC mechanism for model access.
 - [Governed Tags](/concepts/governed-tags.md) – Tags that are used in policy conditions and must not be removed while referenced.
 - UDF – User‑defined functions that implement the filter or mask logic.
 - [OpenSharing](/concepts/opensharing.md) – Delta Sharing integration with ABAC.

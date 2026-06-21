@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - s3-eventual-consistency-impact-on-delta-lake
     - SECIODL
+    - eventual-consistency-impact-on-delta-lake-on-s3
+    - ECIODLOS
   citations:
     - file: delta-lake-limitations-on-s3-databricks-on-aws.md
 title: S3 eventual consistency impact on Delta Lake

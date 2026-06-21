@@ -16,6 +16,9 @@ x-llmwiki:
     - conversational AI
     - Conversation completeness
     - Conversational AI Evaluation|Conversational metrics
+    - conversation-evaluation-multi-turn-evaluation
+    - CE(E
+    - evaluate-conversations|evaluating pre-generated conversations
   citations:
     - file: evaluate-conversations-databricks-on-aws.md
 title: Conversation Evaluation
@@ -158,8 +161,8 @@ results = mlflow.genai.evaluate(
 
 ## Related Concepts
 
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) – The core scoring mechanism for conversation evaluation.
-- [Conversation Simulation](/concepts/conversation-simulation.md) – Generating synthetic conversations for testing.
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) – The core scoring mechanism for conversation evaluation.
+- [Conversation Simulation](/concepts/conversationsimulator.md) – Generating synthetic conversations for testing.
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) – Deploying multi-turn judges in production.
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – Instrumenting agents with session IDs and traces.
 - [Custom Judges](/concepts/custom-judges.md) – Creating evaluators with `make_judge` for conversation-specific criteria.

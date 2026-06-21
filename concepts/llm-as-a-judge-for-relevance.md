@@ -144,7 +144,7 @@ The judge returns a `Feedback` object with two key fields:
 
 - [Groundedness LLM Judge](/concepts/retrievalgroundedness-judge.md) — Another built-in judge for evaluating factual accuracy
 - [Safety LLM Judge](/concepts/safety-judge-scorer.md) — Built-in judge for evaluating content safety
-- [Correctness LLM Judge](/concepts/correctness-llm-judge.md) — Built-in judge for evaluating answer correctness
+- [Correctness LLM Judge](/concepts/correctness-judge.md) — Built-in judge for evaluating answer correctness
 - [Custom LLM Judges](/concepts/custom-llm-judges.md) — How to build specialized judges for custom use cases
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The evaluation framework that uses LLM judges
 - RAG Quality Evaluation — Comprehensive evaluation of RAG applications

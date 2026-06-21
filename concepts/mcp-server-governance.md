@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mcp-server-governance
     - MSG
+    - mcp-server-governance-in-unity-ai-gateway
+    - MSGIUAG
   citations:
     - file: ai-governance-databricks-on-aws.md
 title: MCP Server Governance
@@ -63,7 +65,7 @@ MCP server governance integrates with Unity Catalog's broader AI governance fram
 
 - [Unity AI Gateway](/concepts/unity-ai-gateway.md) — The enterprise control plane for governing AI traffic
 - [Unity Catalog](/concepts/unity-catalog.md) — The unified governance layer for data and AI assets
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — The broader framework for governing AI resources
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — The broader framework for governing AI resources
 - HTTP Connections — Connections used to access external APIs and MCP servers
 - [ABAC GRANT Policy](/concepts/abac-grant-policy.md) — Attribute-based access control for AI assets
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) — Tag-driven access control for AI and data assets

@@ -135,7 +135,7 @@ After logging the custom `pyfunc` model, you can register it to [Unity Catalog](
 
 ## Related Concepts
 
-- [MLflow pyfunc Module](/concepts/custom-mlflow-pyfunc-model.md) — The full Python API for creating custom pyfunc models.
+- [MLflow pyfunc Module](/concepts/custom-mlflow-pythonmodel.md) — The full Python API for creating custom pyfunc models.
 - [Model Serving](/concepts/model-serving.md) — Deploying models to production endpoints.
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md) — Pre-built runtime that includes GPU support and common deep learning libraries.
 - [Unity Catalog](/concepts/unity-catalog.md) — Managing model registries and permissions.

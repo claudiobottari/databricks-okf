@@ -90,7 +90,7 @@ For deployment timeouts (container build and model deployment), check the build 
 
 - [Model Serving](/concepts/model-serving.md)
 - [MLflow](/concepts/mlflow.md)
-- [Custom PyFunc models](/concepts/custom-mlflow-pyfunc-model.md)
+- [Custom PyFunc models](/concepts/custom-mlflow-pythonmodel.md)
 - [Inference Tables](/concepts/inference-tables.md)
 - [Resource and payload limits](/concepts/model-serving-resource-and-payload-limits.md)
 - [Endpoint scaling](/concepts/model-serving-endpoint-scaling.md)

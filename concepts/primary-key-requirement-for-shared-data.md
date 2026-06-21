@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - primary-key-requirement-for-shared-data
     - PKRFSD
+    - primary-key-requirements-for-shared-data-assets
+    - PKRFSDA
   citations:
     - file: grant-sap-business-data-cloud-bdc-recipients-access-to-opensharing-data-shares-databricks-on-aws.md
 title: Primary Key Requirement for Shared Data

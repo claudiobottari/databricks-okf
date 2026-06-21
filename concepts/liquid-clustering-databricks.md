@@ -29,7 +29,7 @@ Here is the wiki page for "Liquid Clustering (Databricks)", based solely on the 
 
 ## Liquid Clustering (Databricks)
 
-**Liquid Clustering** is a data layout optimization technique on Databricks that replaces legacy methods such as [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) and Hive-style partitioning for improving query performance. It is the recommended alternative to both deprecated features, offering a more flexible and automated approach to organizing data in [Delta Lake](/concepts/delta-lake.md) tables. ^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
+**Liquid Clustering** is a data layout optimization technique on Databricks that replaces legacy methods such as [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) and Hive-style partitioning for improving query performance. It is the recommended alternative to both deprecated features, offering a more flexible and automated approach to organizing data in [Delta Lake](/concepts/delta-lake.md) tables. ^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
 
 ### Overview
 
@@ -51,12 +51,12 @@ Liquid Clustering is suitable for tables where query patterns involve filtering 
 - **Replacing deprecated indexing features**: Migrate from Bloom filter indexes to Liquid Clustering. ^[create-bloom-filter-index-deprecated-databricks-on-aws.md]
 - **Replacing or augmenting partition layouts**: When a table’s partition column is frequently updated or has very high cardinality, leading to too many small files or partition management overhead.
 
-For specific migration guidance from Bloom filter indexes, refer to the official documentation on [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md).
+For specific migration guidance from Bloom filter indexes, refer to the official documentation on [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md).
 
 ### Related Concepts
 
 - [Predictive I/O](/concepts/predictive-io.md) – Another optimization technique that can be used in conjunction with or as an alternative to clustering.
-- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) – The legacy feature that Liquid Clustering replaces.
+- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) – The legacy feature that Liquid Clustering replaces.
 - [Delta Lake](/concepts/delta-lake.md) – The storage layer that provides the foundation for Liquid Clustering.
 - OPTIMIZE command – The operation that triggers the physical reorganization of data to maintain the clustering layout.
 

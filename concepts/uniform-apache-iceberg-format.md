@@ -20,6 +20,9 @@ x-llmwiki:
     - Uniform (Iceberg)
     - Uniform Iceberg
     - managed Apache Iceberg
+    - uniform-apache-iceberg-format-in-databricks
+    - U(IFID
+    - Apache Iceberg on Databricks
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: Uniform (Apache Iceberg) Format
@@ -97,7 +100,7 @@ The `DELTA_ICEBERG_COMPAT_VIOLATION` error class (SQLSTATE: KD00E) is raised whe
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) – The open table format for interoperability
 - [Managed Tables](/concepts/managed-tables-in-databricks.md) – Required table type for Uniform format
 - [Deletion Vectors](/concepts/deletion-vectors.md) – Must be purged for Iceberg compatibility
-- [REORG Command](/concepts/reorg-table-command.md) – Used to upgrade and maintain Uniform format tables
+- [REORG Command](/concepts/reorg-table.md) – Used to upgrade and maintain Uniform format tables
 - Table Features – Enables specific capabilities in Delta Lake
 
 ## Sources

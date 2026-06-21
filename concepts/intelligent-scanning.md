@@ -12,6 +12,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - intelligent-scanning
+    - intelligent-scanning-databricks
+    - IS(
   citations:
     - file: data-classification-databricks-on-aws.md
     - file: anomaly-detection-databricks-on-aws.md

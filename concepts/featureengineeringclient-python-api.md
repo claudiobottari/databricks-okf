@@ -15,6 +15,9 @@ x-llmwiki:
     - Feature Engineering Python API
     - Feature Engineering Python API Reference
     - Feature Engineering Python API reference
+    - featureengineeringclient-python-client
+    - F(C
+    - Feature Engineering Python client
   citations:
     - file: feature-tables-in-unity-catalog-databricks-on-aws.md
 title: FeatureEngineeringClient Python API

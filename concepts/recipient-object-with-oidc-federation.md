@@ -140,7 +140,7 @@ For the steps recipients follow to authenticate and access shares using OIDC tok
 
 - [Delta Sharing](/concepts/delta-sharing.md) – The open data-sharing protocol
 - [OpenSharing](/concepts/opensharing.md) – Sharing model for non-Databricks recipients
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) – Alternative authentication method for OpenSharing
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) – Alternative authentication method for OpenSharing
 - [OIDC Federation Policy](/concepts/oidc-federation-policy.md) – The policy object defining JWT validation rules
 - [Unity Catalog](/concepts/unity-catalog.md) – Governance layer for Data + AI assets
 - [Recipient Properties](/concepts/recipient-properties.md) – Custom metadata for recipients

@@ -65,7 +65,7 @@ If the recipient imported the credential as a provider object in Unity Catalog, 
 
 - [Delta Sharing](/concepts/delta-sharing.md) — The open protocol for secure data sharing
 - [OpenSharing](/concepts/opensharing.md) — Sharing data with recipients who do not have Databricks workspaces
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) — Authentication method for OpenSharing recipients
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) — Authentication method for OpenSharing recipients
 - Recipient Object — The Unity Catalog object representing a data sharing recipient
 - [Credential Rotation](/concepts/provider-credential-rotation.md) — The process of replacing compromised or expired credentials
 

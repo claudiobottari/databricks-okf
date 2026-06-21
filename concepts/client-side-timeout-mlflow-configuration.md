@@ -29,7 +29,7 @@ Here is the wiki page for "Client-Side Timeout – MLflow Configuration".
 
 ## Client-Side Timeout – MLflow Configuration
 
-**Client-Side Timeout – MLflow Configuration** refers to the timeout settings configured on the client side of an MLflow Model Serving request. Unlike [Server-Side Timeouts](/concepts/server-side-timeouts.md), which are enforced by the serving endpoint itself, client-side timeouts are controlled by the calling application's configuration. When a client-side timeout occurs, it typically returns error messages that say "timed out" or **4xx Bad Request**. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+**Client-Side Timeout – MLflow Configuration** refers to the timeout settings configured on the client side of an MLflow Model Serving request. Unlike [Server-Side Timeouts](/concepts/server-side-timeout.md), which are enforced by the serving endpoint itself, client-side timeouts are controlled by the calling application's configuration. When a client-side timeout occurs, it typically returns error messages that say "timed out" or **4xx Bad Request**. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ### Common Causes
 
@@ -63,7 +63,7 @@ The documentation notes that the default HTTP request timeout on the client-side
 ### Related Concepts
 
 - [Model Deployment Timeouts](/concepts/model-deployment-timeouts.md) – Timeouts that occur when deploying or updating a serving endpoint.
-- [Server-Side Timeouts](/concepts/server-side-timeouts.md) – Timeouts enforced by the model serving endpoint.
+- [Server-Side Timeouts](/concepts/server-side-timeout.md) – Timeouts enforced by the model serving endpoint.
 - Client-Side Timeouts (Third Party) – Similar timeout issues caused by third-party client APIs.
 - Model Serving Endpoint Limits – Rate limits and payload constraints.
 - [Debugging Model Serving](/concepts/model-serving.md) – General guidance for troubleshooting serving endpoints.

@@ -96,7 +96,7 @@ When permissions are set at the Feature Store level, they are inherited by all i
 
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — The permission model for workspaces enabled for Unity Catalog
 - [Feature Store](/concepts/feature-store.md) — The Databricks feature management platform
-- [Feature Tables](/concepts/feature-tables.md) — The core data objects managed in the Feature Store
+- [Feature Tables](/concepts/feature-table.md) — The core data objects managed in the Feature Store
 - Access Control in Unity Catalog — Modern access control for Unity Catalog-enabled workspaces
 
 ## Sources

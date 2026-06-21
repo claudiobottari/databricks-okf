@@ -81,7 +81,7 @@ Note that the default client‑side timeout (120 s) is much lower than the ser
 
 ### Third‑Party Client APIs
 
-If your model pipeline (e.g., a [custom PyFunc model](/concepts/custom-mlflow-pyfunc-model.md) or a custom schema agent) calls external services, those clients may have their own timeout defaults. For example, an OpenAI client has a default timeout of 10 minutes, but you can override it with the `timeout` parameter:
+If your model pipeline (e.g., a [custom PyFunc model](/concepts/custom-mlflow-pythonmodel.md) or a custom schema agent) calls external services, those clients may have their own timeout defaults. For example, an OpenAI client has a default timeout of 10 minutes, but you can override it with the `timeout` parameter:
 
 ```python
 from openai import OpenAI

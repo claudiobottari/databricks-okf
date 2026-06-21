@@ -14,6 +14,9 @@ x-llmwiki:
     - Databricks Session
     - DatabricksSession create()
     - Spark Session
+    - databrickssession-api
+    - Databricks Serving API
+    - Databricks APIs
   citations:
     - file: testing-for-databricks-connect-for-python-databricks-on-aws.md
 title: DatabricksSession

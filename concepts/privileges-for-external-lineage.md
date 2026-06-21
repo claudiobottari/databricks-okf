@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - privileges-for-external-lineage
     - PFEL
+    - privileges-for-external-lineage-management
+    - PFELM
   citations:
     - file: external-lineage-databricks-on-aws.md:L3-L8
     - file: external-lineage-databricks-on-aws.md:L25-L33

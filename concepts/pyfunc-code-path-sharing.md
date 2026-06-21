@@ -85,7 +85,7 @@ After logging a custom pyfunc model with shared code paths, the model can be reg
 - [MLflow Python Function Model](/concepts/custom-mlflow-pythonmodel.md) — The custom model format that supports code path sharing.
 - [Model Serving](/concepts/model-serving.md) — The deployment infrastructure for serving custom pyfunc models.
 - [Unity Catalog](/concepts/unity-catalog.md) — Model registry for managing and deploying models.
-- [PyFunc Model Logging](/concepts/custom-mlflow-pyfunc-model.md) — The process of packaging custom Python code with MLflow.
+- [PyFunc Model Logging](/concepts/custom-mlflow-pythonmodel.md) — The process of packaging custom Python code with MLflow.
 - Model Preprocessing and Postprocessing — Common use cases for shared code utilities.
 
 ## Sources

@@ -15,6 +15,12 @@ x-llmwiki:
     - LIPAD
     - LLM Inference Performance Engineering
     - Prefill and Decoding
+    - llm-inference-phases-prefill-and-decoding
+    - "Decoding and LLM Inference Phases: Prefill"
+    - LIPPAD
+    - llm-inference-two-step-process-prefill-and-decoding
+    - "Decoding and LLM Inference Two-Step Process: Prefill"
+    - LITPPAD
   citations:
     - file: conduct-your-own-llm-endpoint-benchmarking-databricks-on-aws.md
 title: LLM Inference Prefill and Decoding

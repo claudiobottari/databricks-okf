@@ -93,7 +93,7 @@ Existing evaluation datasets can be updated using the SDK. For example, you can 
 
 The following limitations apply to MLflow evaluation datasets:
 
-- Datasets cannot be stored in catalogs encrypted with [customer‑managed keys (CMK)](/concepts/customer-managed-keys-cmk-for-online-feature-stores.md). Workspaces with CMK are supported only if the dataset resides in a non-CMK catalog. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
+- Datasets cannot be stored in catalogs encrypted with [customer‑managed keys (CMK)](/concepts/customer-managed-keys-for-online-feature-stores.md). Workspaces with CMK are supported only if the dataset resides in a non-CMK catalog. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
 - Maximum of 2000 rows per evaluation dataset. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
 - Maximum of 20 expectations per dataset record. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
 

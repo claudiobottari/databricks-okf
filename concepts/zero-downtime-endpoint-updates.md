@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - zero-downtime-endpoint-updates
     - ZEU
+    - zero-downtime-endpoint-updates-and-maintenance
+    - maintenance and Zero-downtime endpoint updates
+    - ZEUAM
   citations:
     - file: custom-models-overview-databricks-on-aws.md
 title: Zero-Downtime Endpoint Updates

@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - delta-lake-multi-cluster-write-configuration
     - DLMWC
+    - delta-lake-multi-cluster-writes-configuration
   citations:
     - file: delta-lake-limitations-on-s3-databricks-on-aws.md
 title: Delta Lake multi-cluster write configuration

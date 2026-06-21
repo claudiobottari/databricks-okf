@@ -36,7 +36,7 @@ timestamp: "2026-06-19T19:52:09.959Z"
 
 ### Optimization Process
 
-1. **Register an initial prompt** – A simple prompt template (e.g., `"classify this: {{query}}"`) is registered in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) under a specified [Catalog and Schema](/concepts/catalog-and-schema.md). ^[optimize-prompts-tutorial-databricks-on-aws.md]
+1. **Register an initial prompt** – A simple prompt template (e.g., `"classify this: {{query}}"`) is registered in the [MLflow Prompt Registry](/concepts/prompt-registry.md) under a specified [Catalog and Schema](/concepts/catalog-and-schema.md). ^[optimize-prompts-tutorial-databricks-on-aws.md]
 2. **Define the prediction function** – The function loads the prompt version, formats it with the query, sends it to the LLM, and returns the response. ^[optimize-prompts-tutorial-databricks-on-aws.md]
 3. **Call `mlflow.genai.optimize_prompts`** – This API takes the prediction function, training data, prompt URIs, the optimizer instance, and a list of scorers. It returns a result containing one or more optimized prompts. ^[optimize-prompts-tutorial-databricks-on-aws.md]
 4. **Review and deploy** – The optimized prompt is loaded back into the prediction function for testing. The prompt version can also be viewed in the MLflow experiment UI if the experiment type is set to **GenAI apps and agents**. ^[optimize-prompts-tutorial-databricks-on-aws.md]
@@ -47,7 +47,7 @@ The tutorial walks through classifying sentences from academic abstracts into on
 
 ### Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md)
+- [MLflow Prompt Registry](/concepts/prompt-registry.md)
 - GenAI Apps and Agents
 - [Correctness Scorer](/concepts/correctness-scorer.md)
 - [GEPA Prompt Optimizer](/concepts/gepapromptoptimizer.md)

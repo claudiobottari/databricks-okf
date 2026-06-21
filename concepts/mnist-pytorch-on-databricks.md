@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mnist-pytorch-on-databricks
     - MPOD
+    - mnist-with-pytorch-on-databricks
+    - MWPOD
   citations:
     - file: adapt-single-node-pytorch-to-distributed-deep-learning-databricks-on-aws.md
 title: MNIST PyTorch on Databricks

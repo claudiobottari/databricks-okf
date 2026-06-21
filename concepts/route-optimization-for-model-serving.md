@@ -15,6 +15,8 @@ x-llmwiki:
     - Cost Optimization for Model Serving
     - Production Optimization for Model Serving
     - Production optimization for ML serving
+    - route-optimization-databricks-model-serving
+    - RO(MS
   citations:
     - file: optimize-model-serving-endpoints-for-production-databricks-on-aws.md
 title: Route Optimization for Model Serving

@@ -112,7 +112,7 @@ Distributed tuning with `SparkTrials` introduces overhead for serializing the ob
 - [MLflow Tracking](/concepts/mlflow-tracking.md) — Experiment logging for machine learning workflows
 - [Optuna](/concepts/optuna.md) — Recommended replacement for single-node optimization
 - [RayTune](/concepts/raytune.md) — Recommended replacement for distributed hyperparameter tuning
-- [Distributed Hyperparameter Tuning](/concepts/raytune-for-distributed-hyperparameter-tuning-on-databricks.md) — General strategies for scaling hyperparameter search
+- [Distributed Hyperparameter Tuning](/concepts/raytune.md) — General strategies for scaling hyperparameter search
 - fmin — The core function for running Hyperopt optimization
 - [Tree of Parzen Estimators (TPE)](/concepts/hyperopt-tree-of-parzen-estimators-tpe-algorithm.md) — Bayesian search algorithm often used with Hyperopt
 

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - span-customization-parameters
     - SCP
+    - span-customization-via-decorator-parameters
+    - SCVDP
   citations:
     - file: function-decorators-databricks-on-aws.md
 title: Span customization parameters

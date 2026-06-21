@@ -14,6 +14,10 @@ x-llmwiki:
     - recipient-token-lifetime
     - RTL
     - token lifetime
+    - recipient-token-lifetime-configuration
+    - RTLC
+    - recipient-token-lifetime-management
+    - RTLM
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
     - file: set-up-opensharing-for-your-account-for-providers-databricks-on-aws.md

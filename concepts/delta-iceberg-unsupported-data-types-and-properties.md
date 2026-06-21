@@ -83,7 +83,7 @@ Occurs when column mapping field physical names do not follow the required forma
 
 ## Related Concepts
 
-- [Delta Lake and Apache Iceberg Compatibility](/concepts/delta-lake-table-features-and-iceberg-compatibility.md)
+- [Delta Lake and Apache Iceberg Compatibility](/concepts/delta-lake-table-features-compatibility.md)
 - [IcebergWriterCompatV](/concepts/icebergwritercompatv.md)
 - [Delta Lake Schema Evolution](/concepts/delta-lake-schema-migration.md)
 - [Column mapping in Delta Lake](/concepts/column-mapping-in-delta-lake.md)

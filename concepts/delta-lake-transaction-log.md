@@ -46,7 +46,7 @@ When a Delta table is written to, the transaction log records the set of files t
 
 ## Open Protocol
 
-The Delta Lake transaction log follows a well-defined open protocol documented in the [Delta Transaction Log Protocol](/concepts/delta-lake-transaction-protocol-changes.md) specification. This protocol allows tools and engines beyond Apache Spark — such as Presto, Apache Flink, and Trino — to read Delta tables by parsing the transaction log directly, without requiring proprietary connectors.^[what-is-delta-lake-in-databricks-databricks-on-aws.md]
+The Delta Lake transaction log follows a well-defined open protocol documented in the [Delta Transaction Log Protocol](/concepts/delta-lake-table-protocol-changes.md) specification. This protocol allows tools and engines beyond Apache Spark — such as Presto, Apache Flink, and Trino — to read Delta tables by parsing the transaction log directly, without requiring proprietary connectors.^[what-is-delta-lake-in-databricks-databricks-on-aws.md]
 
 ## Converting to Delta Lake
 
@@ -71,7 +71,7 @@ Any file not tracked by Delta Lake is invisible and can be deleted when you run 
 - [Time Travel](/concepts/delta-lake-time-travel.md) — Querying previous table versions using the log
 - Data Skipping — Performance optimization using log statistics
 - [CONVERT TO DELTA](/concepts/convert-to-delta.md) — Creating a transaction log for existing Parquet/Iceberg tables
-- [Delta Transaction Log Protocol](/concepts/delta-lake-transaction-protocol-changes.md) — The open specification for the log format
+- [Delta Transaction Log Protocol](/concepts/delta-lake-table-protocol-changes.md) — The open specification for the log format
 - [Liquid Clustering](/concepts/liquid-clustering.md) — Recommended post-conversion data reorganization for statistics generation
 
 ## Sources

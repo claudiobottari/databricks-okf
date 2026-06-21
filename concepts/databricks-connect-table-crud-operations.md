@@ -213,7 +213,7 @@ get_taxis(get_spark()).show(5)
 
 - [Databricks Connect](/concepts/databricks-connect.md) — The client library for remote Spark session connections
 - Spark SQL — The query engine used for SQL-based CRUD operations
-- [PySpark DataFrame](/concepts/pysparklyr-package.md) — The primary data structure for CRUD operations
+- [PySpark DataFrame](/concepts/pysparklyr.md) — The primary data structure for CRUD operations
 - [Databricks Session](/concepts/databrickssession.md) — The session object that connects to the cluster
 - [Delta Lake](/concepts/delta-lake.md) — The underlying storage format for Databricks tables
 

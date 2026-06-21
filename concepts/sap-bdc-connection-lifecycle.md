@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - sap-bdc-connection-lifecycle
     - SBCL
+    - sap-bdc-connection-lifecycle-management
+    - SBCLM
   citations:
     - file: create-and-manage-the-sap-business-data-cloud-bdc-connector-databricks-on-aws.md
 title: SAP BDC Connection Lifecycle

@@ -69,7 +69,7 @@ The `CONVERT TO DELTA` syntax can only be used for creating Unity Catalog extern
 
 ## Converting external Hive [Metastore](/concepts/metastore.md) tables
 
-To upgrade an external Parquet table from the Hive [Metastore](/concepts/metastore.md) to a Unity Catalog external table before conversion, see [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-table-migration.md). ^[convert-to-delta-lake-databricks-on-aws.md]
+To upgrade an external Parquet table from the Hive [Metastore](/concepts/metastore.md) to a Unity Catalog external table before conversion, see [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-migration.md). ^[convert-to-delta-lake-databricks-on-aws.md]
 
 ## Related Concepts
 

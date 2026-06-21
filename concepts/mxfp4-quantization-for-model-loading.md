@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mxfp4-quantization-for-model-loading
     - MQFML
+    - mxfp4-quantization-for-large-model-loading
+    - MQFLML
   citations:
     - file: fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md
 title: Mxfp4 Quantization for Model Loading

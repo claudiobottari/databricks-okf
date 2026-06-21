@@ -48,7 +48,7 @@ Use pre-generated conversation evaluation when you have: ^[evaluate-conversation
 - Pre-recorded test conversations from QA or user studies
 - Conversations from a previous agent version for comparison
 
-This contrasts with [Conversation Simulation](/concepts/conversation-simulation.md), which generates new conversations during evaluation to test agent versions with consistent scenarios. ^[evaluate-conversations-databricks-on-aws.md]
+This contrasts with [Conversation Simulation](/concepts/conversationsimulator.md), which generates new conversations during evaluation to test agent versions with consistent scenarios. ^[evaluate-conversations-databricks-on-aws.md]
 
 ## Prerequisites
 
@@ -180,7 +180,7 @@ Multi-turn judges can also be used for continuous monitoring in production, not 
 
 ## Related Concepts
 
-- [Conversation Simulation](/concepts/conversation-simulation.md) — Generating synthetic conversations during evaluation
+- [Conversation Simulation](/concepts/conversationsimulator.md) — Generating synthetic conversations during evaluation
 - [Custom Judges](/concepts/custom-judges.md) — Building custom LLM judges using `make_judge`
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The `mlflow.genai.evaluate()` API for offline assessment
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Deploying judges for continuous quality monitoring

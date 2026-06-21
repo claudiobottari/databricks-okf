@@ -14,6 +14,8 @@ x-llmwiki:
     - DEC
     - DELTA_UNSUPPORTED_CLUSTERING_COLUMN_PREDICATES error class
     - DELTA_UNSUPPORTED_CLUSTERING_COLUMN_PREDICATES error condition
+    - delta-unsupported-clustering-column-predicates-error-class
+    - DUCCPEC
   citations:
     - file: delta_unsupported_clustering_column_predicates-error-condition-databricks-on-aws.md
 title: DELTA_UNSUPPORTED_CLUSTERING_COLUMN_PREDICATES error class

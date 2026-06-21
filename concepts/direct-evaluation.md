@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - direct-evaluation
+    - direct-evaluation-mode
+    - DEM
   citations:
     - file: evaluate-genai-apps-during-development-databricks-on-aws.md
 title: Direct Evaluation

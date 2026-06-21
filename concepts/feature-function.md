@@ -11,6 +11,10 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - feature-function
+    - feature-function-udf
+    - FF(
+    - Feature functions
+    - feature functions
   citations:
     - file: example-deploy-and-query-a-feature-serving-endpoint-databricks-on-aws.md
 title: Feature Function

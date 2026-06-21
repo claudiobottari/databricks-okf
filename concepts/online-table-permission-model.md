@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - online-table-permission-model
     - OTPM
+    - online-table-permissions-and-security-model
+    - Security Model and Online Table Permissions
+    - OTPASM
+    - online-table-permissions-model
   citations:
     - file: databricks-online-tables-legacy-databricks-on-aws.md
 title: Online Table Permission Model

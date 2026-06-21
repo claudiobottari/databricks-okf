@@ -55,7 +55,7 @@ The following are example scenarios where the DeepSpeed distributor provides cle
 
 #### Low GPU Memory
 
-DeepSpeed is beneficial when GPU memory is limited. Through techniques such as [ZeRO optimization](/concepts/deepspeed-zero-stage-3-optimization.md), DeepSpeed shards optimizer states, gradients, and parameters across GPUs, drastically reducing the per-GPU memory footprint. This allows models to be trained on hardware that would otherwise be unable to accommodate them.^[distributed-training-with-deepspeed-distributor-databricks-on-aws.md]
+DeepSpeed is beneficial when GPU memory is limited. Through techniques such as [ZeRO optimization](/concepts/deepspeed-zero-stage-3.md), DeepSpeed shards optimizer states, gradients, and parameters across GPUs, drastically reducing the per-GPU memory footprint. This allows models to be trained on hardware that would otherwise be unable to accommodate them.^[distributed-training-with-deepspeed-distributor-databricks-on-aws.md]
 
 > **Note:** While the source mentions “optimized memory usage” as a general capability, the specific reference to ZeRO optimization is an inference based on known DeepSpeed features; no direct citation is available for the ZeRO term in this source.
 
@@ -83,7 +83,7 @@ The provided source includes a notebook example demonstrating how to fine-tune L
 
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md)
 - [TorchDistributor](/concepts/torchdistributor.md)
-- [ZeRO Optimization](/concepts/deepspeed-zero-stage-3-optimization.md)
+- [ZeRO Optimization](/concepts/deepspeed-zero-stage-3.md)
 - [Pipeline Parallelism](/concepts/pipeline-parallelism-in-deepspeed.md)
 - Batch Inference
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md)

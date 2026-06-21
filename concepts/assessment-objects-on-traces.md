@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - assessment-objects-on-traces
     - AOOT
+    - assessment-objects-in-mlflow-tracing
+    - AOIMT
   citations:
     - file: collect-feedback-and-expectations-by-labeling-existing-traces-databricks-on-aws.md
 title: Assessment Objects on Traces

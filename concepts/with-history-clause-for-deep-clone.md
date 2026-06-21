@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - with-history-clause-for-deep-clone
     - WHCFDC
+    - with-history-clause-for-databricks-deep-clone
+    - WHCFDDC
   citations:
     - file: delta_deep_clone_streaming_table_error-error-condition-databricks-on-aws.md
 title: WITH HISTORY Clause for Deep Clone

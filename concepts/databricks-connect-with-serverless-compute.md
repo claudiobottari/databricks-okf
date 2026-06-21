@@ -54,7 +54,7 @@ The tutorial covers creating a Spark session, running DataFrames, and debugging 
 - Code Examples for Databricks Connect for Python — Simple snippets to verify connectivity.
 - Example Applications — Full projects on GitHub, including ETL and Plotly-based interactive apps.
 - Troubleshooting Databricks Connect — Common issues and solutions.
-- [Limitations of Databricks Connect](/concepts/limitations-of-dbutils-in-databricks-connect.md) — Known restrictions when using serverless compute. ^[databricks-connect-for-python-databricks-on-aws.md]
+- [Limitations of Databricks Connect](/concepts/restricted-dbutils-in-databricks-connect.md) — Known restrictions when using serverless compute. ^[databricks-connect-for-python-databricks-on-aws.md]
 
 ## Related Concepts
 

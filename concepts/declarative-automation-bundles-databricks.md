@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - declarative-automation-bundles-databricks
     - DAB(
+    - declarative-automation-bundles-for-scala-jars
+    - DABFSJ
   citations:
     - file: create-and-run-jars-on-serverless-compute-databricks-on-aws.md
 title: Declarative Automation Bundles (Databricks)

@@ -55,7 +55,7 @@ After code is merged into main, a new release branch can be created as part of a
 - CI/CD – Continuous integration and delivery pipelines for testing and deployment.
 - [Model Training](/concepts/databricks-model-training.md) – Automated job that runs in each workspace.
 - Batch Inference – Automated job that runs in staging and production.
-- [Databricks Workspace](/concepts/databricks-workspace-feature-store-ui.md) – The isolated environment for each stage.
+- [Databricks Workspace](/concepts/workspace-feature-store-ui.md) – The isolated environment for each stage.
 
 ### Sources
 

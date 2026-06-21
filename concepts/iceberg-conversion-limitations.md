@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - iceberg-conversion-limitations
     - ICL
+    - iceberg-table-conversion-limitations
+    - ITCL
+    - iceberg-to-delta-conversion-limitations
+    - ITDCL
+    - iceberg-to-delta-lake-conversion-limitations
+    - ITDLCL
   citations:
     - file: convert-to-delta-lake-databricks-on-aws.md
 title: Iceberg Conversion Limitations
@@ -26,7 +32,7 @@ timestamp: "2026-06-18T11:10:57.669Z"
 
 # Iceberg Conversion Limitations
 
-**Iceberg Conversion Limitations** refers to the constraints and unsupported scenarios when using the `CONVERT TO DELTA` SQL command to perform a one-time conversion of Apache Iceberg tables to [Delta Lake](/concepts/delta-lake.md) tables on Databricks. `CONVERT TO DELTA` is supported for Parquet and Iceberg tables stored in external locations managed by [Unity Catalog](/concepts/unity-catalog.md). For incremental conversion, see [Incremental cloning of Parquet and Iceberg tables](/concepts/incremental-cloning-of-parquet-and-iceberg-to-delta-lake.md).^[convert-to-delta-lake-databricks-on-aws.md]
+**Iceberg Conversion Limitations** refers to the constraints and unsupported scenarios when using the `CONVERT TO DELTA` SQL command to perform a one-time conversion of Apache Iceberg tables to [Delta Lake](/concepts/delta-lake.md) tables on Databricks. `CONVERT TO DELTA` is supported for Parquet and Iceberg tables stored in external locations managed by [Unity Catalog](/concepts/unity-catalog.md). For incremental conversion, see [Incremental cloning of Parquet and Iceberg tables](/concepts/incremental-clone-of-parquet-and-iceberg-to-delta-lake.md).^[convert-to-delta-lake-databricks-on-aws.md]
 
 ## Supported Runtime Versions
 
@@ -59,7 +65,7 @@ When converting Iceberg directories or external tables to Delta Lake using `CONV
 - [CONVERT TO DELTA](/concepts/convert-to-delta.md) — The SQL command used for conversion
 - [Parquet to Delta Lake Conversion](/concepts/parquet-to-delta-lake-conversion.md) — Similar conversion for Parquet files
 - [Unity Catalog](/concepts/unity-catalog.md) — Governed catalog that supports the command for external tables
-- [Incremental cloning of Parquet and Iceberg tables](/concepts/incremental-cloning-of-parquet-and-iceberg-to-delta-lake.md) — Alternative approach for incremental conversion
+- [Incremental cloning of Parquet and Iceberg tables](/concepts/incremental-clone-of-parquet-and-iceberg-to-delta-lake.md) — Alternative approach for incremental conversion
 - Databricks Runtime versions — Version‑specific feature support
 
 ## Sources

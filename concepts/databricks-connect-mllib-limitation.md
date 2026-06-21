@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - databricks-connect-mllib-limitation
     - DCML
+    - databricks-connect-mllib-compatibility-limitations
+    - DCMCL
+    - databricks-connect-mllib-limitations-in-r
+    - DCMLIR
   citations:
     - file: databricks-connect-for-r-databricks-on-aws.md
 title: Databricks Connect MLlib Limitation

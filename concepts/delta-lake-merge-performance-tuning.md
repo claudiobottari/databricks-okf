@@ -15,6 +15,9 @@ x-llmwiki:
     - Delta Lake Performance Tuning
     - Delta Lake performance tuning
     - Optimizing Delta Lake Performance
+    - delta-lake-merge-performance-optimization
+    - DLMPO
+    - Delta Lake merge optimization
   citations:
     - file: best-practices-delta-lake-databricks-on-aws.md
 title: Delta Lake MERGE Performance Tuning

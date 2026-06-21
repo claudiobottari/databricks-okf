@@ -65,7 +65,7 @@ This error occurs when a table has both persistent deletion vectors and incremen
 - [Deletion Vectors](/concepts/deletion-vectors.md) — A Delta Lake feature for marking files as deleted without rewriting them.
 - [Symlink Manifest Generation](/concepts/symlink-manifest-generation.md) — A feature for generating manifest files for external query engines.
 - Parquet — The columnar storage format that supports persistent deletion vectors.
-- [REORG Command](/concepts/reorg-table-command.md) — The SQL command used to rewrite table data and purge deletion vectors.
+- [REORG Command](/concepts/reorg-table.md) — The SQL command used to rewrite table data and purge deletion vectors.
 
 ## Sources
 

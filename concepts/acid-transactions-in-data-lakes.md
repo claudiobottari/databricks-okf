@@ -14,6 +14,8 @@ x-llmwiki:
     - ATIDL
     - ACID Transactions in Delta Lake
     - Transaction isolation in Delta Lake
+    - acid-transactions-on-data-lakes
+    - ATODL
   citations:
     - file: delta-lake-api-reference-databricks-on-aws.md
 title: ACID Transactions in Data Lakes

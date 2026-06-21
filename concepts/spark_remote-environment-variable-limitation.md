@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - spark_remote-environment-variable-limitation
     - SEVL
+    - spark_remote-environment-variable-incompatibility
+    - SEVI
   citations:
     - file: databricks-utilities-with-databricks-connect-for-python-databricks-on-aws.md
 title: SPARK_REMOTE Environment Variable Limitation
@@ -68,7 +70,7 @@ To avoid confusion, use the same authentication environment variables (`DATABRIC
 ## Related Concepts
 
 - [Databricks Connect for Python](/concepts/databricks-connect-for-python.md) — The overall client that uses both `SparkSession` and `WorkspaceClient`.
-- [WorkspaceClient](/concepts/workspaceclient-and-dbutils.md) — The Databricks SDK class that does not recognise `SPARK_REMOTE`.
+- [WorkspaceClient](/concepts/workspaceclient-dbutils.md) — The Databricks SDK class that does not recognise `SPARK_REMOTE`.
 - Databricks SDK for Python — The library providing `WorkspaceClient`.
 - Authentication Configuration Profiles — An alternative to environment variables for SDK authentication.
 - Databricks Utilities — The `dbutils` functions accessed through `WorkspaceClient`.

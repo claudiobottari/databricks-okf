@@ -97,7 +97,7 @@ Databricks strongly recommends using Databricks Runtime 11.3 LTS ML or above for
 
 ## Related Concepts
 
-- [XGBoost for Spark Pipeline](/concepts/xgboost-with-mllib-ml-pipeline.md) — Extended documentation on the `sparkdl.xgboost` module
+- [XGBoost for Spark Pipeline](/concepts/xgboost-with-mllib-integration.md) — Extended documentation on the `sparkdl.xgboost` module
 - [xgboost.spark](/concepts/xgboostspark-module.md) — The recommended replacement module (migration target)
 - [Distributed XGBoost Training](/concepts/distributed-xgboost-training-on-databricks.md) — Multi-node training considerations and limitations
 - GPU Training on Databricks — GPU cluster configuration for XGBoost

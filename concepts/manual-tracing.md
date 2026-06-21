@@ -14,6 +14,16 @@ x-llmwiki:
     - manual-tracing
     - Manual MLflow Tracing
     - Manual spans
+    - manual-tracing-for-mlflow
+    - MTFM
+    - manual-tracing-mlflow
+    - MT(
+    - Manual Tracing in MLflow
+    - Manual Tracing with MLflow
+    - Manual Tracing with @mlflow.trace
+    - Manual tracing with function decorators
+    - mlflow-manual-tracing
+    - MMT
   citations:
     - file: manual-tracing-databricks-on-aws.md
     - file: add-traces-to-applications-automatic-and-manual-tracing-databricks-on-aws.md

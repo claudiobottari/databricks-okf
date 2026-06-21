@@ -77,7 +77,7 @@ Remote connections from notebooks enable several practical scenarios:
 
 ## Portability
 
-One of the key benefits of using Databricks Connect APIs in notebooks is [code portability](/concepts/databricks-connect-code-portability.md). Code written for remote connections in a local IDE can be moved to a Databricks notebook without changes. The same APIs work in both environments, with the session behavior adapting to the runtime context. ^[databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md]
+One of the key benefits of using Databricks Connect APIs in notebooks is [code portability](/concepts/databrickssession-api-portability.md). Code written for remote connections in a local IDE can be moved to a Databricks notebook without changes. The same APIs work in both environments, with the session behavior adapting to the runtime context. ^[databricks-connect-support-in-databricks-notebooks-databricks-on-aws.md]
 
 ## Related Concepts
 

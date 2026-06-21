@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - replace_table_change_partition_names
     - REPLACE_TABLE_CHANGE_PARTITION_NAMES
+    - replace_table_change_partition_names-delta-iceberg-error
+    - R(IE
+    - replace_table_change_partition_names-error
   citations:
     - file: delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md
 title: REPLACE_TABLE_CHANGE_PARTITION_NAMES
@@ -52,7 +55,7 @@ To perform the partition rename, you must first disable `IcebergCompatV1` on the
 ### Related Concepts
 
 - DELTA_ICEBERG_COMPAT_V1_VIOLATION – The parent error class for IcebergCompatV1 validation failures
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) – The Delta table property that enforces Iceberg compatibility
+- [IcebergCompatV1](/concepts/icebergcompatv.md) – The Delta table property that enforces Iceberg compatibility
 - REPLACE TABLE – The SQL command that triggers this error when used with partition renaming
 - Delta table partitioning – Partitioning strategies for Delta Lake tables
 - [Iceberg‑Spark connector](/concepts/opensharing-apache-spark-connector.md) – The underlying library that imposes the limitation

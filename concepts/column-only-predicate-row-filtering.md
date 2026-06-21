@@ -104,7 +104,7 @@ Column-only predicates enable [predicate pushdown](/concepts/selective-caching-w
 
 - [Row Filter Policies](/concepts/row-filter-policies.md) — The broader mechanism for restricting row-level access
 - [Predicate Pushdown](/concepts/selective-caching-with-predicate-pushdown.md) — The query optimization technique enabled by column-only predicates
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Attribute-based access control for granting privileges
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Attribute-based access control for granting privileges
 - [Column Mask Policies](/concepts/column-mask-policies.md) — Complementary mechanism for masking column values
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — The permission model governing access to securable objects
 

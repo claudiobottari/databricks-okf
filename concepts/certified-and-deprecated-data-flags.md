@@ -18,6 +18,9 @@ x-llmwiki:
     - Certify and Deprecate Data
     - Certify and deprecate data
     - Flag data as certified or deprecated
+    - certified-and-deprecated-data-signals
+    - Deprecated Data Signals and Certified
+    - CADDS
   citations:
     - file: data-discovery-in-unity-catalog-databricks-on-aws.md
 title: Certified and Deprecated Data Flags

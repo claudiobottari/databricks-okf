@@ -64,7 +64,7 @@ Batch inference with `ai_query` is suitable for:
 
 ## Related Concepts
 
-- [AI Functions on Databricks](/concepts/ai-functions-on-databricks.md) — The broader framework for AI-powered SQL functions
+- [AI Functions on Databricks](/concepts/ai-functions.md) — The broader framework for AI-powered SQL functions
 - Data Enrichment — The process of augmenting datasets with model predictions
 - [Model Serving](/concepts/model-serving.md) — Deploying models for inference requests
 - Batch Inference — Processing large volumes of data through a model in batches

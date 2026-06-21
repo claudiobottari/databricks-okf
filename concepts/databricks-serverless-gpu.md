@@ -13,6 +13,10 @@ x-llmwiki:
     - databricks-serverless-gpu
     - DSG
     - Databricks Serverless
+    - databricks-serverless-gpu-compute
+    - DSGC
+    - Databricks Serverless Compute
+    - Databricks serverless compute
   citations:
     - file: fine-tune-llama-31-8b-using-mosaic-llm-foundry-on-databricks-serverless-gpu-databricks-on-aws.md
 title: Databricks Serverless GPU

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - automl-ui-feature-selection
     - AUFS
+    - automl-ui-feature-table-selection
+    - AUFTS
   citations:
     - file: automl-feature-store-integration-databricks-on-aws.md
 title: AutoML UI Feature Selection

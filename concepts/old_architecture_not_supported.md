@@ -13,6 +13,7 @@ x-llmwiki:
     - old_architecture_not_supported
     - OLD_ARCHITECTURE_NOT_SUPPORTED
     - Old Architecture Not Supported
+    - old_architecture_not_supported-sub-error
   citations:
     - file: delta_deep_clone_streaming_table_error-error-condition-databricks-on-aws.md
 title: OLD_ARCHITECTURE_NOT_SUPPORTED

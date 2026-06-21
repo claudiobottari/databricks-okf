@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - axolotl
+    - axolotl-framework-for-llm-fine-tuning
+    - AFFLF
   citations:
     - file: fine-tune-olmo3-7b-with-axolotl-on-multi-gpu-serverless-compute-databricks-on-aws.md
 title: Axolotl

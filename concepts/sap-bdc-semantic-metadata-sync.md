@@ -15,6 +15,9 @@ x-llmwiki:
     - SAP BDC Semantic Metadata
     - SAP BDC semantic metadata
     - SAP semantic metadata
+    - sap-bdc-semantic-metadata-synchronization
+    - sap-semantic-metadata-synchronization
+    - SSMS
   citations:
     - file: share-data-between-sap-business-data-cloud-bdc-and-databricks-databricks-on-aws.md
     - file: sap-bdc-semantic-metadata-databricks-on-aws.md

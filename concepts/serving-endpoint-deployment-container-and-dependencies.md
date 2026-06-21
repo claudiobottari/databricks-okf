@@ -98,11 +98,11 @@ During endpoint creation, the container image is built by packaging the model an
 ## Related Concepts
 
 - Custom Models Overview
-- [MLflow Pyfunc](/concepts/custom-mlflow-pyfunc-model.md)
+- [MLflow Pyfunc](/concepts/custom-mlflow-pythonmodel.md)
 - [Model Serving](/concepts/model-serving.md)
 - Package custom artifacts for Model Serving
 - Deploy Python code with Model Serving
-- [Express deployments for model serving endpoints](/concepts/express-deployments-for-model-serving.md)
+- [Express deployments for model serving endpoints](/concepts/express-deployments-databricks.md)
 
 ## Sources
 

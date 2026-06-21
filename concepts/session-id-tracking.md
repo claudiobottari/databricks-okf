@@ -83,7 +83,7 @@ all_traces = [trace for session in sessions for trace in session]
 
 ## Evaluation with Session ID Tracking
 
-When traces tagged with session IDs are passed to `mlflow.genai.evaluate()`, MLflow automatically groups them by the `mlflow.trace.session` tag. This enables the use of [Multi-turn Judges](/concepts/multi-turn-judges.md) that evaluate the entire conversation history using the `{{ conversation }}` template variable. ^[evaluate-conversations-databricks-on-aws.md]
+When traces tagged with session IDs are passed to `mlflow.genai.evaluate()`, MLflow automatically groups them by the `mlflow.trace.session` tag. This enables the use of [Multi-turn Judges](/concepts/multi-turn-judge.md) that evaluate the entire conversation history using the `{{ conversation }}` template variable. ^[evaluate-conversations-databricks-on-aws.md]
 
 ```python
 from mlflow.genai.scorers import ConversationCompleteness, UserFrustration
@@ -130,7 +130,7 @@ Session ID tracking supports two evaluation approaches: ^[evaluate-conversations
 - User Frustration — A built-in judge for detecting and resolving user frustration
 - [Custom Judges](/concepts/custom-judges.md) — Creating custom multi-turn judges using `make_judge` with the `{{ conversation }}` variable
 - [Production Monitoring](/concepts/production-monitoring.md) — Using multi-turn judges for continuous production monitoring
-- [Conversation Simulation](/concepts/conversation-simulation.md) — Generating synthetic conversations for testing
+- [Conversation Simulation](/concepts/conversationsimulator.md) — Generating synthetic conversations for testing
 
 ## Sources
 

@@ -15,6 +15,10 @@ x-llmwiki:
     - Workspace Feature Store
     - Workspace-Level Feature Store
     - workspace-level Feature Store
+    - databricks-workspace-feature-store-ui
+    - DWFSU
+    - Databricks Workspace Feature Store
+    - Databricks Workspace
   citations:
     - file: explore-features-and-lineage-legacy-databricks-on-aws.md
 title: Workspace Feature Store UI

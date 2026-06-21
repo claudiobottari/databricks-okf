@@ -13,6 +13,9 @@ x-llmwiki:
     - instance-profile-lifecycle-and-endpoint-behavior
     - Endpoint Behavior and Instance Profile Lifecycle
     - IPLAEB
+    - instance-profile-lifecycle-and-running-endpoints
+    - Running Endpoints and Instance Profile Lifecycle
+    - IPLARE
   citations:
     - file: add-an-instance-profile-to-a-model-serving-endpoint-databricks-on-aws.md
 title: Instance Profile Lifecycle and Endpoint Behavior

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - automatic-exception-capture-in-spans
     - AECIS
+    - automatic-exception-handling-in-traces
+    - AEHIT
   citations:
     - file: function-decorators-databricks-on-aws.md
 title: Automatic Exception Capture in Spans

@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - supported-ml-frameworks-for-autologging
     - SMFFA
+    - supported-frameworks-for-databricks-autologging
+    - SFFDA
+    - supported-ml-frameworks-for-databricks-autologging
+    - SMFFDA
   citations:
     - file: databricks-autologging-databricks-on-aws.md
 title: Supported ML Frameworks for Autologging
@@ -85,7 +89,7 @@ The following limitations apply to supported frameworks:
 - [Databricks Autologging](/concepts/databricks-autologging.md) – Overview of configuration, customization, and administration.
 - [MLflow Tracking](/concepts/mlflow-tracking.md) – The underlying service that stores autologged run data.
 - [MLflow Model Registry](/concepts/mlflow-model-registry.md) – Where autologged models can be logged and managed.
-- [OpenAI Autologging](/concepts/mlflow-openai-autologging.md) – Dedicated support for generative AI trace logging.
+- [OpenAI Autologging](/concepts/mlflow-openai-autolog.md) – Dedicated support for generative AI trace logging.
 
 ### Sources
 

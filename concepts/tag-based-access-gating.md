@@ -14,6 +14,10 @@ x-llmwiki:
     - TAG
     - tag
     - Tags
+    - tag-based-access-gating-unverified-classification-pattern
+    - TAG(CP
+    - tag-based-access-gating-workflow
+    - TAGW
   citations:
     - file: common-patterns-for-row-filtering-and-column-masking-databricks-on-aws.md
     - file: best-practices-for-abac-policies-databricks-on-aws.md
@@ -30,7 +34,7 @@ timestamp: "2026-06-18T14:39:58.863Z"
 
 # Tag-based Access Gating
 
-**Tag-based access gating** refers to the practice of using metadata tags — key-value pairs applied to [Unity Catalog](/concepts/unity-catalog.md) securable objects — to dynamically control data access through [ABAC (Attribute-Based Access Control)](/concepts/abac-attribute-based-access-control.md) policies. By evaluating tags at query time, administrators can implement row filters, column masks, and [ABAC GRANT Policies](/concepts/abac-grant-policies.md) that react automatically to changes in data classification or governance requirements, without hand‑editing individual grants. ^[common-patterns-for-row-filtering-and-column-masking-databricks-on-aws.md, best-practices-for-abac-policies-databricks-on-aws.md]
+**Tag-based access gating** refers to the practice of using metadata tags — key-value pairs applied to [Unity Catalog](/concepts/unity-catalog.md) securable objects — to dynamically control data access through [ABAC (Attribute-Based Access Control)](/concepts/abac-attribute-based-access-control.md) policies. By evaluating tags at query time, administrators can implement row filters, column masks, and [ABAC GRANT Policies](/concepts/abac-grant-policy.md) that react automatically to changes in data classification or governance requirements, without hand‑editing individual grants. ^[common-patterns-for-row-filtering-and-column-masking-databricks-on-aws.md, best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## Core Mechanisms
 
@@ -106,7 +110,7 @@ Always use groups in the `TO` and `EXCEPT` clauses of ABAC policies to simplify 
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - [Row Filter Policies](/concepts/row-filter-policies.md)
 - [Column Mask Policies](/concepts/column-mask-policies.md)
 - [Governed Tags](/concepts/governed-tags.md)

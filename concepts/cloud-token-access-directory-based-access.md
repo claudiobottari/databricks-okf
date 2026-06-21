@@ -14,6 +14,10 @@ x-llmwiki:
     - CTA(A
     - Cloud Tokens and Directory-Based Access
     - Directory-Based Access
+    - cloud-token-access-directory-based-access-mode
+    - CTA(AM
+    - cloud-token-eligibility-directory-based-access-mode
+    - CTE(AM
   citations:
     - file: create-shares-for-opensharing-databricks-on-aws.md
 title: Cloud Token Access (Directory-Based Access)

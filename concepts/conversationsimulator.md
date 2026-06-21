@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - conversationsimulator
     - Conversation Simulator
+    - conversation-simulation-mlflow
+    - CS(
+    - conversation-simulation
+    - conversationsimulator-api
   citations:
     - file: conversation-simulation-databricks-on-aws.md
 title: ConversationSimulator

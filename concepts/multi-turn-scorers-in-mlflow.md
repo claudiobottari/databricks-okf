@@ -29,7 +29,7 @@ timestamp: "2026-06-18T11:10:06.501Z"
 
 # Multi-turn Scorers in MLflow
 
-**Multi-turn Scorers** are a category of [scorers (MLflow)](/concepts/scorers-mlflow-genai.md) in [MLflow GenAI](/concepts/mlflow-3-for-genai.md) that evaluate an entire multi-turn conversation as a single unit, rather than scoring each turn independently. They are designed for use with [Conversation Simulation](/concepts/conversation-simulation.md) and the `mlflow.genai.evaluate()` API.^[conversation-simulation-databricks-on-aws.md]
+**Multi-turn Scorers** are a category of [scorers (MLflow)](/concepts/scorers-mlflow-genai.md) in [MLflow GenAI](/concepts/mlflow-3-for-genai.md) that evaluate an entire multi-turn conversation as a single unit, rather than scoring each turn independently. They are designed for use with [Conversation Simulation](/concepts/conversationsimulator.md) and the `mlflow.genai.evaluate()` API.^[conversation-simulation-databricks-on-aws.md]
 
 ## Overview
 
@@ -65,7 +65,7 @@ For example, a multi-turn scorer like `ConversationCompleteness` can determine w
 
 ## Related Concepts
 
-- [Conversation Simulation](/concepts/conversation-simulation.md) — Synthetic generation of multi-turn dialogues for testing
+- [Conversation Simulation](/concepts/conversationsimulator.md) — Synthetic generation of multi-turn dialogues for testing
 - Single-turn Scorers — Per-turn evaluation scorers
 - [MLflow GenAI Evaluation](/concepts/mlflow-genai-evaluation.md) — The evaluation framework that supports multi-turn scorers
 - [Predefined Scorers](/concepts/mlflow-genai-predefined-scorers.md) — Built-in scorers like `ConversationCompleteness`, `Safety`, and `User Frustration`

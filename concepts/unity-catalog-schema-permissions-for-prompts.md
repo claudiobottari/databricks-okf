@@ -69,7 +69,7 @@ results = mlflow.genai.search_prompts(
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The system for storing and versioning prompts
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The system for storing and versioning prompts
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer that manages schema permissions
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — The organizational unit linked to prompt registry locations
 - Create and Edit Prompts — The workflow for managing prompt versions

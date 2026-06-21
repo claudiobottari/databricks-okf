@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-foundation-model-api-tracing-via-mlflow
     - DFMATVM
+    - databricks-foundation-model-api-tracing-via-openai-client
+    - DFMATVOC
   citations:
     - file: automatic-tracing-databricks-on-aws.md
 title: Databricks Foundation Model API Tracing via MLflow
@@ -132,7 +134,7 @@ def process_user_query(query: str):
 
 - [Automatic Tracing](/concepts/automatic-tracing.md) – The general mechanism for instrumenting supported libraries.
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – The overall tracing infrastructure in MLflow.
-- [OpenAI autolog](/concepts/mlflow-openai-autologging.md) – The specific autolog function for OpenAI SDK.
+- [OpenAI autolog](/concepts/mlflow-openai-autolog.md) – The specific autolog function for OpenAI SDK.
 - [Databricks Foundation Model APIs](/concepts/databricks-foundation-model-apis.md) – The managed model endpoints traceable with this approach.
 - [Manual Tracing](/concepts/manual-tracing.md) – Adding custom spans with `@mlflow.trace`.
 

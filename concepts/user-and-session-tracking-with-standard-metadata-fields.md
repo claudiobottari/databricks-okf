@@ -97,7 +97,7 @@ After traces are logged, you can access user and session information through:
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – Overview of the tracing system.
 - [Add Context to Traces](/concepts/best-practices-for-adding-context-to-mlflow-traces.md) – General guide for attaching metadata and tags.
 - [Trace Metadata vs Tags](/concepts/trace-metadata.md) – Immutability and mutability semantics.
-- [Immutable Metadata vs Mutable Tags](/concepts/mutable-tags-vs-immutable-metadata-in-mlflow-traces.md) – Design considerations for log context.
+- [Immutable Metadata vs Mutable Tags](/concepts/mutable-tags-vs-immutable-metadata.md) – Design considerations for log context.
 - Session Boundaries – Defining when a session starts and ends.
 - [GenAI Application Monitoring](/concepts/mlflow-genai-production-monitoring.md) – Observability for generative AI applications.
 - mlflow.update_current_trace()|mlflow.update_current_trace – API reference for adding context during execution.

@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - capybara-dataset
+    - capybara-dataset-for-conversational-ai-training
+    - CDFCAT
   citations:
     - file: fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md
 title: Capybara Dataset

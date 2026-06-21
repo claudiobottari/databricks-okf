@@ -15,6 +15,8 @@ x-llmwiki:
     - Global Ray Cluster
     - Ray Cluster
     - Ray cluster
+    - global-mode-ray-clusters
+    - Global Ray clusters
   citations:
     - file: create-and-connect-to-ray-clusters-on-databricks-databricks-on-aws.md
 title: Global Mode Ray Cluster

@@ -42,7 +42,7 @@ Conversations stop when **either** the maximum number of turns is reached **or**
 ## Related Concepts
 
 - [ConversationSimulator](/concepts/conversationsimulator.md) — The class that accepts test cases and the `max_turns` configuration.
-- [Conversation Simulation](/concepts/conversation-simulation.md) — The overall feature for synthetic multi‑turn testing.
+- [Conversation Simulation](/concepts/conversationsimulator.md) — The overall feature for synthetic multi‑turn testing.
 - Test Cases — The goals and personas that drive the simulated user's behavior.
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The evaluation framework that consumes simulated conversations.
 

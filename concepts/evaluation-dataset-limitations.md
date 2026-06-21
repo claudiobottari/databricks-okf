@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - evaluation-dataset-limitations
     - EDL
+    - evaluation-dataset-constraints
+    - EDC
+    - mlflow-evaluation-dataset-limitations
+    - MEDL
   citations:
     - file: building-mlflow-evaluation-datasets-databricks-on-aws.md
 title: Evaluation Dataset Limitations
@@ -25,7 +29,7 @@ timestamp: "2026-06-19T14:10:40.324Z"
 
 # Evaluation Dataset Limitations
 
-**Evaluation Dataset Limitations** refers to the constraints that apply when creating or using [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) for GenAI applications. These limitations are enforced to ensure storage compatibility, performance, and manageability within the [Unity Catalog](/concepts/unity-catalog.md) governance framework.
+**Evaluation Dataset Limitations** refers to the constraints that apply when creating or using [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) for GenAI applications. These limitations are enforced to ensure storage compatibility, performance, and manageability within the [Unity Catalog](/concepts/unity-catalog.md) governance framework.
 
 ## Storage Constraints
 
@@ -45,7 +49,7 @@ If your use case requires exceeding these limits (for example, storing more than
 - [GenAI Evaluation](/concepts/mlflow-genai-evaluation.md) — The broader practice of using evaluation datasets to measure application quality.
 - [Evaluation Dataset](/concepts/evaluation-dataset.md) — The concept of curated example inputs for systematic testing.
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer that stores and version‑controls evaluation datasets.
-- [Customer-Managed Keys (CMK)](/concepts/customer-managed-keys-cmk-for-online-feature-stores.md) — The encryption mechanism that conflicts with evaluation dataset storage.
+- [Customer-Managed Keys (CMK)](/concepts/customer-managed-keys-for-online-feature-stores.md) — The encryption mechanism that conflicts with evaluation dataset storage.
 
 ## Sources
 

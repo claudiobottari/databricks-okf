@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - partition-based-transaction-conflicts-in-delta-lake
     - PTCIDL
+    - partition-aware-transaction-conflicts-in-delta-lake
   citations:
     - file: delta_concurrent_delete_read-error-condition-databricks-on-aws.md
 title: Partition-based Transaction Conflicts in Delta Lake

@@ -13,6 +13,10 @@ x-llmwiki:
     - delta-lake-api
     - DLA
     - DeltaTable API
+    - delta-lake-api-reference
+    - DLAR
+    - Delta Lake SQL Reference
+    - delta-lake-apis
   citations:
     - file: delta-lake-api-reference-databricks-on-aws.md
 title: Delta Lake API

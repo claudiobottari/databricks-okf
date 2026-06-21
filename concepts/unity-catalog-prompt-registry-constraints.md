@@ -26,7 +26,7 @@ timestamp: "2026-06-19T19:58:49.950Z"
 
 # Unity Catalog Prompt Registry Constraints
 
-**Unity Catalog Prompt Registry Constraints** are specific limitations and requirements that apply when using the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) with a [Unity Catalog](/concepts/unity-catalog.md)-backed registry. Unlike Workspace-level registries, Unity Catalog registries enforce a mandatory three-part naming structure, restrict search filters, and require explicit version deletion before a prompt can be removed.
+**Unity Catalog Prompt Registry Constraints** are specific limitations and requirements that apply when using the [MLflow Prompt Registry](/concepts/prompt-registry.md) with a [Unity Catalog](/concepts/unity-catalog.md)-backed registry. Unlike Workspace-level registries, Unity Catalog registries enforce a mandatory three-part naming structure, restrict search filters, and require explicit version deletion before a prompt can be removed.
 
 ## Naming Requirements
 

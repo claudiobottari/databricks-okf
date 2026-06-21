@@ -14,6 +14,8 @@ x-llmwiki:
     - SAMC
     - Access modes (compute)
     - standard compute
+    - standard-access-mode-compute-databricks
+    - SAMC(
   citations:
     - file: allowlist-libraries-and-init-scripts-on-compute-with-standard-access-mode-formerly-shared-access-mode-databricks-on-aws.md
 title: Standard Access Mode Compute

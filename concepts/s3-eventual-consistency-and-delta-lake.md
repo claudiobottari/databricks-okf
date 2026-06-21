@@ -15,6 +15,8 @@ x-llmwiki:
     - SECADL
     - Amazon S3 eventual consistency
     - Delta Lake Consistency
+    - s3-eventual-consistency-impact-on-delta-tables
+    - SECIODT
   citations:
     - file: delta_versions_not_contiguous-error-condition-databricks-on-aws.md
 title: S3 eventual consistency and Delta Lake

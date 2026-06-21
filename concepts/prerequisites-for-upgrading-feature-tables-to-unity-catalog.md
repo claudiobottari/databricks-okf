@@ -23,7 +23,7 @@ tags:
 timestamp: "2026-06-19T23:18:31.914Z"
 ---
 
-# Prerequisites for upgrading [Feature Tables](/concepts/feature-tables.md) to [Unity Catalog](/concepts/unity-catalog.md)
+# Prerequisites for upgrading [Feature Tables](/concepts/feature-table.md) to [Unity Catalog](/concepts/unity-catalog.md)
 
 Upgrading a workspace [Feature Table](/concepts/feature-table.md) to [Unity Catalog](/concepts/unity-catalog.md) requires meeting several prerequisites before migrating the metadata. This page outlines the conditions that must be in place for the upgrade to succeed.
 

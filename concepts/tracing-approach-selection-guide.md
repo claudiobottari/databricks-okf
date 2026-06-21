@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - tracing-approach-selection-guide
     - TASG
+    - mlflow-tracing-approach-selection-guide
+    - MTASG
   citations:
     - file: add-traces-to-applications-automatic-and-manual-tracing-databricks-on-aws.md
 title: Tracing Approach Selection Guide

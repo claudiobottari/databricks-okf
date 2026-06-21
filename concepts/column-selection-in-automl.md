@@ -13,6 +13,8 @@ x-llmwiki:
     - column-selection-in-automl
     - CSIA
     - Column Selection for AutoML
+    - column-selection-control-in-automl
+    - CSCIA
   citations:
     - file: data-preparation-for-regression-databricks-on-aws.md
 title: Column Selection in AutoML

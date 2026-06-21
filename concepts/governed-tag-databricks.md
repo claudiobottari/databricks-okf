@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - governed-tag-databricks
     - GT(
+    - governed-tags-databricks
   citations:
     - file: custom-classifiers-databricks-on-aws.md
 title: Governed Tag (Databricks)

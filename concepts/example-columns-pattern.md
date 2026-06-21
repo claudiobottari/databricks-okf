@@ -74,7 +74,7 @@ To resolve a suspension, edit the custom classifier with different example colum
 - [Custom Classifiers](/concepts/custom-classifiers.md) — The broader feature that uses the Example Columns Pattern
 - [Governed Tags](/concepts/governed-tags.md) — Tags that define the classification categories used by custom classifiers
 - [Data Classification](/concepts/data-classification.md) — The scanning system that detects sensitive data in Unity Catalog
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — Governance controls applied based on classification results
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — Governance controls applied based on classification results
 
 ## Sources
 

@@ -128,7 +128,7 @@ ENCRYPTION (
 
 ## Related Concepts
 
-- [Copy Into Data Loading (Databricks)](/concepts/copy-into-databricks.md)
+- [Copy Into Data Loading (Databricks)](/concepts/copy-into-delta-lake.md)
 - Unity Catalog External Locations
 - [Storage Credentials](/concepts/copy-into-source-credentials.md)
 - Cloud Object Storage Ingestion

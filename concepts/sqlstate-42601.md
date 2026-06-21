@@ -52,7 +52,7 @@ To resolve this error, set the `delta.universalFormat.compatibility.location` co
 ## Related Concepts
 
 - SQLSTATE – Overview of SQL state codes and their classifications.
-- [Delta Sharing Uniform Format](/concepts/delta-uniform-uniform.md) – Feature that uses the compatibility location setting.
+- [Delta Sharing Uniform Format](/concepts/delta-uniform.md) – Feature that uses the compatibility location setting.
 - Delta table configuration – How settings like `delta.universalFormat.compatibility.location` are managed.
 - [Error handling in Databricks](/concepts/error-handling-in-databricks-notebook-workflows.md) – General approach to diagnosing and resolving Databricks errors.
 

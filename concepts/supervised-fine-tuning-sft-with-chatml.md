@@ -36,7 +36,7 @@ In supervised fine-tuning, a pre-trained model is further trained on labeled exa
 In the Databricks environment, applying ChatML to an SFT pipeline typically involves two steps:
 
 1. **Loading the base model and tokenizer** – The model (e.g., `Qwen/Qwen2-0.5B`) and its tokenizer are loaded from Hugging Face. ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
-2. **Setting up the chat format** – If the tokenizer does not already have a chat template, the `setup_chat_format` function from the [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) library is called with `format="chatml"`. This applies the ChatML token structure so that dataset conversations are correctly tokenized and interpreted by the model during training. ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
+2. **Setting up the chat format** – If the tokenizer does not already have a chat template, the `setup_chat_format` function from the [TRL](/concepts/trl-transformer-reinforcement-learning.md) library is called with `format="chatml"`. This applies the ChatML token structure so that dataset conversations are correctly tokenized and interpreted by the model during training. ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
 
 The following snippet illustrates the setup:
 
@@ -51,7 +51,7 @@ This ensures that every training example from a conversational dataset (such as 
 
 ## Training Pipeline
 
-Once the ChatML format is applied, the model can be trained using [TRL](/concepts/trl-transformer-reinforcement-learning-library.md)’s `SFTTrainer`. The trainer handles the supervised fine‑tuning loop and can be configured with:
+Once the ChatML format is applied, the model can be trained using [TRL](/concepts/trl-transformer-reinforcement-learning.md)’s `SFTTrainer`. The trainer handles the supervised fine‑tuning loop and can be configured with:
 
 - **LoRA adapters** – Freezing the base model and training only small adapter matrices on the attention and MLP layers, reducing trainable parameters by ~99%. ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
 - **Liger Kernels** – Fused GPU operations that reduce memory usage by up to 80%, enabling larger batch sizes or larger models on a single GPU. ^[lora-fine-tuning-of-qwen2-05b-databricks-on-aws.md]
@@ -71,7 +71,7 @@ After training, the model (or LoRA adapters) can be saved and registered in [Uni
 - ChatML
 - LoRA
 - [Liger Kernels](/concepts/liger-kernels.md)
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md)
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Model Serving](/concepts/model-serving.md)
 

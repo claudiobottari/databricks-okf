@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - metastore-connection-limit-for-sap-bdc
     - MCLFSB
+    - metastore-connection-limits-for-sap-bdc
   citations:
     - file: create-and-manage-the-sap-business-data-cloud-bdc-connector-databricks-on-aws.md
 title: Metastore Connection Limit for SAP BDC

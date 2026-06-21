@@ -77,7 +77,7 @@ In all cases, the condition can only reference governed tags (user-created or [S
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
 - [Governed Tags](/concepts/governed-tags.md)
 - [System Tags](/concepts/system-tags.md)
-- [GRANT policies (ABAC)](/concepts/grant-policies-abac-beta.md)
+- [GRANT policies (ABAC)](/concepts/grant-policies-beta.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md) (related but distinct: GRANT policies control access, not data content)
 

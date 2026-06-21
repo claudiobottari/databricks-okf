@@ -52,7 +52,7 @@ On Databricks Serverless Compute clusters, autologging for generative AI tracing
 ## Related Concepts
 
 - [MLflow Autologging](/concepts/mlflow-autologging.md) – Overview of automatic logging capabilities.
-- [OpenAI Autolog](/concepts/mlflow-openai-autologging.md) – The integration used for OpenAI SDK [Traces](/concepts/traces.md) (also covers [Ollama](/concepts/ollama.md)).
+- [OpenAI Autolog](/concepts/mlflow-openai-autolog.md) – The integration used for OpenAI SDK [Traces](/concepts/traces.md) (also covers [Ollama](/concepts/ollama.md)).
 - [Ollama](/concepts/ollama.md) – Local LLM platform that uses the OpenAI API.
 - [Tracing](/concepts/mlflow-tracing.md) – How [MLflow](/concepts/mlflow.md) captures and organizes trace data.
 - [MLflow Experiments](/concepts/mlflow-experiment.md) – Where [Traces](/concepts/traces.md) and metrics are recorded.

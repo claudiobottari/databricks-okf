@@ -47,7 +47,7 @@ Column mask policies obscure the values in specific columns for unauthorized use
 
 ### GRANT Policies (Beta)
 
-[ABAC GRANT Policies](/concepts/abac-grant-policies.md) dynamically grant privileges to securable objects whose governed tags match a specified condition. Currently in Beta, GRANT policies support `EXECUTE` on models, including both customer-registered MLflow Models and Databricks-hosted foundation models. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
+[ABAC GRANT Policies](/concepts/abac-grant-policy.md) dynamically grant privileges to securable objects whose governed tags match a specified condition. Currently in Beta, GRANT policies support `EXECUTE` on models, including both customer-registered MLflow Models and Databricks-hosted foundation models. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
 
 ## How Policies Work
 
@@ -65,7 +65,7 @@ You can view policies using SQL commands. `SHOW POLICIES` lists the policies def
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Dynamic privilege grants based on governed tags
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Dynamic privilege grants based on governed tags
 - [Governed Tags](/concepts/governed-tags.md) — Attributes used in policy conditions to determine access
 - [System Tags](/concepts/system-tags.md) — Predefined attributes provided by Databricks
 - [Row Filter Policies](/concepts/row-filter-policies.md) — Policies that restrict data content

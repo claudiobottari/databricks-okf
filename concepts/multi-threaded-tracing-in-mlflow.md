@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - multi-threaded-tracing-in-mlflow
     - MTIM
+    - multi-threaded-tracing-with-contextvar
+    - MTWC
   citations:
     - file: function-decorators-databricks-on-aws.md
 title: Multi-threaded tracing in MLflow
@@ -96,7 +98,7 @@ In contrast to threads, `ContextVar` values are automatically copied to **asynch
 
 ## Related concepts
 
-- [Manual tracing with function decorators](/concepts/manual-tracing-mlflow.md) – The `@mlflow.trace` decorator and its parameters.
+- [Manual tracing with function decorators](/concepts/manual-tracing.md) – The `@mlflow.trace` decorator and its parameters.
 - mlflow.start_span() Context Manager|Span context and propagation – How MLflow maintains parent‑child relationships.
 - Auto‑tracing integrations – Built‑in tracing for libraries such as OpenAI.
 - ContextVar in Python – The standard mechanism for context‑local state.

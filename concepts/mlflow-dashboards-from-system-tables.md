@@ -26,7 +26,7 @@ timestamp: "2026-06-19T09:10:12.507Z"
 
 ## MLflow Dashboards from System Tables
 
-**MLflow Dashboards from System Tables** are Lakeview Dashboards that use MLflow metadata stored in System Tables (Databricks) to analyze and monitor experiments, runs, metrics, and system-level resource utilization across an entire [Databricks Workspace](/concepts/databricks-workspace-feature-store-ui.md). By leveraging system tables instead of the [MLflow UI](/concepts/mlflow.md) or REST APIs, you can avoid extensive iteration and build reusable, customizable visualizations. ^[build-dashboards-with-mlflow-metadata-in-system-tables-databricks-on-aws.md]
+**MLflow Dashboards from System Tables** are Lakeview Dashboards that use MLflow metadata stored in System Tables (Databricks) to analyze and monitor experiments, runs, metrics, and system-level resource utilization across an entire [Databricks Workspace](/concepts/workspace-feature-store-ui.md). By leveraging system tables instead of the [MLflow UI](/concepts/mlflow.md) or REST APIs, you can avoid extensive iteration and build reusable, customizable visualizations. ^[build-dashboards-with-mlflow-metadata-in-system-tables-databricks-on-aws.md]
 
 ### Overview
 

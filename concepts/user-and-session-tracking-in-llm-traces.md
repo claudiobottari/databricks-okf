@@ -14,6 +14,12 @@ x-llmwiki:
     - Session Tracking in LLM Traces and User
     - UASTILT
     - User and Session Tracking in Traces
+    - user-and-session-tracking-in-genai-traces
+    - Session Tracking in GenAI Traces and User
+    - UASTIGT
+    - user-and-session-tracking-in-mlflow-traces
+    - Session Tracking in MLflow Traces and User
+    - UASTIMT
   citations:
     - file: add-context-to-traces-databricks-on-aws.md
 title: User and Session Tracking in LLM Traces

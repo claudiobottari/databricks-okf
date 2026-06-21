@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - iterative-scorer-development-workflow
     - ISDW
+    - mlflow-trace-based-scorer-development-workflow
+    - MTSDW
+    - code-based scorer development workflow
   citations:
     - file: develop-code-based-scorers-databricks-on-aws.md
 title: Iterative Scorer Development Workflow

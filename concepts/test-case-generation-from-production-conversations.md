@@ -98,9 +98,9 @@ simulator = ConversationSimulator(test_cases=dataset)
 
 ## Related Concepts
 
-- [Conversation Simulation](/concepts/conversation-simulation.md) — Generating synthetic multi-turn conversations for testing
+- [Conversation Simulation](/concepts/conversationsimulator.md) — Generating synthetic multi-turn conversations for testing
 - [ConversationSimulator](/concepts/conversationsimulator.md) — The simulator that uses test cases to generate conversations
-- [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) — Persisting test cases for reproducible evaluation
+- [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) — Persisting test cases for reproducible evaluation
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Monitoring real agent performance in production
 - [A/B Comparison of Agent Configurations](/concepts/ab-comparison-of-agent-configurations.md) — Comparing agent versions using consistent test cases
 

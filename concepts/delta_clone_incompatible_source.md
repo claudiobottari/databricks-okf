@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - delta_clone_incompatible_source
     - DELTA_CLONE_INCOMPATIBLE_SOURCE
+    - delta_clone_incompatible_source-error-class
+    - DEC
+    - DELTA_CLONE_INCOMPATIBLE_SOURCE error class
+    - delta_clone_incompatible_source-error
+    - DELTA_CLONE_INCOMPATIBLE_SOURCE error condition
   citations:
     - file: delta_clone_incompatible_source-error-condition-databricks-on-aws.md
 title: DELTA_CLONE_INCOMPATIBLE_SOURCE

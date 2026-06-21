@@ -16,6 +16,11 @@ x-llmwiki:
     - Log assessments
     - assessment
     - assessment report
+    - assessments-mlflow-genai
+    - A(G
+    - Assessment (MLflow GenAI)
+    - Assessment (MLflow)
+    - Assessments (MLflow)
   citations:
     - file: concepts-data-model-databricks-on-aws.md
 title: Assessments

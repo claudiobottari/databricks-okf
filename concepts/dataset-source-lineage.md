@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - dataset-source-lineage
     - DSL
+    - evaluation-dataset-source-lineage
+    - EDSL
   citations:
     - file: evaluation-dataset-reference-databricks-on-aws.md
 title: Dataset Source Lineage

@@ -14,6 +14,9 @@ x-llmwiki:
     - DCL
     - Databricks Connect Validation
     - Databricks Connect for Python limitations
+    - databricks-connect-limitations-and-unsupported-features
+    - Unsupported Features and Databricks Connect Limitations
+    - DCLAUF
   citations:
     - file: databricks-connect-for-databricks-runtime-122-lts-and-below-databricks-on-aws.md
 title: Databricks Connect Limitations

@@ -13,6 +13,8 @@ x-llmwiki:
     - databricks-serverless-budget-policy-403-error
     - DSBP4E
     - Databricks serverless budget policy
+    - default-serverless-budget-policy-fallback-error
+    - DSBPFE
   citations:
     - file: configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md
 title: Databricks Serverless Budget Policy 403 Error

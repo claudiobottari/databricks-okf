@@ -12,6 +12,14 @@ x-llmwiki:
   aliases:
     - environment-variable-injection-for-app-resources
     - EVIFAR
+    - environment-variable-injection-for-databricks-app-resources
+    - EVIFDAR
+    - Environment variables in Databricks Apps
+    - environment-variable-injection-from-app-resources
+    - Environment variables from app resources
+    - Access environment variables from resources
+    - Environment Variables from Resources
+    - accessing environment variables from resources
   citations:
     - file: add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md
 title: Environment Variable Injection for App Resources

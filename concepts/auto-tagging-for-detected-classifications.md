@@ -29,7 +29,7 @@ timestamp: "2026-06-19T09:40:57.976Z"
 
 ## Overview
 
-After the classification engine detects sensitive data in columns (such as PII, financial information, or credentials), auto-tagging ensures that the corresponding classification tag is applied to those columns without manual intervention. This enables downstream governance policies — such as [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — to dynamically mask or restrict access based on the tags. ^[data-classification-databricks-on-aws.md]
+After the classification engine detects sensitive data in columns (such as PII, financial information, or credentials), auto-tagging ensures that the corresponding classification tag is applied to those columns without manual intervention. This enables downstream governance policies — such as [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — to dynamically mask or restrict access based on the tags. ^[data-classification-databricks-on-aws.md]
 
 The tagging status for each classification type is displayed on the Data Classification results page as **Active** or **Inactive**. At the [Metastore](/concepts/metastore.md) level, a status of **Partially Active** indicates that tagging is enabled in some but not all catalogs. ^[data-classification-databricks-on-aws.md]
 
@@ -79,7 +79,7 @@ To re-include the detection, click the exclusion icon again. ^[data-classificati
 
 - [Databricks Data Classification](/concepts/databricks-data-classification.md) — The AI agent that detects sensitive data
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) — Governance framework that uses tags for access policies
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — Dynamic column masking based on classification tags
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — Dynamic column masking based on classification tags
 - [Governed Tags](/concepts/governed-tags.md) — The tag system used for classification and access control
 - [Supported classification tags](/concepts/classification-tags-and-governed-tags-system.md) — The complete list of tags the classification engine can detect
 - [Data Classification Results](/concepts/data-classification-results-page.md) — The system table and UI for reviewing detections

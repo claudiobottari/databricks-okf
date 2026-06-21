@@ -15,6 +15,7 @@ x-llmwiki:
     - Row Filter Policy
     - Row filter policy
     - row filter policy
+    - abac-row-filter-policies
   citations:
     - file: core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md
     - file: create-and-manage-row-filter-and-column-mask-policies-databricks-on-aws.md
@@ -120,8 +121,8 @@ The source material directs readers to [When to use ABAC vs table-level row filt
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – Restrict or transform column values rather than rows.
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) – Dynamically grant privileges (currently for models).
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – Restrict or transform column values rather than rows.
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) – Dynamically grant privileges (currently for models).
 - [Governed Tags](/concepts/governed-tags.md) – The attributes used in policy conditions.
 - [Row Filters and Column Masks (table-level)](/concepts/row-filters-and-column-masks.md) – Alternative per-object approach.
 - Policy Evaluation Order – How multiple ABAC policies are evaluated together.

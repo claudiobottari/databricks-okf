@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - delta-lake-protocol-change-conflicts
     - DLPCC
+    - delta-lake-protocol-upgrade-conflicts
+    - DLPUC
+    - delta-lake-table-protocol-upgrade-conflicts
+    - DLTPUC
   citations:
     - file: delta_concurrent_append-error-condition-databricks-on-aws.md
 title: Delta Lake Protocol Change Conflicts

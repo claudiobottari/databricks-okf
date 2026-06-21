@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - databricks-connect-github-examples
     - DCGE
+    - databricks-connect-github-examples-repository
+    - DCGER
+    - databricks-connect-github-repository
+    - DCGR
+    - MLflow GitHub repository
+    - git repository
   citations:
     - file: code-examples-for-databricks-connect-for-python-databricks-on-aws.md
 title: Databricks Connect GitHub Examples

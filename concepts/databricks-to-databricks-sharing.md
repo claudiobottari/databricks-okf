@@ -17,6 +17,8 @@ x-llmwiki:
     - Databricks-to-Databricks OpenSharing
     - Databricks-to-Databricks Sharing Protocol
     - Read data shared using Databricks-to-Databricks OpenSharing
+    - databricks-to-databricks-sharing-model
+    - DSM
   citations:
     - file: access-data-shared-with-you-using-opensharing-for-recipients-databricks-on-aws.md
     - file: create-data-recipients-for-opensharing-databricks-to-databricks-sharing-databricks-on-aws.md

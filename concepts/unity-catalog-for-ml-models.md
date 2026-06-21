@@ -14,6 +14,9 @@ x-llmwiki:
     - UCFMM
     - Unity Catalog Models
     - Train and Register Unity Catalog–Compatible Models
+    - unity-catalog-for-ml-model-management
+    - UCFMMM
+    - unity-catalog-for-model-management
   citations:
     - file: fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md
 title: Unity Catalog for ML Models

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-connect-authentication-for-r
     - DCAFR
+    - databricks-personal-access-token-authentication-for-r
+    - DPATAFR
   citations:
     - file: databricks-connect-for-r-databricks-on-aws.md
 title: Databricks Connect Authentication for R

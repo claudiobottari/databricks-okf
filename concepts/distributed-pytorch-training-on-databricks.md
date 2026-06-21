@@ -55,7 +55,7 @@ distributor.run(train_fn, 1e-3)
 
 ### Fully Sharded Data Parallel (FSDP)
 
-For training large models (20B to 120B+ parameters), Databricks recommends [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md). FSDP shards model parameters, gradients, and optimizer states across GPUs, drastically reducing per‑GPU memory usage. This enables training models that would otherwise exceed single‑GPU memory. ^[fully-sharded-data-parallel-fsdp-training-databricks-on-aws.md]
+For training large models (20B to 120B+ parameters), Databricks recommends [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md). FSDP shards model parameters, gradients, and optimizer states across GPUs, drastically reducing per‑GPU memory usage. This enables training models that would otherwise exceed single‑GPU memory. ^[fully-sharded-data-parallel-fsdp-training-databricks-on-aws.md]
 
 FSDP is preferred over standard [Distributed Data Parallel (DDP)](/concepts/distributed-data-parallel-ddp.md) for models that do not fit in a single GPU. For even more advanced memory optimization, practitioners may use [DeepSpeed](/concepts/deepspeed.md) as an alternative. ^[fully-sharded-data-parallel-fsdp-training-databricks-on-aws.md]
 

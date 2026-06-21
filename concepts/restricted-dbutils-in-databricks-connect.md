@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - restricted-dbutils-in-databricks-connect
     - RDIDC
+    - limitations-of-dbutils-in-databricks-connect
+    - LODIDC
+    - Limitations of Databricks Connect
   citations:
     - file: databricks-utilities-with-databricks-connect-for-python-databricks-on-aws.md
 title: Restricted dbutils in Databricks Connect

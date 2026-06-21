@@ -110,7 +110,7 @@ Class-based `Scorer` subclasses are **only supported for offline evaluation** wi
 
 - [Custom Scorers](/concepts/custom-scorers-mlflow-genai.md) — Overview of all types of custom scorers.
 - [@scorer decorator](/concepts/scorer-decorator.md) — Simpler, stateless way to define a scorer.
-- [Scorer Base Class](/concepts/scorer-class-pydantic-base-class.md) — API reference for the `Scorer` class.
+- [Scorer Base Class](/concepts/scorer-class.md) — API reference for the `Scorer` class.
 - [Feedback Object](/concepts/feedback-object.md) — The return type for complex scoring results.
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Deployment of scorers for continuous evaluation.
 - Naming of Custom Scorers — Full rules for metric naming.

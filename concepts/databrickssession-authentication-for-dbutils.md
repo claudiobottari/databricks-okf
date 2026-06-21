@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databrickssession-authentication-for-dbutils
     - DAFD
+    - databrickssession-authentication-for-scala-utilities
+    - DAFSU
   citations:
     - file: databricks-utilities-with-databricks-connect-for-scala-databricks-on-aws.md
 title: DatabricksSession Authentication for DBUtils

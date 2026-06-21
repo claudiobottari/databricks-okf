@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - deepspeed-zero-stage-2
     - DZS2
+    - deepspeed-zero-stage-1
+    - DZS1
+    - ZeRO Stage 1
   citations:
     - file: distributed-training-using-deepspeed-databricks-on-aws.md
 title: DeepSpeed ZeRO Stage 2
@@ -33,7 +36,7 @@ DeepSpeed's ZeRO (Zero Redundancy Optimizer) framework provides three stages of 
 
 ## How ZeRO Stage 2 Works
 
-During training, each process in a distributed setup independently computes its portion of the model's gradients through backpropagation. In ZeRO Stage 2, these gradients are partitioned across processes rather than being fully replicated on every device. Each process retains only the gradient shard it needs to update its corresponding optimizer state partition. This distribution enables each device to handle larger model partitions than would fit in its memory under [ZeRO Stage 1](/concepts/deepspeed-zero-stage-1.md). ^[distributed-training-using-deepspeed-databricks-on-aws.md]
+During training, each process in a distributed setup independently computes its portion of the model's gradients through backpropagation. In ZeRO Stage 2, these gradients are partitioned across processes rather than being fully replicated on every device. Each process retains only the gradient shard it needs to update its corresponding optimizer state partition. This distribution enables each device to handle larger model partitions than would fit in its memory under [ZeRO Stage 1](/concepts/deepspeed-zero-stage-2.md). ^[distributed-training-using-deepspeed-databricks-on-aws.md]
 
 ## Technical Details
 
@@ -45,7 +48,7 @@ ZeRO Stage 2 reduces redundant storage of gradients across processes. In a stand
 
 | Stage | Optimizer States | Gradients | Model Parameters |
 |-------|-----------------|-----------|-----------------|
-| [ZeRO Stage 1](/concepts/deepspeed-zero-stage-1.md) | Partitioned | Replicated | Replicated |
+| [ZeRO Stage 1](/concepts/deepspeed-zero-stage-2.md) | Partitioned | Replicated | Replicated |
 | **ZeRO Stage 2** | Partitioned | Partitioned | Replicated |
 | [ZeRO Stage 3](/concepts/deepspeed-zero-stage-3.md) | Partitioned | Partitioned | Partitioned |
 
@@ -69,7 +72,7 @@ For smaller models, [DDP (Distributed Data Parallel)](/concepts/distributed-data
 ## Related Concepts
 
 - [DeepSpeed](/concepts/deepspeed.md) — The library providing ZeRO optimization stages
-- [ZeRO Stage 1](/concepts/deepspeed-zero-stage-1.md) — Optimizer state partitioning, the foundation for Stage 2
+- [ZeRO Stage 1](/concepts/deepspeed-zero-stage-2.md) — Optimizer state partitioning, the foundation for Stage 2
 - [ZeRO Stage 3](/concepts/deepspeed-zero-stage-3.md) — Full model parameter partitioning for extreme memory savings
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md) — The broader context of multi-device model training
 - [Large Language Models](/concepts/large-language-models-llms-on-databricks.md) — Model architectures that benefit from ZeRO Stage 2

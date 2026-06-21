@@ -13,6 +13,9 @@ x-llmwiki:
     - deltatimeuntilarchived
     - Delta Time Until Archived
     - Delta timeUntilArchived
+    - deltatimeuntilarchived-table-property
+    - DTP
+    - delta.timeUntilArchived Property
   citations:
     - file: archival-support-in-databricks-databricks-on-aws.md
 title: delta.timeUntilArchived

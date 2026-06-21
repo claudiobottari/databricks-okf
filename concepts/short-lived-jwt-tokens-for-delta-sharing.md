@@ -65,7 +65,7 @@ Databricks acts only as a validation endpoint: it federates authentication to th
 ## Related Concepts
 
 - [OIDC Federation Policy](/concepts/oidc-federation-policy.md) – The configuration that defines which IdP and which identities are trusted.
-- [Bearer Tokens for Delta Sharing](/concepts/bearer-token-authentication-for-delta-sharing.md) – The alternative, long-lived authentication method.
+- [Bearer Tokens for Delta Sharing](/concepts/bearer-token-authentication-for-open-sharing.md) – The alternative, long-lived authentication method.
 - [OpenSharing](/concepts/opensharing.md) – The cross-platform sharing protocol that supports OIDC federation.
 - [Identity Provider](/concepts/internal-vs-external-identity-providers.md) – The external system (e.g., Microsoft Entra ID, Okta) that issues the JWT.
 - [Unity Catalog](/concepts/unity-catalog.md) – The permission system underlying access control for shares.

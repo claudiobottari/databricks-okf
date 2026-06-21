@@ -13,6 +13,7 @@ x-llmwiki:
     - must_refresh_same_table
     - MUST_REFRESH_SAME_TABLE
     - refresh the table
+    - must_refresh_same_table-error
   citations:
     - file: delta_uniform_iceberg_ingress_violation-error-condition-databricks-on-aws.md
 title: MUST_REFRESH_SAME_TABLE

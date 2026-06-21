@@ -65,7 +65,7 @@ After experts provide their ground truth annotations in the labeling session, yo
 ### Related Concepts
 
 - [MLflow Tracing](/concepts/mlflow-tracing.md)
-- [MLflow Labeling Sessions](/concepts/mlflow-labeling-sessions.md)
+- [MLflow Labeling Sessions](/concepts/labeling-session.md)
 - [MLflow Scorers](/concepts/mlflow-scorers.md)
 - [Human Feedback in GenAI](/concepts/multi-level-human-feedback-in-genai-pipelines.md)
 - Build Evaluation Datasets for GenAI

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - langchaintool-with-feature-serving
     - LWFS
+    - langchain-tool-for-feature-serving
+    - LTFFS
   citations:
     - file: example-use-features-with-structured-rag-applications-databricks-on-aws.md
 title: LangChainTool with Feature Serving

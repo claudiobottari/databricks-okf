@@ -77,7 +77,7 @@ Workloads launched using the Python API automatically integrate with [MLflow Tra
 - [MLflow Tracking](/concepts/mlflow-tracking.md) — Experiment tracking and model management
 - [Ray on Databricks](/concepts/ray-on-databricks.md) — Distributed computing framework
 - Databricks Notebooks — Interactive development environment
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — Governance for AI assets
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — Governance for AI assets
 
 ## Sources
 

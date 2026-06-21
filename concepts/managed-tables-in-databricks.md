@@ -71,7 +71,7 @@ This error occurs when you try to enable a feature (such as IcebergCompat) that 
 
 Managed tables are the recommended choice for most Databricks workloads because:
 - They simplify data management by automating file cleanup and storage location.
-- They are required for advanced features like [Uniform (UniForm)](/concepts/delta-uniform-uniform.md) and Apache Iceberg compatibility.
+- They are required for advanced features like [Uniform (UniForm)](/concepts/delta-uniform.md) and Apache Iceberg compatibility.
 - They integrate seamlessly with [Delta Lake](/concepts/delta-lake.md) table features.
 
 However, external tables may be preferred when you need to share data across multiple systems or maintain data in a specific location outside Databricks control.
@@ -86,7 +86,7 @@ However, external tables may be preferred when you need to share data across mul
 
 - External Tables in Databricks – Tables where you manage the underlying data location.
 - [IcebergCompatV2](/concepts/icebergcompatv2.md) – A Uniform compatibility version that requires managed tables.
-- [Uniform (UniForm)](/concepts/delta-uniform-uniform.md) – Feature enabling Apache Iceberg reader compatibility.
+- [Uniform (UniForm)](/concepts/delta-uniform.md) – Feature enabling Apache Iceberg reader compatibility.
 - DELTA_ICEBERG_COMPAT_V1_VIOLATION|DELTA_ICEBERG_COMPAT_VIOLATION – Error class covering managed table requirements.
 - [Delta Lake](/concepts/delta-lake.md) – The underlying storage format for managed tables.
 - Databricks Metastore – The metadata catalog for managed and external tables.

@@ -14,6 +14,8 @@ x-llmwiki:
     - 3LW
     - 30‑Day Lookback Window
     - lookback_window
+    - 30-day-lookback-window-limitation
+    - 3LWL
   citations:
     - file: data-profiling-metric-tables-databricks-on-aws.md
 title: 30-Day Lookback Window

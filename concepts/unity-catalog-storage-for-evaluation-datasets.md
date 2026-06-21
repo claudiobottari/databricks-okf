@@ -120,7 +120,7 @@ You can update an evaluation dataset using either the UI or the SDK:
 
 ### Limitations
 
-- Evaluation datasets cannot be stored in catalogs encrypted with [customer-managed keys (CMK)](/concepts/customer-managed-keys-cmk-for-online-feature-stores.md). Workspaces with CMK are supported as long as the dataset is stored in a non-CMK catalog.
+- Evaluation datasets cannot be stored in catalogs encrypted with [customer-managed keys (CMK)](/concepts/customer-managed-keys-for-online-feature-stores.md). Workspaces with CMK are supported as long as the dataset is stored in a non-CMK catalog.
 - Maximum of 2000 rows per evaluation dataset.
 - Maximum of 20 expectations per dataset record.
 

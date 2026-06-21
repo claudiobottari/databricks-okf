@@ -60,7 +60,7 @@ A join with data in the legacy Hive [Metastore](/concepts/metastore.md) will onl
 
 ## Related Concepts
 
-- [Unity Catalog privileges reference](/concepts/unity-catalog-privileges-and-ownership.md)
+- [Unity Catalog privileges reference](/concepts/privileges-and-ownership.md)
 - [Legacy table access control](/concepts/table-access-control-tacl.md)
 - [Hive Metastore Federation](/concepts/hive-metastore-federation.md)
 - [Upgrade a workspace to Unity Catalog](/concepts/workspace-catalog-unity-catalog.md)

@@ -14,6 +14,9 @@ x-llmwiki:
     - Deprecation and Data Certification
     - DCAD
     - Certification and Deprecation
+    - data-certification-and-deprecation-signals
+    - Deprecation Signals and Data Certification
+    - DCADS
   citations:
     - file: data-discovery-in-unity-catalog-databricks-on-aws.md
 title: Data Certification and Deprecation

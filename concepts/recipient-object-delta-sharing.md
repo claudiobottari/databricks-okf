@@ -126,7 +126,7 @@ Custom recipient properties can be added on the recipient **Overview** tab using
 - [Delta Sharing Shares](/concepts/delta-sharing.md)
 - [Unity Catalog Metastore](/concepts/unity-catalog-metastore.md)
 - [IP Access Lists for OpenSharing](/concepts/ip-access-lists-for-opensharing-recipients.md)
-- [Recipient Token Lifetime Configuration](/concepts/recipient-token-lifetime-configuration.md)
+- [Recipient Token Lifetime Configuration](/concepts/recipient-token-lifetime.md)
 
 ## Sources
 

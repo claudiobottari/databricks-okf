@@ -23,6 +23,8 @@ x-llmwiki:
     - Governed Tag|governed tags
     - Governed tag policies
     - system governed tags
+    - governed-tags-in-unity-catalog
+    - GTIUC
   citations:
     - file: core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md
     - file: tutorial-configure-abac-with-sql-databricks-on-aws.md
@@ -153,9 +155,9 @@ USING COLUMNS (4);
 ## Related Concepts
 
 - [ABAC](/concepts/abac-attribute-based-access-control.md) – Access control model that uses governed tags.
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) – Restrict rows based on tag conditions.
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – Mask column values based on tag conditions.
-- [ABAC GRANT Policies (Beta)](/concepts/abac-grant-policies.md) – Dynamically grant privileges using governed tags.
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) – Restrict rows based on tag conditions.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – Mask column values based on tag conditions.
+- [ABAC GRANT Policies (Beta)](/concepts/abac-grant-policy.md) – Dynamically grant privileges using governed tags.
 - [Unity Catalog](/concepts/unity-catalog.md) – The [Metastore](/concepts/metastore.md) where governed tags are defined.
 - User-defined functions (UDFs) in Unity Catalog – Used to implement filtering and masking logic in ABAC policies.
 - [Data Discovery in Unity Catalog](/concepts/data-discovery-in-unity-catalog.md) – How tags improve data discoverability.

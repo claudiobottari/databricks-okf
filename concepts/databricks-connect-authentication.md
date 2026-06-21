@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - databricks-connect-authentication
     - DCA
+    - databricks-connect-authentication-methods
+    - DCAM
+    - databricks-connect-authentication-types
+    - DCAT
   citations:
     - file: databricks-connect-usage-requirements-databricks-on-aws.md
 title: Databricks Connect Authentication

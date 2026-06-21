@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - customizable-judge-models
     - CJM
+    - customizable-judge-models-in-mlflow
+    - CJMIM
   citations:
     - file: safety-judge-databricks-on-aws.md
 title: Customizable Judge Models

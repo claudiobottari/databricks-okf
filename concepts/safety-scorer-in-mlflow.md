@@ -15,6 +15,10 @@ x-llmwiki:
     - Safety Scorer
     - Safety scorer
     - Safety scorers
+    - safety-scorer-in-mlflow-genai
+    - SSIMG
+    - safety-scorer-mlflow-genai
+    - SS(G
   citations:
     - file: backfill-historical-traces-with-scorers-databricks-on-aws.md
 title: Safety Scorer in MLflow

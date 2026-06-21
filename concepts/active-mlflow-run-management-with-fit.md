@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - active-mlflow-run-management-with-fit
     - AMRMWF
+    - mlflow-active-run-management-with-fit
+    - MARMWF
   citations:
     - file: apache-spark-mllib-and-automated-mlflow-tracking-databricks-on-aws.md
 title: Active MLflow Run Management with fit()

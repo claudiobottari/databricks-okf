@@ -15,6 +15,8 @@ x-llmwiki:
     - AI Runtime (air) CLI
     - AI Runtime CLI (Beta)
     - AI Runtime CLI examples
+    - ai-runtime-cli-databricks
+    - ARC(
   citations:
     - file: ai-runtime-cli-databricks-on-aws.md
     - file: ai-runtime-cli-quickstart-databricks-on-aws.md

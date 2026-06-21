@@ -14,6 +14,9 @@ x-llmwiki:
     - SMFFT
     - Standard metadata fields for traces
     - Standard Metadata Fields
+    - standardized-metadata-fields-for-mlflow-traces
+    - SMFFMT
+    - Standard metadata fields for MLflow traces
   citations:
     - file: add-context-to-traces-databricks-on-aws.md
 title: Standardized Metadata Fields for Traces

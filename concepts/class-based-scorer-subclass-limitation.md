@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - class-based-scorer-subclass-limitation
     - CSSL
+    - class-based-scorer-subclasses-limitation
   citations:
     - file: code-based-scorers-databricks-on-aws.md
 title: Class-based Scorer subclass limitation

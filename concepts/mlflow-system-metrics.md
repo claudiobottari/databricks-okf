@@ -15,6 +15,9 @@ x-llmwiki:
     - System Metrics
     - System metrics
     - system metrics
+    - mlflow-system-metrics-monitoring
+    - MSMM
+    - System Metrics Logging
   citations:
     - file: build-dashboards-with-mlflow-metadata-in-system-tables-databricks-on-aws.md
 title: MLflow System Metrics

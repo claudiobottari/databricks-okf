@@ -29,7 +29,7 @@ timestamp: "2026-06-18T15:09:24.931Z"
 
 ## Overview
 
-An [Online Table (legacy)](/concepts/databricks-online-tables-legacy.md) is a read‑only copy of a Delta Table stored in a row‑oriented format optimised for low‑latency, high‑throughput lookups (e.g., for Model Serving, Feature Serving, or RAG applications). By integrating these tables with [Lakehouse Federation](/concepts/lakehouse-federation-data-sharing.md), users can run standard `SELECT` queries against online tables from Serverless SQL warehouses, enabling quick validation of the data that is being served. ^[databricks-online-tables-legacy-databricks-on-aws.md]
+An [Online Table (legacy)](/concepts/databricks-online-tables.md) is a read‑only copy of a Delta Table stored in a row‑oriented format optimised for low‑latency, high‑throughput lookups (e.g., for Model Serving, Feature Serving, or RAG applications). By integrating these tables with [Lakehouse Federation](/concepts/lakehouse-federation-data-sharing.md), users can run standard `SELECT` queries against online tables from Serverless SQL warehouses, enabling quick validation of the data that is being served. ^[databricks-online-tables-legacy-databricks-on-aws.md]
 
 ## Requirements
 
@@ -54,7 +54,7 @@ Use Lakehouse Federation when you need to quickly inspect the contents of an onl
 
 ## Related Concepts
 
-- [Online Table (legacy)](/concepts/databricks-online-tables-legacy.md) – The row‑oriented serverless copy of a Delta table.
+- [Online Table (legacy)](/concepts/databricks-online-tables.md) – The row‑oriented serverless copy of a Delta table.
 - [Lakehouse Federation](/concepts/lakehouse-federation-data-sharing.md) – The Databricks feature for querying external data sources.
 - Serverless SQL Warehouse – The compute required to query online tables via federation.
 - [Feature Serving Endpoint](/concepts/feature-serving-endpoint.md) – The recommended way to serve online table data for production.

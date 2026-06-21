@@ -51,7 +51,7 @@ Tokens issued through the bearer token method are valid for a maximum of one yea
 
 - [Recipient Object (Delta Sharing)](/concepts/recipient-object-delta-sharing.md) — The object that represents the data consumer.
 - [Activation Link (Delta Sharing)](/concepts/activation-link-delta-sharing.md) — The URL used to download the credential file.
-- [Bearer token (Delta Sharing)](/concepts/bearer-token-authentication-for-delta-sharing.md) — The authentication credential embedded in the file.
+- [Bearer token (Delta Sharing)](/concepts/bearer-token-authentication-for-open-sharing.md) — The authentication credential embedded in the file.
 - [OpenSharing](/concepts/opensharing.md) — The sharing model that uses bearer tokens or OIDC federation.
 - [Token rotation](/concepts/recipient-token-rotation.md) — The process of replacing an expiring or compromised token.
 - [Databricks-to-Open Sharing](/concepts/databricks-to-open-sharing.md) — Sharing data with recipients who do not have a Databricks workspace.

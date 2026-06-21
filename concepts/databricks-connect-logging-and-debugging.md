@@ -13,6 +13,11 @@ x-llmwiki:
     - databricks-connect-logging-and-debugging
     - Debugging and Databricks Connect Logging
     - DCLAD
+    - databricks-connect-logging-and-debug-logs
+    - Debug Logs and Databricks Connect Logging
+    - DCLADL
+    - databricks-connect-logging-configuration
+    - DCLC
   citations:
     - file: advanced-usage-of-databricks-connect-databricks-on-aws.md
 title: Databricks Connect Logging and Debugging

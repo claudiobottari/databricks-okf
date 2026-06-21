@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - serverless_gpu-distributed-training
     - SDT
+    - serverless_gpu-distributed-training-on-databricks
+    - SDTOD
+    - Serverless GPU Distributed Training on Databricks
   citations:
     - file: distributed-finetune-llama-32-3b-with-unsloth-on-multiple-gpus-databricks-on-aws.md
 title: serverless_gpu Distributed Training

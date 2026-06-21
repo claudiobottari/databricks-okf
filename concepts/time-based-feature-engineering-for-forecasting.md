@@ -113,7 +113,7 @@ Multiple feature table lookups can be provided in the list, enabling you to comb
 
 ## Related Concepts
 
-- [Covariates](/concepts/covariates-external-regressors-in-time-series-forecasting.md)
+- [Covariates](/concepts/covariates-external-regressors-for-forecasting.md)
 - [Feature Store](/concepts/feature-store.md)
 - [AutoML Forecasting](/concepts/automl-forecast.md)
 - [Time Series Forecasting](/concepts/multi-series-forecasting.md)

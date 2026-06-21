@@ -97,7 +97,7 @@ In the serving UI, you configure the maximum tokens per second throughput for yo
 ## Related Concepts
 
 - [Provisioned Throughput Foundation Model APIs](/concepts/provisioned-throughput-foundation-model-apis.md)
-- [Foundation Model Serving on Databricks](/concepts/foundation-model-serving-endpoints-databricks.md)
+- [Foundation Model Serving on Databricks](/concepts/foundation-model-serving-endpoints.md)
 - [Model Serving Endpoint](/concepts/model-serving-endpoint.md)
 - [Tokens per Second](/concepts/tokens-per-second-as-a-scaling-metric.md)
 

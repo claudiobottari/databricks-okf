@@ -51,7 +51,7 @@ The resulting dataset can be iterated over to access individual time series entr
 
 - **Direct DataFrame conversion**: Converts columns of a DataFrame directly into individual time series with their column names as identifiers.
 - **Type handling**: Accepts data as `np.float32` for compatibility with PyTorch-based GluonTS models.
-- **Integration with GluonTS ecosystem**: Works with DateSplitter for train/test splitting, [DeepAREstimator](/concepts/deepar-estimator.md) for model training, and Evaluator for performance metrics. ^[forecasting-time-series-with-gluonts-databricks-on-aws.md]
+- **Integration with GluonTS ecosystem**: Works with DateSplitter for train/test splitting, [DeepAREstimator](/concepts/deepar.md) for model training, and Evaluator for performance metrics. ^[forecasting-time-series-with-gluonts-databricks-on-aws.md]
 
 ## Practical Example
 
@@ -67,7 +67,7 @@ The dataset can then be split using `DateSplitter.split(ts_dataset)` and used to
 
 - [GluonTS](/concepts/gluonts.md) — The library providing PandasDataset and other time series forecasting tools.
 - DateSplitter — Utility for creating train/test splits from a PandasDataset.
-- [DeepAREstimator](/concepts/deepar-estimator.md) — A probabilistic forecasting model that accepts PandasDataset as training data.
+- [DeepAREstimator](/concepts/deepar.md) — A probabilistic forecasting model that accepts PandasDataset as training data.
 - [Time Series Forecasting](/concepts/multi-series-forecasting.md) — The broader task that PandasDataset supports.
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) — The Databricks compute environment used in the GluonTS tutorial.
 

@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - ssltls-certificates-for-databricks-connect
     - SCFDC
+    - custom-ssltls-certificates-for-databricks-connect
+    - CSCFDC
+    - ssltls-certificate-configuration-for-databricks-connect
+    - SCCFDC
+    - SSL/TLS Certificate Trust Store
   citations:
     - file: advanced-usage-of-databricks-connect-databricks-on-aws.md
 title: SSL/TLS Certificates for Databricks Connect

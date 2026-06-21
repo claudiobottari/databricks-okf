@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - xgboost-regression-with-cross-validation
     - XRWC
+    - xgboost-regression-with-cross-validation-notebook
+    - XRWCN
   citations:
     - file: distributed-training-of-xgboost-models-using-scala-databricks-on-aws.md
 title: XGBoost Regression with Cross-Validation

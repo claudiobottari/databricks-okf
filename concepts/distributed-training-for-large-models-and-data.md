@@ -43,7 +43,7 @@ For these workloads, Databricks Runtime ML includes several distributed training
 
 ### DeepSpeed Distributor
 
-The [DeepSpeed](/concepts/deepspeed.md) distributor is built on top of [TorchDistributor](/concepts/torchdistributor.md) and is the recommended solution for models requiring higher compute power while being constrained by memory. Developed by Microsoft as an open-source library, DeepSpeed offers optimized memory usage, reduced communication overhead, and advanced pipeline parallelism. It is particularly suited for training very large models that benefit from [pipeline parallelism](/concepts/pipeline-parallelism-in-deepspeed.md) and [ZeRO optimization](/concepts/deepspeed-zero-stage-3-optimization.md).^[distributed-training-databricks-on-aws.md]
+The [DeepSpeed](/concepts/deepspeed.md) distributor is built on top of [TorchDistributor](/concepts/torchdistributor.md) and is the recommended solution for models requiring higher compute power while being constrained by memory. Developed by Microsoft as an open-source library, DeepSpeed offers optimized memory usage, reduced communication overhead, and advanced pipeline parallelism. It is particularly suited for training very large models that benefit from [pipeline parallelism](/concepts/pipeline-parallelism-in-deepspeed.md) and [ZeRO optimization](/concepts/deepspeed-zero-stage-3.md).^[distributed-training-databricks-on-aws.md]
 
 ### TorchDistributor
 
@@ -69,7 +69,7 @@ The `pyspark.ml.connect` module provides distributed training for Spark ML model
 - [Data Parallelism](/concepts/data-parallelism-spark.md)
 - Model Parallelism
 - [Pipeline Parallelism](/concepts/pipeline-parallelism-in-deepspeed.md)
-- [ZeRO Optimization](/concepts/deepspeed-zero-stage-3-optimization.md)
+- [ZeRO Optimization](/concepts/deepspeed-zero-stage-3.md)
 - GPU Scheduling
 - [Deep learning best practices on Databricks](/concepts/deep-learning-best-practices-on-databricks.md)
 

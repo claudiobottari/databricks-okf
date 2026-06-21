@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-connect-ide-integration
     - DCII
+    - databricks-connect-ide-integration-patterns
+    - DCIIP
   citations:
     - file: databricks-connect-for-databricks-runtime-122-lts-and-below-databricks-on-aws.md
 title: Databricks Connect IDE Integration

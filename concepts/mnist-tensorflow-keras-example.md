@@ -14,6 +14,9 @@ x-llmwiki:
     - MTKE
     - MNIST example
     - TensorFlow Keras
+    - mnist-tensorflow-keras-example-on-databricks
+    - MTKEOD
+    - HorovodRunner TensorFlow and Keras MNIST example
   citations:
     - file: deep-learning-using-tensorflow-with-horovodrunner-for-mnist-databricks-on-aws.md
 title: MNIST TensorFlow Keras Example

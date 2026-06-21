@@ -11,6 +11,10 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - labeling-session
+    - labeling-sessions-mlflow
+    - LS(
+    - mlflow-labeling-sessions
+    - MLS
   citations:
     - file: create-and-manage-labeling-sessions-databricks-on-aws.md
 title: Labeling Session

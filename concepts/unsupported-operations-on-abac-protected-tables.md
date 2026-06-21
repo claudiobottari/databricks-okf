@@ -30,7 +30,7 @@ timestamp: "2026-06-19T20:16:41.521Z"
 
 ## Overview
 
-ABAC (Attribute-Based Access Control) employs a Fail-Closed Design where Databricks defaults to denying access if it cannot verify security. Certain operations are inherently incompatible with [Row Filter and Column Mask Policy](/concepts/row-filter-and-column-mask-policies.md) enforcement because they cannot be safely applied during query execution. For these operations to succeed, the executing principal must be listed in the `EXCEPT` clause of every applicable ABAC policy. ^[row-filter-and-column-mask-policy-evaluation-and-runtime-behavior-databricks-on-aws.md]
+ABAC (Attribute-Based Access Control) employs a Fail-Closed Design where Databricks defaults to denying access if it cannot verify security. Certain operations are inherently incompatible with [Row Filter and Column Mask Policy](/concepts/row-filter-policies.md) enforcement because they cannot be safely applied during query execution. For these operations to succeed, the executing principal must be listed in the `EXCEPT` clause of every applicable ABAC policy. ^[row-filter-and-column-mask-policy-evaluation-and-runtime-behavior-databricks-on-aws.md]
 
 ## Operations Requiring Exemption
 
@@ -56,7 +56,7 @@ To perform these operations, the executing principal must be listed in the `EXCE
 
 - Fail-Closed Design – The security model underlying this restriction.
 - [ABAC Policy Evaluation](/concepts/dynamic-abac-policy-evaluation.md) – How policies are evaluated and enforced.
-- [Row Filter and Column Mask Policy](/concepts/row-filter-and-column-mask-policies.md) – The enforcement mechanism for ABAC policies.
+- [Row Filter and Column Mask Policy](/concepts/row-filter-policies.md) – The enforcement mechanism for ABAC policies.
 - Policies for Exempting Principals – How to configure exemptions for unsupported operations.
 - Unsupported Compute Versions – Specific version requirements for ABAC enforcement.
 

@@ -72,7 +72,7 @@ disable_databricks_trace_archival(experiment_id="YOUR_EXPERIMENT_ID")
 - [[MLflow Trace|MLflow traces]] — The execution traces stored in the archive.
 - [MLflow experiments](/concepts/mlflow-experiment.md) — The organizational unit for which archival is configured.
 - [Production monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Downstream monitoring workflows that can consume archived traces.
-- [Building MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md) — Using archived traces to construct evaluation datasets.
+- [Building MLflow evaluation datasets](/concepts/evaluation-datasets.md) — Using archived traces to construct evaluation datasets.
 
 ## Sources
 

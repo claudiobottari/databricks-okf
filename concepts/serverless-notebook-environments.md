@@ -18,6 +18,8 @@ x-llmwiki:
     - Serverless Notebooks|serverless notebook
     - Serverless notebooks
     - serverless notebook
+    - serverless-notebook-environments-databricks
+    - SNE(
   citations:
     - file: express-deployments-for-model-serving-endpoints-databricks-on-aws.md
 title: Serverless Notebook Environments

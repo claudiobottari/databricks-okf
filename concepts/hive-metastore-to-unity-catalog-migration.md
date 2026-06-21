@@ -14,6 +14,9 @@ x-llmwiki:
     - HMTUCM
     - Hive to Unity Catalog Migration
     - upgrade tables managed by the Hive metastore to Unity Catalog
+    - hive-metastore-to-unity-catalog-table-migration
+    - HMTUCTM
+    - Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard
   citations:
     - file: convert-to-delta-lake-databricks-on-aws.md
 title: Hive Metastore to Unity Catalog Migration

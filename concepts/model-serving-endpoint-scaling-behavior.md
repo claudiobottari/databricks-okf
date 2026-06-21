@@ -64,7 +64,7 @@ For high QPS and low latency use cases, route optimization is the optimal and re
 - [Create custom model serving endpoints](/concepts/custom-model-serving-endpoint-support.md)
 - [Query serving endpoints for custom models](/concepts/model-serving-endpoint-custom-models.md)
 - [Route optimization on serving endpoints](/concepts/route-optimization-for-serving-endpoints.md)
-- [Express deployments for model serving endpoints](/concepts/express-deployments-for-model-serving.md)
+- [Express deployments for model serving endpoints](/concepts/express-deployments-databricks.md)
 - Model Serving Debugging
 - [Pre-deployment Validation for Model Serving](/concepts/pre-deployment-validation-for-model-serving.md)
 

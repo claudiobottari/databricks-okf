@@ -70,7 +70,7 @@ Beyond asset-level governance, [Unity AI Gateway](/concepts/unity-ai-gateway.md)
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance platform underlying all securable assets
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) — Policies that can grant access based on tags
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) — Dynamic permission policies using governed tags
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) — Dynamic permission policies using governed tags
 - MLflow Models — The model registry used for Unity Catalog models
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — Endpoints for Databricks-hosted models
 - [Unity AI Gateway](/concepts/unity-ai-gateway.md) — Enterprise control plane for AI traffic governance

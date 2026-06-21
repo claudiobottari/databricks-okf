@@ -34,7 +34,7 @@ Many modern LLMs, especially those designed for dialogue, rely on a special toke
 
 ### Applying a Chat Template in TRL
 
-When fine-tuning with the [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) library’s `SFTTrainer`, the tokenizer’s `chat_template` property is checked at the start of training. If no template is set — a common scenario for base models — the `setup_chat_format()` utility from `trl` can be used to attach a ChatML format:
+When fine-tuning with the [TRL](/concepts/trl-transformer-reinforcement-learning.md) library’s `SFTTrainer`, the tokenizer’s `chat_template` property is checked at the start of training. If no template is set — a common scenario for base models — the `setup_chat_format()` utility from `trl` can be used to attach a ChatML format:
 
 ```python
 if tokenizer.chat_template is None:
@@ -58,7 +58,7 @@ When registering the fine-tuned model in [Unity Catalog](/concepts/unity-catalog
 - LoRA – Parameter-efficient fine-tuning; chat template formatting is applied regardless of whether LoRA is used.
 - Qwen2 – The 0.5B model used in the source example; any decoder-only model benefits from a chat template.
 - Tokenization – The process that uses the chat template to format input strings into token IDs.
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) – The library providing `setup_chat_format()` and `SFTTrainer`.
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md) – The library providing `setup_chat_format()` and `SFTTrainer`.
 
 ### Sources
 

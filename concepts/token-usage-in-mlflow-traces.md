@@ -13,6 +13,9 @@ x-llmwiki:
     - token-usage-in-mlflow-traces
     - TUIMT
     - Token usage display in MLflow traces
+    - token-usage-tracking-in-mlflow-traces
+    - TUTIMT
+    - token-usage-tracking-in-mlflow-tracing
   citations:
     - file: access-trace-data-databricks-on-aws.md
 title: Token Usage in MLflow Traces

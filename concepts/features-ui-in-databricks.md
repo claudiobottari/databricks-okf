@@ -63,7 +63,7 @@ Because Feature Engineering in Unity Catalog governs all feature tables, functio
 ## Related Concepts
 
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md)
-- [Feature Tables](/concepts/feature-tables.md)
+- [Feature Tables](/concepts/feature-table.md)
 - [Online store](/concepts/online-feature-store.md)
 - Tags in Unity Catalog
 - [Primary key constraint](/concepts/primary-key-constraint-for-feature-tables.md)

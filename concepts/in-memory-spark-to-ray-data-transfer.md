@@ -13,6 +13,8 @@ x-llmwiki:
     - in-memory-spark-to-ray-data-transfer
     - ISTRDT
     - In-memory Spark to Ray Transfer
+    - in-memory-spark-to-ray-data-transfer-on-databricks
+    - ISDTOD
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
@@ -118,7 +120,7 @@ ray_ds = ray.data.from_spark(df, use_spark_chunk_api=False)
 
 ## Related Concepts
 
-- [Combine Ray and Spark in the same environment on Databricks](/concepts/ray-and-spark-integration-on-databricks.md) — The broader integration framework for running both engines together.
+- [Combine Ray and Spark in the same environment on Databricks](/concepts/ray-spark-integration-on-databricks.md) — The broader integration framework for running both engines together.
 - [Write Ray Data to Spark](/concepts/writing-ray-data-to-unity-catalog.md) — The reverse operation for transferring data from Ray back to Spark.
 - Ray Data API — The Ray dataset abstraction used for distributed data processing.
 - [Delta Lake](/concepts/delta-lake.md) — The storage layer that supports data exchange between Spark and Ray.

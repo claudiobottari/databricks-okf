@@ -12,6 +12,15 @@ x-llmwiki:
   aliases:
     - databricks-connect-support-lifecycle
     - DCSL
+    - databricks-connect-end-of-support-lifecycle
+    - DCEL
+    - databricks-runtime-support-lifecycles-for-databricks-connect
+    - DRSLFDC
+    - databricks-runtime-support-lifecycles
+    - DRSL
+    - Databricks Runtime support lifecycle
+    - Support lifecycles
+    - support lifecycles
   citations:
     - file: databricks-connect-usage-requirements-databricks-on-aws.md
 title: Databricks Connect Support Lifecycle
@@ -29,7 +38,7 @@ timestamp: "2026-06-18T15:05:31.497Z"
 
 ## Support Lifecycle Policy
 
-Databricks Connect adheres to the [Databricks Runtime Support Lifecycles](/concepts/databricks-runtime-support-lifecycles.md) policy. When a Databricks Runtime version reaches end-of-support (EOS), the corresponding Databricks Connect package also reaches end-of-support. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
+Databricks Connect adheres to the [Databricks Runtime Support Lifecycles](/concepts/databricks-connect-support-lifecycle.md) policy. When a Databricks Runtime version reaches end-of-support (EOS), the corresponding Databricks Connect package also reaches end-of-support. ^[databricks-connect-usage-requirements-databricks-on-aws.md]
 
 ### End-of-Support Versions
 
@@ -73,13 +82,13 @@ When upgrading to a newer Databricks Connect version:
 
 To determine if your Databricks Connect version is supported:
 
-- Check the [Databricks Runtime Support Lifecycles](/concepts/databricks-runtime-support-lifecycles.md) page for the support status of the corresponding Databricks Runtime version.
+- Check the [Databricks Runtime Support Lifecycles](/concepts/databricks-connect-support-lifecycle.md) page for the support status of the corresponding Databricks Runtime version.
 - Review the Databricks Connect Release Notes for version-specific announcements.
 - Check the Serverless Compute Release Notes for serverless compatibility information.
 
 ## Related Concepts
 
-- [Databricks Runtime Support Lifecycles](/concepts/databricks-runtime-support-lifecycles.md)
+- [Databricks Runtime Support Lifecycles](/concepts/databricks-connect-support-lifecycle.md)
 - [Databricks Connect](/concepts/databricks-connect.md)
 - [Databricks Connect Version Requirements](/concepts/databricks-connect-requirements.md)
 - Databricks Connect Validation

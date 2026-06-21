@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - limitations-of-distributed-xgboost
     - LODX
+    - limitations-of-distributed-xgboost-on-databricks
+    - LODXOD
   citations:
     - file: distributed-training-of-xgboost-models-using-sparkdlxgboost-databricks-on-aws.md
 title: Limitations of Distributed XGBoost

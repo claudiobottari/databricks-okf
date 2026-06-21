@@ -13,6 +13,8 @@ x-llmwiki:
     - model-serving-endpoint-creation-options
     - MSECO
     - Model Serving Endpoint Creation
+    - model-serving-endpoint-creation-methods
+    - MSECM
   citations:
     - file: create-foundation-model-serving-endpoints-databricks-on-aws.md
 title: Model Serving Endpoint Creation Options

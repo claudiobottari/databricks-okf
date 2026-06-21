@@ -19,6 +19,11 @@ x-llmwiki:
     - LiteLLMModel
     - available external models
     - external model providers
+    - external-models-databricks
+    - EM(
+    - external-models-in-databricks
+    - EMID
+    - External Tables in Databricks
   citations:
     - file: create-foundation-model-serving-endpoints-databricks-on-aws.md
     - file: deploy-models-using-model-serving-databricks-on-aws.md

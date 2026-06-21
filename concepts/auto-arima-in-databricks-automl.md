@@ -45,7 +45,7 @@ During a serverless forecasting experiment, Databricks AutoML goes through sever
 2. **Tuning**: Explores different forecasting algorithms (including Auto-ARIMA) and tunes hyperparameters.
 3. **Training**: Trains and evaluates the final model with the selected best configurations.
 
-Auto-ARIMA is considered alongside other algorithms during the tuning stage as part of the selected [Training Framework](/concepts/horovod-distributed-training-framework.md). ^[forecasting-serverless-with-automl-databricks-on-aws.md]
+Auto-ARIMA is considered alongside other algorithms during the tuning stage as part of the selected [Training Framework](/concepts/horovod.md). ^[forecasting-serverless-with-automl-databricks-on-aws.md]
 
 ## Configuration
 
@@ -64,7 +64,7 @@ The forecast frequency must match the regular frequency required by Auto-ARIMA (
 - [Serverless Forecasting](/concepts/databricks-serverless-forecasting.md) – The compute infrastructure for running AutoML forecasting experiments
 - Time Series Analysis – The broader field of analyzing time-ordered data
 - [Hyperparameter Tuning](/concepts/hyperparameter-tuning.md) – The process of finding optimal model parameters
-- [Training Framework](/concepts/horovod-distributed-training-framework.md) – The set of algorithms AutoML explores during experiments
+- [Training Framework](/concepts/horovod.md) – The set of algorithms AutoML explores during experiments
 
 ## Sources
 

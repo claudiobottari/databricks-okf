@@ -92,7 +92,7 @@ When you remove an MLflow experiment resource from an app, the app's service pri
 - Databricks Apps — The application platform that hosts MLflow experiment resources
 - Service principal — The identity used by Databricks Apps for authorization
 - [MLflow Tracking API](/concepts/mlflow-tracking.md) — The API used to log runs and access experiment data
-- [Environment variables in Databricks Apps](/concepts/environment-variable-injection-for-databricks-app-resources.md) — How to access resource metadata from application code
+- [Environment variables in Databricks Apps](/concepts/environment-variable-injection-for-app-resources.md) — How to access resource metadata from application code
 
 ## Sources
 

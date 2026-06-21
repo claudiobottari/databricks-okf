@@ -46,7 +46,7 @@ Rate limits vary depending on the endpoint type. For specific rate limits based 
 
 ## Rate Limits for Third-Party Clients
 
-When using third-party client APIs within model pipelines, such as those integrated through [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md), rate limits from those external services also apply. Databricks recommends reviewing the documentation of any third-party client used in your model pipeline to understand their rate limiting behavior. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+When using third-party client APIs within model pipelines, such as those integrated through [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md), rate limits from those external services also apply. Databricks recommends reviewing the documentation of any third-party client used in your model pipeline to understand their rate limiting behavior. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ## Mitigation Strategies
 
@@ -59,9 +59,9 @@ When using third-party client APIs within model pipelines, such as those integra
 
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md)
 - [Resource and Payload Limits](/concepts/model-serving-resource-and-payload-limits.md)
-- [Server-Side Timeouts](/concepts/server-side-timeouts.md)
+- [Server-Side Timeouts](/concepts/server-side-timeout.md)
 - [Provisioned throughput endpoints](/concepts/provisioned-throughput-endpoints.md)
-- [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md)
+- [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md)
 - Model Serving Logs
 
 ## Sources

@@ -13,6 +13,8 @@ x-llmwiki:
     - pytorch-mnist-distributed-training
     - PMDT
     - PyTorch Distributed Training
+    - pytorch-mnist-distributed-training-example
+    - PMDTE
   citations:
     - file: adapt-single-node-pytorch-to-distributed-deep-learning-databricks-on-aws.md
 title: PyTorch MNIST distributed training

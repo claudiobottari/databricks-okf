@@ -12,6 +12,15 @@ x-llmwiki:
   aliases:
     - metric-naming-behavior
     - MNB
+    - metric-naming-behavior-in-scorers
+    - MNBIS
+    - metric-naming-conventions-for-mlflow-scorers
+    - MNCFMS
+    - metric-naming-conventions-for-scorers
+    - MNCFS
+    - Naming conventions in scorers
+    - metric-naming-in-mlflow-scorers
+    - MNIMS
   citations:
     - file: code-based-scorer-reference-databricks-on-aws.md
 title: Metric naming behavior

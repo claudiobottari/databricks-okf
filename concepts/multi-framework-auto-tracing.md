@@ -11,6 +11,10 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - multi-framework-auto-tracing
+    - multi-framework-auto-tracing-in-mlflow
+    - MAIM
+    - multiple-framework-auto-tracing
+    - MFA
   citations:
     - file: automatic-tracing-databricks-on-aws.md
 title: Multi-framework Auto-tracing

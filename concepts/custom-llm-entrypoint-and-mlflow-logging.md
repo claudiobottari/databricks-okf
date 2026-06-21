@@ -117,7 +117,7 @@ During Beta, the following limitations apply:
 
 ## Related Concepts
 
-- [Custom Model Serving](/concepts/custom-model-serving-endpoint-support.md) — The infrastructure for deploying [Custom Models on Databricks](/concepts/custom-models-on-databricks.md).
+- [Custom Model Serving](/concepts/custom-model-serving-endpoint-support.md) — The infrastructure for deploying [Custom Models on Databricks](/concepts/custom-models-databricks.md).
 - vLLM — The inference engine used for serving custom LLMs.
 - [Express Deployments](/concepts/express-deployments-databricks.md) — The deployment mechanism that custom LLM serving depends on.
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) — The compute environment for developing and testing custom LLMs.

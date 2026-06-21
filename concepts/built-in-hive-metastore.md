@@ -14,6 +14,8 @@ x-llmwiki:
     - BHM
     - Hive Metastore
     - Hive metastore
+    - workspace-built-in-hive-metastore
+    - WBHM
   citations:
     - file: hive-metastore-table-access-control-legacy-databricks-on-aws.md
 title: Built-in Hive Metastore

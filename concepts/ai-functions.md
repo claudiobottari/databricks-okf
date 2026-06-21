@@ -14,6 +14,16 @@ x-llmwiki:
     - Function
     - Functions
     - functions
+    - ai-functions-and-batch-inference
+    - Batch Inference and AI Functions
+    - AFABI
+    - Batch Inference (AI Functions)
+    - Batch Inference AI Functions
+    - Batch inference (AI Functions)
+    - batch inference (AI Functions)
+    - ai-functions-on-databricks
+    - AFOD
+    - Transactions on Databricks
   citations:
     - file: deploy-models-using-model-serving-databricks-on-aws.md
 title: AI Functions

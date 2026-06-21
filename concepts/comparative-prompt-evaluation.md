@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - comparative-prompt-evaluation
     - CPE
+    - comparative-prompt-evaluation-methodology
+    - CPEM
   citations:
     - file: evaluate-and-compare-prompt-versions-databricks-on-aws.md
 title: Comparative Prompt Evaluation

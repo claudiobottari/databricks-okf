@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - systemai-schema
     - System.ai
+    - systemai-schema-permission-model
+    - SSPM
   citations:
     - file: foundation-model-unity-catalog-permissions-databricks-on-aws.md
 title: system.ai Schema

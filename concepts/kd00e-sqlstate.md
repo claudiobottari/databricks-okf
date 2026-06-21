@@ -74,7 +74,7 @@ IcebergWriterCompatV`<version>` requires a specific table property to be set to 
 
 - SQLSTATE — The standard SQL error code system used by Databricks
 - KD Class Datasource-Specific Errors — The broader error class containing KD00E
-- [Delta Lake Iceberg Compatibility](/concepts/delta-lake-table-features-and-iceberg-compatibility.md) — The feature enabling Iceberg read compatibility for Delta tables
+- [Delta Lake Iceberg Compatibility](/concepts/delta-lake-table-features-compatibility.md) — The feature enabling Iceberg read compatibility for Delta tables
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) — The open table format that Delta tables can be made compatible with
 - Delta Table Features — Table capabilities that may conflict with Iceberg compatibility
 - [Column mapping in Delta Lake](/concepts/column-mapping-in-delta-lake.md) — The feature affected by the FIELD_ID_DOES_NOT_MATCH_PHYSICAL_NAME error

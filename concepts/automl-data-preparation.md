@@ -13,6 +13,11 @@ x-llmwiki:
     - automl-data-preparation
     - ADP
     - Data Preparation for AutoML
+    - automl-data-preparation-and-column-configuration
+    - Column Configuration and AutoML Data Preparation
+    - ADPACC
+    - automl-data-preparation-settings
+    - ADPS
   citations:
     - file: regression-with-automl-databricks-on-aws.md
       start: 33

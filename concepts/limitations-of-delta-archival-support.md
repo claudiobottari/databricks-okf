@@ -97,7 +97,7 @@ Amazon S3 Glacier Instant Retrieval does not require configuring archival suppor
 ## Related Concepts
 
 - [Delta Archival Support](/concepts/delta-lake-archival-support.md) — Overview of enabling archival for Delta tables
-- [delta.timeUntilArchived table property](/concepts/deltatimeuntilarchived-table-property.md) — The configuration property for archival intervals
+- [delta.timeUntilArchived table property](/concepts/deltatimeuntilarchived.md) — The configuration property for archival intervals
 - Lifecycle Policy Configuration — Cloud-side lifecycle management setup
 - Archived File Restoration — Restoring files from archived storage
 - [SHOW ARCHIVED FILES syntax](/concepts/show-archived-files-syntax.md) — Identifying files that must be restored

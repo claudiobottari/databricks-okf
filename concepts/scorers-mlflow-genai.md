@@ -55,7 +55,7 @@ inferredParagraphs: 3
 
 ## Overview
 
-Scorers are functions that evaluate a trace's quality. They receive a [Trace (MLflow GenAI)](/concepts/traces-mlflow-genai.md) from either `mlflow.genai.evaluate()` or the production monitoring service, then perform the following steps: ^[scorers-and-llm-judges-databricks-on-aws.md]
+Scorers are functions that evaluate a trace's quality. They receive a [Trace (MLflow GenAI)](/concepts/traces.md) from either `mlflow.genai.evaluate()` or the production monitoring service, then perform the following steps: ^[scorers-and-llm-judges-databricks-on-aws.md]
 
 1. **Parse** the trace to extract specific fields and data used to assess quality
 2. **Run** the scorer to perform the quality assessment based on the extracted fields and data
@@ -77,7 +77,7 @@ MLflow provides research-validated built-in judges for common quality dimensions
 
 ### Multi-turn Judges
 
-For conversational AI systems, MLflow also provides built-in judges that evaluate entire conversations rather than individual turns. See [Multi-turn Judges](/concepts/multi-turn-judges.md). ^[scorers-and-llm-judges-databricks-on-aws.md]
+For conversational AI systems, MLflow also provides built-in judges that evaluate entire conversations rather than individual turns. See [Multi-turn Judges](/concepts/multi-turn-judge.md). ^[scorers-and-llm-judges-databricks-on-aws.md]
 
 ### Custom LLM Judges
 
@@ -110,14 +110,14 @@ Databricks continuously improves judge quality through: ^[scorers-and-llm-judges
 
 ## Related Concepts
 
-- [Trace (MLflow GenAI)](/concepts/traces-mlflow-genai.md) — The data structure that captures application execution
+- [Trace (MLflow GenAI)](/concepts/traces.md) — The data structure that captures application execution
 - Feedback (MLflow GenAI) — Quality measurements attached to traces
 - [Evaluation Datasets](/concepts/evaluation-datasets.md) — Curated collections of test cases for systematic testing
 - [Evaluation Harness](/concepts/evaluation-harness.md) — The `mlflow.genai.evaluate()` SDK for systematic evaluation
 - Production Quality Monitoring — Scheduling scorers for production trace evaluation
 - [Judge Alignment](/concepts/judge-alignment.md) — Training custom LLM judges to match human evaluation standards
 - [Built-in LLM Judges](/concepts/built-in-llm-judges.md) — Pre‑defined judges for common quality dimensions
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) — Judges for conversational AI systems
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) — Judges for conversational AI systems
 - [Custom Judges](/concepts/custom-judges.md) — User‑defined LLM judges with custom prompts
 - [Code-based Scorers](/concepts/code-based-scorers.md) — Fully flexible, programmatic evaluation logic
 

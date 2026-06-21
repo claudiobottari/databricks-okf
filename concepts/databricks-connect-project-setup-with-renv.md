@@ -140,7 +140,7 @@ Before setting up the project, ensure:
 - [Databricks Connect for Python](/concepts/databricks-connect-for-python.md) — Alternative Python-based Databricks Connect setup
 - [Databricks Connect for Scala](/concepts/databricks-connect-for-scala.md) — Alternative Scala-based Databricks Connect setup
 - sparklyr package — The R interface to Apache Spark used in the connection
-- [pysparklyr Package](/concepts/pysparklyr-package.md) — The R bridge to PySpark and Databricks Connect
+- [pysparklyr Package](/concepts/pysparklyr.md) — The R bridge to PySpark and Databricks Connect
 - renv package — R environment management tool used for dependency isolation
 - Reproducible R environments — Broader concept of environment reproducibility in R
 

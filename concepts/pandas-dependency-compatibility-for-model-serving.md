@@ -12,6 +12,14 @@ x-llmwiki:
   aliases:
     - pandas-dependency-compatibility-for-model-serving
     - PDCFMS
+    - pandas-compatibility-issue-in-automl-model-serving
+    - PCIIAMS
+    - pandas-compatibility-issue-with-automl-model-serving
+    - PCIWAMS
+    - pandas-dependency-compatibility-for-automl-model-serving
+    - PDCFAMS
+    - pandas-version-compatibility-for-automl-model-serving
+    - PVCFAMS
   citations:
     - file: forecasting-with-automl-classic-compute-databricks-on-aws.md
 title: Pandas Dependency Compatibility for Model Serving

@@ -14,6 +14,11 @@ x-llmwiki:
     - TimeWindow
     - time window
     - tumbling windows
+    - time-windows-for-aggregation
+    - TWFA
+    - Time Window Aggregation
+    - time-windows-for-feature-aggregation
+    - TWFFA
   citations:
     - file: declarative-features-api-reference-databricks-on-aws.md
 title: Time Windows

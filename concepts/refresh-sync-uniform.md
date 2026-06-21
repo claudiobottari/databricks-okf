@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - refresh-sync-uniform
     - RSU
+    - refresh-sync-uniform-command
+    - RSUC
   citations:
     - file: delta_uniform_refresh_not_supported-error-condition-databricks-on-aws.md
 title: REFRESH SYNC UNIFORM

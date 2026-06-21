@@ -58,7 +58,7 @@ To continue to use a library after it has been removed, you can either install t
 ## Related Concepts
 
 - Databricks Runtime ML maintenance policy — The broader policy covering library support, updates, and deprecation
-- [Top-tier Libraries in Databricks Runtime ML](/concepts/top-tier-libraries-in-databricks-runtime-ml.md) — The subset of libraries with faster update cadence and advanced support
+- [Top-tier Libraries in Databricks Runtime ML](/concepts/top-tier-libraries.md) — The subset of libraries with faster update cadence and advanced support
 - [Library Deprecation Policy](/concepts/library-deprecation-policy.md) — The conditions under which libraries are removed from the top-tier list or pre-installed set
 
 ## Sources

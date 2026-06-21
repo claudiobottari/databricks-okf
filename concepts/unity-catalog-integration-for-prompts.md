@@ -75,7 +75,7 @@ The integration provides several advantages for prompt management:^[prompt-regis
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – The centralized repository for managing prompt templates.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – The centralized repository for managing prompt templates.
 - [Unity Catalog](/concepts/unity-catalog.md) – The governance and access control platform that underpins this integration.
 - [Prompt Version Management](/concepts/prompt-version-management.md) – Versioning and lifecycle management for prompts.
 - [Prompt Aliases](/concepts/prompt-aliases.md) – Mutable references that point to specific prompt versions.

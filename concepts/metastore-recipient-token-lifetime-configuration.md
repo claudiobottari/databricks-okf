@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - metastore-recipient-token-lifetime-configuration
     - MRTLC
+    - unity-catalog-metastore-recipient-token-lifetime-configuration
+    - UCMRTLC
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
 title: Metastore Recipient Token Lifetime Configuration

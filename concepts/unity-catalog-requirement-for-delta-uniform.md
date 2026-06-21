@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - unity-catalog-requirement-for-delta-uniform
     - UCRFDU
+    - unity-catalog-requirement-for-delta-uniform-iceberg-reads
+    - UCRFDUIR
   citations:
     - file: delta_uniform_ingress_violation-error-condition-databricks-on-aws.md
 title: Unity Catalog Requirement for Delta Uniform

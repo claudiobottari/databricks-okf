@@ -15,6 +15,13 @@ x-llmwiki:
     - Express Deployments
     - Express deployments
     - express deployments
+    - express-deployments-databricks-model-serving
+    - ED(MS
+    - express-deployments-for-model-serving
+    - EDFMS
+    - Express Deployments for Model Serving Endpoints
+    - Express deployments for model serving endpoints
+    - express deployments for model serving endpoints
   citations:
     - file: express-deployments-for-model-serving-endpoints-databricks-on-aws.md
 title: Express Deployments (Databricks)

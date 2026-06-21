@@ -82,7 +82,7 @@ The structured format of the Delta table — containing both the raw trace data 
 
 ## Building Evaluation Datasets from Archived Traces
 
-Archived traces can also serve as a source for building [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md). By selecting specific traces or time ranges from the Delta table, teams can create representative test sets for offline evaluation of new agent configurations. ^[archive-traces-to-a-delta-table-databricks-on-aws.md]
+Archived traces can also serve as a source for building [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md). By selecting specific traces or time ranges from the Delta table, teams can create representative test sets for offline evaluation of new agent configurations. ^[archive-traces-to-a-delta-table-databricks-on-aws.md]
 
 ## Related Concepts
 

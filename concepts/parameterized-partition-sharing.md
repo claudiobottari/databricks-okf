@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - parameterized-partition-sharing
     - PPS
+    - parameterized-partition-sharing-recipient-properties
+    - PPS(P
   citations:
     - file: create-shares-for-opensharing-databricks-on-aws.md
 title: Parameterized Partition Sharing

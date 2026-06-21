@@ -26,7 +26,7 @@ timestamp: "2026-06-19T08:47:37.685Z"
 
 # GRANT Policy Audit Logging
 
-**GRANT Policy Audit Logging** refers to the capture and recording of operations performed on [ABAC GRANT Policies](/concepts/abac-grant-policies.md) in Unity Catalog. GRANT policies are attribute-based access control policies that dynamically grant privileges (currently `EXECUTE` on models) based on governed tag conditions. Their lifecycle operations produce audit events that are stored in the system’s audit log, consistent with other policy types. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
+**GRANT Policy Audit Logging** refers to the capture and recording of operations performed on [ABAC GRANT Policies](/concepts/abac-grant-policy.md) in Unity Catalog. GRANT policies are attribute-based access control policies that dynamically grant privileges (currently `EXECUTE` on models) based on governed tag conditions. Their lifecycle operations produce audit events that are stored in the system’s audit log, consistent with other policy types. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
 
 ## Audit Events
 
@@ -51,7 +51,7 @@ Example audit log queries for GRANT policies are available in the general audit 
 
 ## Related Concepts
 
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) – The policies whose operations are audited.
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) – The policies whose operations are audited.
 - [Audit logging](/concepts/abac-policy-audit-logging.md) – The overarching system for tracking Unity Catalog events.
 - [Row Filter Policies](/concepts/row-filter-policies.md) – Another ABAC policy type sharing the same audit action names.
 - [Column Mask Policies](/concepts/column-mask-policies.md) – Another ABAC policy type sharing the same audit action names.

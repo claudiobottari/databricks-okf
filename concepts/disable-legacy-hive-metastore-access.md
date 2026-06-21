@@ -17,6 +17,12 @@ x-llmwiki:
     - Disable Legacy Access
     - Disable legacy access
     - Legacy Hive Metastore
+    - disable-legacy-hive-metastore-access-workspace-setting
+    - DLHMA(S
+    - Disable Legacy Access (Workspace Setting)
+    - Disable Legacy Access Workspace Setting
+    - disabling-legacy-hive-metastore-access-in-databricks
+    - DLHMAID
   citations:
     - file: disable-access-to-the-hive-metastore-used-by-your-databricks-workspace-databricks-on-aws.md
 title: Disable Legacy Hive Metastore Access

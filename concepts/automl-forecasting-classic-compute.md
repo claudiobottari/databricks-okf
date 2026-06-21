@@ -16,6 +16,8 @@ x-llmwiki:
     - Forecasting with AutoML (classic compute)
     - Forecasting with Classic Compute
     - forecasting with classic compute
+    - automl-forecasting-databricks-classic-compute
+    - AF(CC
   citations:
     - file: forecasting-with-automl-classic-compute-databricks-on-aws.md
 title: AutoML Forecasting (Classic Compute)

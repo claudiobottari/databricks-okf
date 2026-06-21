@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - feature-table-search
     - FTS
+    - feature-table-search-and-discovery
+    - Discovery and Feature Table Search
+    - FTSAD
   citations:
     - file: explore-features-and-lineage-legacy-databricks-on-aws.md
 title: Feature Table Search
@@ -25,7 +28,7 @@ timestamp: "2026-06-19T10:26:37.284Z"
 
 # Feature Table Search
 
-**Feature Table Search** refers to the ability to discover and locate [Feature Tables](/concepts/feature-tables.md) in the Databricks Workspace Feature Store by searching on feature table name, feature name, data source, or tag. This functionality is accessible through the **Features** UI in the Databricks workspace sidebar.
+**Feature Table Search** refers to the ability to discover and locate [Feature Tables](/concepts/feature-table.md) in the Databricks Workspace Feature Store by searching on feature table name, feature name, data source, or tag. This functionality is accessible through the **Features** UI in the Databricks workspace sidebar.
 
 ## Overview
 
@@ -86,11 +89,11 @@ Feature Table Search enables practitioners to:
 
 ## Related Concepts
 
-- [Feature Tables](/concepts/feature-tables.md) — The fundamental unit of organization in the Feature Store
+- [Feature Tables](/concepts/feature-table.md) — The fundamental unit of organization in the Feature Store
 - [Workspace Feature Store UI](/concepts/workspace-feature-store-ui.md) — The interface for browsing and managing feature tables
 - [Feature Lineage](/concepts/feature-lineage-tracking.md) — Tracking how features were created and where they are used
 - Feature Freshness — Monitoring the timeliness of feature data
-- [Tags on Feature Tables](/concepts/feature-tables.md) — Custom metadata for organizing and searching feature tables
+- [Tags on Feature Tables](/concepts/feature-table.md) — Custom metadata for organizing and searching feature tables
 
 ## Sources
 

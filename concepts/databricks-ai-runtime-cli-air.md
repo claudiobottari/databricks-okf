@@ -13,6 +13,8 @@ x-llmwiki:
     - databricks-ai-runtime-cli-air
     - DARC(
     - Databricks AI Runtime CLI
+    - databricks-ai-runtime-cli-air-workload-submission
+    - DARC(WS
   citations:
     - file: distributed-training-with-ray-train-databricks-on-aws.md
     - file: ai-runtime-cli-examples-databricks-on-aws.md

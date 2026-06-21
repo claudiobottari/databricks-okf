@@ -15,6 +15,12 @@ x-llmwiki:
     - Feature Table Metadata
     - Feature table metadata
     - Publish a Feature Table
+    - feature-tables
+    - Feature Table Tags
+    - Feature Flag
+    - Feature Table Management
+    - Tags on Feature Tables
+    - shared tables
   citations:
     - file: databricks-feature-store-overview-and-glossary-databricks-on-aws.md
     - file: workspace-feature-store-deprecated-databricks-on-aws.md

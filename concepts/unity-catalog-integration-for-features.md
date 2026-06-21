@@ -13,6 +13,8 @@ x-llmwiki:
     - unity-catalog-integration-for-features
     - UCIFF
     - Unity Catalog Integration for Traces
+    - unity-catalog-integration-for-feature-store
+    - UCIFFS
   citations:
     - file: databricks-feature-store-databricks-on-aws.md
 title: Unity Catalog Integration for Features

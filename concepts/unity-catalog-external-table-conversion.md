@@ -56,7 +56,7 @@ To load converted tables as [External Tables in Unity Catalog](/concepts/externa
 
 `CONVERT TO DELTA` syntax can only be used for creating Unity Catalog external tables. Use a `CREATE TABLE AS SELECT` (CTAS) statement to convert a legacy Hive [Metastore](/concepts/metastore.md) managed Parquet table directly to a managed Unity Catalog [Delta Lake Table](/concepts/delta-lake-table.md). See [Upgrade a Hive table to a Unity Catalog managed table using CREATE TABLE AS SELECT](/concepts/ctas-for-migrating-hive-tables-to-unity-catalog-managed-delta-tables.md). ^[convert-to-delta-lake-databricks-on-aws.md]
 
-To upgrade an external Parquet table to a Unity Catalog external table, use the upgrade wizard. See [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-table-migration.md). ^[convert-to-delta-lake-databricks-on-aws.md]
+To upgrade an external Parquet table to a Unity Catalog external table, use the upgrade wizard. See [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-migration.md). ^[convert-to-delta-lake-databricks-on-aws.md]
 
 ### Converting an Existing External Table
 
@@ -95,7 +95,7 @@ Converting Iceberg tables has the following limitations: ^[convert-to-delta-lake
 - [CONVERT TO DELTA SQL Command](/concepts/convert-to-delta-sql-command.md) — The technical documentation for the SQL command
 - Connect to cloud object storage using Unity Catalog — How to configure access for conversion
 - [Upgrade a Hive table to a Unity Catalog managed table using CREATE TABLE AS SELECT](/concepts/ctas-for-migrating-hive-tables-to-unity-catalog-managed-delta-tables.md) — Method for converting managed Hive tables
-- [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-table-migration.md) — Alternative method for upgrading external tables
+- [Upgrade a schema or tables from the Hive metastore to Unity Catalog external tables using the upgrade wizard](/concepts/hive-metastore-to-unity-catalog-migration.md) — Alternative method for upgrading external tables
 
 ## Sources
 

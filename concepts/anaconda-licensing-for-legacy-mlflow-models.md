@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - anaconda-licensing-for-legacy-mlflow-models
     - ALFLMM
+    - anaconda-licensing-impact-on-legacy-mlflow-models
+    - ALIOLMM
+    - anaconda-licensing-implications-for-legacy-mlflow-models
+    - ALIFLMM
   citations:
     - file: custom-models-overview-databricks-on-aws.md
 title: Anaconda Licensing for Legacy MLflow Models

@@ -50,7 +50,7 @@ AWS PrivateLink to S3 is not compatible with FIPS endpoints, which Databricks us
 
 ### Step 1: Create an NCC and private endpoint rule
 
-Create an [NCC](/concepts/percent-null-completeness-check.md) and a private endpoint rule for your S3 bucket, but do not attach the NCC to a workspace. See Configure private connectivity to AWS-managed resources for NCC and PrivateLink setup instructions. ^[share-data-behind-a-firewall-with-secureconnect-databricks-on-aws.md]
+Create an [NCC](/concepts/percent-null.md) and a private endpoint rule for your S3 bucket, but do not attach the NCC to a workspace. See Configure private connectivity to AWS-managed resources for NCC and PrivateLink setup instructions. ^[share-data-behind-a-firewall-with-secureconnect-databricks-on-aws.md]
 
 ### Step 2: Attach the NCC to the [OpenSharing](/concepts/opensharing.md) [Metastore](/concepts/metastore.md)
 

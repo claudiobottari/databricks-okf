@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - provider-audit-logs
     - PAL
+    - provider-audit-log-events
+    - PALE
+    - Data Provider Audit Log Events
+    - Data provider audit events
+    - Data Provider Audit Monitoring
   citations:
     - file: audit-and-monitor-data-sharing-databricks-on-aws.md
 title: Provider Audit Logs

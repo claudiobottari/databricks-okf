@@ -12,6 +12,11 @@ x-llmwiki:
   aliases:
     - delta_streaming_skip_offsets_invalid_offset_range
     - DELTA_STREAMING_SKIP_OFFSETS_INVALID_OFFSET_RANGE
+    - delta_streaming_skip_offsets_invalid_offset_range-error-class
+    - DEC
+    - DELTA_STREAMING_SKIP_OFFSETS_INVALID_OFFSET_RANGE Error Class
+    - DELTA_STREAMING_SKIP_OFFSETS_INVALID_OFFSET_RANGE error class
+    - Delta streaming skip offsets invalid offset range error class
   citations:
     - file: delta_streaming_skip_offsets_invalid_offset_range-error-condition-databricks-on-aws.md
 title: DELTA_STREAMING_SKIP_OFFSETS_INVALID_OFFSET_RANGE

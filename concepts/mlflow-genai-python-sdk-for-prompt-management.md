@@ -193,7 +193,7 @@ The `@mlflow.trace` decorator captures the application's execution for observabi
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The centralized storage for versioned prompts
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The centralized storage for versioned prompts
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer that stores prompt schemas
 - [MLflow GenAI Evaluation](/concepts/mlflow-genai-evaluation.md) — Comparing prompt versions with evaluation
 - [Prompt Version Aliases](/concepts/prompt-version-aliases.md) — Deploying prompts to production with aliases

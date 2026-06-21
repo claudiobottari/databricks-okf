@@ -39,7 +39,7 @@ Hyperopt was previously used to tune hyperparameters across multiple model types
 
 - [Hyperparameter Tuning](/concepts/hyperparameter-tuning.md)
 - Single-Node Optimization
-- [Distributed Hyperparameter Tuning](/concepts/raytune-for-distributed-hyperparameter-tuning-on-databricks.md)
+- [Distributed Hyperparameter Tuning](/concepts/raytune.md)
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md)
 - [SparkTrials](/concepts/sparktrials.md)
 

@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - maven-coordinate-allowlisting
     - MCA
+    - maven-coordinates-in-allowlist
+    - MCIA
+    - Maven coordinates
   citations:
     - file: allowlist-libraries-and-init-scripts-on-compute-with-standard-access-mode-formerly-shared-access-mode-databricks-on-aws.md
 title: Maven Coordinate Allowlisting

@@ -13,6 +13,8 @@ x-llmwiki:
     - iceberg-to-delta-conversion
     - ITDC
     - Iceberg Table Conversion
+    - apache-iceberg-to-delta-lake-conversion
+    - AITDLC
   citations:
     - file: convert-to-delta-databricks-on-aws.md
 title: Iceberg to Delta Conversion

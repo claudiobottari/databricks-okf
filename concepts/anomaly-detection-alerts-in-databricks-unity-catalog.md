@@ -159,7 +159,7 @@ Now, you have an alert that triggers based on the downstream impact of the quali
 ## Related Concepts
 
 - [Anomaly Detection](/concepts/anomaly-detection.md) – The detection engine that identifies data quality issues.
-- [Data Quality Monitoring in Unity Catalog](/concepts/data-quality-monitoring-unity-catalog.md) – The overall framework for monitoring data quality.
+- [Data Quality Monitoring in Unity Catalog](/concepts/data-quality-monitoring-databricks.md) – The overall framework for monitoring data quality.
 - Table Results System Table – The system table used for querying anomaly detection output.
 - [Catalog Explorer](/concepts/catalog-explorer.md) – The UI for navigating catalogs and schemas.
 - [Databricks SQL Alerts](/concepts/databricks-sql-alerts.md) – The general alerting framework in Databricks SQL.

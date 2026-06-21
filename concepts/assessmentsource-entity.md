@@ -13,6 +13,10 @@ x-llmwiki:
     - assessmentsource-entity
     - AssessmentSourceType
     - AssessmentSource
+    - assessmentsource-entity-for-feedback-attribution
+    - AEFFA
+    - assessmentsource-in-mlflow
+    - AIM
   citations:
     - file: collect-user-feedback-databricks-on-aws.md
 title: AssessmentSource Entity
@@ -80,7 +84,7 @@ The `AssessmentSource` entity is a field of the [Feedback](/concepts/feedback-ob
 ## Related Concepts
 
 - [Feedback data model](/concepts/mlflow-feedback-data-model.md) – The overall schema for collecting user feedback in MLflow.
-- [Assessment (MLflow)](/concepts/assessments-mlflow-genai.md) – The broader concept of evaluations on traces.
+- [Assessment (MLflow)](/concepts/assessments.md) – The broader concept of evaluations on traces.
 - [GenAI trace](/concepts/mlflow-genai-trace.md) – The execution trace to which an assessment is attached.
 - MLflow log_feedback API|log_feedback API – The API that uses `AssessmentSource` to record the provenance of a feedback item.
 

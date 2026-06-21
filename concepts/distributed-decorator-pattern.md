@@ -97,7 +97,7 @@ To use the `@distributed` decorator, the following prerequisites must be met: ^[
 
 ## Example: Full Fine-Tuning with DeepSpeed
 
-The following pattern, extracted from a full fine-tuning notebook, demonstrates using the decorator with [DeepSpeed ZeRO Stage 3](/concepts/deepspeed-zero-stage-3.md) and the [TRL (Transformers Reinforcement Learning)](/concepts/trl-transformers-reinforcement-learning.md) library: ^[fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md]
+The following pattern, extracted from a full fine-tuning notebook, demonstrates using the decorator with [DeepSpeed ZeRO Stage 3](/concepts/deepspeed-zero-stage-3.md) and the [TRL (Transformers Reinforcement Learning)](/concepts/trl-transformer-reinforcement-learning.md) library: ^[fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md]
 
 ```python
 from serverless_gpu import distributed
@@ -145,7 +145,7 @@ Here the decorator launches the training across 8 H100 GPUs, and FSDP shards mod
 - LoRA — Parameter-efficient fine-tuning method used in conjunction with FSDP
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) — Compute resources provisioned automatically for GPU workloads
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md) — General concept of training models across multiple GPUs or nodes
-- [TRL (Transformers Reinforcement Learning)](/concepts/trl-transformers-reinforcement-learning.md) — Library used in the example training functions
+- [TRL (Transformers Reinforcement Learning)](/concepts/trl-transformer-reinforcement-learning.md) — Library used in the example training functions
 - [MLflow Tracking](/concepts/mlflow-tracking.md) — Experiment tracking integrated with the distributed training function
 - SFTConfig — Configuration class for supervised fine-tuning with the TRL library
 

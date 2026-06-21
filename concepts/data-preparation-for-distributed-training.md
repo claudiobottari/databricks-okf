@@ -33,7 +33,7 @@ Here is the wiki page for "Data Preparation for Distributed Training", written b
 
 ### Role in the Training Workflow
 
-Before launching a distributed training job — such as the [HorovodRunner TensorFlow and Keras MNIST example](/concepts/mnist-tensorflow-keras-example-on-databricks.md) on Databricks — practitioners must first prepare their data for distributed training. ^[deep-learning-using-tensorflow-with-horovodrunner-for-mnist-databricks-on-aws.md]
+Before launching a distributed training job — such as the [HorovodRunner TensorFlow and Keras MNIST example](/concepts/mnist-tensorflow-keras-example.md) on Databricks — practitioners must first prepare their data for distributed training. ^[deep-learning-using-tensorflow-with-horovodrunner-for-mnist-databricks-on-aws.md]
 
 This preparation step typically involves:
 - **Sharding the dataset** across workers so that each worker processes a distinct subset of the data per epoch.

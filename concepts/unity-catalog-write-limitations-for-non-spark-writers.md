@@ -72,7 +72,7 @@ This limitation affects:
 ## Related Concepts
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance and metadata layer that enforces these write restrictions
-- [Ray and Spark Integration](/concepts/ray-and-spark-integration-on-databricks.md) — Combining Ray and Spark workloads on Databricks
+- [Ray and Spark Integration](/concepts/ray-spark-integration-on-databricks.md) — Combining Ray and Spark workloads on Databricks
 - Data Exchange Between Ray and Spark — Patterns for moving data between Ray and Spark
 - Unity Catalog Volumes — Temporary storage location used as an intermediary
 - [Hive Metastore](/concepts/built-in-hive-metastore.md) — Alternative [Metastore](/concepts/metastore.md) that allows direct writes from non-Spark writers

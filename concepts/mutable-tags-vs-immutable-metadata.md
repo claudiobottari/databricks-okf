@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - mutable-tags-vs-immutable-metadata
     - MTVIM
+    - mutable-tags-vs-immutable-metadata-in-mlflow-traces
+    - MTVIMIMT
+    - Immutable Metadata vs Mutable Tags
   citations:
     - file: add-context-to-traces-databricks-on-aws.md
 title: Mutable Tags vs Immutable Metadata

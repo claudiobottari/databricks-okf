@@ -73,7 +73,7 @@ By default, AutoML selects an imputation method based on the column type and con
 - [Semantic Type Detection](/concepts/semantic-type-detection.md) — AutoML's automatic detection of column types beyond raw schema.
 - [Column Selection in AutoML](/concepts/column-selection-in-automl.md) — Including and excluding columns from training.
 - [Imbalanced Dataset Handling](/concepts/imbalanced-dataset-handling.md) — AutoML's approach to class imbalance during classification.
-- [Split Strategies in AutoML](/concepts/data-splitting-strategies-in-automl.md) — How AutoML divides data into train/validation/test sets.
+- [Split Strategies in AutoML](/concepts/data-splitting-strategies.md) — How AutoML divides data into train/validation/test sets.
 
 ## Sources
 

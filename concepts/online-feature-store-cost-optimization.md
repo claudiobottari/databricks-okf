@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - online-feature-store-cost-optimization
     - OFSCO
+    - online-feature-store-capacity-and-cost-optimization
+    - Cost Optimization and Online Feature Store Capacity
+    - OFSCACO
+    - online-store-capacity-and-cost-optimization
+    - Cost Optimization and Online Store Capacity
+    - OSCACO
   citations:
     - file: databricks-online-feature-stores-databricks-on-aws.md
 title: Online Feature Store Cost Optimization

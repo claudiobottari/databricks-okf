@@ -25,7 +25,7 @@ timestamp: "2026-06-19T10:23:25.462Z"
 
 # Conversation Assessment Storage
 
-**Conversation Assessment Storage** refers to how [MLflow](/concepts/mlflow.md) stores evaluation results from [Multi-turn Judges](/concepts/multi-turn-judges.md) that assess entire conversation sessions rather than individual turns. This storage design ensures that conversation-level metrics remain stable, discoverable, and efficiently displayable in the Sessions UI. ^[evaluate-conversations-databricks-on-aws.md]
+**Conversation Assessment Storage** refers to how [MLflow](/concepts/mlflow.md) stores evaluation results from [Multi-turn Judges](/concepts/multi-turn-judge.md) that assess entire conversation sessions rather than individual turns. This storage design ensures that conversation-level metrics remain stable, discoverable, and efficiently displayable in the Sessions UI. ^[evaluate-conversations-databricks-on-aws.md]
 
 ## Storage Location
 
@@ -50,7 +50,7 @@ This metadata allows the system to associate the stored assessment with the corr
 ## Related Concepts
 
 - [Multi-turn evaluation](/concepts/multi-turn-conversation-evaluation.md) – The process of assessing entire conversation sessions.
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) – LLM-based scorers that evaluate across multiple turns.
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) – LLM-based scorers that evaluate across multiple turns.
 - Session ID – The trace tag used to group individual turns into a conversation.
 - [[MLflow Trace|MLflow Traces]] – The tracing system that captures individual agent calls.
 - [Production monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) – Using multi-turn judges in continuous production monitoring.

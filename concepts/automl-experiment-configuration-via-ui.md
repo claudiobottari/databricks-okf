@@ -86,7 +86,7 @@ When serving a model built using AutoML with Model Serving, you may encounter th
 ## Related concepts
 
 - [AutoML API for classification](/concepts/automl-classification-classify.md)
-- [AutoML Data Preparation Settings](/concepts/automl-data-preparation-settings.md)
+- [AutoML Data Preparation Settings](/concepts/automl-data-preparation.md)
 - [MLflow Experiments](/concepts/mlflow-experiment.md)
 - [Unity Catalog for Model Registration](/concepts/unity-catalog-for-model-registration.md)
 - [Model Serving with Databricks](/concepts/model-serving-on-databricks.md)

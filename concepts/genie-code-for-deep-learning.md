@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - genie-code-for-deep-learning
     - GCFDL
+    - databricks-genie-code-for-deep-learning
+    - DGCFDL
   citations:
     - file: ai-runtime-databricks-on-aws.md
 title: Genie Code for Deep Learning

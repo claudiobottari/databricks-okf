@@ -13,6 +13,8 @@ x-llmwiki:
     - delta-lake-file-compaction
     - DLFC
     - Data file compaction
+    - delta-lake-file-compaction-optimize
+    - DLFC(
   citations:
     - file: best-practices-delta-lake-databricks-on-aws.md
 title: Delta Lake File Compaction

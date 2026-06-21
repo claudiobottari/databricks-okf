@@ -16,6 +16,11 @@ x-llmwiki:
     - trace data
     - Trace Data Access
     - Trace data model
+    - tracedata-and-spans
+    - Spans and TraceData
+    - TAS
+    - Creating Spans
+    - tracedata-mlflow
   citations:
     - file: access-trace-data-databricks-on-aws.md
 title: TraceData

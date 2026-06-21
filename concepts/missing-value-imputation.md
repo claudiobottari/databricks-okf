@@ -77,7 +77,7 @@ A key interaction is that if a non-default imputation method is specified, AutoM
 - [Data preparation for classification](/concepts/automl-data-preparation-for-classification.md) – Broader context for this imputation feature.
 - Data preparation for regression – Similar settings for regression problems.
 - [AutoML experiment setup](/concepts/automl-classification-experiment-setup.md) – How to configure imputation and other data settings.
-- [Feature types supported by AutoML](/concepts/supported-feature-types-for-automl.md) – The column types that can be imputed.
+- [Feature types supported by AutoML](/concepts/supported-feature-types-in-automl.md) – The column types that can be imputed.
 - Imputation methods (UI/API) – The specific methods available in the drop-down or `imputers` parameter.
 
 ## Sources

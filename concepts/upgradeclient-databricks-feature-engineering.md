@@ -31,7 +31,7 @@ The **UpgradeClient** is a class in the `databricks-feature-engineering` Python 
 
 ## Overview
 
-The UpgradeClient is designed to support the migration path from workspace-level [Feature Tables](/concepts/feature-tables.md) to [Unity Catalog](/concepts/unity-catalog.md)-governed [Feature Tables](/concepts/feature-tables.md). It operates on [Feature Tables](/concepts/feature-tables.md) whose underlying Delta tables have already been upgraded to [Unity Catalog](/concepts/unity-catalog.md). The client handles the migration of feature-specific metadata that would otherwise be lost in a direct table upgrade. ^[upgrade-a-workspace-feature-table-to-unity-catalog-databricks-on-aws.md]
+The UpgradeClient is designed to support the migration path from workspace-level [Feature Tables](/concepts/feature-table.md) to [Unity Catalog](/concepts/unity-catalog.md)-governed [Feature Tables](/concepts/feature-table.md). It operates on [Feature Tables](/concepts/feature-table.md) whose underlying Delta tables have already been upgraded to [Unity Catalog](/concepts/unity-catalog.md). The client handles the migration of feature-specific metadata that would otherwise be lost in a direct table upgrade. ^[upgrade-a-workspace-feature-table-to-unity-catalog-databricks-on-aws.md]
 
 ## Prerequisites
 
@@ -104,7 +104,7 @@ The UpgradeClient handles metadata conflicts differently depending on the metada
 - [Unity Catalog](/concepts/unity-catalog.md) – The governance and metadata catalog for Databricks
 - upgrade_workspace_table method|UpgradeClient.upgrade_workspace_table – The primary method for migrating [Feature Table](/concepts/feature-table.md) metadata
 - [Feature Engineering in Databricks](/concepts/feature-engineering-on-databricks.md) – Overview of the feature engineering workflow
-- Databricks Feature Store vs Unity Catalog – Comparison of workspace and catalog-managed [Feature Tables](/concepts/feature-tables.md)
+- Databricks Feature Store vs Unity Catalog – Comparison of workspace and catalog-managed [Feature Tables](/concepts/feature-table.md)
 
 ## Sources
 

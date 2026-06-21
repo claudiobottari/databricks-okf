@@ -13,6 +13,8 @@ x-llmwiki:
     - feature-table-tags-and-governance
     - Governance and Feature Table Tags
     - FTTAG
+    - feature-table-tagging-and-governance
+    - governance and Feature table tagging
   citations:
     - file: feature-tables-in-unity-catalog-databricks-on-aws.md
     - file: abac-grant-policies-for-models-beta-databricks-on-aws.md

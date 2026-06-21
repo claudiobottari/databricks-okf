@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - dashboard-widget-selectors-for-profile-data
     - DWSFPD
+    - dashboard-widget-selectors-for-data-filtering
+    - DWSFDF
   citations:
     - file: data-profiling-dashboard-databricks-on-aws.md
 title: Dashboard Widget Selectors for Profile Data

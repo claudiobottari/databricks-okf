@@ -13,6 +13,8 @@ x-llmwiki:
     - default-vs-ai-environments-in-ai-runtime
     - DVAEIAR
     - default environment
+    - base-environment-vs-ai-environment-in-ai-runtime
+    - BEVAEIAR
   citations:
     - file: connect-to-ai-runtime-databricks-on-aws.md
 title: Default vs AI Environments in AI Runtime

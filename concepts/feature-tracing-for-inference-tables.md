@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - feature-tracing-for-inference-tables
     - FTFIT
+    - enable_feature_tracing-for-inference-tables
+    - EFIT
+    - feature-tracing-with-inference-tables
+    - FTWIT
   citations:
     - file: configure-access-to-resources-from-model-serving-endpoints-databricks-on-aws.md
 title: Feature Tracing for Inference Tables

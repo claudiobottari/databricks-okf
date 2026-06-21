@@ -57,7 +57,7 @@ When using SparkTrials on GPU-enabled clusters, you must account for the reduced
 - [Hyperopt](/concepts/hyperopt.md)
 - [SparkTrials](/concepts/sparktrials.md)
 - [Databricks GPU Clusters](/concepts/databricks-serverless-gpu-clusters.md)
-- [Distributed hyperparameter tuning](/concepts/raytune-for-distributed-hyperparameter-tuning-on-databricks.md)
+- [Distributed hyperparameter tuning](/concepts/raytune.md)
 - [MLflow](/concepts/mlflow.md)
 - [Optuna](/concepts/optuna.md) — recommended alternative to Hyperopt for single-node optimization
 - [RayTune](/concepts/raytune.md) — recommended alternative to Hyperopt for distributed tuning

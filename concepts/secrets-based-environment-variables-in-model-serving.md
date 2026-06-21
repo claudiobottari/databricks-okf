@@ -14,6 +14,11 @@ x-llmwiki:
     - SEVIMS
     - Secrets-based environment variables
     - secrets‑based environment variables
+    - secrets-based-environment-variables-for-model-serving
+    - SEVFMS
+    - Environment Variables for Model Serving
+    - Environment variables for model serving
+    - Store environment variables for model serving
   citations:
     - file: configure-access-to-resources-from-model-serving-endpoints-databricks-on-aws.md
 title: Secrets-based Environment Variables in Model Serving

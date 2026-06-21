@@ -16,6 +16,9 @@ x-llmwiki:
     - GPU utilization monitoring
     - GPU Utilization Dashboard
     - GPU Utilization Metrics
+    - gpu-utilization-monitoring-with-mlflow
+    - GUMWM
+    - GPU Memory
   citations:
     - file: build-dashboards-with-mlflow-metadata-in-system-tables-databricks-on-aws.md
 title: GPU Utilization Monitoring Dashboard

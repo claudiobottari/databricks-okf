@@ -25,7 +25,7 @@ timestamp: "2026-06-18T14:44:08.672Z"
 
 # Test Case Definition
 
-**Test Case Definition** refers to the structured specification of scenarios used to evaluate the performance and behavior of GenAI agents or other AI systems. In the context of [MLflow GenAI](/concepts/mlflow-3-for-genai.md), test cases define the inputs, expected outcomes, and contextual parameters that drive automated evaluation, including [Conversation Simulation](/concepts/conversation-simulation.md) and offline assessment.
+**Test Case Definition** refers to the structured specification of scenarios used to evaluate the performance and behavior of GenAI agents or other AI systems. In the context of [MLflow GenAI](/concepts/mlflow-3-for-genai.md), test cases define the inputs, expected outcomes, and contextual parameters that drive automated evaluation, including [Conversation Simulation](/concepts/conversationsimulator.md) and offline assessment.
 
 ## Overview
 
@@ -95,11 +95,11 @@ When used with `ConversationSimulator`, test cases drive multi-turn conversation
 
 ## Persistence and Reproducibility
 
-For reproducible testing, test cases can be persisted as [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) using the `create_dataset` and `get_dataset` functions. This allows test cases to be versioned, shared, and reused across evaluation runs. ^[conversation-simulation-databricks-on-aws.md]
+For reproducible testing, test cases can be persisted as [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) using the `create_dataset` and `get_dataset` functions. This allows test cases to be versioned, shared, and reused across evaluation runs. ^[conversation-simulation-databricks-on-aws.md]
 
 ## Related Concepts
 
-- [Conversation Simulation](/concepts/conversation-simulation.md) — The process of generating synthetic multi-turn conversations from test cases
+- [Conversation Simulation](/concepts/conversationsimulator.md) — The process of generating synthetic multi-turn conversations from test cases
 - [Evaluation Dataset](/concepts/evaluation-dataset.md) — Persisted test cases for reproducible evaluation
 - [MLflow GenAI Evaluation](/concepts/mlflow-genai-evaluation.md) — The broader evaluation framework for GenAI agents
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — The organizational unit for MLflow runs and evaluations

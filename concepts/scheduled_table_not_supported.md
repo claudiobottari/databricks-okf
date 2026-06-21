@@ -13,6 +13,7 @@ x-llmwiki:
     - scheduled_table_not_supported
     - SCHEDULED_TABLE_NOT_SUPPORTED
     - Scheduled Tables Not Supported
+    - scheduled_table_not_supported-sub-error
   citations:
     - file: delta_deep_clone_streaming_table_error-error-condition-databricks-on-aws.md
 title: SCHEDULED_TABLE_NOT_SUPPORTED

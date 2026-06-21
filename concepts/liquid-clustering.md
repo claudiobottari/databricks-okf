@@ -29,7 +29,7 @@ timestamp: "2026-06-19T17:40:19.584Z"
 
 # Liquid Clustering
 
-**Liquid clustering** is a data layout optimization technique for [Delta Lake](/concepts/delta-lake.md) tables that automatically co-locates related data based on specified clustering keys. It is recommended by Databricks as a modern replacement for deprecated [Bloom filter indexes](/concepts/bloom-filter-indexes.md) and as a general best practice for most Delta Lake workloads.^[best-practices-delta-lake-databricks-on-aws.md, create-bloom-filter-index-deprecated-databricks-on-aws.md]
+**Liquid clustering** is a data layout optimization technique for [Delta Lake](/concepts/delta-lake.md) tables that automatically co-locates related data based on specified clustering keys. It is recommended by Databricks as a modern replacement for deprecated [Bloom filter indexes](/concepts/bloom-filter-index.md) and as a general best practice for most Delta Lake workloads.^[best-practices-delta-lake-databricks-on-aws.md, create-bloom-filter-index-deprecated-databricks-on-aws.md]
 
 ## Overview
 
@@ -76,7 +76,7 @@ For users who currently rely on Bloom filter indexes, Databricks recommends adop
 
 ## Related Concepts
 
-- [Bloom filter indexes](/concepts/bloom-filter-indexes.md) – The deprecated feature that liquid clustering replaces
+- [Bloom filter indexes](/concepts/bloom-filter-index.md) – The deprecated feature that liquid clustering replaces
 - [Predictive I/O](/concepts/predictive-io.md) – Another recommended alternative to Bloom filter indexes
 - [Delta Lake](/concepts/delta-lake.md) – The storage layer on which liquid clustering operates
 - Data skipping – The optimization mechanism that liquid clustering enhances

@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - correctness-judge
+    - correctness-llm-judge
+    - CLJ
   citations:
     - file: correctness-judge-databricks-on-aws.md
 title: Correctness Judge

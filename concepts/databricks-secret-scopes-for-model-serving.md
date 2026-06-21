@@ -78,7 +78,7 @@ Databricks recommends this feature for deploying [OpenAI](https://mlflow.org/doc
 | Pattern | Description |
 |---------|-------------|
 | **{{secrets/scope/key}}** | Resolved at endpoint creation/update time; used by model serving infrastructure |
-| **[Accessing Databricks secrets in scorers](/concepts/accessing-databricks-secrets-in-scorers.md)** | Uses `dbutils.secrets.get()` inside a custom scorer function; used during evaluation |
+| **[Accessing Databricks secrets in scorers](/concepts/accessing-secrets-in-scorers.md)** | Uses `dbutils.secrets.get()` inside a custom scorer function; used during evaluation |
 | **Plain-text env vars** | No security; use only for non-sensitive values |
 
 Both serving-side and scorer-side secret patterns use the same Databricks secret store, but the serving-side pattern is resolved by the platform rather than by user code. ^[configure-access-to-resources-from-model-serving-endpoints-databricks-on-aws.md]
@@ -88,7 +88,7 @@ Both serving-side and scorer-side secret patterns use the same Databricks secret
 - [Databricks secrets](/concepts/databricks-secret-scopes.md) – the underlying key-value store for sensitive data
 - [Model Serving endpoints](/concepts/model-serving-endpoint.md) – the serving infrastructure that consumes these environment variables
 - [Secret scopes](/concepts/databricks-secret-scopes.md) – containers that organize secrets and control access
-- [Accessing Databricks secrets in scorers](/concepts/accessing-databricks-secrets-in-scorers.md) – an alternative secret-access pattern for custom evaluation functions
+- [Accessing Databricks secrets in scorers](/concepts/accessing-secrets-in-scorers.md) – an alternative secret-access pattern for custom evaluation functions
 - [Code-based Scorers](/concepts/code-based-scorers.md) – custom evaluation functions that may also need secret access
 
 ## Sources

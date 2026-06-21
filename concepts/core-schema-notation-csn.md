@@ -13,6 +13,8 @@ x-llmwiki:
     - core-schema-notation-csn
     - CSN(
     - Core Schema Notation
+    - core-schema-notation-csn-for-sap-bdc
+    - CSN(FSB
   citations:
     - file: grant-sap-business-data-cloud-bdc-recipients-access-to-opensharing-data-shares-databricks-on-aws.md
 title: Core Schema Notation (CSN)

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-on-aws
     - DOA
+    - databricks-on-aws-platform
+    - DOAP
   citations:
     - file: applicable-model-terms-databricks-on-aws.md
     - file: best-practices-for-deep-learning-on-databricks-databricks-on-aws.md
@@ -62,7 +64,7 @@ Databricks on AWS provides a robust environment for deep learning, including:
 - **Reserve GPU Capacity**: A100 and other high-demand GPU instances often have limited availability. Contact AWS to reserve capacity in advance for critical workloads. ^[best-practices-for-deep-learning-on-databricks-databricks-on-aws.md]
 - **Use Spot Instances**: For non-critical or fault-tolerant workloads, consider using EC2 Spot Instances to reduce compute costs.
 - **Optimize Storage**: Use Delta Lake with partitioning, Z-ordering, and liquid clustering to improve query performance on Amazon S3.
-- **Implement Governance**: Use Unity Catalog with [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) and [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) to enforce fine-grained access control.
+- **Implement Governance**: Use Unity Catalog with [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) and [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) to enforce fine-grained access control.
 
 ### Related Concepts
 

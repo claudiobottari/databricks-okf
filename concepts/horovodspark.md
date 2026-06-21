@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - horovodspark
     - Horovod Spark
+    - horovodspark-estimator-api
+    - HEA
   citations:
     - file: horovod-databricks-on-aws.md
 title: horovod.spark

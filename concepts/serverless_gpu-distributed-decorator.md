@@ -13,6 +13,8 @@ x-llmwiki:
     - serverless_gpu-distributed-decorator
     - S@D
     - serverless_gpu.distributed decorator|@distributed
+    - serverless-gpu-distributed-training-api
+    - SGDTA
   citations:
     - file: distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md
 title: serverless_gpu @distributed decorator
@@ -37,7 +39,7 @@ The `@distributed` decorator is designed to simplify running [multi-GPU training
 The `@distributed` decorator handles the following tasks automatically: ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
 
 - **Resource provisioning**: Spins up the specified number of GPUs (e.g., 8 H100 GPUs) on serverless compute.
-- **Environment setup**: Configures environment variables such as `RANK`, `WORLD_SIZE`, and `LOCAL_RANK` that distributed frameworks like [PyTorch FSDP](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md) require.
+- **Environment setup**: Configures environment variables such as `RANK`, `WORLD_SIZE`, and `LOCAL_RANK` that distributed frameworks like [PyTorch FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) require.
 - **Lifecycle management**: Tears down remote compute resources after the function completes or fails.
 - **Remote execution**: Runs the decorated function on the provisioned infrastructure rather than the notebook's local driver.
 
@@ -77,7 +79,7 @@ result = run_training.distributed()
 
 ## Practical Example: PyTorch FSDP Training
 
-The following example demonstrates the decorator applied to a function that trains a Transformer model using [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md): ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
+The following example demonstrates the decorator applied to a function that trains a Transformer model using [PyTorch Fully Sharded Data Parallel (FSDP)](/concepts/fsdp-fully-sharded-data-parallel.md): ^[distributed-training-using-pytorch-fsdp-on-serverless-gpu-compute-databricks-on-aws.md]
 
 ```python
 from serverless_gpu import distributed
@@ -177,7 +179,7 @@ The decorator supports distributed checkpointing via `torch.distributed.checkpoi
 ## Related Concepts
 
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) — The underlying infrastructure that the decorator provisions
-- [PyTorch FSDP](/concepts/pytorch-fully-sharded-data-parallel-fsdp.md) — The distributed training strategy commonly used with this decorator
+- [PyTorch FSDP](/concepts/fsdp-fully-sharded-data-parallel.md) — The distributed training strategy commonly used with this decorator
 - [Distributed training](/concepts/workload-yaml-for-distributed-training.md) — The broader category of multi-GPU training techniques
 - GPUType enum — The allowed GPU hardware types for serverless execution
 - [Multi-GPU training on Databricks](/concepts/multi-gpu-distributed-training-on-databricks.md) — General overview of distributed training options

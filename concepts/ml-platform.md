@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - ml-platform
+    - ml-platform-databricks
+    - MP(
   citations:
     - file: concepts-data-science-and-machine-learning-on-databricks-databricks-on-aws.md
 title: ML Platform

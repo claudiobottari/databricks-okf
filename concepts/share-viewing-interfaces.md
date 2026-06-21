@@ -79,7 +79,7 @@ Before viewing shares and share details, users must meet the same requirements a
 - Create shares for OpenSharing — How to create new shares or add data assets to existing shares.
 - Manage access to OpenSharing data shares — How to grant recipient access to shares.
 - [Manage data recipients for OpenSharing](/concepts/data-recipient-opensharing.md) — How to manage the data recipients you share with.
-- [Shares, providers, and recipients](/concepts/recipient-and-share-concepts.md) — The sharing model that underpins OpenSharing.
+- [Shares, providers, and recipients](/concepts/recipient-and-share-model.md) — The sharing model that underpins OpenSharing.
 
 ## Sources
 

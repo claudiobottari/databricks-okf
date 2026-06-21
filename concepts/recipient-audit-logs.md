@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - recipient-audit-logs
     - RAL
+    - recipient-audit-log-events
+    - RALE
   citations:
     - file: audit-and-monitor-data-sharing-databricks-on-aws.md
 title: Recipient Audit Logs

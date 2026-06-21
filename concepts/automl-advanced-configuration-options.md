@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - automl-advanced-configuration-options
     - AACO
+    - automl-advanced-configuration-parameters
+    - AACP
   citations:
     - file: classification-with-automl-databricks-on-aws.md
     - file: classification-with-automl-databricks-on-aws.md#advanced-configurations

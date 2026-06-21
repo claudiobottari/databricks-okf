@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - default-workspace-admin-privileges-on-metastore
     - DWAPOM
+    - default-workspace-admin-privileges-unity-catalog
+    - DWAP(C
   citations:
     - file: admin-privileges-in-unity-catalog-databricks-on-aws.md
 title: Default Workspace Admin Privileges on Metastore

@@ -93,7 +93,7 @@ When using [Low Shuffle Merge](/concepts/low-shuffle-merge.md) on managed tables
 - Predictive Optimization
 - [Liquid Clustering](/concepts/liquid-clustering.md)
 - [Delta Lake](/concepts/delta-lake.md)
-- [Apache Iceberg on Databricks](/concepts/uniform-apache-iceberg-format-in-databricks.md)
+- [Apache Iceberg on Databricks](/concepts/uniform-apache-iceberg-format.md)
 - Upgrade Hive Tables to Unity Catalog
 
 ## Sources

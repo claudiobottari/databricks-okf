@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - connection-identifier-exchange
     - CIE
+    - connection-identifier-exchange-protocol
+    - CIEP
   citations:
     - file: create-and-manage-the-sap-business-data-cloud-bdc-connector-databricks-on-aws.md
 title: Connection Identifier Exchange

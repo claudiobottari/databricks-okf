@@ -77,7 +77,7 @@ Analyze governance requirements before creating policies. Start with a small num
 
 ### 4. Use TO/EXCEPT for Principal Targeting
 
-For [row filter](/concepts/row-filter-policies.md) and [column mask](/concepts/column-mask-policies.md) policies, use the policy's `TO` and `EXCEPT` clauses to define which users and groups the policy applies to. This keeps any user-defined function (UDF) logic simple. For [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta), `TO` and `EXCEPT` are the only mechanisms for targeting principals because GRANT policies do not use UDFs. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+For [row filter](/concepts/row-filter-policies.md) and [column mask](/concepts/column-mask-policies.md) policies, use the policy's `TO` and `EXCEPT` clauses to define which users and groups the policy applies to. This keeps any user-defined function (UDF) logic simple. For [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (Beta), `TO` and `EXCEPT` are the only mechanisms for targeting principals because GRANT policies do not use UDFs. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ### 5. Set Fallback Rules for Unclassified Data
 
@@ -98,7 +98,7 @@ ABAC policies are dynamic: they evaluate at query time based on the user's ident
 
 - Use `SHOW EFFECTIVE POLICIES` to determine what applies to a specific table.
 - Document the tagging taxonomy, policies, and group management approach so that teams can understand the governance model without inspecting each policy individually.
-- If transparency is critical for a specific table, consider using [Table-Level Row Filters and Column Masks](/concepts/table-level-row-filters-and-column-masks.md) for that isolated case, while addressing possible conflicts first. ^[best-practices-for-abac-policies-databricks-on-aws.md]
+- If transparency is critical for a specific table, consider using [Table-Level Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md) for that isolated case, while addressing possible conflicts first. ^[best-practices-for-abac-policies-databricks-on-aws.md]
 
 ## Consequences of Policy Sprawl
 
@@ -109,7 +109,7 @@ ABAC policies are dynamic: they evaluate at query time based on the user's ident
 
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - [Row Filter Policies](/concepts/row-filter-policies.md)
 - [Column Mask Policies](/concepts/column-mask-policies.md)
 - [Governed Tags](/concepts/governed-tags.md)

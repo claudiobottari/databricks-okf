@@ -61,7 +61,7 @@ The AI asset model provides the same governance capabilities that Unity Catalog 
 ## Related concepts
 
 - [Unity Catalog](/concepts/unity-catalog.md) — The unified governance layer for data and AI assets
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — Broader governance covering AI assets and AI traffic
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — Broader governance covering AI assets and AI traffic
 - [Unity AI Gateway](/concepts/unity-ai-gateway.md) — The control plane for governing AI traffic
 - MLflow Models — Registered ML models managed as Unity Catalog securable objects
 - Unity Catalog Functions — Functions used as agent tools

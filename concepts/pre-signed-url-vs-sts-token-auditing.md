@@ -59,7 +59,7 @@ The `request_params` field can include values such as `recipient_name`, `share_n
 - [Delta Sharing Audit Logs](/concepts/opensharing-audit-logs.md) – General audit logging for OpenSharing events.
 - OpenSharing Events – Full list of audit log event types for data sharing.
 - [Audit Log System Table](/concepts/audit-log-system-table-requirements.md) – System table reference for `system.access.audit`.
-- [Data Provider Audit Monitoring](/concepts/provider-audit-log-events.md) – Best practices for providers monitoring shared data access.
+- [Data Provider Audit Monitoring](/concepts/provider-audit-logs.md) – Best practices for providers monitoring shared data access.
 
 ## Sources
 

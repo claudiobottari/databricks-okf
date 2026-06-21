@@ -20,6 +20,8 @@ x-llmwiki:
     - custom judges using make_judge()
     - Create a custom judge using make_judge()
     - custom judge|custom judges
+    - custom-llm-based-judges-make_judge
+    - CLJ(
   citations:
     - file: create-a-custom-judge-using-make_judge-databricks-on-aws.md
 title: Custom Judges (make_judge)

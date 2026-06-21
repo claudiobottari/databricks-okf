@@ -67,7 +67,7 @@ The following permissions are necessary to connect and trigger deployment jobs: 
 
 ## Auto-trigger Behavior
 
-When a new model version is created, the deployment job automatically triggers using the model owner's credentials. This means that granting a user [Unity Catalog Privileges#CREATE MODEL VERSION|CREATE MODEL VERSION](/concepts/unity-catalog-privileges-and-ownership-model.md) permission on a Unity Catalog model allows that user to execute arbitrary code as part of the job. Databricks recommends setting up the deployment job using a Service Principal with minimal permissions to prevent privilege escalation. ^[mlflow-3-deployment-jobs-databricks-on-aws.md]
+When a new model version is created, the deployment job automatically triggers using the model owner's credentials. This means that granting a user [Unity Catalog Privileges#CREATE MODEL VERSION|CREATE MODEL VERSION](/concepts/privileges-and-ownership.md) permission on a Unity Catalog model allows that user to execute arbitrary code as part of the job. Databricks recommends setting up the deployment job using a Service Principal with minimal permissions to prevent privilege escalation. ^[mlflow-3-deployment-jobs-databricks-on-aws.md]
 
 ## Related Concepts
 

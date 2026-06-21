@@ -37,13 +37,13 @@ Unify AI Gateway enables organizations to manage and monitor LLM endpoints from 
 - **Rate limiting**: Enforce usage limits to prevent abuse, manage costs, and ensure fair resource allocation across teams.
 - **Usage tracking and cost monitoring**: Track how many requests each endpoint receives, by whom, and across which providers, enabling chargeback and capacity planning.
 
-LLM endpoint governance is part of the broader [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) framework, which applies the same access control, lineage, and audit model used for data assets to AI resources and AI traffic.^[ai-governance-databricks-on-aws.md]
+LLM endpoint governance is part of the broader [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) framework, which applies the same access control, lineage, and audit model used for data assets to AI resources and AI traffic.^[ai-governance-databricks-on-aws.md]
 
 ## How LLM endpoint governance works
 
 LLM endpoint governance is built on two layers:
 
-1. **AI asset governance** — The underlying models served by the endpoints are managed as Unity Catalog securable objects. Access to MLflow Models and [Foundation Model APIs](/concepts/foundation-model-apis.md) is granted through standard Unity Catalog privileges. [ABAC GRANT Policies](/concepts/abac-grant-policies.md) can dynamically grant `EXECUTE` on models based on tag conditions, providing fine-grained access control to the models behind endpoints.^[abac-grant-policies-for-models-beta-databricks-on-aws.md, ai-governance-databricks-on-aws.md]
+1. **AI asset governance** — The underlying models served by the endpoints are managed as Unity Catalog securable objects. Access to MLflow Models and [Foundation Model APIs](/concepts/foundation-model-apis.md) is granted through standard Unity Catalog privileges. [ABAC GRANT Policies](/concepts/abac-grant-policy.md) can dynamically grant `EXECUTE` on models based on tag conditions, providing fine-grained access control to the models behind endpoints.^[abac-grant-policies-for-models-beta-databricks-on-aws.md, ai-governance-databricks-on-aws.md]
 
 2. **AI traffic governance** — Unity AI Gateway acts as a proxy between users and LLM endpoints. It intercepts calls to both hosted foundation models (e.g., Databricks-hosted models in `system.ai`) and external provider endpoints. At this layer, administrators enforce rate limits, audit usage, and control who can reach each endpoint.^[ai-governance-databricks-on-aws.md]
 
@@ -70,7 +70,7 @@ For models served through Unity Catalog, administrators can also use [ABAC GRANT
 ## Related concepts
 
 - [Unity AI Gateway](/concepts/unity-ai-gateway.md) — The control plane for managing LLM endpoints and MCP servers
-- [AI Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) — The overall governance framework for AI assets and traffic
+- [AI Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) — The overall governance framework for AI assets and traffic
 - [ABAC GRANT Policy](/concepts/abac-grant-policy.md) — Dynamic, tag-based privilege grants for models
 - MLflow Models — Models that can be served through LLM endpoints
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — Databricks-hosted foundation model endpoints

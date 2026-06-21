@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - ray-spark-integration-on-databricks
     - RIOD
+    - ray-and-spark-integration-on-databricks
+    - Spark Integration on Databricks and Ray
+    - RASIOD
+    - Combine Ray and Spark in the same environment on Databricks
+    - Combine Ray and Spark on Databricks
+    - Ray and Spark Integration
   citations:
     - file: combine-ray-and-spark-in-the-same-environment-on-databricks-databricks-on-aws.md
 title: Ray-Spark Integration on Databricks

@@ -66,7 +66,7 @@ Databricks recommends using Databricks Online Feature Stores for new projects. ^
 
 - The workspace must be enabled for Unity Catalog. ^[databricks-online-tables-legacy-databricks-on-aws.md]
 - A model must be registered in Unity Catalog to access online tables. ^[databricks-online-tables-legacy-databricks-on-aws.md]
-- For Databricks online tables, the source Delta table must have a primary key, and an online table must be created from that source table (see [Online Tables (Legacy)](/concepts/databricks-online-tables-legacy.md)). ^[databricks-online-tables-legacy-databricks-on-aws.md]
+- For Databricks online tables, the source Delta table must have a primary key, and an online table must be created from that source table (see [Online Tables (Legacy)](/concepts/databricks-online-tables.md)). ^[databricks-online-tables-legacy-databricks-on-aws.md]
 - The user creating the feature spec and serving endpoint must be the owner of both the offline table and the online table. ^[databricks-online-tables-legacy-databricks-on-aws.md]
 - For third‑party online stores, authentication must be configured as described in [Third‑Party Online Store Authentication](/concepts/third-party-online-store-authentication-for-feature-serving.md). ^[third-party-online-stores-databricks-on-aws.md]
 
@@ -112,7 +112,7 @@ A unique service principal is automatically created for the feature serving or m
 ## Related Concepts
 
 - [Feature Store](/concepts/feature-store.md)
-- [Online Tables (Legacy)](/concepts/databricks-online-tables-legacy.md)
+- [Online Tables (Legacy)](/concepts/databricks-online-tables.md)
 - [Feature Serving Endpoint](/concepts/feature-serving-endpoint.md)
 - [Model Serving](/concepts/model-serving.md)
 - [FeatureLookup](/concepts/featurelookup.md)

@@ -83,7 +83,7 @@ Credentials have an expiration date determined by the data provider. When a cred
 
 - [OpenSharing](/concepts/opensharing.md) — The open protocol for data sharing between Databricks and non-Databricks platforms
 - [Delta Sharing](/concepts/delta-sharing.md) — The underlying technology for secure data sharing
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) — The authentication mechanism used in credential files
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) — The authentication mechanism used in credential files
 - [Unity Catalog](/concepts/unity-catalog.md) — Databricks' governance solution that integrates with credential-based access
 - [Apache Iceberg REST Catalog](/concepts/iceberg-rest-catalog-irc-protocol.md) — API standard for Iceberg client access to shared data
 

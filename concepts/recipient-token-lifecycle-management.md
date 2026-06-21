@@ -64,7 +64,7 @@ To modify the default recipient token lifetime for a Unity Catalog [Metastore](/
 ## Related Concepts
 
 - [Recipient Object Management](/concepts/recipient-lifecycle-management.md) — Creating, viewing, and deleting recipient objects for OpenSharing
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) — Token-based authentication flow for Delta Sharing
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) — Token-based authentication flow for Delta Sharing
 - [OIDC Federation for OpenSharing](/concepts/oidc-federation-for-opensharing.md) — Alternative authentication flow with advantages in security and convenience
 - [Delta Sharing Security](/concepts/delta-sharing-security-model.md) — Secure data sharing practices and considerations
 - [IP Access Lists for OpenSharing](/concepts/ip-access-lists-for-opensharing-recipients.md) — Restricting recipient access by IP address

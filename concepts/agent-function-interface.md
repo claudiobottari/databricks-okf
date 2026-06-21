@@ -14,6 +14,10 @@ x-llmwiki:
     - AFI
     - Agent Function
     - agent function
+    - agent-function-interface-for-mlflow-evaluation
+    - AFIFME
+    - agent-function-interface-for-simulation
+    - AFIFS
   citations:
     - file: conversation-simulation-databricks-on-aws.md
     - file: code-based-scorer-reference-databricks-on-aws.md
@@ -135,7 +139,7 @@ results = mlflow.genai.evaluate(
 - [ConversationSimulator](/concepts/conversationsimulator.md) — Generates synthetic multi-turn conversations that call this agent interface
 - [MLflow evaluation](/concepts/mlflow-evaluation-ui.md) — The evaluation framework that invokes the agent function
 - [Code-based Scorers](/concepts/code-based-scorers.md) — Custom evaluation functions that can access the same runtime environment
-- [Accessing Databricks secrets in scorers](/concepts/accessing-databricks-secrets-in-scorers.md) — How to securely access credentials within the evaluation runtime
+- [Accessing Databricks secrets in scorers](/concepts/accessing-secrets-in-scorers.md) — How to securely access credentials within the evaluation runtime
 - [MLflow experiments](/concepts/mlflow-experiment.md) — The organizational unit for storing evaluation results
 
 ## Sources

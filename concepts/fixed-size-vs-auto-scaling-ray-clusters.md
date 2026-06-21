@@ -129,7 +129,7 @@ By default, when you create a Ray cluster in a notebook, it is only available to
 - [Ray on Databricks](/concepts/ray-on-databricks.md) — Overview of Ray integration with Databricks
 - [Scale Ray clusters on Databricks](/concepts/ray-cluster-on-databricks.md) — Detailed guide on auto-scaling configuration
 - Databricks Spark cluster — The underlying compute infrastructure for Ray clusters
-- [Global Ray clusters](/concepts/global-mode-ray-clusters.md) — Shared-mode Ray clusters accessible by multiple users
+- [Global Ray clusters](/concepts/global-mode-ray-cluster.md) — Shared-mode Ray clusters accessible by multiple users
 
 ## Sources
 

@@ -11,6 +11,9 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - horovod
+    - horovod-distributed-training-framework
+    - HDTF
+    - Training Framework
   citations:
     - file: adapt-single-node-pytorch-to-distributed-deep-learning-databricks-on-aws.md
 title: Horovod

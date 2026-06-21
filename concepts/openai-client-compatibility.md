@@ -99,7 +99,7 @@ To use OpenAI client compatibility, you need:
 ## Related Concepts
 
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) – Overview of the Databricks-hosted model service
-- [OpenAI SDK](/concepts/openai-api-compatibility-in-databricks.md) – The standard client library for OpenAI-compatible APIs
+- [OpenAI SDK](/concepts/openai-compatible-api-interface.md) – The standard client library for OpenAI-compatible APIs
 - [Model Serving on Databricks](/concepts/model-serving-on-databricks.md) – The broader serving infrastructure
 - [Provisioned throughput endpoints](/concepts/provisioned-throughput-endpoints.md) – Dedicated endpoints with performance guarantees
 - [Pay-per-Token Endpoints](/concepts/pay-per-token-endpoints.md) – Preconfigured endpoints for easy access

@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - mlflow-deepeval-integration
+    - mlflow-deepeval-scorer-integration
+    - MSI
   citations:
     - file: deepeval-scorers-databricks-on-aws.md
 title: MLflow-DeepEval Integration

@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - metadata_cleanup_error
     - METADATA_CLEANUP_ERROR
+    - metadata_cleanup_error-sub-error
   citations:
     - file: delta_alter_table_set_managed_table_not_migratable-error-condition-databricks-on-aws.md
 title: METADATA_CLEANUP_ERROR

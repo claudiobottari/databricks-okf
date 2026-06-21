@@ -25,7 +25,7 @@ timestamp: "2026-06-18T12:16:04.791Z"
 
 # Feature Lineage in Unity Catalog
 
-**Feature Lineage** in Unity Catalog tracks the relationships between [Feature Tables](/concepts/feature-tables.md), the data sources used to create them, and the downstream consumers that use those features — including MLflow models, notebooks, jobs, and endpoints. Lineage is one of the core governance capabilities provided by [Unity Catalog](/concepts/unity-catalog.md) for all feature tables, alongside feature discovery, cross-workspace access, and permission inheritance.^[explore-features-in-unity-catalog-databricks-on-aws.md]
+**Feature Lineage** in Unity Catalog tracks the relationships between [Feature Tables](/concepts/feature-table.md), the data sources used to create them, and the downstream consumers that use those features — including MLflow models, notebooks, jobs, and endpoints. Lineage is one of the core governance capabilities provided by [Unity Catalog](/concepts/unity-catalog.md) for all feature tables, alongside feature discovery, cross-workspace access, and permission inheritance.^[explore-features-in-unity-catalog-databricks-on-aws.md]
 
 ## What Lineage Tracks
 
@@ -80,7 +80,7 @@ You can search for feature tables by name, feature name, comment, or tag to loca
 
 ## Related Concepts
 
-- [Feature Tables](/concepts/feature-tables.md) — Delta tables with primary key constraints, managed by Unity Catalog.
+- [Feature Tables](/concepts/feature-table.md) — Delta tables with primary key constraints, managed by Unity Catalog.
 - MLflow Models — Models that inherit permissions from training data and reference features in lineage.
 - [Catalog Explorer](/concepts/catalog-explorer.md) — UI tool for browsing and managing Unity Catalog assets, including lineage.
 - [Unity Catalog](/concepts/unity-catalog.md) — The overarching governance layer that provides lineage tracking.

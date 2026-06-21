@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - change-data-feed-for-streaming
     - CDFFS
+    - change-data-feed-for-delta-streaming
+    - CDFFDS
+    - change-data-feed-for-streaming-all-change-types
+    - CDFFSACT
   citations:
     - file: delta-lake-table-streaming-reads-and-writes-databricks-on-aws.md
 title: Change Data Feed for Streaming

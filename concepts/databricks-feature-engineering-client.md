@@ -17,6 +17,10 @@ x-llmwiki:
     - databricks-feature-engineering
     - databricks-feature-engineering library
     - Databricks Feature Engineering Client (databricks-feature-engineering)
+    - databricks-feature-engineering-python-api
+    - DFEPA
+    - databricks-feature-engineering-python-client
+    - DFEPC
   citations:
     - file: automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md
 title: Databricks Feature Engineering Client
@@ -55,7 +59,7 @@ The **Databricks Feature Engineering Client** is a Python library that provides 
 
 ## Overview
 
-The `FeatureEngineeringClient` (`databricks.feature_engineering.FeatureEngineeringClient`) allows users to create feature tables stored in [Unity Catalog](/concepts/unity-catalog.md) and use them as [covariates](/concepts/covariates-external-regressors-in-time-series-forecasting.md) (external regressors) in forecasting models. This enables the reuse of feature computations across different models and ensures consistency between training and serving. ^[automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md]
+The `FeatureEngineeringClient` (`databricks.feature_engineering.FeatureEngineeringClient`) allows users to create feature tables stored in [Unity Catalog](/concepts/unity-catalog.md) and use them as [covariates](/concepts/covariates-external-regressors-for-forecasting.md) (external regressors) in forecasting models. This enables the reuse of feature computations across different models and ensures consistency between training and serving. ^[automl-improve-forecasting-with-covariates-external-regressors-databricks-on-aws.md]
 
 ## Key Operations
 
@@ -135,7 +139,7 @@ While the Python `FeatureEngineeringClient` is shown in examples, users can also
 - [Unity Catalog Feature Tables](/concepts/unity-catalog-feature-tables.md) — Storage and governance for feature tables
 - [Feature Store](/concepts/feature-store.md) — Centralized repository for machine learning features
 - [Feature Engineering](/concepts/featureengineeringclient-api.md) — Process of creating features from raw data
-- [Covariates](/concepts/covariates-external-regressors-in-time-series-forecasting.md) — External regressors that improve time series forecasts
+- [Covariates](/concepts/covariates-external-regressors-for-forecasting.md) — External regressors that improve time series forecasts
 
 ## Sources
 

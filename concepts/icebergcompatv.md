@@ -13,6 +13,10 @@ x-llmwiki:
     - icebergcompatv
     - IcebergCompat
     - Iceberg compatibility
+    - icebergcompatv-iceberg-compatibility-version
+    - I(CV
+    - icebergcompatv1
+    - IcebergCompatV1 protocol
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: IcebergCompatV
@@ -114,7 +118,7 @@ IcebergCompatV requires a specific table property to be set to a required value.
 - [Uniform Apache Iceberg](/concepts/uniform-apache-iceberg-format.md)
 - [Deletion Vectors](/concepts/deletion-vectors.md)
 - [Managed Tables](/concepts/managed-tables-in-databricks.md)
-- [REORG Command](/concepts/reorg-table-command.md)
+- [REORG Command](/concepts/reorg-table.md)
 - Delta Lake Table Features
 - [Iceberg Compat Version](/concepts/icebergcompatv-versioning.md)
 

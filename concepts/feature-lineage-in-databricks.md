@@ -66,7 +66,7 @@ For each individual feature within a feature table, lineage information is avail
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Catalog Explorer](/concepts/catalog-explorer.md)
-- [Feature Tables](/concepts/feature-tables.md)
+- [Feature Tables](/concepts/feature-table.md)
 - [Feature Discovery](/concepts/feature-discovery-with-genie-code.md)
 - [Governance in Unity Catalog](/concepts/ai-governance-unity-catalog.md)
 - [Cross-workspace access](/concepts/cross-workspace-feature-access.md)

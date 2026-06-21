@@ -81,10 +81,10 @@ Using string operations instead of regex provides several advantages:
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) — The policy framework that uses UDFs for dynamic data masking
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) — The policy framework that uses UDFs for dynamic data masking
 - Deterministic Functions in ABAC — Best practices for marking functions as DETERMINISTIC for performance optimization
 - [Regex Masking Performance](/concepts/regex-masking-performance-on-large-text-fields.md) — Understanding the performance implications of regex-based masking
-- [Consistent Hashing for Pseudonymization](/concepts/consistent-hashing-for-deterministic-pseudonymization.md) — An alternative masking technique using hashing
+- [Consistent Hashing for Pseudonymization](/concepts/consistent-hashing-deterministic-pseudonymization.md) — An alternative masking technique using hashing
 
 ## Sources
 

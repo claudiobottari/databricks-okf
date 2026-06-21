@@ -142,7 +142,7 @@ Databricks recommends adding labeled traces to an [MLflow Evaluation Dataset](/c
 ## Related Concepts
 
 - [Human Feedback Collection](/concepts/mlflow-human-feedback-collection.md) – End‑user feedback that may trigger expert review.
-- [Developer Annotations](/concepts/developer-annotations-via-mlflow-ui.md) – Inline feedback added by developers during development.
+- [Developer Annotations](/concepts/developer-annotations-on-traces.md) – Inline feedback added by developers during development.
 - [Label Schemas](/concepts/label-schemas.md) – Definitions of the feedback types collected during labeling.
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – The mechanism that records app invocations as traces.
 - [Correctness Scorer](/concepts/correctness-scorer.md) – A metric that compares outputs to expert‑provided ideal responses.

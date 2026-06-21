@@ -41,7 +41,7 @@ The same scorers used for development evaluation with `mlflow.genai.evaluate()` 
 
 Production monitoring includes the following features: ^[monitor-genai-apps-in-production-databricks-on-aws.md]
 
-- **Automated quality assessment** using built-in or custom scorers, including [Multi-turn Judges](/concepts/multi-turn-judges.md) for evaluating entire conversations.
+- **Automated quality assessment** using built-in or custom scorers, including [Multi-turn Judges](/concepts/multi-turn-judge.md) for evaluating entire conversations.
 - **Configurable sampling rates** to control the tradeoff between coverage and computational cost.
 - **Continuous evaluation** running in the background after scorers are started.
 - **Compatiblity with MLflow 2 traces** – MLflow 3 production monitoring works with traces logged from MLflow 2.
@@ -53,7 +53,7 @@ Before setting up production monitoring, ensure you have: ^[monitor-genai-apps-i
 - **MLflow experiment**: An MLflow experiment where traces are being logged. If no experiment is specified, the active experiment is used.
 - **Instrumented production application**: Your GenAI app must log traces using [MLflow Tracing](/concepts/mlflow-tracing.md). See the Production Tracing guide.
 - **Defined scorers**: Tested scorers that work with your application's trace format. If you used your production app as the `predict_fn` in `mlflow.genai.evaluate()` during development, your scorers are likely already compatible.
-- **Serverless budget policy**: If your workspace does not allow the default serverless budget policy, set a policy on the MLflow experiment before registering scorers. See [Configure a serverless budget policy for an MLflow experiment](/concepts/serverless-budget-policy-for-mlflow-experiments.md).
+- **Serverless budget policy**: If your workspace does not allow the default serverless budget policy, set a policy on the MLflow experiment before registering scorers. See [Configure a serverless budget policy for an MLflow experiment](/concepts/serverless-budget-policy.md).
 - **SQL warehouse ID (for Unity Catalog traces)**: If your traces are stored in [Unity Catalog](/concepts/unity-catalog.md), you must configure a SQL warehouse ID for monitoring to work.
 
 ## How It Works
@@ -183,8 +183,8 @@ Custom scorers for production monitoring are serialized for remote execution. To
 - [MLflow Evaluation Harness](/concepts/mlflow-genai-evaluation-harness.md) – The development‑side counterpart for systematic quality testing.
 - [Traces](/concepts/traces.md) – Complete execution logs of a GenAI application.
 - [Feedback](/concepts/feedback-object.md) – Quality measurements attached to traces.
-- [Multi‑Turn Judges](/concepts/multi-turn-judges.md) – Judges that evaluate entire conversations.
-- [Configure a Serverless Budget Policy for an MLflow Experiment](/concepts/serverless-budget-policy-for-mlflow-experiments.md) – Required policy configuration for monitoring setup.
+- [Multi‑Turn Judges](/concepts/multi-turn-judge.md) – Judges that evaluate entire conversations.
+- [Configure a Serverless Budget Policy for an MLflow Experiment](/concepts/serverless-budget-policy.md) – Required policy configuration for monitoring setup.
 - Manage Production Scorers – Lifecycle management of production scorers.
 - [Backfill Historical Traces with Scorers](/concepts/backfillscorers.md) – Retroactively applying scorers.
 - [Archive Traces to a Delta Table](/concepts/trace-archiving-to-delta-tables.md) – Saving traces and assessments.

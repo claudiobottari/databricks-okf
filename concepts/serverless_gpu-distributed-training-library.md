@@ -71,7 +71,7 @@ The serverless_gpu library works seamlessly with [MLflow Tracking](/concepts/mlf
 
 ## Integration with Unsloth
 
-The library is commonly used with [Unsloth](/concepts/unsloth.md) for efficient fine‑tuning of LLMs. The training function imports Unsloth modules (`FastLanguageModel`, `get_chat_template`, etc.) and [TRL](/concepts/trl-transformer-reinforcement-learning-library.md)’s `SFTTrainer`. The distributed training configuration includes setting `device_map={'': local_rank}` to assign each process its GPU, and enabling non‑reentrant gradient checkpointing to avoid sync errors in DDP. ^[distributed-finetune-llama-32-3b-with-unsloth-on-multiple-gpus-databricks-on-aws.md]
+The library is commonly used with [Unsloth](/concepts/unsloth.md) for efficient fine‑tuning of LLMs. The training function imports Unsloth modules (`FastLanguageModel`, `get_chat_template`, etc.) and [TRL](/concepts/trl-transformer-reinforcement-learning.md)’s `SFTTrainer`. The distributed training configuration includes setting `device_map={'': local_rank}` to assign each process its GPU, and enabling non‑reentrant gradient checkpointing to avoid sync errors in DDP. ^[distributed-finetune-llama-32-3b-with-unsloth-on-multiple-gpus-databricks-on-aws.md]
 
 ## Requirements
 

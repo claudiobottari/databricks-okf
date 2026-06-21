@@ -96,7 +96,7 @@ The `WHERE` predicate is optional. When omitted, all rows are deleted. The `tabl
 
 ## Related Concepts
 
-- [DELETE FROM statement](/concepts/delta-lake-dml-statements.md) — Full syntax and usage for the `DELETE FROM` command
+- [DELETE FROM statement](/concepts/delta-lake-dml-operations.md) — Full syntax and usage for the `DELETE FROM` command
 - [Delta Lake](/concepts/delta-lake.md) — The storage layer that supports this statement
 - [MERGE INTO](/concepts/merge-into-delta-lake.md) — An alternative for conditional updates, inserts, and deletes
 - [UPDATE statement](/concepts/update-statement-delta-lake.md) — For modifying existing rows rather than deleting them

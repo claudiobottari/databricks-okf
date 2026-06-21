@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - online-table-databricks
     - OT(
+    - online-tables-databricks
   citations:
     - file: databricks-online-tables-legacy-databricks-on-aws.md
 title: Online Table (Databricks)

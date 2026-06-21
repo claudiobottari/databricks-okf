@@ -75,8 +75,8 @@ Dynamic evaluation makes ABAC powerful and scalable—policies automatically app
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – Dynamic column masking based on tags.
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) – Dynamic row filtering based on tags.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – Dynamic column masking based on tags.
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) – Dynamic row filtering based on tags.
 - Policy Evaluation Order – How multiple ABAC policies combine.
 - [Governed Tags](/concepts/governed-tags.md) – The attributes driving policy conditions.
 - [Row Filters and Column Masks (table-level)](/concepts/row-filters-and-column-masks.md) – Static, directly visible alternative.

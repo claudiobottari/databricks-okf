@@ -11,6 +11,12 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - reorg-table
+    - reorg-table-apply-command
+    - RTAC
+    - reorg-table-command
+    - RTC
+    - REORG Command
+    - REORG command
   citations:
     - file: reorg-table-databricks-on-aws.md
 title: REORG TABLE

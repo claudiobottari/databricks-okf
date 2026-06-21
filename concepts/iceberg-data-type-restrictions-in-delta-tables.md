@@ -78,7 +78,7 @@ For example, to fix `UNSUPPORTED_DATA_TYPE`, change the offending column’s typ
 
 ## Related Concepts
 
-- [Delta table Iceberg compatibility](/concepts/delta-lake-table-features-and-iceberg-compatibility.md) – Overview of the compatibility mode and its configuration.
+- [Delta table Iceberg compatibility](/concepts/delta-lake-table-features-compatibility.md) – Overview of the compatibility mode and its configuration.
 - [Delta Table Column Mapping](/concepts/delta-table-column-mapping.md) – Requires specific physical naming for Iceberg writes.
 - Supported Iceberg data types – Reference of types accepted by Iceberg.
 - Delta table features – List of features that may conflict with Iceberg.

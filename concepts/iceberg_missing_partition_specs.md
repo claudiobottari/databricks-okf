@@ -14,6 +14,12 @@ x-llmwiki:
     - ICEBERG_MISSING_PARTITION_SPECS
     - ICEBERG_MISSING_PARTITION_SPECS error
     - Partition Specs
+    - iceberg_missing_partition_specs-delta-clone-sub-error
+    - I(CS
+    - iceberg_missing_partition_specs-error-condition
+    - IEC
+    - iceberg_missing_partition_specs-sub-error
+    - ICEBERG_MISSING_PARTITION_SPECS sub-error
   citations:
     - file: delta_clone_incompatible_source-error-condition-databricks-on-aws.md
 title: ICEBERG_MISSING_PARTITION_SPECS

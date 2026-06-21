@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - shared-view-function-allowlist
     - SVFA
+    - restricted-sql-function-allowlist
+    - RSFA
   citations:
     - file: functions-supported-in-databricks-to-databricks-view-sharing-databricks-on-aws.md
 title: Shared View Function Allowlist

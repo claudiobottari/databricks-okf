@@ -125,7 +125,7 @@ See the Manage production scorers guide for details. ^[monitor-genai-apps-in-pro
 - [Scorers and LLM Judges](/concepts/scorers-and-llm-judges.md)
 - [Guidelines LLM Judges](/concepts/guidelines-llm-judges.md)
 - [Custom Scorer Functions](/concepts/custom-scorer-definition-in-mlflow.md)
-- [Multi-turn Judges](/concepts/multi-turn-judges.md)
+- [Multi-turn Judges](/concepts/multi-turn-judge.md)
 - [Serverless Budget Policy](/concepts/serverless-budget-policy.md)
 - Sampling Strategy
 - [Trace Filtering](/concepts/mlflow-trace-search-and-filtering.md)

@@ -30,7 +30,7 @@ timestamp: "2026-06-19T17:35:06.925Z"
 
 ## Overview
 
-Databricks provides [Archival support for Delta tables](/concepts/archival-support-for-delta-tables.md), allowing cloud lifecycle policies (e.g., S3 Glacier Deep Archive or Glacier Flexible Retrieval) to move old data files to cost‑efficient storage. This feature is in Public Preview for Databricks Runtime 13.3 LTS and above. Archival support helps reduce storage costs while still enabling queries that can be answered without scanning archived data files.^[archival-support-in-databricks-databricks-on-aws.md]
+Databricks provides [Archival support for Delta tables](/concepts/archival-support-in-databricks.md), allowing cloud lifecycle policies (e.g., S3 Glacier Deep Archive or Glacier Flexible Retrieval) to move old data files to cost‑efficient storage. This feature is in Public Preview for Databricks Runtime 13.3 LTS and above. Archival support helps reduce storage costs while still enabling queries that can be answered without scanning archived data files.^[archival-support-in-databricks-databricks-on-aws.md]
 
 However, the Delta transaction log — the directory `_delta_log/` that records all table changes — is **not** covered by this support. The restriction is explicit: archival applies only to data files (e.g., Parquet files containing table rows).^[archival-support-in-databricks-databricks-on-aws.md]
 
@@ -58,7 +58,7 @@ Databricks recommends carefully auditing lifecycle policies to ensure `_delta_lo
 
 ## Related Concepts
 
-- [Archival support for Delta tables](/concepts/archival-support-for-delta-tables.md) — The overall feature that enables cloud lifecycle policies on Delta data files.
+- [Archival support for Delta tables](/concepts/archival-support-in-databricks.md) — The overall feature that enables cloud lifecycle policies on Delta data files.
 - [Delta Lake Transaction Log](/concepts/delta-lake-transaction-log.md) — The metadata directory that must stay in hot storage.
 - Lifecycle policies on object storage — Cloud provider rules for moving objects to cheaper tiers.
 - S3 Glacier Deep Archive — One of the archival storage classes supported by Databricks.

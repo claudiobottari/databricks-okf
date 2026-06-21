@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-experiment-resource-lifecycle
     - MERL
+    - mlflow-experiment-resource-lifecycle-in-databricks-apps
+    - MERLIDA
   citations:
     - file: add-an-mlflow-experiment-resource-to-a-databricks-app-databricks-on-aws.md
 title: MLflow Experiment Resource Lifecycle

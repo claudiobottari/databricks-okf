@@ -52,7 +52,7 @@ If you are using a [Databricks trial account](https://docs.databricks.com/aws/en
 ## Related Concepts
 
 - [Unity Catalog](/concepts/unity-catalog.md) – The central governance layer for data and AI assets.
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – The system for versioning and managing prompts.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – The system for versioning and managing prompts.
 - Unity Catalog Schema – The organizational unit within a catalog that holds objects like prompts.
 - [MLflow](/concepts/mlflow.md) – The open-source platform for managing machine learning workflows.
 - [Permissions in Unity Catalog](/concepts/manage-permission-in-unity-catalog.md) – How to grant and revoke privileges on catalogs, schemas, and objects.

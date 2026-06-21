@@ -13,6 +13,18 @@ x-llmwiki:
     - supported-feature-types-in-automl
     - SFTIA
     - Feature Types in AutoML
+    - supported-data-feature-types-for-automl-forecasting
+    - SDFTFAF
+    - supported-data-feature-types-for-automl
+    - SDFTFA
+    - supported-feature-types-for-automl
+    - SFTFA
+    - Feature Types for AutoML
+    - Feature types supported by AutoML
+    - supported-feature-types-for-forecasting
+    - SFTFF
+    - supported-feature-types-in-databricks-automl
+    - SFTIDA
   citations:
     - file: data-preparation-for-classification-databricks-on-aws.md
 title: Supported Feature Types in AutoML

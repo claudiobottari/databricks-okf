@@ -59,7 +59,7 @@ Low Shuffle Merge complements other Delta Lake performance optimization techniqu
 ## Related Concepts
 
 - [Delta Lake](/concepts/delta-lake.md) — The storage layer providing ACID transactions and merge operations
-- [MERGE Statement](/concepts/delta-lake-dml-statements.md) — The SQL statement that Low Shuffle Merge optimizes
+- [MERGE Statement](/concepts/delta-lake-dml-operations.md) — The SQL statement that Low Shuffle Merge optimizes
 - [Liquid Clustering](/concepts/liquid-clustering.md) — A data layout optimization preserved by Low Shuffle Merge
 - OPTIMIZE — The command used to compact and optimize data files
 - Predictive Optimization — Automatic optimization for Unity Catalog managed tables

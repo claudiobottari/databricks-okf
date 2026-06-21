@@ -121,7 +121,7 @@ Multiple `Feedback` objects from a single scorer work in offline evaluation with
 - [Custom code-based scorers](/concepts/code-based-scorers.md) – Overview of the custom scorer framework.
 - [Feedback (MLflow entity)](/concepts/feedback-mlflow-evaluation.md) – The data object that holds per-metric results.
 - [@scorer decorator](/concepts/scorer-decorator.md) – The primary way to define a code-based scorer.
-- [Scorer (base class)](/concepts/scorer-class-pydantic-base-class.md) – Alternative definition approach for stateful scorers (offline only).
+- [Scorer (base class)](/concepts/scorer-class.md) – Alternative definition approach for stateful scorers (offline only).
 - MLflow Evaluation for GenAI – Offline and online evaluation pipeline.
 
 ## Sources

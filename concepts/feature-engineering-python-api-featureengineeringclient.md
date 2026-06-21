@@ -25,7 +25,7 @@ timestamp: "2026-06-19T10:30:42.273Z"
 
 # Feature Engineering Python API (FeatureEngineeringClient)
 
-The **Feature Engineering Python API (`FeatureEngineeringClient`)** is a Python client for interacting with [Feature Tables](/concepts/feature-tables.md) in [Unity Catalog](/concepts/unity-catalog.md). It provides methods for creating, reading, updating, and deleting feature tables, as well as managing feature table tags and preparing training and inference datasets.
+The **Feature Engineering Python API (`FeatureEngineeringClient`)** is a Python client for interacting with [Feature Tables](/concepts/feature-table.md) in [Unity Catalog](/concepts/unity-catalog.md). It provides methods for creating, reading, updating, and deleting feature tables, as well as managing feature table tags and preparing training and inference datasets.
 
 ## Overview
 

@@ -45,7 +45,7 @@ This approach is well-suited for interactive development and quick experimentati
 
 ## Git-based workflow
 
-In a git-based workflow, training code is hosted in a remote [git repository](/concepts/databricks-connect-github-repository.md), such as GitHub, GitLab, or Bitbucket. The `air` CLI clones the repository on demand when the job is submitted, allowing teams to manage code through standard version control practices.^[ai-runtime-cli-databricks-on-aws.md]
+In a git-based workflow, training code is hosted in a remote [git repository](/concepts/databricks-connect-github-examples.md), such as GitHub, GitLab, or Bitbucket. The `air` CLI clones the repository on demand when the job is submitted, allowing teams to manage code through standard version control practices.^[ai-runtime-cli-databricks-on-aws.md]
 
 ### Characteristics
 

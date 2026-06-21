@@ -32,7 +32,7 @@ timestamp: "2026-06-18T15:24:31.036Z"
 
 ## Overview
 
-The `delta.universalFormat.enabledFormats` property specifies which [Uniform Format](/concepts/delta-uniform-uniform.md) readers are enabled for a Delta table. When using `REFRESH SYNC UNIFORM`, the system checks that the enabled formats are compatible with the table's existing features and configuration. ^[delta_uniform_refresh_not_supported-error-condition-databricks-on-aws.md]
+The `delta.universalFormat.enabledFormats` property specifies which [Uniform Format](/concepts/delta-uniform.md) readers are enabled for a Delta table. When using `REFRESH SYNC UNIFORM`, the system checks that the enabled formats are compatible with the table's existing features and configuration. ^[delta_uniform_refresh_not_supported-error-condition-databricks-on-aws.md]
 
 ## Compatibility Requirements
 
@@ -77,7 +77,7 @@ SET TBLPROPERTIES (
 ## Related Concepts
 
 - [Delta Lake](/concepts/delta-lake.md) - The foundational data lake storage layer
-- [Uniform Format](/concepts/delta-uniform-uniform.md) - Multi-format compatibility for Delta tables
+- [Uniform Format](/concepts/delta-uniform.md) - Multi-format compatibility for Delta tables
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) - An open table format for large analytic datasets
 - Apache Hudi - A data lake platform that brings database capabilities
 - Table Features - [Delta Lake Table](/concepts/delta-lake-table.md) features and capabilities

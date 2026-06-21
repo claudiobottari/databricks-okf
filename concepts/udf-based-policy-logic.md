@@ -104,8 +104,8 @@ To use a UDF in a policy, the policy creator must have `EXECUTE` privilege on th
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – Policies that use UDFs for column-level masking.
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md) – Policies that use UDFs for row-level filtering.
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – Policies that use UDFs for column-level masking.
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md) – Policies that use UDFs for row-level filtering.
 - [Unity Catalog User-Defined Functions](/concepts/abac-user-defined-functions-udfs.md) – The catalog system that stores and manages UDFs.
 - CREATE POLICY – The SQL syntax for creating ABAC policies.
 - [Governed Tags](/concepts/governed-tags.md) – The attributes used to identify target columns in policy definitions.

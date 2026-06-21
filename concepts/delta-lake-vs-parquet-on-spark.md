@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta-lake-vs-parquet-on-spark
     - DLVPOS
+    - delta-lake-vs-parquet-on-apache-spark
+    - DLVPOAS
   citations:
     - file: best-practices-delta-lake-databricks-on-aws.md
 title: Delta Lake vs Parquet on Spark

@@ -27,7 +27,7 @@ timestamp: "2026-06-19T23:15:27.317Z"
 
 # Metastore
 
-The **metastore** is the top-level securable object in [Unity Catalog](/concepts/unity-catalog.md). It represents the container for all objects registered in [Unity Catalog](/concepts/unity-catalog.md) within a single cloud region. This includes not only the Catalog|catalogs that organize data assets, but also objects that control how data is accessed and shared, such as Storage Credential|storage credentials, [external locations](/concepts/external-location.md), Service Credential|service credentials, Connection|connections, Share|shares, [Recipient|recipients](/concepts/recipient-and-share-concepts.md), Provider|providers, and [Clean Room|clean rooms](/concepts/databricks-clean-rooms.md). ^[unity-catalog-securable-objects-reference-databricks-on-aws.md]
+The **metastore** is the top-level securable object in [Unity Catalog](/concepts/unity-catalog.md). It represents the container for all objects registered in [Unity Catalog](/concepts/unity-catalog.md) within a single cloud region. This includes not only the Catalog|catalogs that organize data assets, but also objects that control how data is accessed and shared, such as Storage Credential|storage credentials, [external locations](/concepts/external-location.md), Service Credential|service credentials, Connection|connections, Share|shares, [Recipient|recipients](/concepts/recipient-and-share-model.md), Provider|providers, and [Clean Room|clean rooms](/concepts/databricks-clean-rooms.md). ^[unity-catalog-securable-objects-reference-databricks-on-aws.md]
 
 ## Role in the Object Hierarchy
 

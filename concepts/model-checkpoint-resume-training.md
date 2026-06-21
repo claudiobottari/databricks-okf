@@ -46,7 +46,7 @@ During training, model checkpoints capture the model's parameters, optimizer sta
 
 ## Implementation Example
 
-The following example demonstrates checkpoint resume training using [GluonTS](/concepts/gluonts.md) with a [DeepAREstimator](/concepts/deepar-estimator.md) on [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu-compute.md): ^[forecasting-time-series-with-gluonts-databricks-on-aws.md]
+The following example demonstrates checkpoint resume training using [GluonTS](/concepts/gluonts.md) with a [DeepAREstimator](/concepts/deepar.md) on [Databricks Serverless GPU Compute](/concepts/databricks-serverless-gpu.md): ^[forecasting-time-series-with-gluonts-databricks-on-aws.md]
 
 ### Saving Checkpoints
 
@@ -126,7 +126,7 @@ The `ckpt_path` parameter specifies which checkpoint file to load. The trainer c
 ## Related Concepts
 
 - Model Checkpointing — The general practice of saving model state during training.
-- [DeepAREstimator](/concepts/deepar-estimator.md) — A probabilistic forecasting model that supports checkpoint resume training.
+- [DeepAREstimator](/concepts/deepar.md) — A probabilistic forecasting model that supports checkpoint resume training.
 - [GluonTS](/concepts/gluonts.md) — A time series forecasting library that integrates checkpointing with PyTorch Lightning.
 - Unity Catalog Volumes — Storage volumes for persisting artifacts like model checkpoints.
 - Training Interruption Recovery — Broader strategies for handling training failures.

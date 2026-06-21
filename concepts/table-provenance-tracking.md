@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - table-provenance-tracking
     - TPT
+    - table-provenance-tracking-in-delta-lake
+    - TPTIDL
   citations:
     - file: describe-history-databricks-on-aws.md
 title: Table provenance tracking

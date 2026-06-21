@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta-streaming-offset-validation-rules
     - DSOVR
+    - delta-streaming-offset-validation-constraints
+    - DSOVC
   citations:
     - file: delta_streaming_skip_offsets_invalid_offset_range-error-condition-databricks-on-aws.md
 title: Delta Streaming Offset Validation Rules

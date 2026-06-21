@@ -13,6 +13,9 @@ x-llmwiki:
     - mlflowset_trace_tag-and-mlflowdelete_trace_tag
     - mlflow.delete_trace_tag and mlflow.set_trace_tag
     - MAM
+    - mlflowset_trace_tag-and-mlflowdelete_trace_tag-apis
+    - mlflow.delete_trace_tag APIs and mlflow.set_trace_tag
+    - MAMA
   citations:
     - file: attach-custom-tags-and-metadata-databricks-on-aws.md
 title: mlflow.set_trace_tag and mlflow.delete_trace_tag

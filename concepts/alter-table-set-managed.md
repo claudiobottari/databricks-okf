@@ -14,6 +14,16 @@ x-llmwiki:
     - ATSM
     - ALTER TABLE ... UNSET MANAGED
     - ALTER TABLE UNSET MANAGED
+    - alter-table-set-managed-command
+    - ATSMC
+    - alter-table-set-managed-databricks
+    - ATSM(
+    - alter-table-set-managed-delta-lake
+    - ATSM(L
+    - alter-table-set-managed-operation
+    - ATSMO
+    - ALTER TABLE operations
+    - External table to managed table migration
   citations:
     - file: delta_alter_table_set_managed_failed-error-condition-databricks-on-aws.md
     - file: delta_alter_table_set_managed_table_not_migratable-error-condition-databricks-on-aws.md

@@ -88,7 +88,7 @@ The `source` field tracks where a dataset record originated. Each record can hav
 
 ### Tags
 
-Tags can be added to individual records for organization and filtering. The [MLflow Evaluation Dataset UI](/concepts/mlflow-evaluation-dataset-ui.md) allows adding and editing tags directly. ^[evaluation-dataset-reference-databricks-on-aws.md]
+Tags can be added to individual records for organization and filtering. The [MLflow Evaluation Dataset UI](/concepts/evaluation-dataset-ui.md) allows adding and editing tags directly. ^[evaluation-dataset-reference-databricks-on-aws.md]
 
 ## MLflow Evaluation Dataset UI
 

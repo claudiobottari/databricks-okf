@@ -66,7 +66,7 @@ Some packages are available by default without inline import, including `databri
 
 ## Multi-Turn Judges
 
-[Multi-turn Judges](/concepts/multi-turn-judges.md) evaluate entire conversations rather than individual traces. These judges assess quality patterns across multiple interactions, such as user frustration and conversation completeness. The monitoring job automatically groups traces into conversations based on the `mlflow.trace.session` tag. ^[monitor-genai-apps-in-production-databricks-on-aws.md]
+[Multi-turn Judges](/concepts/multi-turn-judge.md) evaluate entire conversations rather than individual traces. These judges assess quality patterns across multiple interactions, such as user frustration and conversation completeness. The monitoring job automatically groups traces into conversations based on the `mlflow.trace.session` tag. ^[monitor-genai-apps-in-production-databricks-on-aws.md]
 
 Multi-turn judges run after a conversation is considered complete — by default, a conversation is complete when no new traces with that session ID are ingested for 5 minutes. This buffer can be configured using the `MLFLOW_ONLINE_SCORING_DEFAULT_SESSION_COMPLETION_BUFFER_SECONDS` environment variable on the monitoring job. ^[monitor-genai-apps-in-production-databricks-on-aws.md]
 
@@ -100,7 +100,7 @@ After scheduling scorers, allow 15–20 minutes for initial processing. Results 
 - [Guidelines LLM Judges](/concepts/guidelines-llm-judges.md) — Pass/fail evaluation using natural language criteria
 - [Custom Prompt LLM Judges](/concepts/custom-llm-judges.md) — Multi-level assessment with customizable categories
 - [Code-based Scorers](/concepts/code-based-scorers.md) — Maximum flexibility for custom evaluation logic
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) — Conversation-level evaluation across multiple interactions
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) — Conversation-level evaluation across multiple interactions
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — Organizational unit for runs and evaluations
 - [Serverless Budget Policy](/concepts/serverless-budget-policy.md) — Required configuration for running scorers in restricted workspaces
 

@@ -36,7 +36,7 @@ Feature Engineering in Unity Catalog requires Databricks Runtime 13.2 or above, 
 
 ## Creating a Feature Table with a Primary Key
 
-You can create a feature table with a primary key using Databricks SQL, the [Feature Engineering Python client](/concepts/featureengineeringclient-python-client.md) (`FeatureEngineeringClient`), or [Lakeflow Spark Declarative Pipelines](/concepts/lakeflow-spark-declarative-pipelines.md).
+You can create a feature table with a primary key using Databricks SQL, the [Feature Engineering Python client](/concepts/featureengineeringclient-python-api.md) (`FeatureEngineeringClient`), or [Lakeflow Spark Declarative Pipelines](/concepts/lakeflow-spark-declarative-pipelines.md).
 
 ### Using Databricks SQL
 

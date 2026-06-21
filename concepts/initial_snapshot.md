@@ -15,6 +15,12 @@ x-llmwiki:
     - Initial Snapshot
     - initial snapshot
     - isInitialSnapshot
+    - initial_snapshot-sub-condition
+    - initial_snapshot-subcondition
+    - INITIAL_SNAPSHOT error condition
+    - INITIAL_SNAPSHOT subcondition
+    - INITIAL_SNAPSHOT Sub-Condition|INITIAL_SNAPSHOT
+    - Process Initial Snapshot Without Dropping Data
   citations:
     - file: delta_streaming_skip_offsets_invalid_offset_range-error-condition-databricks-on-aws.md
 title: INITIAL_SNAPSHOT

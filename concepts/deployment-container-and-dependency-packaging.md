@@ -108,7 +108,7 @@ For more information about using custom or private libraries, see [Use custom Py
 
 ## Related Concepts
 
-- [Custom Models on Databricks](/concepts/custom-models-on-databricks.md)
+- [Custom Models on Databricks](/concepts/custom-models-databricks.md)
 - MLflow PyFunc
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md)
 - [Foundation Model APIs](/concepts/foundation-model-apis.md)

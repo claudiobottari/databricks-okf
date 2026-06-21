@@ -14,6 +14,9 @@ x-llmwiki:
     - prepare_data_loader and prepare_model
     - PAP
     - prepare_data_loader
+    - prepare_model-and-prepare_data_loader-in-ray-train
+    - prepare_data_loader in Ray Train and prepare_model
+    - PAPIRT
   citations:
     - file: distributed-training-with-ray-train-databricks-on-aws.md
 title: prepare_model and prepare_data_loader

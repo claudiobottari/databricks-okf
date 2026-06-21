@@ -62,7 +62,7 @@ MLflow supports the GEPA algorithm through the [`GepaPromptOptimizer`](https://m
 - **Framework Agnostic**: Works with any agent framework, providing broad compatibility.
 - **Joint Optimization**: Enables simultaneous refinement of multiple prompts for best overall performance.
 - **Flexible Evaluation**: Supports custom scorers and aggregation functions.
-- **Version Control**: Automatically registers optimized prompts in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md).
+- **Version Control**: Automatically registers optimized prompts in the [MLflow Prompt Registry](/concepts/prompt-registry.md).
 - **Extensible**: Allows plugging in custom optimization algorithms by extending the base class.^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
 
 ## Usage
@@ -105,7 +105,7 @@ If optimization takes too long, reduce the dataset size or lower the optimizer b
 
 - Prompt Optimization – The broader category of automated prompt tuning.
 - [GepaPromptOptimizer](/concepts/gepapromptoptimizer.md) – The MLflow class implementing the GEPA algorithm.
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – Storage for version‑controlled prompts.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – Storage for version‑controlled prompts.
 - [Evaluation Scorers](/concepts/hallucination-scorer.md) – Metrics used to guide prompt improvement.
 - [Agent Evaluation](/concepts/mlflow-agent-evaluation.md) – Framework for evaluating generative AI agents.
 - LLM-driven reflection – The mechanism by which GEPA refines prompts.

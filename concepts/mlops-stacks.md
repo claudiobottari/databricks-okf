@@ -12,6 +12,11 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - mlops-stacks
+    - mlops-stacks-for-automated-ml-pipelines
+    - MSFAMP
+    - Automated CI/CD pipeline for ML
+    - mlops-stacks-on-databricks
+    - MSOD
   citations:
     - file: databricks-data-science-and-ml-capabilities-databricks-on-aws.md
     - file: mlops-stacks-model-development-process-as-code-databricks-on-aws.md

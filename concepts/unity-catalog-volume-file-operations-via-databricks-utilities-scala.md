@@ -105,7 +105,7 @@ object Main {
 - [DBUtils](/concepts/dbutilsnotebookrun.md) – The Scala API for Databricks Utilities.
 - [Databricks Connect](/concepts/databricks-connect.md) – How to connect external applications to Databricks clusters.
 - Unity Catalog Volumes – Managed storage areas governed by Unity Catalog.
-- [Data Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md) – Policies and permissions for volume access.
+- [Data Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md) – Policies and permissions for volume access.
 
 ## Sources
 

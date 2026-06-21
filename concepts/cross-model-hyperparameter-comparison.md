@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - cross-model-hyperparameter-comparison
     - CHC
+    - cross-model-hyperparameter-optimization
+    - CHO
   citations:
     - file: compare-model-types-with-hyperopt-and-mlflow-databricks-on-aws.md
 title: Cross-model hyperparameter comparison

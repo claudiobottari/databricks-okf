@@ -14,6 +14,8 @@ x-llmwiki:
     - PUS
     - Pre‑signed URL Sharing
     - Pre-signed URLs
+    - pre-signed-url-sharing-in-opensharing
+    - PUSIO
   citations:
     - file: audit-and-monitor-data-sharing-databricks-on-aws.md
 title: Pre-signed URL Sharing

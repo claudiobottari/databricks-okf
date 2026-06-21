@@ -12,6 +12,16 @@ x-llmwiki:
   aliases:
     - bearer-token-authentication-for-open-sharing
     - BTAFOS
+    - bearer-token-authentication-for-delta-sharing-recipients
+    - BTAFDSR
+    - bearer-token-authentication-for-delta-sharing
+    - BTAFDS
+    - Bearer Token Authentication (Delta Sharing)
+    - Bearer Token Authentication in Delta Sharing
+    - Bearer Token Authentication
+    - Bearer Token Authentication (Delta Sharing)|bearer token authentication flow
+    - Bearer Tokens for Delta Sharing
+    - Bearer token (Delta Sharing)
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
       start: 1
@@ -75,7 +85,7 @@ timestamp: "2026-06-18T14:48:27.641Z"
 
 # Bearer Token Authentication for Open Sharing
 
-**Bearer Token Authentication for Open Sharing** is an authentication flow used in [Delta Sharing](/concepts/delta-sharing.md) to allow recipients who do not have access to a [Unity Catalog](/concepts/unity-catalog.md)–enabled Databricks workspace to securely access shared data. It is one of two open sharing authentication methods, alongside [OIDC Token Federation for Open Sharing](/concepts/oidc-token-federation-for-open-sharing.md). ^[create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md:1-6]
+**Bearer Token Authentication for Open Sharing** is an authentication flow used in [Delta Sharing](/concepts/delta-sharing.md) to allow recipients who do not have access to a [Unity Catalog](/concepts/unity-catalog.md)–enabled Databricks workspace to securely access shared data. It is one of two open sharing authentication methods, alongside [OIDC Token Federation for Open Sharing](/concepts/oidc-token-federation-for-opensharing.md). ^[create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md:1-6]
 
 ## How It Works
 
@@ -143,7 +153,7 @@ After creating a recipient and creating shares, you must grant the recipient acc
 ## Related Concepts
 
 - [Open Sharing](/concepts/opensharing.md) — The overall model for sharing data outside Databricks workspaces.
-- [OIDC Token Federation for Open Sharing](/concepts/oidc-token-federation-for-open-sharing.md) — The alternative authentication flow for open sharing.
+- [OIDC Token Federation for Open Sharing](/concepts/oidc-token-federation-for-opensharing.md) — The alternative authentication flow for open sharing.
 - [Delta Sharing](/concepts/delta-sharing.md) — The open protocol underlying Databricks data sharing.
 - Recipient Object — The Unity Catalog object representing a data recipient.
 - Credential File — The file containing the bearer token and connection details.

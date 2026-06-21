@@ -13,6 +13,8 @@ x-llmwiki:
     - delta_sharing_securable_delete_blocked-error
     - DELTA_SHARING_SECURABLE_DELETE_BLOCKED
     - DELTA_SHARING_SECURABLE_DELETE_BLOCKED error condition
+    - delta_sharing_securable_delete_blocked-error-class
+    - DEC
   citations:
     - file: delta_sharing_securable_delete_blocked-error-condition-databricks-on-aws.md
 title: DELTA_SHARING_SECURABLE_DELETE_BLOCKED Error

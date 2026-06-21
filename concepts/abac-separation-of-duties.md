@@ -57,7 +57,7 @@ A governance admin writes ABAC policies—row filter, column mask, or GRANT (Bet
 *Policy types:*
 - Row filter policies – restrict which rows a user can see.
 - Column mask policies – control how column values are displayed.
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta) – dynamically grant privileges (currently `EXECUTE` on models) when tag conditions match. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (Beta) – dynamically grant privileges (currently `EXECUTE` on models) when tag conditions match. ^[core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md]
 
 ### 4. Create data objects
 

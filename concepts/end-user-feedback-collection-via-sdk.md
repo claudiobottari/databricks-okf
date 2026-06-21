@@ -108,7 +108,7 @@ After feedback is logged, it can be viewed in the MLflow UI alongside the traces
 ### Related Concepts
 
 - [MLflow Tracing](/concepts/mlflow-tracing.md) — The system that records execution traces for GenAI apps.
-- [Developer Annotations via UI](/concepts/developer-annotations-via-mlflow-ui.md) — A complementary method for adding feedback interactively through the user interface.
+- [Developer Annotations via UI](/concepts/developer-annotations-on-traces.md) — A complementary method for adding feedback interactively through the user interface.
 - Expert Review Sessions and Labeling — The process of sending traces to domain experts for authoritative feedback.
 - Correctness Evaluation with Expert Labels — Using expert-provided labels to evaluate app quality.
 

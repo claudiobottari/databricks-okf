@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - notebook-required-scorer-serialization
     - NSS
+    - notebook-required-function-serialization
+    - NFS
   citations:
     - file: code-based-scorers-databricks-on-aws.md
     - file: code-based-scorer-reference-databricks-on-aws.md
@@ -43,14 +45,14 @@ When a `@scorer`-decorated function is registered from a Databricks notebook, th
 2. Register the scorer using the notebook environment.
 3. Start the scorer with a sampling configuration (e.g., `scorer.start(sampling_config=...)`) to enable production monitoring.
 
-If you need to access Databricks secrets or other runtime resources inside the scorer, you must import `dbutils` explicitly inside the function body (see [Accessing Databricks secrets in scorers](/concepts/accessing-databricks-secrets-in-scorers.md)).^[code-based-scorer-reference-databricks-on-aws.md]
+If you need to access Databricks secrets or other runtime resources inside the scorer, you must import `dbutils` explicitly inside the function body (see [Accessing Databricks secrets in scorers](/concepts/accessing-secrets-in-scorers.md)).^[code-based-scorer-reference-databricks-on-aws.md]
 
 ## Related concepts
 
 - [Code-based Scorers](/concepts/code-based-scorers.md) — The `@scorer` decorator and custom evaluation functions.
 - [Production Monitoring](/concepts/production-monitoring.md) — The inference table pipeline that uses registered scorers.
 - [Scorer class](/concepts/scorer-class.md) — Alternative class-based approach (not supported for production monitoring).
-- [Accessing Databricks secrets in scorers](/concepts/accessing-databricks-secrets-in-scorers.md) — How to securely use `dbutils` inside a scorer.
+- [Accessing Databricks secrets in scorers](/concepts/accessing-secrets-in-scorers.md) — How to securely use `dbutils` inside a scorer.
 
 ## Sources
 

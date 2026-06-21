@@ -92,7 +92,7 @@ All of these constraints are grouped under the umbrella `DELTA_ICEBERG_WRITER_CO
 
 ## Related Concepts
 
-- [Delta Lake-Iceberg Compatibility](/concepts/delta-lake-table-features-and-iceberg-compatibility.md) — The overall framework for making Delta tables readable by Iceberg
+- [Delta Lake-Iceberg Compatibility](/concepts/delta-lake-table-features-compatibility.md) — The overall framework for making Delta tables readable by Iceberg
 - [IcebergWriterCompatV2](/concepts/icebergwritercompatv.md) — The compatibility protocol version that enforces these constraints
 - Delta Lake Table Features — Features that must be enabled or disabled for compatibility
 - Schema Evolution in Delta Lake — How schema changes are validated against compatibility rules

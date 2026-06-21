@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - model-serving-error-code-semantics
     - MSECS
+    - model-serving-error-code-semantics-4xx-vs-5xx
+    - MSECS(V5
+    - model-serving-error-response-mapping
+    - MSERM
   citations:
     - file: debugging-guide-for-model-serving-databricks-on-aws.md
     - file: configure-a-serverless-budget-policy-for-an-mlflow-experiment-databricks-on-aws.md

@@ -13,6 +13,9 @@ x-llmwiki:
     - schema-and-data-type-compatibility-with-apache-iceberg
     - Data Type Compatibility with Apache Iceberg and Schema
     - SADTCWAI
+    - schema-and-type-compatibility-between-delta-and-iceberg
+    - Type Compatibility Between Delta and Iceberg and Schema
+    - SATCBDAI
   citations:
     - file: delta_iceberg_compat_violation-error-condition-databricks-on-aws.md
 title: Schema and Data Type Compatibility with Apache Iceberg

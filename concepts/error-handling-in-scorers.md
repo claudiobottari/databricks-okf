@@ -12,6 +12,15 @@ x-llmwiki:
   aliases:
     - error-handling-in-scorers
     - EHIS
+    - error-handling-in-code-based-scorers
+    - EHICS
+    - error-handling-in-mlflow-scorers
+    - EHIMS
+    - error-handling-patterns-for-scorers
+    - EHPFS
+    - Error Handling and Resilience Patterns
+    - error-handling-strategies-for-mlflow-scorers
+    - EHSFMS
   citations:
     - file: code-based-scorer-reference-databricks-on-aws.md
 title: Error handling in scorers

@@ -14,6 +14,11 @@ x-llmwiki:
     - DZS3
     - DeepSpeed ZeRO
     - ZeRO Stage 3
+    - deepspeed-zero-stage-3-optimization
+    - DZS3O
+    - DeepSpeed Zero Optimization
+    - ZeRO Optimization
+    - ZeRO optimization
   citations:
     - file: fine-tune-llama-32-1b-using-ai-runtime-databricks-on-aws.md
 title: DeepSpeed ZeRO Stage 3

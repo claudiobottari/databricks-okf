@@ -48,7 +48,7 @@ Once inference data is logged, it feeds into several monitoring workflows:
 
 ## Alerting and Incident Response
 
-The monitoring system provides a monitoring UI for visualizing metrics and detecting anomalies. [Anomaly Detection Alerts](/concepts/anomaly-detection-alerts.md) can be configured to trigger escalation or automated retraining before quality noticeably degrades. ^[machine-learning-lifecycle-databricks-on-aws.md]
+The monitoring system provides a monitoring UI for visualizing metrics and detecting anomalies. [Anomaly Detection Alerts](/concepts/anomaly-detection-alert.md) can be configured to trigger escalation or automated retraining before quality noticeably degrades. ^[machine-learning-lifecycle-databricks-on-aws.md]
 
 ## Integration with the ML Lifecycle
 

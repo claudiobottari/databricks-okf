@@ -83,7 +83,7 @@ Archived traces with append semantics support several downstream workflows:
 - [Delta Table](/concepts/delta-lake-table.md) — The storage format used for trace archival
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer managing Delta table access
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Workflows that benefit from trace archival
-- [Building MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md) — Using archived traces to create evaluation data
+- [Building MLflow evaluation datasets](/concepts/evaluation-datasets.md) — Using archived traces to create evaluation data
 
 ## Sources
 

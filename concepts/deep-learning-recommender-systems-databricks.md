@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - deep-learning-recommender-systems-databricks
     - DLRS(
+    - deep-learning-recommender-systems-on-databricks
+    - DLRSOD
   citations:
     - file: ai-runtime-example-notebooks-databricks-on-aws.md
 title: Deep Learning Recommender Systems (Databricks)

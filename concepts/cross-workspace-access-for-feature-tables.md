@@ -59,7 +59,7 @@ A team develops features in a catalog named `sales_features` assigned to the `pr
 
 - [Unity Catalog](/concepts/unity-catalog.md) – The central governance layer that enables cross-workspace access
 - [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) – The overall framework for managing features
-- [Feature Tables](/concepts/feature-tables.md) – Delta tables in Unity Catalog with primary key constraints that are used as feature sources
+- [Feature Tables](/concepts/feature-table.md) – Delta tables in Unity Catalog with primary key constraints that are used as feature sources
 - [Catalog Access Control](/concepts/unity-catalog-access-control-models.md) – Permissions that determine which workspaces can see catalogs and their assets
 - [Lineage in Unity Catalog](/concepts/data-lineage-in-unity-catalog.md) – Tracking the origin and usage of feature tables
 

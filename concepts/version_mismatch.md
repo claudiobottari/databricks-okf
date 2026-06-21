@@ -12,6 +12,13 @@ x-llmwiki:
   aliases:
     - version_mismatch
     - VERSION_MISMATCH
+    - version_mismatch-error-delta-managed-migration
+    - VE(MM
+    - VERSION_MISMATCH error (Delta managed migration)
+    - version_mismatch-error
+    - VERSION_MISMATCH error condition
+    - version_mismatch-in-delta-logs
+    - VIDL
   citations:
     - file: delta_alter_table_unset_managed_failed-error-condition-databricks-on-aws.md
 title: VERSION_MISMATCH

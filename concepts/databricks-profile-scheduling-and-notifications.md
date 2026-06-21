@@ -13,6 +13,9 @@ x-llmwiki:
     - databricks-profile-scheduling-and-notifications
     - Notifications and Databricks Profile Scheduling
     - DPSAN
+    - databricks-data-profile-scheduling-and-notifications
+    - Notifications and Databricks Data Profile Scheduling
+    - DDPSAN
   citations:
     - file: create-a-data-profile-using-the-api-databricks-on-aws.md
 title: Databricks Profile Scheduling and Notifications

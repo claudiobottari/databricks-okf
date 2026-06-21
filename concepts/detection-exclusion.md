@@ -11,6 +11,14 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - detection-exclusion
+    - detection-exclusion-and-feedback-loop
+    - Feedback Loop and Detection Exclusion
+    - DEAFL
+    - detection-exclusion-feedback-loop
+    - DEFL
+    - detection-exclusions-in-data-classification
+    - DEIDC
+    - detection-exclusions
   citations:
     - file: data-classification-databricks-on-aws.md
 title: Detection Exclusion

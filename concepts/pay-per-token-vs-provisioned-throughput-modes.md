@@ -15,6 +15,8 @@ x-llmwiki:
     - Pay-per-Token vs Provisioned Throughput
     - Pay-per-token vs Provisioned Throughput
     - Supported Models for Provisioned Throughput
+    - pay-per-token-vs-provisioned-throughput-serving-modes
+    - PVPTSM
   citations:
     - file: databricks-hosted-foundation-models-available-in-foundation-model-apis-databricks-on-aws.md
 title: Pay-per-Token vs Provisioned Throughput Modes

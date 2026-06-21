@@ -72,7 +72,7 @@ SFTConfig(
 
 ## Related Concepts
 
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) – The library that provides SFTTrainer.
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md) – The library that provides SFTTrainer.
 - [DeepSpeed](/concepts/deepspeed.md) – Memory optimization strategy used alongside SFTTrainer.
 - [Supervised Fine-Tuning (SFT)](/concepts/supervised-fine-tuning-sft.md) – The training paradigm implemented by SFTTrainer.
 - [AI Runtime](/concepts/ai-runtime.md) – Databricks-managed GPU compute that provisions hardware for training.

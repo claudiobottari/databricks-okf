@@ -28,7 +28,7 @@ timestamp: "2026-06-19T23:02:51.738Z"
 
 ## Overview
 
-When a model is trained using Databricks [Feature Store](/concepts/feature-store.md), features can originate from two sources: table-backed [Feature Tables](/concepts/feature-tables.md) (which are looked up from an online store at serving time) and `RequestSource` features, which are supplied by the client in the API call. `RequestSource` columns are added to the model signature during `log_model`, so the [Model Serving Endpoint](/concepts/model-serving-endpoint.md)'s API schema automatically reflects them as required input fields. ^[serve-declarative-features-databricks-on-aws.md]
+When a model is trained using Databricks [Feature Store](/concepts/feature-store.md), features can originate from two sources: table-backed [Feature Tables](/concepts/feature-table.md) (which are looked up from an online store at serving time) and `RequestSource` features, which are supplied by the client in the API call. `RequestSource` columns are added to the model signature during `log_model`, so the [Model Serving Endpoint](/concepts/model-serving-endpoint.md)'s API schema automatically reflects them as required input fields. ^[serve-declarative-features-databricks-on-aws.md]
 
 Entity keys, by contrast, are used to look up table-backed features from the online store. `RequestSource` columns bypass the [Feature Store](/concepts/feature-store.md) lookup and are passed through directly to the model. ^[serve-declarative-features-databricks-on-aws.md]
 

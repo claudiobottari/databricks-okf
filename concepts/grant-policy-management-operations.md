@@ -30,7 +30,7 @@ timestamp: "2026-06-19T08:49:06.821Z"
 
 ## Overview
 
-GRANT policies are a type of [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) policy that differs from [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md). While row filters and column masks restrict the content of data a user can already access, GRANT policies determine whether the user can access the object at all. Additionally, GRANT policies do not require a user-defined function (UDF) — the condition is expressed inline in the policy definition. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
+GRANT policies are a type of [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md) policy that differs from [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md). While row filters and column masks restrict the content of data a user can already access, GRANT policies determine whether the user can access the object at all. Additionally, GRANT policies do not require a user-defined function (UDF) — the condition is expressed inline in the policy definition. ^[abac-grant-policies-for-models-beta-databricks-on-aws.md]
 
 ## Creating a GRANT Policy
 
@@ -124,8 +124,8 @@ GRANT policy create, alter, and drop operations are logged under the same `creat
 
 ## Related Concepts
 
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md)
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
 - [Governed Tags](/concepts/governed-tags.md)
 - Policy Evaluation Order
 - Manage privileges in Unity Catalog

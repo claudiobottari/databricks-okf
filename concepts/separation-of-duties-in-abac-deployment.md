@@ -89,9 +89,9 @@ When a user attempts to access a securable object within a policy’s scope, Uni
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md)
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md) (Beta)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md) (Beta)
 - [Governed Tags](/concepts/governed-tags.md)
 - [Unity Catalog Permissions](/concepts/unity-catalog-permissions-model.md)
 - [Row Filters and Column Masks (table-level)](/concepts/row-filters-and-column-masks.md)

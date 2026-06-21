@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - evaluation-dataset-ui
     - EDU
+    - mlflow-evaluation-dataset-ui
+    - MEDU
   citations:
     - file: evaluation-dataset-reference-databricks-on-aws.md
 title: Evaluation Dataset UI

@@ -14,6 +14,8 @@ x-llmwiki:
     - mlflow-feedback-object
     - MFO
     - Feedback (MLflow)|Feedback
+    - mlflow-judge-feedback-object
+    - MJFO
   citations:
     - file: code-based-scorer-examples-databricks-on-aws.md
     - file: code-based-scorer-reference-databricks-on-aws.md
@@ -28,7 +30,7 @@ timestamp: "2026-06-19T17:34:00.869Z"
 
 # MLflow Feedback Object
 
-The **MLflow `Feedback` object** (in `mlflow.entities`) represents a single evaluation assessment produced by a [Custom code-based scorers|custom scorer](/concepts/custom-code-based-scorers-mlflow-genai.md) during [MLflow Evaluation for GenAI|GenAI evaluation](/concepts/mlflow-genai-evaluation.md). It encapsulates the evaluation result, an optional rationale, error information, and metadata such as the source of the assessment. Custom code-based scorers return `Feedback` objects (or lists of them) to communicate structured evaluation outcomes to the MLflow evaluation framework. ^[code-based-scorer-examples-databricks-on-aws.md, code-based-scorer-reference-databricks-on-aws.md]
+The **MLflow `Feedback` object** (in `mlflow.entities`) represents a single evaluation assessment produced by a [Custom code-based scorers|custom scorer](/concepts/code-based-scorers-in-mlflow.md) during [MLflow Evaluation for GenAI|GenAI evaluation](/concepts/mlflow-genai-evaluation.md). It encapsulates the evaluation result, an optional rationale, error information, and metadata such as the source of the assessment. Custom code-based scorers return `Feedback` objects (or lists of them) to communicate structured evaluation outcomes to the MLflow evaluation framework. ^[code-based-scorer-examples-databricks-on-aws.md, code-based-scorer-reference-databricks-on-aws.md]
 
 ## Properties
 

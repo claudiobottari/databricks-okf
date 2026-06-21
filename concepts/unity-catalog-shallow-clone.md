@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - unity-catalog-shallow-clone
     - UCSC
+    - unity-catalog-shallow-clone-support
+    - UCSCS
   citations:
     - file: create-table-clone-databricks-on-aws.md
 title: Unity Catalog Shallow Clone

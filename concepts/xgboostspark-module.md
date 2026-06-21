@@ -17,6 +17,10 @@ x-llmwiki:
     - XGBoost for PySpark Pipeline
     - XGBoost on GPU with PySpark
     - xgboost.spark
+    - xgboostspark-module-api
+    - XMA
+    - xgboostspark-module-pyspark-xgboost-estimators
+    - XM(XE
   citations:
     - file: distributed-training-of-xgboost-models-using-xgboostspark-databricks-on-aws.md
 title: xgboost.spark Module

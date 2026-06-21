@@ -78,7 +78,7 @@ See the [Deep learning recommendation examples](/concepts/deep-learning-based-re
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md) — The broader category of training techniques that DDP belongs to
 - [Data Parallelism](/concepts/data-parallelism-spark.md) — The parallelism strategy that DDP implements
 - Model Parallelism — An alternative strategy for models that do not fit in single GPU memory
-- [GPU Memory](/concepts/gpu-utilization-monitoring-with-mlflow.md) — The limiting factor that determines whether DDP is appropriate
+- [GPU Memory](/concepts/gpu-utilization-monitoring-dashboard.md) — The limiting factor that determines whether DDP is appropriate
 - [Mosaic Streaming (MDS) format](/concepts/mosaic-streaming-mds-format.md) — A data format used in DDP training examples
 
 ## Sources

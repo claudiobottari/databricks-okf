@@ -25,7 +25,7 @@ timestamp: "2026-06-19T10:05:58.737Z"
 
 # [Delta Lake Table](/concepts/delta-lake-table.md) Feature Dependencies
 
-**Delta Lake Table Feature Dependencies** refer to the relationships between table features that determine which features can be enabled, disabled, or used together in a Delta table. Understanding these dependencies is essential when working with compatibility modes such as [IcebergCompatV1](/concepts/icebergcompatv1.md) or when managing the feature set of a Delta table.
+**Delta Lake Table Feature Dependencies** refer to the relationships between table features that determine which features can be enabled, disabled, or used together in a Delta table. Understanding these dependencies is essential when working with compatibility modes such as [IcebergCompatV1](/concepts/icebergcompatv.md) or when managing the feature set of a Delta table.
 
 ## Overview
 
@@ -63,12 +63,12 @@ When a feature dependency violation occurs, the recommended approach is:
 3. If a required feature is missing, enable the prerequisite feature first.
 4. If a required feature cannot be disabled because another feature depends on it, disable the dependent feature first before removing the requirement.
 
-For [IcebergCompatV1](/concepts/icebergcompatv1.md)-related violations, disabling IcebergCompatV1 is often the first step before making changes to its dependent features. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
+For [IcebergCompatV1](/concepts/icebergcompatv.md)-related violations, disabling IcebergCompatV1 is often the first step before making changes to its dependent features. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
 
 ## Related Concepts
 
 - Delta Lake Table Features — The complete set of features available for Delta tables
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) — A compatibility mode with specific feature dependencies
+- [IcebergCompatV1](/concepts/icebergcompatv.md) — A compatibility mode with specific feature dependencies
 - Delta Table Properties — Configuration properties that may be constrained by features
 - [Column Mapping](/concepts/delta-table-column-mapping.md) — A feature that may have dependencies with other features
 - [Change Data Feed](/concepts/delta-change-data-feed-cdf.md) — A feature that may interact with compatibility modes

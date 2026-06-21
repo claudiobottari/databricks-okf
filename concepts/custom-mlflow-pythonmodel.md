@@ -25,6 +25,24 @@ x-llmwiki:
     - custom Python models format
     - custom model
     - custom models
+    - custom-mlflow-pyfunc-model
+    - CMPM
+    - Custom MLflow PyFunc Models
+    - MLflow PyFunc Model
+    - MLflow PyFunc model
+    - custom PyFunc model
+    - Custom PyFunc Model Creation
+    - Custom PyFunc Models
+    - Custom PyFunc models
+    - MLflow PyFunc Models
+    - MLflow Pyfunc
+    - MLflow pyfunc Module
+    - MLflow pyfunc interface
+    - PyFunc Model
+    - PyFunc Model Flavor
+    - PyFunc Model Logging
+    - PyFunc models
+    - custom PyFunc models
   citations:
     - file: deploy-python-code-with-model-serving-databricks-on-aws.md
 title: Custom MLflow PythonModel

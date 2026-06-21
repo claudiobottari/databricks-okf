@@ -13,6 +13,10 @@ x-llmwiki:
   aliases:
     - aggregate-metrics
     - aggregate
+    - aggregate-metrics-in-mlflow-evaluation
+    - AMIME
+    - aggregate-metrics-mlflow-evaluation
+    - AM(E
   citations:
     - file: use-custom-metrics-with-data-profiling-databricks-on-aws.md
     - file: evaluation-runs-in-mlflow-databricks-on-aws.md

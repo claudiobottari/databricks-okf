@@ -16,6 +16,11 @@ x-llmwiki:
     - Data Governance in Unity Catalog
     - Governance in Unity Catalog
     - Migration of system tags to governance in Unity Catalog
+    - ai-governance-with-unity-catalog
+    - AGWUC
+    - AI Asset Governance with Unity Catalog
+    - Data Governance with Unity Catalog
+    - Trace Governance with Unity Catalog
   citations:
     - file: ai-governance-databricks-on-aws.md
     - file: what-is-unity-catalog-databricks-on-aws.md

@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-evaluation-results-comparison
     - MERC
+    - mlflow-genai-evaluation-results-comparison
+    - MGERC
   citations:
     - file: 10-minute-demo-evaluate-a-genai-app-databricks-on-aws.md
 title: MLflow Evaluation Results Comparison

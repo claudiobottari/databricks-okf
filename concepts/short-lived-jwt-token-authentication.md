@@ -78,7 +78,7 @@ To configure a recipient that uses short-lived JWT authentication, the data prov
 - [OpenSharing](/concepts/opensharing.md) — The data sharing framework that uses this authentication method
 - [Delta Sharing](/concepts/delta-sharing.md) — The open protocol for secure data sharing
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer that manages permissions for shared data
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) — The alternative authentication method using long-lived tokens
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) — The alternative authentication method using long-lived tokens
 - Microsoft Entra ID — A common identity provider used with OIDC federation
 
 ## Sources

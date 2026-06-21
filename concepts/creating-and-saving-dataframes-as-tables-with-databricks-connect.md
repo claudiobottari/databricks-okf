@@ -181,7 +181,7 @@ get_taxis(get_spark()).show(5)
 
 - [Databricks Connect](/concepts/databricks-connect.md) – Overview and setup guides.
 - [DatabricksSession](/concepts/databrickssession.md) – The client-side session object for remote Spark execution.
-- [PySpark DataFrame](/concepts/pysparklyr-package.md) – Core data structure for structured data.
+- [PySpark DataFrame](/concepts/pysparklyr.md) – Core data structure for structured data.
 - saveAsTable – Method to write a DataFrame as a managed table.
 - SQL table – Managed or external tables on the Databricks cluster.
 - StructType – Spark schema definition.

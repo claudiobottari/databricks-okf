@@ -36,7 +36,7 @@ The framework provides the [`mlflow.genai.optimize_prompts()`](https://mlflow.or
 - **Framework Agnostic** – Works with any agent framework, providing broad compatibility. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
 - **Joint Optimization** – Enables simultaneous refinement of multiple prompts for best overall performance. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
 - **Flexible Evaluation** – Supports custom scorers and aggregation functions. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
-- **Version Control** – Automatically registers optimized prompts in the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md). ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
+- **Version Control** – Automatically registers optimized prompts in the [MLflow Prompt Registry](/concepts/prompt-registry.md). ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
 - **Extensible** – Users can plug in custom optimization algorithms by extending a base class. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
 
 ## Extending with Custom Optimizers
@@ -70,7 +70,7 @@ The `optimize_prompts` API requires **MLflow >= 3.5.0**. ^[mlflow-prompt-optimiz
 
 - Prompt Optimization – Overview of automated prompt improvement.
 - [GEPA](/concepts/gepa-gradient-free-evolutionary-prompt-algorithm.md) – The built‑in optimization algorithm.
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – Version‑control system for prompts.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – Version‑control system for prompts.
 - [Custom Scorers](/concepts/custom-scorers-mlflow-genai.md) – Extensible scoring functions used in optimization.
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – Tracing support for GenAI applications.
 - [Agent Evaluation](/concepts/mlflow-agent-evaluation.md) – Evaluation workflow for agents.

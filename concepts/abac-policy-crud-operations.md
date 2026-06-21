@@ -117,8 +117,8 @@ Relevant action names include `createEntityTagAssignment`, `deleteEntityTagAssig
 
 ## Related Concepts
 
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md)
-- [ABAC Row Filter Policies](/concepts/abac-row-filter-policies.md)
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md)
+- [ABAC Row Filter Policies](/concepts/abac-row-filter-policy.md)
 - [Governed Tags](/concepts/governed-tags.md)
 - [Row Filters and Column Masks (table-level)](/concepts/row-filters-and-column-masks.md)
 - Policy Evaluation Order

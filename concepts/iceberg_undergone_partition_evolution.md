@@ -13,6 +13,13 @@ x-llmwiki:
     - iceberg_undergone_partition_evolution
     - ICEBERG_UNDERGONE_PARTITION_EVOLUTION
     - Iceberg Partition Evolution
+    - iceberg_undergone_partition_evolution-delta-clone-sub-error
+    - I(CS
+    - ICEBERG_UNDERGONE_PARTITION_EVOLUTION (Delta Clone sub-error)
+    - iceberg_undergone_partition_evolution-error-condition
+    - IEC
+    - iceberg_undergone_partition_evolution-sub-error
+    - ICEBERG_UNDERGONE_PARTITION_EVOLUTION sub-error
   citations:
     - file: delta_clone_incompatible_source-error-condition-databricks-on-aws.md
 title: ICEBERG_UNDERGONE_PARTITION_EVOLUTION

@@ -11,6 +11,8 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - responses-api
+    - responses-api-databricks
+    - RA(
   citations:
     - file: foundation-model-rest-api-reference-databricks-on-aws.md
 title: Responses API

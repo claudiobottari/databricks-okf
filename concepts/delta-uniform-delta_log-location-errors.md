@@ -56,7 +56,7 @@ Table <tableName> is not a uniform ingress table.
 
 ^[delta_uniform_ingress_violation-error-condition-databricks-on-aws.md]
 
-This error occurs when an operation attempts to read a table through Delta Uniform, but the table was not created or configured as a [Delta Uniform Ingress Table](/concepts/delta-uniform-ingress-table.md). The table might exist in another format (such as Iceberg or Hive) but lacks the Delta Uniform metadata layer needed for Delta-native reads. ^[delta_uniform_ingress_violation-error-condition-databricks-on-aws.md]
+This error occurs when an operation attempts to read a table through Delta Uniform, but the table was not created or configured as a [Delta Uniform Ingress Table](/concepts/delta-uniform-ingress.md). The table might exist in another format (such as Iceberg or Hive) but lacks the Delta Uniform metadata layer needed for Delta-native reads. ^[delta_uniform_ingress_violation-error-condition-databricks-on-aws.md]
 
 ### UNEXPECTED_DELTA_LOG_LOCATION
 
@@ -123,7 +123,7 @@ This error occurs when an operation other than `CREATE` or `REFRESH` is attempte
 ## Related Concepts
 
 - [Delta Uniform](/concepts/delta-uniform.md) — The feature that enables reading non-Delta tables as Delta tables
-- [Delta Uniform Ingress Table](/concepts/delta-uniform-ingress-table.md) — A table configured for inbound conversion to Delta format
+- [Delta Uniform Ingress Table](/concepts/delta-uniform-ingress.md) — A table configured for inbound conversion to Delta format
 - [Delta Lake](/concepts/delta-lake.md) — The open-source storage format that Delta Uniform targets
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) — A table format that can be served through Delta Uniform
 - [Unity Catalog](/concepts/unity-catalog.md) — Required for Delta Uniform Iceberg integration

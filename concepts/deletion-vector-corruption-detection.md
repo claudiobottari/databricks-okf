@@ -87,7 +87,7 @@ A corrupt deletion vector can cause the Delta engine to incorrectly include or e
 - [Deletion Vectors](/concepts/deletion-vectors.md) — Auxiliary files that track logically deleted rows in Delta tables
 - [Delta Lake](/concepts/delta-lake.md) — The storage layer that provides ACID transactions and file management
 - Data File Corruption Detection — Detection of unreadable data files
-- [Checkpoint CRC Corruption Detection](/concepts/checkpoint-crc-corruption-detection.md) — Detection of checksum corruption in checkpoint files
+- [Checkpoint CRC Corruption Detection](/concepts/crc-checksum-corruption-detection.md) — Detection of checksum corruption in checkpoint files
 - Missing File Detection — Detection of missing data or deletion vector files
 
 ## Sources

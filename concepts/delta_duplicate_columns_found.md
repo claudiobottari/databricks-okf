@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - delta_duplicate_columns_found
     - DELTA_DUPLICATE_COLUMNS_FOUND
+    - delta_duplicate_columns_found-error-class
+    - DEC
+    - delta_duplicate_columns_found-error-condition
+    - DELTA_DUPLICATE_COLUMNS_FOUND error condition
+    - delta_duplicate_columns_found-error-databricks
+    - DE(
   citations:
     - file: delta_duplicate_columns_found-error-condition-databricks-on-aws.md
 title: DELTA_DUPLICATE_COLUMNS_FOUND

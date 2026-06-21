@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - idle-endpoint-warm-up-timeout
     - IEWT
+    - idle-endpoint-warm-up-timeouts
   citations:
     - file: debug-model-serving-timeouts-databricks-on-aws.md
 title: Idle Endpoint Warm-Up Timeout
@@ -30,7 +31,7 @@ An **Idle Endpoint Warm-Up Timeout** occurs when a [Model Serving](/concepts/mod
 
 ## How It Happens
 
-When an endpoint is configured with [scale-to-zero](/concepts/scale-to-zero-in-model-serving.md), it shuts down all compute resources during periods of inactivity. The first request that arrives after a period of idleness triggers a cold start: the system must allocate a new container, load the model, and initialize any dependencies before it can serve the request. If this warm-up phase takes longer than the client’s timeout setting (for example, the default 120-second [MLflow HTTP request timeout](/concepts/mlflow-http-request-timeout-configuration.md)), the client cancels the request and returns a timeout error. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+When an endpoint is configured with [scale-to-zero](/concepts/scale-to-zero-in-model-serving.md), it shuts down all compute resources during periods of inactivity. The first request that arrives after a period of idleness triggers a cold start: the system must allocate a new container, load the model, and initialize any dependencies before it can serve the request. If this warm-up phase takes longer than the client’s timeout setting (for example, the default 120-second [MLflow HTTP request timeout](/concepts/mlflow-http-timeout-configuration.md)), the client cancels the request and returns a timeout error. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ## Impact on Pipelines
 
@@ -53,7 +54,7 @@ For general guidelines on debugging model serving timeouts, including server-sid
 - [Scale-to-zero](/concepts/scale-to-zero-in-model-serving.md)
 - Client-side timeout
 - [Server-Side Timeout](/concepts/server-side-timeout.md)
-- [MLflow HTTP request timeout](/concepts/mlflow-http-request-timeout-configuration.md)
+- [MLflow HTTP request timeout](/concepts/mlflow-http-timeout-configuration.md)
 - [Provisioned Throughput Endpoint](/concepts/provisioned-throughput-endpoint.md)
 
 ## Sources

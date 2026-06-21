@@ -81,7 +81,7 @@ Consolidate overlapping policies into a single, unified policy, or split broad p
 
 - [ABAC policy evaluation](/concepts/dynamic-abac-policy-evaluation.md) — The two-stage process (Unity Catalog + Databricks Runtime) that determines effective filters and masks
 - [Fail-closed design](/concepts/fail-closed-design-for-abac-policies.md) — Security model that denies access when enforcement cannot be verified
-- [Row Filter and Column Mask Policies](/concepts/row-filter-and-column-mask-policies.md) — The UDF-based mechanisms that enforce ABAC at query time
+- [Row Filter and Column Mask Policies](/concepts/row-filter-policies.md) — The UDF-based mechanisms that enforce ABAC at query time
 - [Governed Tags](/concepts/governed-tags.md) — Tag-based dependencies that can trigger policy conflicts
 - INVALID_PARAMETER_VALUE — Error class for row filter conflicts
 - COLUMN_MASKS_FEATURE_NOT_SUPPORTED — Error class for column mask conflicts

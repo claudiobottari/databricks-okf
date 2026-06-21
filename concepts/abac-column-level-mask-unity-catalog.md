@@ -72,7 +72,7 @@ To use ABAC column-level masks, the following must be in place:
 ### Related Concepts
 
 - [Custom Classifiers](/concepts/custom-classifiers.md)
-- [Data Classification in Unity Catalog](/concepts/data-classification-in-unity-catalog.md)
+- [Data Classification in Unity Catalog](/concepts/data-classification-unity-catalog.md)
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
 - [Governed Tags](/concepts/governed-tags.md)

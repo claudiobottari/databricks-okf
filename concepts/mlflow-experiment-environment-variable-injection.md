@@ -69,7 +69,7 @@ If a custom resource key is specified when adding the experiment resource (inste
 ### Related Concepts
 
 - Databricks Apps environment variables – General mechanism for injecting resource credentials, secrets, and configuration values.
-- [Databricks Apps resources](/concepts/databricks-app-resource-permissions.md) – The framework for attaching MLflow experiments, models, secrets, and other workspace objects to an app.
+- [Databricks Apps resources](/concepts/app-resource-permission-levels.md) – The framework for attaching MLflow experiments, models, secrets, and other workspace objects to an app.
 - [MLflow Experiment Resource](/concepts/mlflow-experiment-resource.md) – The resource type that triggers the injection.
 - [MLflow Tracking API](/concepts/mlflow-tracking.md) – The client API that uses the environment variable for experiment identification.
 

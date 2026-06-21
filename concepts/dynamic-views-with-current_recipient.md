@@ -78,7 +78,7 @@ This is known as parameterized partition sharing and is supported in Catalog Exp
 
 ## Limitations
 
-- All limitations for general view sharing apply. Views cannot reference [shared tables](/concepts/feature-tables.md) or other shared views, and they cannot reference foreign tables (including foreign Iceberg tables). ^[create-shares-for-opensharing-databricks-on-aws.md]
+- All limitations for general view sharing apply. Views cannot reference [shared tables](/concepts/feature-table.md) or other shared views, and they cannot reference foreign tables (including foreign Iceberg tables). ^[create-shares-for-opensharing-databricks-on-aws.md]
 - If the recipient does not have direct access to the underlying data (e.g., open sharing recipients), `LIMIT` clauses and predicate pushdown are not supported. The system fully materializes all query results before returning them to the recipient, regardless of any query filters applied. ^[create-shares-for-opensharing-databricks-on-aws.md]
 
 ## Related Concepts

@@ -14,6 +14,11 @@ x-llmwiki:
     - Schema Level or Policy Scoping at Catalog
     - PSACOSL
     - Schema-Level Policies
+    - abac-policy-scoping-at-catalog-and-schema-level
+    - Schema Level and ABAC Policy Scoping at Catalog
+    - APSACASL
+    - abac-policy-scoping-catalog-vs-schema-vs-table
+    - APS(VSVT
   citations:
     - file: best-practices-for-abac-policies-databricks-on-aws.md
 title: Policy Scoping at Catalog or Schema Level

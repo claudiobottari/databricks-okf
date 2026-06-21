@@ -44,11 +44,11 @@ The cleanup of the underlying index files follows a deferred pattern:
 
 ## Recommended Practice
 
-Databricks recommends dropping all existing [Bloom filter indexes](/concepts/bloom-filter-index-deprecated.md) because the feature is deprecated. After dropping all indexes, running VACUUM is necessary to reclaim the storage space occupied by the orphaned index files. ^[drop-bloom-filter-index-databricks-on-aws.md]
+Databricks recommends dropping all existing [Bloom filter indexes](/concepts/bloom-filter-index.md) because the feature is deprecated. After dropping all indexes, running VACUUM is necessary to reclaim the storage space occupied by the orphaned index files. ^[drop-bloom-filter-index-databricks-on-aws.md]
 
 ## Related Concepts
 
-- [Bloom Filter Index (Deprecated)](/concepts/bloom-filter-index-deprecated.md) — The deprecated indexing feature
+- [Bloom Filter Index (Deprecated)](/concepts/bloom-filter-index.md) — The deprecated indexing feature
 - VACUUM — The command that physically removes orphaned index files
 - Delta Table Storage Management — General cleanup and maintenance practices
 - Data Skipping — Recommended alternative for query optimization

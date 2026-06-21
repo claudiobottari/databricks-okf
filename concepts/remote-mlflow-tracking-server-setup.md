@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - remote-mlflow-tracking-server-setup
     - RMTSS
+    - remote-mlflow-tracking-server-configuration
+    - RMTSC
   citations:
     - file: choose-where-your-mlflow-data-is-stored-databricks-on-aws.md
 title: Remote MLflow tracking server setup

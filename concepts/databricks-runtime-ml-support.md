@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - databricks-runtime-ml-support
     - DRMS
+    - databricks-runtime-ml-for-deepspeed
+    - DRMFD
   citations:
     - file: best-practices-for-deep-learning-on-databricks-databricks-on-aws.md
     - file: distributed-training-with-deepspeed-distributor-databricks-on-aws.md

@@ -77,7 +77,7 @@ The **OpenSharing BI Tool Connectors** for **Power BI** and **Tableau** enable b
 - [OpenSharing](/concepts/opensharing.md) – The open protocol used for data sharing.
 - [Delta Sharing](/concepts/delta-sharing.md) – The underlying standard that powers OpenSharing.
 - Credential File – The file containing endpoint and token information provided by the data provider.
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md) – The authentication method used by the connectors.
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md) – The authentication method used by the connectors.
 - Power BI – Microsoft’s business analytics tool.
 - Tableau – Salesforce’s data visualization platform.
 - [Data Profiling](/concepts/data-profiling.md) – Techniques for understanding shared data quality.

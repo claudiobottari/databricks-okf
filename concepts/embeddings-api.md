@@ -13,6 +13,8 @@ x-llmwiki:
     - embeddings-api
     - Embeddings
     - Vector embeddings
+    - embeddings-api-databricks
+    - EA(
   citations:
     - file: foundation-model-rest-api-reference-databricks-on-aws.md
 title: Embeddings API

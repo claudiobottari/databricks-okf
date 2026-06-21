@@ -15,6 +15,8 @@ x-llmwiki:
     - Population Stability Index
     - Population stability index
     - population stability index
+    - population-stability-index-psi-for-data-drift
+    - PSI(FDD
   citations:
     - file: data-profiling-metric-tables-databricks-on-aws.md
 title: Population Stability Index (PSI)

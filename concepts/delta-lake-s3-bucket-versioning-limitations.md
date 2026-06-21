@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - delta-lake-s3-bucket-versioning-limitations
     - DLSBVL
+    - delta-lake-bucket-versioning-limitations-on-s3
+    - DLBVLOS
   citations:
     - file: delta-lake-limitations-on-s3-databricks-on-aws.md
 title: Delta Lake S3 bucket versioning limitations

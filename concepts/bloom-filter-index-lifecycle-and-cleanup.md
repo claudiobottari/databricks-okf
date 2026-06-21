@@ -27,7 +27,7 @@ timestamp: "2026-06-18T12:09:54.299Z"
 
 # Bloom Filter Index Lifecycle and Cleanup
 
-**Bloom Filter Index Lifecycle and Cleanup** refers to the process of managing [Bloom filter indexes](/concepts/bloom-filter-indexes.md) from creation through deletion, including the cleanup of related metadata and index files after an index is dropped.
+**Bloom Filter Index Lifecycle and Cleanup** refers to the process of managing [Bloom filter indexes](/concepts/bloom-filter-index.md) from creation through deletion, including the cleanup of related metadata and index files after an index is dropped.
 
 ## Overview
 
@@ -117,7 +117,7 @@ ON sales_db.transactions;
 
 ## Related Concepts
 
-- [Bloom filter indexes](/concepts/bloom-filter-indexes.md) — The deprecated feature that this page describes
+- [Bloom filter indexes](/concepts/bloom-filter-index.md) — The deprecated feature that this page describes
 - [Delta Lake](/concepts/delta-lake.md) — The storage layer on which Bloom filter indexes operate
 - Data skipping — The core optimization technique that Bloom filter indexes accelerate
 - [Z-ordering](/concepts/z-ordering-delta-lake.md) — A recommended alternative for clustering data for efficient file skipping

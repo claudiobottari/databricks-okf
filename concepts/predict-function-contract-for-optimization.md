@@ -31,7 +31,7 @@ The **Predict Function Contract for Optimization** defines the interface require
 
 ### Prompt Version Resolution
 
-The predict function **must** load prompts from the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) using `mlflow.entities.model_registry.PromptVersion.format()` rather than hardcoding prompt text. This ensures the optimization algorithm can substitute improved prompts during the optimization process. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
+The predict function **must** load prompts from the [MLflow Prompt Registry](/concepts/prompt-registry.md) using `mlflow.entities.model_registry.PromptVersion.format()` rather than hardcoding prompt text. This ensures the optimization algorithm can substitute improved prompts during the optimization process. ^[mlflow-prompt-optimization-beta-databricks-on-aws.md]
 
 **Correct implementation:**
 ```python
@@ -97,7 +97,7 @@ If the output format does not match what the scorer expects, optimization may sh
 
 - [Prompt Optimization (Beta)](/concepts/mlflow-prompt-optimization-api.md) — The overall feature that uses the predict function contract
 - [GEPA Optimization Algorithm](/concepts/gepa-optimization-algorithm.md) — The algorithm that drives iterative prompt refinement
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) — The prompt storage system that the predict function must use
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) — The prompt storage system that the predict function must use
 - [Custom Scorers](/concepts/custom-scorers-mlflow-genai.md) — User-defined evaluation metrics that the predict function outputs feed into
 - [Multi-Prompt Optimization](/concepts/multi-prompt-optimization.md) — Joint optimization where the contract applies to multiple predict functions
 

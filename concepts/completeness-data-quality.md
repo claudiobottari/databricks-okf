@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - completeness-data-quality
     - C(Q
+    - completeness-data-quality-metric
+    - C(QM
+    - Completeness Metric
+    - Completeness Metrics
   citations:
     - file: data-quality-monitoring-databricks-on-aws.md
 title: Completeness (data quality)

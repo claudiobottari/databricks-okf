@@ -52,7 +52,7 @@ These benefits make the DeepSpeed distributor the recommended solution for custo
 - [DeepSpeed](/concepts/deepspeed.md) – The underlying open-source library developed by Microsoft.
 - [TorchDistributor](/concepts/torchdistributor.md) – The base distributor on which DeepSpeed distributor is built.
 - [Distributed training](/concepts/workload-yaml-for-distributed-training.md) – General techniques for training models across multiple GPUs.
-- [ZeRO optimization](/concepts/deepspeed-zero-stage-3-optimization.md) – Memory sharding strategy used by DeepSpeed.
+- [ZeRO optimization](/concepts/deepspeed-zero-stage-3.md) – Memory sharding strategy used by DeepSpeed.
 - [Pipeline parallelism](/concepts/pipeline-parallelism-in-deepspeed.md) – Splitting model layers across devices.
 
 ## Sources

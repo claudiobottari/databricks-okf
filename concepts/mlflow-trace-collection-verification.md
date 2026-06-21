@@ -30,7 +30,7 @@ timestamp: "2026-06-19T23:07:51.186Z"
 
 ## Overview
 
-When an agent is deployed outside of Databricks (for example, in a Docker container or Kubernetes cluster), [Traces](/concepts/traces.md) are sent to a [Databricks Workspace](/concepts/databricks-workspace-feature-store-ui.md) via environment-variable configuration. After deployment, verification checks two things: (1) that the [MLflow](/concepts/mlflow.md) client can connect to the workspace, and (2) that [Traces](/concepts/traces.md) are being logged under the expected [MLflow Experiments|experiment](/concepts/mlflow-experiment.md). ^[trace-agents-deployed-outside-of-databricks-databricks-on-aws.md]
+When an agent is deployed outside of Databricks (for example, in a Docker container or Kubernetes cluster), [Traces](/concepts/traces.md) are sent to a [Databricks Workspace](/concepts/workspace-feature-store-ui.md) via environment-variable configuration. After deployment, verification checks two things: (1) that the [MLflow](/concepts/mlflow.md) client can connect to the workspace, and (2) that [Traces](/concepts/traces.md) are being logged under the expected [MLflow Experiments|experiment](/concepts/mlflow-experiment.md). ^[trace-agents-deployed-outside-of-databricks-databricks-on-aws.md]
 
 ## Prerequisites
 

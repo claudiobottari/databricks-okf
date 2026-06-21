@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - unity-catalog-attribute-based-access-control-abac
     - UCAAC(
+    - unity-catalog-abac-attribute-based-access-control
+    - UCA(AC
   citations:
     - file: core-concepts-for-attribute-based-access-control-abac-databricks-on-aws.md
     - file: abac-grant-policies-for-models-beta-databricks-on-aws.md
@@ -117,7 +119,7 @@ Operations on ABAC policies (create, alter, drop) are logged with the same event
 - [Unity Catalog](/concepts/unity-catalog.md)
 - [Governed Tags](/concepts/governed-tags.md)
 - [System Tags](/concepts/system-tags.md)
-- [ABAC GRANT Policies](/concepts/abac-grant-policies.md)
+- [ABAC GRANT Policies](/concepts/abac-grant-policy.md)
 - [Row Filter Policies](/concepts/row-filter-policies.md)
 - [Column Mask Policies](/concepts/column-mask-policies.md)
 - Access Control in Unity Catalog

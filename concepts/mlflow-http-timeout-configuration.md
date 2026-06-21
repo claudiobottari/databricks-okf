@@ -13,6 +13,13 @@ x-llmwiki:
     - mlflow-http-timeout-configuration
     - MHTC
     - MLflow Timeout Configuration
+    - mlflow-http-client-timeout-configuration
+    - MHCTC
+    - mlflow-http-request-timeout-configuration
+    - MHRTC
+    - MLflow HTTP Request Timeout
+    - MLflow HTTP Request Timeouts
+    - MLflow HTTP request timeout
   citations:
     - file: debug-model-serving-timeouts-databricks-on-aws.md
 title: MLflow HTTP Timeout Configuration
@@ -89,7 +96,7 @@ os.environ["MLFLOW_HTTP_REQUEST_TIMEOUT"] = "300"  # Set timeout to 300 seconds
 
 - [Model Serving Timeouts](/concepts/model-serving-endpoint-timeouts.md) — Overview of all timeout types in model serving
 - [Model Deployment Timeouts](/concepts/model-deployment-timeouts.md) — Timeouts during container build and deployment
-- [Server-Side Timeouts](/concepts/server-side-timeouts.md) — Default timeout limits for serving endpoints
+- [Server-Side Timeouts](/concepts/server-side-timeout.md) — Default timeout limits for serving endpoints
 - Client-Side Timeouts — Third-party client API timeout configurations
 - Model Serving Debugging — General debugging for model serving issues
 - [Resource and Payload Limits](/concepts/model-serving-resource-and-payload-limits.md) — Rate limits and other constraints

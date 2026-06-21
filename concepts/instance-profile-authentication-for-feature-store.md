@@ -12,6 +12,12 @@ x-llmwiki:
   aliases:
     - instance-profile-authentication-for-feature-store
     - IPAFFS
+    - instance-profile-authentication-for-databricks-feature-store
+    - IPAFDFS
+    - instance-profile-authentication-for-databricks-online-stores
+    - IPAFDOS
+    - instance-profile-authentication-for-dynamodb-online-stores
+    - Instance profiles for third-party online stores
   citations:
     - file: authentication-for-working-with-third-party-online-stores-databricks-on-aws.md
 title: Instance Profile Authentication for Feature Store

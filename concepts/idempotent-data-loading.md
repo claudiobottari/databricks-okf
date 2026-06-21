@@ -13,6 +13,8 @@ x-llmwiki:
     - idempotent-data-loading
     - IDL
     - Idempotent Data Ingestion
+    - idempotent-data-loading-copy-into
+    - IDL(I
   citations:
     - file: copy-into-databricks-on-aws.md
 title: Idempotent Data Loading

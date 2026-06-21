@@ -13,6 +13,7 @@ x-llmwiki:
     - icebergwritercompatv
     - IcebergWriterCompat
     - IcebergWriterCompatV2
+    - icebergwritercompatv-versioning
   citations:
     - file: delta_iceberg_writer_compat_violation-error-condition-databricks-on-aws.md
 title: IcebergWriterCompatV

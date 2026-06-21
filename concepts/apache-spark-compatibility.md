@@ -15,6 +15,8 @@ x-llmwiki:
     - PySpark Compatibility
     - OSS Apache Spark
     - Spark API Compatibility
+    - delta-lake-apache-spark-compatibility
+    - DLASC
   citations:
     - file: delta-lake-api-reference-databricks-on-aws.md
 title: Apache Spark Compatibility
@@ -51,7 +53,7 @@ The close integration between Delta Lake and Apache Spark enables users to:
 
 ## Related Concepts
 
-- [Delta Lake API Reference](/concepts/delta-lake-api-reference.md) — Documentation for Delta‑specific Spark APIs.
+- [Delta Lake API Reference](/concepts/delta-lake-api.md) — Documentation for Delta‑specific Spark APIs.
 - [ACID Transactions](/concepts/delta-acid-transactions.md) — A core reliability feature enabled by the Delta storage layer.
 - Data Lake — The underlying storage platform on which Delta Lake runs.
 - [Structured Streaming](/concepts/structured-streaming-on-shared-tables.md) — Spark’s streaming engine, fully compatible with Delta tables.

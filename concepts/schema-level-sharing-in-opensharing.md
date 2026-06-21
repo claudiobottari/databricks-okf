@@ -90,7 +90,7 @@ Schema-level sharing has several important limitations to consider:
 ## Related Concepts
 
 - [OpenSharing](/concepts/opensharing.md) — The overall data sharing framework in Databricks
-- [Shares, Providers, and Recipients](/concepts/recipient-and-share-concepts.md) — The core sharing model
+- [Shares, Providers, and Recipients](/concepts/recipient-and-share-model.md) — The core sharing model
 - [Unity Catalog](/concepts/unity-catalog.md) — The governance layer that manages schemas and shares
 - [Dynamic Views in OpenSharing](/concepts/databricks-opensharing.md) — Fine-grained access control within shared schemas
 - [Recipient Properties](/concepts/recipient-properties.md) — Parameterized partition sharing for data boundaries

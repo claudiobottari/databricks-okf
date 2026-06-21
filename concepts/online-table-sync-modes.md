@@ -26,7 +26,7 @@ timestamp: "2026-06-19T18:14:20.342Z"
 
 # Online Table Sync Modes
 
-**Online Table Sync Modes** control how a [Databricks online table (legacy)](/concepts/databricks-online-tables-legacy.md) synchronizes data from its source [Delta Table](/concepts/delta-lake-table.md). The three available modes—Snapshot, Triggered, and Continuous—determine the frequency of updates, the method of data transfer, and the requirements on the source table. ^[databricks-online-tables-legacy-databricks-on-aws.md]
+**Online Table Sync Modes** control how a [Databricks online table (legacy)](/concepts/databricks-online-tables.md) synchronizes data from its source [Delta Table](/concepts/delta-lake-table.md). The three available modes—Snapshot, Triggered, and Continuous—determine the frequency of updates, the method of data transfer, and the requirements on the source table. ^[databricks-online-tables-legacy-databricks-on-aws.md]
 
 ## Snapshot
 
@@ -62,7 +62,7 @@ When creating an online table in Catalog Explorer, the **Sync mode** dropdown of
 
 ## Related Concepts
 
-- [Databricks online table (legacy)](/concepts/databricks-online-tables-legacy.md) – The feature that provides low-latency row-oriented copies of Delta tables.
+- [Databricks online table (legacy)](/concepts/databricks-online-tables.md) – The feature that provides low-latency row-oriented copies of Delta tables.
 - [Delta Table](/concepts/delta-lake-table.md) – The source format for online tables.
 - [Change Data Feed](/concepts/delta-change-data-feed-cdf.md) – Required for incremental sync modes (Triggered, Continuous).
 - [Delta Sharing](/concepts/delta-sharing.md) – OpenSharing tables that only support Snapshot mode.

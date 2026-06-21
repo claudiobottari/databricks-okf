@@ -16,6 +16,11 @@ x-llmwiki:
     - Machine Learning
     - machine learning
     - machine learning lifecycle
+    - cicd-for-machine-learning-databricks
+    - CFML(
+    - Classic Machine Learning on Databricks
+    - Machine Learning on Databricks
+    - Machine Learning (ML)
   citations:
     - file: how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md
 title: CI/CD for Machine Learning

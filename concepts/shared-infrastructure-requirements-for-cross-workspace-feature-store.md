@@ -34,11 +34,11 @@ timestamp: "2026-06-19T23:05:18.300Z"
 
 # Shared Infrastructure Requirements for Cross-workspace [Feature Store](/concepts/feature-store.md)
 
-**Shared Infrastructure Requirements for Cross-workspace Feature Store** refers to the common infrastructure dependencies that must be in place for two or more Databricks workspaces to share [Feature Tables](/concepts/feature-tables.md) through a centralized [Feature Store](/concepts/feature-store.md). When an organization designates a single workspace to store all [Feature Store](/concepts/feature-store.md) metadata — enabling multiple teams or development stages to access the same [Feature Tables](/concepts/feature-tables.md) — both the local workspace and the centralized workspace must meet specific infrastructure prerequisites. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+**Shared Infrastructure Requirements for Cross-workspace Feature Store** refers to the common infrastructure dependencies that must be in place for two or more Databricks workspaces to share [Feature Tables](/concepts/feature-table.md) through a centralized [Feature Store](/concepts/feature-store.md). When an organization designates a single workspace to store all [Feature Store](/concepts/feature-store.md) metadata — enabling multiple teams or development stages to access the same [Feature Tables](/concepts/feature-table.md) — both the local workspace and the centralized workspace must meet specific infrastructure prerequisites. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ## Overview
 
-Databricks supports sharing [Feature Tables](/concepts/feature-tables.md) across multiple workspaces. For example, from your own workspace, you can create, write to, or read from a [Feature Table](/concepts/feature-table.md) in a centralized [Feature Store](/concepts/feature-store.md). Databricks recommends designating a single workspace to store all [Feature Store](/concepts/feature-store.md) metadata and creating accounts for each user who needs access to the [Feature Store](/concepts/feature-store.md). If your teams are also sharing models across workspaces, you may choose to dedicate the same centralized workspace for both [Feature Tables](/concepts/feature-tables.md) and models, or specify different centralized workspaces for each. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+Databricks supports sharing [Feature Tables](/concepts/feature-table.md) across multiple workspaces. For example, from your own workspace, you can create, write to, or read from a [Feature Table](/concepts/feature-table.md) in a centralized [Feature Store](/concepts/feature-store.md). Databricks recommends designating a single workspace to store all [Feature Store](/concepts/feature-store.md) metadata and creating accounts for each user who needs access to the [Feature Store](/concepts/feature-store.md). If your teams are also sharing models across workspaces, you may choose to dedicate the same centralized workspace for both [Feature Tables](/concepts/feature-table.md) and models, or specify different centralized workspaces for each. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ## Requirements
 
@@ -54,7 +54,7 @@ Both workspaces must have access to the raw feature data. They must share the sa
 
 ### Shared DBFS Storage
 
-Both workspaces must have access to the same DBFS storage location. This shared storage is used to persist the actual feature data and is referenced when creating databases for [Feature Tables](/concepts/feature-tables.md). Before creating [Feature Tables](/concepts/feature-tables.md) in the remote [Feature Store](/concepts/feature-store.md), you must create a database in the shared DBFS location. For example: ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+Both workspaces must have access to the same DBFS storage location. This shared storage is used to persist the actual feature data and is referenced when creating databases for [Feature Tables](/concepts/feature-table.md). Before creating [Feature Tables](/concepts/feature-table.md) in the remote [Feature Store](/concepts/feature-store.md), you must create a database in the shared DBFS location. For example: ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ```sql
 CREATE DATABASE IF NOT EXISTS recommender LOCATION '/mnt/shared'
@@ -84,13 +84,13 @@ This secret setup enables the construction of a [Feature Store](/concepts/featur
 
 ## Deprecation Note
 
-This approach is deprecated. Databricks recommends using [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) to share [Feature Tables](/concepts/feature-tables.md) across workspaces instead of the legacy method described here. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
+This approach is deprecated. Databricks recommends using [Feature Engineering in Unity Catalog](/concepts/feature-engineering-in-unity-catalog.md) to share [Feature Tables](/concepts/feature-table.md) across workspaces instead of the legacy method described here. ^[share-feature-tables-across-workspaces-legacy-databricks-on-aws.md]
 
 ## Related Concepts
 
 - [Feature Store](/concepts/feature-store.md) — Centralized repository for machine learning features
 - [Feature Tables in Unity Catalog](/concepts/feature-tables-in-unity-catalog.md) — Modern approach for [Cross-Workspace Feature Sharing](/concepts/cross-workspace-feature-sharing.md)
-- [Model Registry](/concepts/mlflow-model-registry.md) — For sharing models alongside [Feature Tables](/concepts/feature-tables.md)
+- [Model Registry](/concepts/mlflow-model-registry.md) — For sharing models alongside [Feature Tables](/concepts/feature-table.md)
 - [External Hive Metastore](/concepts/object-ownership-in-hive-metastore.md) — Shared [Metastore](/concepts/metastore.md) requirement
 - DBFS — Shared storage requirement
 

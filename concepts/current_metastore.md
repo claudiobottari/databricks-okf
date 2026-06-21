@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - current_metastore
     - CURRENT_METASTORE
+    - current_metastore-sql-function
+    - CSF
   citations:
     - file: create-data-recipients-for-opensharing-databricks-to-databricks-sharing-databricks-on-aws.md
 title: CURRENT_METASTORE

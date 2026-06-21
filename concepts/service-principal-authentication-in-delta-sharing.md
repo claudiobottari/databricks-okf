@@ -58,7 +58,7 @@ This authentication method is typically used by autonomous applications—such a
 
 - [Delta Sharing](/concepts/delta-sharing.md) – Open protocol for secure data sharing.
 - OIDC Federation – Using OpenID Connect to establish trust between IdPs and Databricks.
-- [Bearer Token Authentication in Delta Sharing](/concepts/bearer-token-authentication-for-delta-sharing.md) – Alternative authentication for non‑Databricks recipients.
+- [Bearer Token Authentication in Delta Sharing](/concepts/bearer-token-authentication-for-open-sharing.md) – Alternative authentication for non‑Databricks recipients.
 - [User‑to‑Machine (U2M) OIDC Flow](/concepts/user-to-machine-u2m-authentication-flow.md) – Human‑mediated authentication for Delta Sharing.
 - Recipient Object – Databricks entity that defines access permissions for a share.
 

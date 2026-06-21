@@ -25,7 +25,7 @@ timestamp: "2026-06-19T18:45:35.276Z"
 
 # AI Runtime Logging
 
-**AI Runtime Logging** refers to the mechanisms for capturing, viewing, and monitoring log output from training workloads running on [AI Runtime (Databricks)](/concepts/ai-runtime-databricks.md), including standard output, errors, training metrics, and GPU resource metrics.
+**AI Runtime Logging** refers to the mechanisms for capturing, viewing, and monitoring log output from training workloads running on [AI Runtime (Databricks)](/concepts/ai-runtime.md), including standard output, errors, training metrics, and GPU resource metrics.
 
 ## Viewing Logs
 
@@ -64,7 +64,7 @@ When setting the `step` parameter in `MLFlowLogger`, use reasonable batch number
 ## Related Concepts
 
 - [MLflow Experiment Tracking](/concepts/mlflow-experiment-tracking.md)
-- [AI Runtime (Databricks)](/concepts/ai-runtime-databricks.md)
+- [AI Runtime (Databricks)](/concepts/ai-runtime.md)
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md)
 - Model Checkpointing
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md)

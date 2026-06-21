@@ -14,6 +14,8 @@ x-llmwiki:
     - ITFRCA
     - Root Cause Analysis
     - Root cause analysis
+    - inference-tables-for-request-root-cause-analysis
+    - ITFRRCA
   citations:
     - file: debugging-guide-for-model-serving-databricks-on-aws.md
 title: Inference Tables for Root Cause Analysis

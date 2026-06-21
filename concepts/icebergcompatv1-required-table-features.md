@@ -74,7 +74,7 @@ IcebergCompatV1 does not support replacing partitioned tables with a differently
 - [Apache Iceberg](/concepts/uniform-apache-iceberg-format.md) — The open table format for which compatibility is provided
 - Table Features in Delta Lake — The feature system that enables format-specific capabilities
 - Delta Table Properties — Configuration properties for Delta tables
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) — The broader compatibility mode setting
+- [IcebergCompatV1](/concepts/icebergcompatv.md) — The broader compatibility mode setting
 
 ## Sources
 

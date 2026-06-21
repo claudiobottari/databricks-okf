@@ -85,7 +85,7 @@ For more detail, see [Model Serving](/concepts/model-serving.md).
 
 [Git folders](/concepts/databricks-git-folders-for-cicd.md) provide Git support within the Databricks workspace, allowing teams to perform Git operations through the UI and to use APIs for automation with CI/CD tools. Databricks supports any type of Git deployment, including private networks. ^[how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md]
 
-Best practices for CI/CD with Git integration are documented in [CI/CD workflows with Git integration and Databricks Git folders](/concepts/databricks-git-folders-and-cicd-integration.md). Together with the [Databricks REST API](/concepts/databricks-mlflow-rest-api-20.md), teams can build automated deployment processes using GitHub Actions, Azure DevOps pipelines, or Jenkins jobs. ^[how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md]
+Best practices for CI/CD with Git integration are documented in [CI/CD workflows with Git integration and Databricks Git folders](/concepts/databricks-git-folders-for-cicd.md). Together with the [Databricks REST API](/concepts/databricks-mlflow-rest-api-20.md), teams can build automated deployment processes using GitHub Actions, Azure DevOps pipelines, or Jenkins jobs. ^[how-does-databricks-support-cicd-for-machine-learning-databricks-on-aws.md]
 
 ### Unity Catalog for Governance and Security
 

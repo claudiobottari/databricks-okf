@@ -77,7 +77,7 @@ Slices are automatically created based on distinct values of the `model_id_colum
 
 ## Related Concepts
 
-- [Data Profiling in Unity Catalog](/concepts/data-profiling-in-unity-catalog.md) — The broader framework for monitoring data quality.
+- [Data Profiling in Unity Catalog](/concepts/data-profiling-in-databricks.md) — The broader framework for monitoring data quality.
 - [TimeSeries Profile](/concepts/timeseries-profile.md) — A similar profile type without model quality metrics.
 - [Snapshot Profile](/concepts/snapshot-profile.md) — A profile type that captures the full table state at each refresh.
 - InferenceLogConfig — The API configuration object for InferenceLog profiles.

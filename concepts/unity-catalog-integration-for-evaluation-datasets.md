@@ -25,7 +25,7 @@ timestamp: "2026-06-19T09:11:19.190Z"
 
 # Unity Catalog Integration for Evaluation Datasets
 
-**Unity Catalog Integration for Evaluation Datasets** refers to the storage, governance, and management of [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) within [Unity Catalog](/concepts/unity-catalog.md). By default, MLflow evaluation datasets are stored as Delta tables in Unity Catalog, which provides built-in versioning, lineage, sharing, and governance capabilities. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
+**Unity Catalog Integration for Evaluation Datasets** refers to the storage, governance, and management of [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) within [Unity Catalog](/concepts/unity-catalog.md). By default, MLflow evaluation datasets are stored as Delta tables in Unity Catalog, which provides built-in versioning, lineage, sharing, and governance capabilities. ^[building-mlflow-evaluation-datasets-databricks-on-aws.md]
 
 ## Benefits
 

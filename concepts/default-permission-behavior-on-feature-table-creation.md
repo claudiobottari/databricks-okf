@@ -74,7 +74,7 @@ If your workspace is enabled for [Unity Catalog](/concepts/unity-catalog.md), us
 
 - [Feature Store Access Control](/concepts/feature-store-access-control-legacy.md) — The broader permissions system for feature tables
 - [Unity Catalog Privileges](/concepts/unity-catalog-privilege-management.md) — The modern access control approach for Unity Catalog-enabled workspaces
-- [Feature Table Management](/concepts/feature-tables.md) — Creating and managing feature tables
+- [Feature Table Management](/concepts/feature-table.md) — Creating and managing feature tables
 - [CAN MANAGE Permission](/concepts/can-manage-permission.md) — The highest permission level for feature tables
 
 ## Sources

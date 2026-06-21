@@ -54,7 +54,7 @@ Assessments stored on the first trace include metadata that identifies them as c
 - Session ID Tagging – The mechanism for grouping individual traces into conversation sessions using the `mlflow.trace.session` tag.
 - Trace Storage – General architecture for storing individual AI agent traces in MLflow.
 - [LLM Judges](/concepts/llm-judges.md) – The evaluation components that produce conversation-level assessments.
-- [Conversation Simulation](/concepts/conversation-simulation.md) – A workflow that generates synthetic conversations for evaluation.
+- [Conversation Simulation](/concepts/conversationsimulator.md) – A workflow that generates synthetic conversations for evaluation.
 
 ## Sources
 

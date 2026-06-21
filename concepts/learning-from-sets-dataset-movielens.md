@@ -12,6 +12,7 @@ x-llmwiki:
   aliases:
     - learning-from-sets-dataset-movielens
     - LFSD(
+    - learning-from-sets-dataset-grouplens
   citations:
     - file: distributed-training-of-two-tower-recommendation-model-using-lightning-databricks-on-aws.md
 title: Learning from Sets Dataset (MovieLens)

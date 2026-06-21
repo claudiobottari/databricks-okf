@@ -15,6 +15,8 @@ x-llmwiki:
     - Publish Modes for Online Tables
     - Publish Modes
     - Sync modes for online tables
+    - publish-modes-for-online-feature-stores
+    - PMFOFS
   citations:
     - file: databricks-online-feature-stores-databricks-on-aws.md
 title: Publish Modes for Online Feature Tables

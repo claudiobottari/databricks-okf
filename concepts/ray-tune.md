@@ -36,7 +36,7 @@ Databricks Runtime ML includes Ray, making Ray Tune available directly on Databr
 - [Hyperopt](/concepts/hyperopt.md) – A deprecated library; Ray Tune is the recommended alternative for distributed tuning.
 - Ray – The underlying distributed computing framework that provides the backend for Ray Tune.
 - [MLflow](/concepts/mlflow.md) – For tracking hyperparameters and metrics across tuning trials.
-- [Distributed Hyperparameter Tuning](/concepts/raytune-for-distributed-hyperparameter-tuning-on-databricks.md) – The general practice of scaling hyperparameter search.
+- [Distributed Hyperparameter Tuning](/concepts/raytune.md) – The general practice of scaling hyperparameter search.
 
 ## Sources
 

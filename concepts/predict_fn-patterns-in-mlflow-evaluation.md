@@ -157,7 +157,7 @@ results = mlflow.genai.evaluate(
 - mlflow.genai.to_predict_fn
 - [MLflow Evaluation Dataset](/concepts/mlflow-evaluation-dataset.md)
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md)
-- [PyFunc Model Flavor](/concepts/custom-mlflow-pyfunc-model.md)
+- [PyFunc Model Flavor](/concepts/custom-mlflow-pythonmodel.md)
 - LangChain Integration
 
 ---

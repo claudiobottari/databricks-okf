@@ -14,6 +14,9 @@ x-llmwiki:
     - RTR
     - Rotate Recipient Token
     - Token rotation
+    - recipient-token-rotation-delta-sharing
+    - RTR(S
+    - Token Rotation (Delta Sharing)
   citations:
     - file: create-a-recipient-object-for-non-databricks-users-using-bearer-tokens-databricks-to-open-sharing-databricks-on-aws.md
 title: Recipient Token Rotation

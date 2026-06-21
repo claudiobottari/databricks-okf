@@ -102,7 +102,7 @@ When designing access controls:
 - Securable Objects
 - [Attribute-Based Access Control (ABAC)](/concepts/attribute-based-access-control-abac.md)
 - [Row Filters and Column Masks](/concepts/row-filters-and-column-masks.md)
-- [Data Governance with Unity Catalog](/concepts/ai-governance-with-unity-catalog.md)
+- [Data Governance with Unity Catalog](/concepts/ai-governance-unity-catalog.md)
 
 # Citations
 

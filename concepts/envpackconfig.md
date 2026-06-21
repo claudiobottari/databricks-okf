@@ -24,7 +24,7 @@ timestamp: "2026-06-19T18:46:47.741Z"
 
 # EnvPackConfig
 
-**EnvPackConfig** is a configuration class in the MLflow Python SDK used to control environment packaging for [Express Deployments for Model Serving Endpoints](/concepts/express-deployments-for-model-serving.md). It is passed as the `env_pack` parameter to `mlflow.register_model()` to trigger packaging and staging of model artifacts and the serverless notebook environment during model registration, enabling accelerated endpoint deployment and consistent environments between training and serving.^[express-deployments-for-model-serving-endpoints-databricks-on-aws.md]
+**EnvPackConfig** is a configuration class in the MLflow Python SDK used to control environment packaging for [Express Deployments for Model Serving Endpoints](/concepts/express-deployments-databricks.md). It is passed as the `env_pack` parameter to `mlflow.register_model()` to trigger packaging and staging of model artifacts and the serverless notebook environment during model registration, enabling accelerated endpoint deployment and consistent environments between training and serving.^[express-deployments-for-model-serving-endpoints-databricks-on-aws.md]
 
 ## Overview
 
@@ -94,7 +94,7 @@ Adding the `env_pack` parameter causes `mlflow.register_model()` to package and 
 
 ## Related Concepts
 
-- [Express Deployments for Model Serving Endpoints](/concepts/express-deployments-for-model-serving.md) — The deployment acceleration feature that EnvPackConfig enables.
+- [Express Deployments for Model Serving Endpoints](/concepts/express-deployments-databricks.md) — The deployment acceleration feature that EnvPackConfig enables.
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md) — The serving infrastructure that hosts deployed models.
 - [Serverless Notebook Environments](/concepts/serverless-notebook-environments.md) — The compute environment required for express deployments.
 - [Foundation Model APIs](/concepts/foundation-model-apis.md) — A separate serving option for foundation models (not compatible with express deployments).

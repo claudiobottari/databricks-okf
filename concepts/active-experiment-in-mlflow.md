@@ -13,6 +13,11 @@ x-llmwiki:
     - active-experiment-in-mlflow
     - AEIM
     - Experiments (MLflow)
+    - active-experiment-configuration-in-mlflow
+    - AECIM
+    - setting-the-active-experiment-in-mlflow
+    - STAEIM
+    - Set tracking URI and experiment
   citations:
     - file: choose-where-your-mlflow-data-is-stored-databricks-on-aws.md
 title: Active Experiment in MLflow

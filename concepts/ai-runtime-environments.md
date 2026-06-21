@@ -16,6 +16,10 @@ x-llmwiki:
     - AI Runtime environment
     - AI Environment
     - AI Runtime (Preview)|AI Runtime
+    - ai-runtime-managed-environments
+    - ARME
+    - databricks-ai-runtime-environments
+    - DARE
   citations:
     - file: ai-runtime-databricks-on-aws.md
 title: AI Runtime Environments

@@ -54,7 +54,7 @@ If the validation succeeds, you can register the model to [Unity Catalog](/conce
 
 ## Related Concepts
 
-- [Custom MLflow PyFunc Model](/concepts/custom-mlflow-pyfunc-model.md) – The model framework that validation applies to.
+- [Custom MLflow PyFunc Model](/concepts/custom-mlflow-pythonmodel.md) – The model framework that validation applies to.
 - [Model Serving](/concepts/model-serving.md) – The deployment target for validated models.
 - [mlflow models predict](/concepts/mlflowmodelspredict-api.md) – The API used for validation (see the [MLflow documentation](https://mlflow.org/docs/latest/models.html#validate-models-before-deployment)).
 - [MLflow Python Function (pyfunc)](/concepts/mlflow-pyfunc-python-function.md) – The flexible model packaging format.

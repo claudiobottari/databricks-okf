@@ -130,7 +130,7 @@ This pattern uses the `SPARK_REMOTE` environment variable for authentication whe
 
 ## Supported Operations
 
-All standard [PySpark DataFrame](/concepts/pysparklyr-package.md) operations are supported when using Databricks Connect, including:
+All standard [PySpark DataFrame](/concepts/pysparklyr.md) operations are supported when using Databricks Connect, including:
 
 - Reading and writing tables
 - Creating DataFrames from local data
@@ -150,7 +150,7 @@ Databricks provides example applications in the [Databricks Connect GitHub repos
 
 - [Databricks Connect](/concepts/databricks-connect.md) — The overall framework for connecting local environments to Databricks clusters
 - [DatabricksSession](/concepts/databrickssession.md) — The client class used to establish remote connections
-- [PySpark DataFrame](/concepts/pysparklyr-package.md) — The core data structure for Spark operations
+- [PySpark DataFrame](/concepts/pysparklyr.md) — The core data structure for Spark operations
 - [Remote Development with Databricks](/concepts/interactive-development-with-databricks-connect.md) — Broader patterns for developing against Databricks remotely
 - [Databricks Runtime for Machine Learning](/concepts/databricks-runtime-for-machine-learning.md) — Runtime environment that supports Databricks Connect
 

@@ -13,6 +13,8 @@ x-llmwiki:
     - aws-graviton-support-in-databricks-runtime-ml
     - AGSIDRM
     - AWS Graviton Instances
+    - aws-graviton-support-for-databricks-runtime-ml
+    - AGSFDRM
   citations:
     - file: databricks-runtime-for-machine-learning-databricks-on-aws.md
 title: AWS Graviton Support in Databricks Runtime ML

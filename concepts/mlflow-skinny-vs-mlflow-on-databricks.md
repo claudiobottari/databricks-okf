@@ -12,6 +12,14 @@ x-llmwiki:
   aliases:
     - mlflow-skinny-vs-mlflow-on-databricks
     - MVMOD
+    - mlflow-skinny-vs-full-mlflow-for-model-serving
+    - MVFMFMS
+    - mlflow-skinny-vs-full-mlflow-in-databricks-runtime-ml
+    - MVFMIDRM
+    - mlflow-skinny-vs-full-mlflow-on-databricks
+    - MVFMOD
+    - mlflow-skinny-vs-mlflow-compatibility-on-databricks
+    - MVMCOD
   citations:
     - file: deploy-python-code-with-model-serving-databricks-on-aws.md
 title: mlflow-skinny vs mlflow on Databricks

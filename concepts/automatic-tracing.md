@@ -16,6 +16,13 @@ x-llmwiki:
     - Auto-Tracing
     - Auto-tracing
     - Automatic Instrumentation
+    - automatic-tracing-autolog
+    - AT(
+    - Automated Logging (autolog)
+    - automatic-tracing-mlflow
+    - Automatic Tracing for MLflow
+    - Automatic Tracing in MLflow
+    - Automatic Tracing with MLflow
   citations:
     - file: add-traces-to-applications-automatic-and-manual-tracing-databricks-on-aws.md
 title: Automatic Tracing

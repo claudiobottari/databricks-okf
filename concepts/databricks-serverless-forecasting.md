@@ -15,6 +15,9 @@ x-llmwiki:
     - Serverless Forecasting
     - Serverless forecasting
     - serverless forecasting
+    - databricks-serverless-forecasting-with-automl
+    - DSFWA
+    - Serverless Forecasting with AutoML
   citations:
     - file: forecasting-serverless-with-automl-databricks-on-aws.md
 title: Databricks Serverless Forecasting

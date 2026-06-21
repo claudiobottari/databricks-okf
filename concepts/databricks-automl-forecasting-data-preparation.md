@@ -78,7 +78,7 @@ You can adjust data preparation options during experiment setup in the AutoML UI
 - Forecasting with AutoML
 - Time Series Analysis
 - Data Imputation Techniques
-- [Cross-Validation for Time Series](/concepts/rolling-window-backtesting-for-time-series.md)
+- [Cross-Validation for Time Series](/concepts/rolling-window-backtesting.md)
 
 ## Sources
 

@@ -62,7 +62,7 @@ Databricks provides examples of FSDP training on serverless GPU compute using bo
 
 ### With the `@distributed` Decorator
 
-The following snippet shows the key FSDP configuration for a 120B parameter model using [TRL](/concepts/trl-transformer-reinforcement-learning-library.md)’s `SFTTrainer`:^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
+The following snippet shows the key FSDP configuration for a 120B parameter model using [TRL](/concepts/trl-transformer-reinforcement-learning.md)’s `SFTTrainer`:^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
 
 ```python
 training_args = SFTConfig(
@@ -111,7 +111,7 @@ In both cases, the training is launched on [Databricks Serverless GPU](/concepts
 - [Activation Checkpointing](/concepts/activation-checkpointing.md) – Trading compute for memory by recomputing activations.
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md) – Databricks managed GPU environment for distributed training.
 - [Mosaic LLM Foundry](/concepts/mosaic-llm-foundry.md) – Framework for training and fine‑tuning LLMs with built‑in FSDP support.
-- [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) – Transformers Reinforcement Learning library providing `SFTTrainer`.
+- [TRL](/concepts/trl-transformer-reinforcement-learning.md) – Transformers Reinforcement Learning library providing `SFTTrainer`.
 
 ## Sources
 

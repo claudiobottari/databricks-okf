@@ -1,6 +1,10 @@
 ---
 type: concept
 x-llmwiki:
+  aliases:
+    - pysparklyr-package
+    - sparklyr package
+    - PySpark DataFrame
   schemaVersion: "0.1"
   contentHash: 87b900c1936bb36312d4060c2ded35d184762fb1632fb78a73f1e5f94ad8050c
   pageDirectory: concepts

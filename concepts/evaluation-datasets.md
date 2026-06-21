@@ -18,6 +18,11 @@ x-llmwiki:
     - build evaluation datasets
     - Build Evaluation Datasets from Traces
     - Build evaluation datasets from traces
+    - mlflow-evaluation-datasets
+    - MED
+    - Building MLflow Evaluation Datasets
+    - Building MLflow evaluation datasets
+    - build MLflow evaluation datasets
   citations:
     - file: evaluate-genai-apps-during-development-databricks-on-aws.md
     - file: tutorial-evaluate-and-improve-a-genai-application-databricks-on-aws.md

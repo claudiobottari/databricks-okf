@@ -69,7 +69,7 @@ All `DELTA_CONCURRENT_DELETE_READ` sub‑errors, including `WITH_PARTITION_HINT`
 
 - [Delta Lake Concurrency Control](/concepts/delta-lake-optimistic-concurrency-control.md) – How Delta Lake handles multiple writers.
 - [Row-Level Conflict Detection](/concepts/delta-lake-row-level-conflict-detection.md) – Mechanism for detecting conflicts at the row level.
-- [MERGE Statement](/concepts/delta-lake-dml-statements.md) – Common operation that benefits from partition hints.
+- [MERGE Statement](/concepts/delta-lake-dml-operations.md) – Common operation that benefits from partition hints.
 - Partition Pruning – Optimization that limits the data scanned and reduces conflict surface.
 - DELTA_CONCURRENT_APPEND – Similar conflict class for concurrent append operations.
 

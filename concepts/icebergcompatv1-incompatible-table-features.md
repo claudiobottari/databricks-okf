@@ -74,7 +74,7 @@ Which approach is appropriate depends on whether the incompatible feature is req
 ## Related Concepts
 
 - [Delta Lake table features](/concepts/delta-lake-reader-table-features.md)
-- [IcebergCompatV1 protocol](/concepts/icebergcompatv1.md)
+- [IcebergCompatV1 protocol](/concepts/icebergcompatv.md)
 - Delta Lake error classes
 - Apache Iceberg interoperability with Delta Lake
 

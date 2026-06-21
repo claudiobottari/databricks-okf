@@ -89,8 +89,8 @@ In short, the Databricks Feature Engineering client is a **Databricks-only runti
 
 ## Related Concepts
 
-- [Feature Engineering Python API](/concepts/featureengineeringclient-python-client.md) – The core client library and its functions.
-- [Feature Tables](/concepts/feature-tables.md) – The storage objects for features (Unity Catalog or Workspace Feature Store).
+- [Feature Engineering Python API](/concepts/featureengineeringclient-python-api.md) – The core client library and its functions.
+- [Feature Tables](/concepts/feature-table.md) – The storage objects for features (Unity Catalog or Workspace Feature Store).
 - [Unity Catalog](/concepts/unity-catalog.md) – The governed catalog system for feature tables.
 - [Online Stores](/concepts/online-feature-store.md) – Real-time serving endpoints for features.
 - CI/CD on Databricks – Guidance for running integration tests on Databricks.

@@ -20,6 +20,10 @@ x-llmwiki:
     - GRANT Policy
     - GRANT Policy for Models (Beta)
     - GRANT policy
+    - grant-policies-abac-beta
+    - GP(B
+    - GRANT policies (ABAC)
+    - GRANT policies|ABAC GRANT policies
   citations:
     - file: attribute-based-access-control-in-unity-catalog-databricks-on-aws.md
 title: GRANT Policies (Beta)

@@ -197,7 +197,7 @@ The SDK supports grouping traces by user sessions, which is useful for applicati
 
 ## Full-Stack Example
 
-A complete full-stack example demonstrating [MLflow Tracing](/concepts/mlflow-tracing.md) TypeScript SDK usage in a Node.js application is available in the [MLflow GitHub repository](/concepts/databricks-connect-github-repository.md). ^[instrument-nodejs-applications-with-mlflow-tracing-databricks-on-aws.md]
+A complete full-stack example demonstrating [MLflow Tracing](/concepts/mlflow-tracing.md) TypeScript SDK usage in a Node.js application is available in the [MLflow GitHub repository](/concepts/databricks-connect-github-examples.md). ^[instrument-nodejs-applications-with-mlflow-tracing-databricks-on-aws.md]
 
 ## Related Concepts
 

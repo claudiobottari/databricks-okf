@@ -67,7 +67,7 @@ More complex, end-to-end examples are available in the [dbconnect-examples](http
 - [Databricks Connect for Scala](/concepts/databricks-connect-for-scala.md) – Scala-specific documentation.
 - [Databricks Connect for R](/concepts/databricks-connect-for-r.md) – R-specific documentation.
 - Troubleshooting Databricks Connect – Common issues and solutions.
-- [Limitations of Databricks Connect](/concepts/limitations-of-dbutils-in-databricks-connect.md) – Known constraints.
+- [Limitations of Databricks Connect](/concepts/restricted-dbutils-in-databricks-connect.md) – Known constraints.
 
 ## Sources
 

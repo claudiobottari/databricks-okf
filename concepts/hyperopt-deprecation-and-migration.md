@@ -13,6 +13,12 @@ x-llmwiki:
     - hyperopt-deprecation-and-migration
     - migration and Hyperopt deprecation
     - HDAM
+    - hyperopt-deprecation-and-alternatives
+    - Alternatives and Hyperopt Deprecation
+    - HDAA
+    - hyperopt-deprecation-and-migration-on-databricks
+    - Migration on Databricks and Hyperopt Deprecation
+    - HDAMOD
   citations:
     - file: hyperopt-concepts-databricks-on-aws.md
 title: Hyperopt deprecation and migration
@@ -61,7 +67,7 @@ When migrating from Hyperopt, note the following key differences:
 - [Optuna](/concepts/optuna.md) – Hyperparameter optimization library for single-node use.
 - [RayTune](/concepts/raytune.md) – Distributed hyperparameter tuning framework built on Ray.
 - [MLflow](/concepts/mlflow.md) – Experiment tracking and model management platform.
-- [Distributed hyperparameter tuning](/concepts/raytune-for-distributed-hyperparameter-tuning-on-databricks.md) – Techniques for scaling hyperparameter search across a cluster.
+- [Distributed hyperparameter tuning](/concepts/raytune.md) – Techniques for scaling hyperparameter search across a cluster.
 - [Databricks Runtime ML](/concepts/databricks-runtime-ml.md) – The machine learning runtime environment on Databricks.
 
 ## Sources

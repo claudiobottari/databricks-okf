@@ -53,7 +53,7 @@ FSDP supports *activation checkpointing* (also known as gradient checkpointing) 
 
 ## FSDP Configuration
 
-When using FSDP with a training framework such as Hugging Face’s `SFTTrainer` (from [TRL](/concepts/trl-transformer-reinforcement-learning-library.md)), the following configuration knobs are commonly set:
+When using FSDP with a training framework such as Hugging Face’s `SFTTrainer` (from [TRL](/concepts/trl-transformer-reinforcement-learning.md)), the following configuration knobs are commonly set:
 
 | Config Field | Description | Example Value |
 |--------------|-------------|---------------|
@@ -69,7 +69,7 @@ When using FSDP with a training framework such as Hugging Face’s `SFTTrainer` 
 
 ## Integration with Training Frameworks
 
-FSDP is integrated with the Transformers library and [TRL](/concepts/trl-transformer-reinforcement-learning-library.md)’s `SFTTrainer` through the `SFTConfig`’s `fsdp` and `fsdp_config` parameters. The trainer automatically initializes the distributed environment and applies FSDP wrapping. The model must be loaded without a `device_map` or explicit `.to(device)` calls — FSDP and the accelerator handle placement. ^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
+FSDP is integrated with the Transformers library and [TRL](/concepts/trl-transformer-reinforcement-learning.md)’s `SFTTrainer` through the `SFTConfig`’s `fsdp` and `fsdp_config` parameters. The trainer automatically initializes the distributed environment and applies FSDP wrapping. The model must be loaded without a `device_map` or explicit `.to(device)` calls — FSDP and the accelerator handle placement. ^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
 
 ### Databricks Serverless GPU Compute
 
@@ -99,7 +99,7 @@ The training function is launched via `train_gpt_oss_fsdp_120b.distributed()`. ^
 
 - [Distributed Data Parallel (DDP)](/concepts/distributed-data-parallel-ddp.md)
 - [LoRA (Low-Rank Adaptation)](/concepts/lora-low-rank-adaptation.md)
-- [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformers-reinforcement-learning.md)
+- [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformer-reinforcement-learning.md)
 - [Distributed Training](/concepts/workload-yaml-for-distributed-training.md)
 - [Serverless GPU Compute](/concepts/serverless-gpu-compute.md)
 - Bfloat16 Precision

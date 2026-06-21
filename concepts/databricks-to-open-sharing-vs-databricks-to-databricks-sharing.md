@@ -81,7 +81,7 @@ The provider, in turn, must enable OIDC federation for the recipient and generat
 - [Delta Sharing](/concepts/delta-sharing.md)
 - OIDC Federation
 - [Unity Catalog](/concepts/unity-catalog.md)
-- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-delta-sharing.md)
+- [Bearer Token Authentication](/concepts/bearer-token-authentication-for-open-sharing.md)
 - [Databricks-to-Open Sharing](/concepts/databricks-to-open-sharing.md)
 - [Databricks-to-Databricks Sharing](/concepts/databricks-to-databricks-sharing.md)
 - [OpenSharing Python OSS Client](/concepts/opensharing-python-client-for-delta-sharing.md)

@@ -70,7 +70,7 @@ Custom classifier configuration and the detection metadata generated from exampl
 
 - [Data Classification](/concepts/data-classification.md) – The underlying system that custom classifiers extend
 - [Governed Tags](/concepts/governed-tags.md) – The tag system used by custom classifiers
-- [ABAC Column Mask Policies](/concepts/abac-column-mask-policies.md) – Governance controls that can be applied to classified data
+- [ABAC Column Mask Policies](/concepts/abac-column-mask-policy.md) – Governance controls that can be applied to classified data
 - Data Classification Tags – Supported classification tags for built-in detection
 - Policy Evaluation Order – How multiple ABAC policies interact with classified data
 

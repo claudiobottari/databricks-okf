@@ -11,6 +11,11 @@ x-llmwiki:
   freshnessStatus: unverified
   aliases:
     - percent-null
+    - percent-null-completeness-check
+    - PNCC
+    - NCC
+    - percent-null-completeness
+    - PN(
   citations:
     - file: anomaly-detection-databricks-on-aws.md
 title: Percent Null

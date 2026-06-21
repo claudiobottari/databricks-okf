@@ -14,6 +14,8 @@ x-llmwiki:
     - ACES
     - AutoML Experiment Setup
     - AutoML experiment setup
+    - automl-classification-experiment-setup-on-databricks
+    - ACESOD
   citations:
     - file: classification-with-automl-databricks-on-aws.md
 title: AutoML Classification Experiment Setup

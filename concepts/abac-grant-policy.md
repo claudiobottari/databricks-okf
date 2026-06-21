@@ -14,6 +14,9 @@ x-llmwiki:
     - AGP
     - GRANT Policy
     - GRANT policy
+    - abac-grant-policies
+    - ABAC GRANT Policies (Beta)
+    - ABAC GRANT policies for models (Beta)
   citations:
     - file: abac-grant-policies-for-models-beta-databricks-on-aws.md
 title: ABAC GRANT Policy

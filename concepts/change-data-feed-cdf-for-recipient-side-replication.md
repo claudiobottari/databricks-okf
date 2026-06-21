@@ -37,7 +37,7 @@ To share a table with its change data feed, the provider must both **enable CDF 
 
 ### Provider Actions
 
-1. Enable CDF on the source table using standard [Change Data Feed on Databricks](/concepts/change-data-feed-metadata-conflicts.md) configuration.
+1. Enable CDF on the source table using standard [Change Data Feed on Databricks](/concepts/change-data-feed-column-conflict.md) configuration.
 2. When adding the table to a share, include the history option.
 
 For detailed instructions, see [Use change data feed on Databricks](https://docs.databricks.com/aws/en/tables/features/change-data-feed) and [Add tables to a share](https://docs.databricks.com/aws/en/delta-sharing/create-share#add-tables). ^[monitor-and-manage-opensharing-egress-costs-for-providers-databricks-on-aws.md]
@@ -71,7 +71,7 @@ CDF for recipient-side replication is an alternative to provider-side replicatio
 
 - OpenSharing Egress Costs — Overall strategies for monitoring and minimizing egress charges.
 - [Delta Deep Clone](/concepts/deep-clone.md) — An alternative replication method for providers.
-- [Change Data Feed on Databricks](/concepts/change-data-feed-metadata-conflicts.md) — The underlying CDF mechanism on the Databricks platform.
+- [Change Data Feed on Databricks](/concepts/change-data-feed-column-conflict.md) — The underlying CDF mechanism on the Databricks platform.
 - [Lakeflow Jobs](/concepts/lakeflow-jobs.md) — The scheduling tool for automating incremental syncs.
 - Cloudflare R2 Storage — An egress-free storage option for avoiding these costs entirely.
 

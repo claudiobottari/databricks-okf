@@ -91,7 +91,7 @@ When publishing feature tables, you refer to the write-scope and read-scope in t
 ## Related Concepts
 
 - [Databricks Secret Scopes](/concepts/databricks-secret-scopes.md)
-- [Instance profiles for third-party online stores](/concepts/instance-profile-authentication-for-dynamodb-online-stores.md)
+- [Instance profiles for third-party online stores](/concepts/instance-profile-authentication-for-feature-store.md)
 - [Publish features to a third-party online store](/concepts/publishing-feature-tables-to-online-stores.md)
 - [Feature Engineering client](/concepts/featureengineeringclient-api.md)
 - Model Serving with online stores

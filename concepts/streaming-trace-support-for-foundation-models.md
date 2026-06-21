@@ -135,7 +135,7 @@ or
 
 - [MLflow Tracing](/concepts/mlflow-tracing.md)
 - Databricks Foundation Models
-- [OpenAI API Compatible Endpoints](/concepts/openai-api-compatibility-in-databricks.md)
+- [OpenAI API Compatible Endpoints](/concepts/openai-compatible-api-interface.md)
 - [Function Calling Trace Support](/concepts/function-calling-trace-integration.md)
 - [MLflow Experiments](/concepts/mlflow-experiment.md)
 - Serverless Compute

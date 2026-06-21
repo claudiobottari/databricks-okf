@@ -17,6 +17,8 @@ x-llmwiki:
     - Delta Table Upgrade
     - Table Repair
     - Table repair
+    - delta-table-repair-via-databricks-support
+    - DTRVDS
   citations:
     - file: delta_versions_not_contiguous-error-condition-databricks-on-aws.md
 title: Delta Table Repair
@@ -53,7 +55,7 @@ Users should not attempt to manually edit or re‑create log files, as this can 
 To avoid the need for table repair:
 
 - Never manually delete files from the `_delta_log` directory.
-- When using AWS S3, avoid deleting and recreating a Delta table at the same path. Instead, use `DROP TABLE` and then `CREATE TABLE` with a different location, or overwrite the table data using [Delta Lake`s `OVERWRITE` semantics](/concepts/delta-lake-dml-statements.md).
+- When using AWS S3, avoid deleting and recreating a Delta table at the same path. Instead, use `DROP TABLE` and then `CREATE TABLE` with a different location, or overwrite the table data using [Delta Lake`s `OVERWRITE` semantics](/concepts/delta-lake-dml-operations.md).
 
 ## Related Concepts
 

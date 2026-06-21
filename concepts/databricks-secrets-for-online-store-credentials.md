@@ -13,6 +13,8 @@ x-llmwiki:
     - databricks-secrets-for-online-store-credentials
     - DSFOSC
     - store credentials in Databricks secrets|store credentials in Databricks secrets
+    - databricks-secrets-for-third-party-online-store-credentials
+    - DSFTOSC
   citations:
     - file: authentication-for-working-with-third-party-online-stores-databricks-on-aws.md
 title: Databricks Secrets for Online Store Credentials

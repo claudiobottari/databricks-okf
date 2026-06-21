@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - mlflow-system-tables-for-experiment-data
     - MSTFED
+    - mlflow-system-tables-for-experiment-analysis
+    - MSTFEA
   citations:
     - file: compare-mlflow-runs-and-models-using-graphs-and-charts-databricks-on-aws.md
 title: MLflow System Tables for Experiment Data

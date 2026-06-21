@@ -81,7 +81,7 @@ To diagnose client-side timeouts, test the model locally in a notebook. If a `"T
 
 ### Third Party Client APIs
 
-Third party client APIs (e.g., OpenAI client) can also cause client-side timeouts. These are common in model serving endpoints that use [custom PyFunc models](/concepts/custom-mlflow-pyfunc-model.md) or PyFunc custom schema agents. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+Third party client APIs (e.g., OpenAI client) can also cause client-side timeouts. These are common in model serving endpoints that use [custom PyFunc models](/concepts/custom-mlflow-pythonmodel.md) or PyFunc custom schema agents. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 To diagnose, test the model locally. If a message like `APITimeoutError: Request timed out` appears, adjust the relevant timeout parameter of the third party library. For example, the OpenAI client allows setting a `timeout` parameter (in seconds) when creating the client; the default and maximum is 10 minutes. Streaming can help work around the maximum timeout window. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
@@ -117,7 +117,7 @@ Multiple requests made above the rate limit of an endpoint may cause failures fo
 
 - [Model Serving Endpoints](/concepts/model-serving-endpoint.md)
 - [Resource and Payload Limits](/concepts/model-serving-resource-and-payload-limits.md)
-- [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md)
+- [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md)
 - [Scaling and Auto-scaling Model Serving](/concepts/queuing-and-autoscaling-in-model-serving.md)
 - Debugging Model Serving Deployments
 - MLflow Environment Variables

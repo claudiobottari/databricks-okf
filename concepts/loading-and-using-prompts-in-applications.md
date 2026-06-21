@@ -27,7 +27,7 @@ timestamp: "2026-06-19T14:33:01.184Z"
 
 # Loading and Using Prompts in Applications
 
-**Loading and Using Prompts in Applications** refers to the workflow of retrieving a prompt template from the [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md), filling in dynamic variables at runtime, and sending the formatted prompt to a language model as part of a GenAI application. This approach centralizes prompt management, enables version control, and maintains full lineage between prompt versions, model calls, and application code. ^[create-and-edit-prompts-databricks-on-aws.md]
+**Loading and Using Prompts in Applications** refers to the workflow of retrieving a prompt template from the [MLflow Prompt Registry](/concepts/prompt-registry.md), filling in dynamic variables at runtime, and sending the formatted prompt to a language model as part of a GenAI application. This approach centralizes prompt management, enables version control, and maintains full lineage between prompt versions, model calls, and application code. ^[create-and-edit-prompts-databricks-on-aws.md]
 
 ## Overview
 
@@ -115,7 +115,7 @@ results = mlflow.genai.search_prompts(
 
 ## Related Concepts
 
-- [MLflow Prompt Registry](/concepts/mlflow-prompt-registry.md) – Central repository for prompt templates with version control.
+- [MLflow Prompt Registry](/concepts/prompt-registry.md) – Central repository for prompt templates with version control.
 - [Unity Catalog](/concepts/unity-catalog.md) – Data governance layer that stores prompt schemas and controls permissions.
 - [MLflow Tracing](/concepts/mlflow-tracing.md) – Automatic capture of prompt usage and model calls for observability.
 - [Prompt Template Variables](/concepts/prompt-template-variables.md) – The `{{variable}}` syntax for injecting runtime data.

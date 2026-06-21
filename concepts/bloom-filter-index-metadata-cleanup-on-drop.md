@@ -60,7 +60,7 @@ The command fails if:
 
 ## Related Concepts
 
-- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index-deprecated.md) — Details on deprecation and recommended alternatives.
+- [Bloom filter indexes (deprecated)](/concepts/bloom-filter-index.md) — Details on deprecation and recommended alternatives.
 - [Delta table](/concepts/delta-lake-table.md) — The table type that supports Bloom filter indexes.
 - VACUUM — The operation that eventually cleans up index files after metadata removal.
 - Optimizations on Databricks — General guidance on performance tuning, including alternatives to Bloom filter indexes.

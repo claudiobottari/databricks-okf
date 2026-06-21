@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - cache-select
     - CACHE SELECT command
+    - cache-select-databricks-sql
+    - CS(S
   citations:
     - file: cache-select-databricks-on-aws.md
 title: CACHE SELECT

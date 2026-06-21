@@ -63,7 +63,7 @@ Databricks Connect communicates with a cluster via gRPC over HTTP/2. The gRPC li
 - [Databricks Connect](/concepts/databricks-connect.md) – The client library for connecting local code to Databricks clusters.
 - [Spark Connect](/concepts/spark-connect.md) – The underlying protocol (gRPC-based) used by Databricks Connect.
 - [Advanced Databricks Connect Configuration](/concepts/databricks-connect-configuration.md) – Other advanced topics such as custom headers and proxy setup.
-- [SSL/TLS Certificate Trust Store](/concepts/ssltls-certificate-configuration-for-databricks-connect.md) – General concept of certificate trust paths on Linux systems.
+- [SSL/TLS Certificate Trust Store](/concepts/ssltls-certificates-for-databricks-connect.md) – General concept of certificate trust paths on Linux systems.
 - [Environment Variables for Databricks Connect](/concepts/environment-variable-configuration-for-databricks-connect.md) – Other environment variables like `SPARK_REMOTE` and `SPARK_CONNECT_LOG_LEVEL`.
 
 ## Sources

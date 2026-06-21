@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - wrong_required_table_property
     - WRONG_REQUIRED_TABLE_PROPERTY
+    - wrong_required_table_property-delta-iceberg-error
+    - W(IE
   citations:
     - file: delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md
     - file: inferred
@@ -26,7 +28,7 @@ timestamp: "2026-06-19T18:25:13.622Z"
 
 # WRONG_REQUIRED_TABLE_PROPERTY
 
-The **WRONG_REQUIRED_TABLE_PROPERTY** sub-error occurs when a Delta table with the [IcebergCompatV1](/concepts/icebergcompatv1.md) feature enabled does not have a required table property set to the correct value. This is part of the broader DELTA_ICEBERG_COMPAT_V1_VIOLATION error class, which validates compatibility between Delta Lake and Iceberg. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
+The **WRONG_REQUIRED_TABLE_PROPERTY** sub-error occurs when a Delta table with the [IcebergCompatV1](/concepts/icebergcompatv.md) feature enabled does not have a required table property set to the correct value. This is part of the broader DELTA_ICEBERG_COMPAT_V1_VIOLATION error class, which validates compatibility between Delta Lake and Iceberg. ^[delta_iceberg_compat_v1_violation-error-class-databricks-on-aws.md]
 
 ## Error Message
 
@@ -54,7 +56,7 @@ If the property cannot be changed without breaking existing workloads, consider 
 ## Related Concepts
 
 - DELTA_ICEBERG_COMPAT_V1_VIOLATION — The parent error class containing other validation failures such as MISSING_REQUIRED_TABLE_FEATURE, INCOMPATIBLE_TABLE_FEATURE, and UNSUPPORTED_DATA_TYPE.
-- [IcebergCompatV1](/concepts/icebergcompatv1.md) — A Delta table compatibility mode for Apache Iceberg.
+- [IcebergCompatV1](/concepts/icebergcompatv.md) — A Delta table compatibility mode for Apache Iceberg.
 - Delta table properties — Metadata properties that control table behavior.
 - Iceberg-Spark integration — The underlying integration that imposes these property requirements.
 

@@ -73,7 +73,7 @@ After packaging, the model artifact is self-contained and can be served to a [Mo
 - [Model Serving](/concepts/model-serving.md) – The deployment infrastructure that benefits from static dependency capture.
 - [MLflow](/concepts/mlflow.md) – The framework used to log models and package artifacts.
 - Unity Catalog Volumes – A common source of artifact files during development.
-- [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md) – The model type that accesses packaged artifacts via `context.artifacts`.
+- [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md) – The model type that accesses packaged artifacts via `context.artifacts`.
 - Deployment Best Practices – General guidelines for reliable model serving.
 
 ### Sources

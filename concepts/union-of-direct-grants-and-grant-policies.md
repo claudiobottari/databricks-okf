@@ -89,7 +89,7 @@ Additional privileges and securable types will be supported in future releases. 
 
 - [ABAC GRANT Policy](/concepts/abac-grant-policy.md) — The attribute-based policy mechanism that forms one part of the union
 - [Unity Catalog](/concepts/unity-catalog.md) — The data governance layer where both mechanisms coexist
-- [Direct Grants](/concepts/grant-policy-vs-direct-grants.md) — Traditional privilege assignment via `GRANT` statements
+- [Direct Grants](/concepts/grant-policy-vs-direct-grant.md) — Traditional privilege assignment via `GRANT` statements
 - [Effective Permissions](/concepts/feature-store-wide-permissions.md) — The computed result of the union for a given principal
 - [SHOW EFFECTIVE POLICIES](/concepts/show-effective-policies.md) — SQL command for listing inherited policies
 

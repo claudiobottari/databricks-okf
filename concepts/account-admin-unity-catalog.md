@@ -28,6 +28,8 @@ x-llmwiki:
     - Account Admins
     - Account admins
     - account admins
+    - account-admins-in-unity-catalog
+    - AAIUC
   citations:
     - file: admin-privileges-in-unity-catalog-databricks-on-aws.md
 title: Account Admin (Unity Catalog)

@@ -98,7 +98,7 @@ If the activation link has never been accessed, rotating the token invalidates i
 - [IP access lists for OpenSharing](/concepts/ip-access-lists-for-opensharing-recipients.md)
 - Rotate credentials for open recipients
 - OIDC federation for OpenSharing recipients
-- [Unity Catalog privileges (CREATE RECIPIENT, USE RECIPIENT)](/concepts/unity-catalog-privileges-and-ownership.md)
+- [Unity Catalog privileges (CREATE RECIPIENT, USE RECIPIENT)](/concepts/privileges-and-ownership.md)
 
 ## Sources
 

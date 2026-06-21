@@ -14,6 +14,10 @@ x-llmwiki:
     - TCAT
     - third-party client APIs
     - Third-party client API configurations
+    - third-party-client-api-timeouts-in-model-pipelines
+    - TCATIMP
+    - third-party-client-api-timeouts-in-model-serving-pipelines
+    - TCATIMSP
   citations:
     - file: debug-model-serving-timeouts-databricks-on-aws.md
 title: Third-Party Client API Timeouts
@@ -32,7 +36,7 @@ timestamp: "2026-06-19T18:16:42.649Z"
 
 ## Overview
 
-Client-side timeouts from third-party client APIs typically return error messages containing **"timed out"** or **4xx Bad Request**. These timeouts can impact model serving endpoints that consist of pipelines using third-party client APIs, such as [custom PyFunc models](/concepts/custom-mlflow-pyfunc-model.md) or PyFunc custom schema agents. ^[debug-model-serving-timeouts-databricks-on-aws.md]
+Client-side timeouts from third-party client APIs typically return error messages containing **"timed out"** or **4xx Bad Request**. These timeouts can impact model serving endpoints that consist of pipelines using third-party client APIs, such as [custom PyFunc models](/concepts/custom-mlflow-pythonmodel.md) or PyFunc custom schema agents. ^[debug-model-serving-timeouts-databricks-on-aws.md]
 
 ## Identifying Third-Party Client API Timeouts
 
@@ -107,9 +111,9 @@ Multiple requests made over the rate limit of an endpoint might lead to failure 
 ## Related Concepts
 
 - [Model Serving Timeouts](/concepts/model-serving-endpoint-timeouts.md) — Overview of all timeout types on Databricks
-- [Server-Side Timeouts](/concepts/server-side-timeouts.md) — Timeouts originating from the serving infrastructure
-- [MLflow HTTP Request Timeout](/concepts/mlflow-http-request-timeout-configuration.md) — Client-side timeout configuration for MLflow
-- [Custom PyFunc Models](/concepts/custom-mlflow-pyfunc-model.md) — Model pipelines that may use third-party APIs
+- [Server-Side Timeouts](/concepts/server-side-timeout.md) — Timeouts originating from the serving infrastructure
+- [MLflow HTTP Request Timeout](/concepts/mlflow-http-timeout-configuration.md) — Client-side timeout configuration for MLflow
+- [Custom PyFunc Models](/concepts/custom-mlflow-pythonmodel.md) — Model pipelines that may use third-party APIs
 - [Debug Model Serving Endpoints](/concepts/model-serving-endpoint.md) — General debugging guidance
 
 ## Sources

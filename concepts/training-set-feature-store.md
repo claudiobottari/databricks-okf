@@ -37,7 +37,7 @@ A **training set** in a [Feature Store](/concepts/feature-store.md) is a structu
 A training set consists of three components:
 
 - A **DataFrame** containing raw training data, ground-truth labels, and primary key columns.
-- One or more **[FeatureLookup](/concepts/featurelookup.md)** objects that specify which features to extract from [Feature Tables](/concepts/feature-tables.md) and the join keys to use.
+- One or more **[FeatureLookup](/concepts/featurelookup.md)** objects that specify which features to extract from [Feature Tables](/concepts/feature-table.md) and the join keys to use.
 - Optionally, **[FeatureFunction](/concepts/featurefunction.md)** objects that compute features on-demand from real-time inputs.
 
 The raw training data must include columns that correspond to the primary keys of the feature tables. The system joins the feature table values onto the input DataFrame using these keys. ^[databricks-feature-store-overview-and-glossary-databricks-on-aws.md]

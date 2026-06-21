@@ -65,7 +65,7 @@ You must have the necessary permissions to write to the specified Unity Catalog 
 
 Once traces are archived, you can:
 - Monitor GenAI apps in production
-- Use the archived traces to [Building MLflow evaluation datasets](/concepts/mlflow-evaluation-datasets.md)
+- Use the archived traces to [Building MLflow evaluation datasets](/concepts/evaluation-datasets.md)
 
 ### Related Concepts
 

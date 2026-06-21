@@ -55,7 +55,7 @@ To avoid this error, ensure that any map column with a struct key type is not al
 
 - [IcebergWriterCompat](/concepts/icebergwritercompatv.md) — The compatibility mode that enforces the restriction
 - DELTA_ICEBERG_WRITER_COMPAT_VIOLATION — The parent error class containing this condition
-- [Apache Iceberg compatibility in Delta Lake](/concepts/delta-lake-table-features-and-iceberg-compatibility.md)
+- [Apache Iceberg compatibility in Delta Lake](/concepts/delta-lake-table-features-compatibility.md)
 - Map type in Delta Lake
 - StructType in Delta Lake
 - Schema evolution in Delta Lake

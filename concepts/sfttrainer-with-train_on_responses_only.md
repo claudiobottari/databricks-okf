@@ -30,7 +30,7 @@ timestamp: "2026-06-18T15:30:24.398Z"
 
 ## Source Material
 
-The source material is a Databricks notebook that distributedly fine-tunes `Llama-3.2-3B` using Unsloth and 8 H100 GPUs. The notebook explicitly imports `train_on_responses_only` from `unsloth.chat_templates` and applies it to an `SFTTrainer` instance from the [TRL](/concepts/trl-transformer-reinforcement-learning-library.md) library. ^[distributed-finetune-llama-32-3b-with-unsloth-on-multiple-gpus-databricks-on-aws.md]
+The source material is a Databricks notebook that distributedly fine-tunes `Llama-3.2-3B` using Unsloth and 8 H100 GPUs. The notebook explicitly imports `train_on_responses_only` from `unsloth.chat_templates` and applies it to an `SFTTrainer` instance from the [TRL](/concepts/trl-transformer-reinforcement-learning.md) library. ^[distributed-finetune-llama-32-3b-with-unsloth-on-multiple-gpus-databricks-on-aws.md]
 
 ### Import
 

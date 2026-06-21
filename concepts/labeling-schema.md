@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - labeling-schema
     - Table Schema
+    - labeling-schemas-mlflow
+    - LS(
+    - labeling-schemas-mlflow-review-app
+    - LS(RA
   citations:
     - file: create-and-manage-labeling-schemas-databricks-on-aws.md
 title: Labeling Schema

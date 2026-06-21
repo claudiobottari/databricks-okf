@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - latency-throughput-trade-off
     - latency–throughput tradeoff
+    - latency-throughput-trade-off-in-llm-serving
+    - LTILS
   citations:
     - file: conduct-your-own-llm-endpoint-benchmarking-databricks-on-aws.md
 title: Latency-Throughput Trade-off

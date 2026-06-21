@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - table-aliases-in-delete-statements
     - TAIDS
+    - table-aliases-in-databricks-dml-statements
+    - TAIDDS
+    - Databricks DML statements
   citations:
     - file: delete-from-databricks-on-aws.md
 title: Table Aliases in DELETE Statements

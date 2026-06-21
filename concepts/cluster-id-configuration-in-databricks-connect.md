@@ -110,7 +110,7 @@ The cluster ID can be found in the Databricks workspace UI from the cluster's UR
 - [Databricks Configuration Profiles](/concepts/databricks-configuration-profiles.md) — Centralized credential management
 - [Serverless compute in Databricks](/concepts/serverless-gpu-compute-on-databricks.md) — Alternative compute that does not require a cluster ID
 - [Databricks Connect versions](/concepts/databricks-connect.md) — Compatibility requirements
-- [DatabricksSession API](/concepts/databrickssession-api.md) — Core entry point for Databricks Connect
+- [DatabricksSession API](/concepts/databrickssession.md) — Core entry point for Databricks Connect
 
 ## Sources
 

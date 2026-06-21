@@ -89,11 +89,11 @@ all_traces = [trace for session in sessions for trace in session]
 ## Related Concepts
 
 - [Conversation Evaluation](/concepts/conversation-evaluation.md) — The broader practice of assessing multi-turn conversations
-- [Multi-turn Judges](/concepts/multi-turn-judges.md) — LLM-based judges that evaluate conversation-level quality using the `{{ conversation }}` template variable
+- [Multi-turn Judges](/concepts/multi-turn-judge.md) — LLM-based judges that evaluate conversation-level quality using the `{{ conversation }}` template variable
 - [MLflow Evaluation](/concepts/mlflow-evaluation-ui.md) — The API used to run evaluations and store assessments
 - [Production Monitoring for GenAI](/concepts/production-quality-monitoring-mlflow-genai.md) — Using multi-turn judges for continuous monitoring in production
 - [Track Users and Sessions](/concepts/mlflow-user-and-session-tracking.md) — Instrumenting agents with session IDs for grouping traces
-- [Conversation Simulation](/concepts/conversation-simulation.md) — Generating synthetic conversations for testing
+- [Conversation Simulation](/concepts/conversationsimulator.md) — Generating synthetic conversations for testing
 
 ## Sources
 

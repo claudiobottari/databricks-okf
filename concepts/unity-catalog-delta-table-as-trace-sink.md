@@ -74,7 +74,7 @@ disable_databricks_trace_archival(experiment_id="YOUR_EXPERIMENT_ID")
 - **Custom dashboards** — Build visualizations on top of archived trace data for monitoring application performance.^[archive-traces-to-a-delta-table-databricks-on-aws.md]
 - **In-depth analytics** — Perform advanced analysis on trace data using SQL or Python.^[archive-traces-to-a-delta-table-databricks-on-aws.md]
 - **Durable record** — Maintain a permanent, queryable history of your application's behavior.^[archive-traces-to-a-delta-table-databricks-on-aws.md]
-- **Evaluation datasets** — Use archived traces to build [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md) for offline testing.^[archive-traces-to-a-delta-table-databricks-on-aws.md]
+- **Evaluation datasets** — Use archived traces to build [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md) for offline testing.^[archive-traces-to-a-delta-table-databricks-on-aws.md]
 
 ## Related Concepts
 

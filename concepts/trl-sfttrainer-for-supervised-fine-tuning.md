@@ -25,7 +25,7 @@ timestamp: "2026-06-19T18:51:46.183Z"
 
 # TRL SFTTrainer for Supervised Fine-Tuning
 
-The **TRL SFTTrainer** is a component of the [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformers-reinforcement-learning.md) library that provides a supervised fine-tuning (SFT) trainer for causal language models. It is designed to work with Hugging Face Transformers and supports integration with [LoRA (Low-Rank Adaptation)](/concepts/lora-low-rank-adaptation.md) and [Fully Sharded Data Parallel (FSDP)](/concepts/fully-sharded-data-parallel-fsdp.md) for efficient distributed training of large language models. ^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
+The **TRL SFTTrainer** is a component of the [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformer-reinforcement-learning.md) library that provides a supervised fine-tuning (SFT) trainer for causal language models. It is designed to work with Hugging Face Transformers and supports integration with [LoRA (Low-Rank Adaptation)](/concepts/lora-low-rank-adaptation.md) and [Fully Sharded Data Parallel (FSDP)](/concepts/fully-sharded-data-parallel-fsdp.md) for efficient distributed training of large language models. ^[fine-tune-openais-gpt-oss-120b-model-using-distributed-training-databricks-on-aws.md]
 
 ## Overview
 
@@ -130,7 +130,7 @@ print(f"num_processes = {getattr(acc, 'num_processes', 'n/a')}")
 
 ## Related Concepts
 
-- [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformers-reinforcement-learning.md)
+- [Transformers Reinforcement Learning (TRL)](/concepts/trl-transformer-reinforcement-learning.md)
 - [Supervised Fine-Tuning (SFT)](/concepts/supervised-fine-tuning-sft.md)
 - [Fully Sharded Data Parallel (FSDP)](/concepts/fully-sharded-data-parallel-fsdp.md)
 - [Distributed Data Parallel (DDP)](/concepts/distributed-data-parallel-ddp.md)

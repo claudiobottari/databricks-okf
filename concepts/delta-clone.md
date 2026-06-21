@@ -16,6 +16,8 @@ x-llmwiki:
     - Delta Lake CLONE
     - Delta Lake Clone
     - Delta Lake clone
+    - delta-clone-databricks
+    - DC(
   citations:
     - file: delta_clone_incompatible_source-error-condition-databricks-on-aws.md
 title: Delta Clone

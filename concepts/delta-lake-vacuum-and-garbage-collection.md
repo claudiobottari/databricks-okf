@@ -16,6 +16,15 @@ x-llmwiki:
     - Delta Lake garbage collection
     - Garbage Collection in Delta Lake
     - Data Retention and Garbage Collection
+    - delta-lake-vacuum-and-garbage-collection-on-s3
+    - garbage collection on S3 and Delta Lake VACUUM
+    - DLVAGCOS
+    - delta-lake-vacuum-and-s3-garbage-collection
+    - S3 Garbage Collection and Delta Lake VACUUM
+    - DLVASGC
+    - delta-lake-vacuum-and-s3-versioning-interaction
+    - S3 Versioning Interaction and Delta Lake VACUUM
+    - DLVASVI
   citations:
     - file: delta-lake-limitations-on-s3-databricks-on-aws.md
 title: Delta Lake VACUUM and Garbage Collection

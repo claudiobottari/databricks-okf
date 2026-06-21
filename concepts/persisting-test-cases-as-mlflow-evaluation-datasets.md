@@ -70,7 +70,7 @@ Persisted test cases are not limited to conversation simulation. They can be use
 - [MLflow Evaluation Dataset](/concepts/mlflow-evaluation-dataset.md) — Core concept for structured test data.
 - [ConversationSimulator](/concepts/conversationsimulator.md) — Uses test cases to simulate multi-turn dialogues.
 - generate_test_cases — Extracts test cases from existing conversation sessions.
-- [Reproducible Testing](/concepts/mlflow-evaluation-dataset-for-reproducible-testing.md) — General practice of persisting evaluation artifacts.
+- [Reproducible Testing](/concepts/mlflow-evaluation-dataset-for-conversation-testing.md) — General practice of persisting evaluation artifacts.
 - [MLflow Experiments](/concepts/mlflow-experiment.md) — Organizational unit for runs, datasets, and evaluation results.
 
 ## Sources

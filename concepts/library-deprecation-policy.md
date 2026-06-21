@@ -13,6 +13,9 @@ x-llmwiki:
     - library-deprecation-policy
     - LDP
     - Library Deprecation
+    - library-deprecation-and-removal-policy
+    - Removal Policy and Library Deprecation
+    - LDARP
   citations:
     - file: databricks-runtime-ml-maintenance-policy-databricks-on-aws.md
 title: Library Deprecation Policy

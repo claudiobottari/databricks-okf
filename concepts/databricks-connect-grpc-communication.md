@@ -12,6 +12,10 @@ x-llmwiki:
   aliases:
     - databricks-connect-grpc-communication
     - DCGC
+    - databricks-connect-grpc-communication-protocol
+    - DCGCP
+    - databricks-connect-grpc-over-http2-communication
+    - DCGOHC
   citations:
     - file: advanced-usage-of-databricks-connect-databricks-on-aws.md
 title: Databricks Connect gRPC Communication

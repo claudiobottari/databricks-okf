@@ -13,6 +13,12 @@ x-llmwiki:
     - combining-manual-and-automatic-tracing
     - Automatic Tracing and Combining Manual
     - CMAAT
+    - combining-manual-and-automatic-mlflow-tracing
+    - Automatic MLflow Tracing and Combining Manual
+    - CMAAMT
+    - combining-manual-and-automatic-tracing-in-mlflow
+    - Automatic Tracing in MLflow and Combining Manual
+    - CMAATIM
   citations:
     - file: automatic-tracing-databricks-on-aws.md
 title: Combining Manual and Automatic Tracing

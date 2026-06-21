@@ -12,6 +12,8 @@ x-llmwiki:
   aliases:
     - data-classification-unity-catalog
     - DC(C
+    - data-classification-in-unity-catalog
+    - DCIUC
   citations:
     - file: custom-classifiers-databricks-on-aws.md
 title: Data Classification (Unity Catalog)

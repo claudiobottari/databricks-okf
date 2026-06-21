@@ -12,6 +12,9 @@ x-llmwiki:
   aliases:
     - mlflow-3-model-registry-in-unity-catalog
     - M3MRIUC
+    - mlflow-3-model-registry-with-unity-catalog
+    - M3MRWUC
+    - Model Registry with Unity Catalog
   citations:
     - file: get-started-with-mlflow-3-for-models-databricks-on-aws.md
 title: MLflow 3 Model Registry in Unity Catalog

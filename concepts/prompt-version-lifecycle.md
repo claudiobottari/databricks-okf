@@ -61,7 +61,7 @@ Composite scoring allows teams to weight different criteria based on application
 
 ### 4. Deployment
 
-After selecting the best performing version, it is deployed to production using [aliases in the Prompt Registry](/concepts/mlflow-prompt-registry.md). Aliases (such as `"production"` or `"staging"`) allow applications to reference a prompt by its logical role rather than a specific version number. ^[evaluate-and-compare-prompt-versions-databricks-on-aws.md]
+After selecting the best performing version, it is deployed to production using [aliases in the Prompt Registry](/concepts/prompt-registry.md). Aliases (such as `"production"` or `"staging"`) allow applications to reference a prompt by its logical role rather than a specific version number. ^[evaluate-and-compare-prompt-versions-databricks-on-aws.md]
 
 ### 5. Production Monitoring
 

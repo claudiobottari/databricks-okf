@@ -91,7 +91,7 @@ While this pattern is convenient for prototyping, it lacks **versioning**, **lin
 
 ## Related Concepts
 
-- [MLflow Evaluation Datasets](/concepts/mlflow-evaluation-datasets.md)
+- [MLflow Evaluation Datasets](/concepts/evaluation-datasets.md)
 - [GenAI Evaluation](/concepts/mlflow-genai-evaluation.md)
 - predict_fn
 - [Correctness Scorer](/concepts/correctness-scorer.md)
